@@ -118,7 +118,7 @@ export const OFFICE = {
 
     // ----- Khu Vận hành -----
     {
-      id: 'tiep-nhan', name: 'Tiếp nhận', zone: 'van-hanh', agent: 'tiep-nhan',
+      id: 'tiep-nhan', name: 'Báo giá', zone: 'van-hanh', agent: 'tiep-nhan',
       role: 'Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ não chia việc.',
       x: 0, z: 11, level: 0, w: 8, d: 8,
       floor: '#c6e6c4', wall: '#f2f9f1', accent: '#4c8a4a',

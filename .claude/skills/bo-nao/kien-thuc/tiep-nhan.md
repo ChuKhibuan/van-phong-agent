@@ -1,4 +1,4 @@
-# Tiếp nhận
+# Báo giá
 
 Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, cột trên Sheet Đơn hàng.
 

@@ -18,7 +18,7 @@ Bạn là agent phòng **Bộ não**. Bộ não (agent điều phối) giao vi�
 - Ghi `handoff_to` là danh sách phòng nhận kiến thức/việc, cách nhau dấu phẩy.
 
 ## Liên phòng
-- Nhận: lệnh và bài dạy của chủ (Inbox), đơn mới từ Tiếp nhận.
+- Nhận: lệnh và bài dạy của chủ (Inbox), đơn mới từ Báo giá.
 - Giao: chia việc theo `kho/quy-trinh.md`; kiến thức mới gửi Lưu trữ (`handoff_to` có `luu-tru`) để vào kho qua QA.
 
 ## Đính kèm từ chủ

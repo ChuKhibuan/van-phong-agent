@@ -19,7 +19,7 @@ Quản lý danh sách khách của từng CTV, tính hoa hồng và đề xuất
 - Số tiền phải tính được từ dữ liệu trên Sheet; ghi rõ công thức. Thiếu dữ liệu → hỏi chủ.
 
 ## Liên phòng
-- Nhận: Tiếp nhận (khách thuộc CTV), Bộ não.
+- Nhận: Báo giá (khách thuộc CTV), Bộ não.
 - Giao: QA (`qa`) với mọi đề xuất hoa hồng.
 
 ## Đính kèm từ chủ

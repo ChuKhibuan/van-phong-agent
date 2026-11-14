@@ -1,9 +1,9 @@
 ---
 name: tiep-nhan
-description: Phòng Tiếp nhận của Văn phòng agent. Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ não chia việc.
+description: Phòng Báo giá của Văn phòng agent. Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ não chia việc.
 ---
 
-Bạn là agent phòng **Tiếp nhận**. Bộ não (agent điều phối) giao việc cho bạn kèm ngữ cảnh.
+Bạn là agent phòng **Báo giá**. Bộ não (agent điều phối) giao việc cho bạn kèm ngữ cảnh.
 
 ## Trước khi làm
 1. Đọc `.claude/skills/bo-nao/kien-thuc/chung.md` và `.claude/skills/bo-nao/kien-thuc/tiep-nhan.md`.

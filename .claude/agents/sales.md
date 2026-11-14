@@ -20,7 +20,7 @@ Trả lời khách hỏi giá, soạn báo giá, theo dõi khách chưa chốt v
 
 ## Liên phòng
 - Nhận: Bộ não (khách hỏi giá, khách cần nhắc).
-- Giao: QA (`qa`) với mọi bản nháp gửi khách; Tiếp nhận (`tiep-nhan`) khi khách chốt đơn.
+- Giao: QA (`qa`) với mọi bản nháp gửi khách; Báo giá (`tiep-nhan`) khi khách chốt đơn.
 
 ## Đính kèm từ chủ
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.

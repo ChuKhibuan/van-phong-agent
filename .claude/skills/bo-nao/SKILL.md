@@ -1,6 +1,6 @@
 ---
 name: bo-nao
-description: Bộ não trung tâm của Văn phòng agent. Dùng mỗi khi cần xử lý Inbox, học kiến thức chủ dạy, chia việc cho các phòng (Bán hàng, Đăng bài, Kịch bản & phụ đề, Dựng, Thiết kế, QA, Tiếp nhận, Quản lý CTV, Giao hàng & CSKH), hoặc khi một phòng cần biết quy tắc, bảng giá, giọng văn, quy trình của doanh nghiệp. Skill này TỰ CẬP NHẬT: mỗi bài dạy mới được tóm tắt vào đây và vào kien-thuc/.
+description: Bộ não trung tâm của Văn phòng agent. Dùng mỗi khi cần xử lý Inbox, học kiến thức chủ dạy, chia việc cho các phòng (Bán hàng, Đăng bài, Kịch bản & phụ đề, Dựng, Thiết kế, QA, Báo giá, Quản lý CTV, Giao hàng & CSKH), hoặc khi một phòng cần biết quy tắc, bảng giá, giọng văn, quy trình của doanh nghiệp. Skill này TỰ CẬP NHẬT: mỗi bài dạy mới được tóm tắt vào đây và vào kien-thuc/.
 ---
 
 # Bộ não — kiến thức sống của văn phòng
@@ -41,7 +41,7 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 | CTV: danh sách, tỉ lệ hoa hồng, kỳ trả | ctv |
 | Thanh toán, chỉnh sửa, chăm sóc sau bán | giao-hang |
 
-## Cách chia việc (Inbox `type = message` gửi cho Bộ não, hoặc đơn mới từ Tiếp nhận)
+## Cách chia việc (Inbox `type = message` gửi cho Bộ não, hoặc đơn mới từ Báo giá)
 
 - Chuỗi phòng của từng quy trình nằm trong `kho/quy-trinh.md` (và `config.js` → `flows`). Đơn dựng video:
   `tiep-nhan → bo-nao → kich-ban → dung → thiet-ke → qa → giao-hang → luu-tru → qa`.
