@@ -44,7 +44,7 @@ Góc trên phải: về góc nhìn ban đầu · sáng/tối/tự động · gi�
 
 ## 2. Đưa lên mạng (miễn phí)
 
-- **GitHub Pages**: đẩy thư mục này lên một repo → Settings → Pages → Deploy from branch `main`, thư mục `/`.
+- **GitHub Pages** (đang dùng): https://chukhibuan.github.io/van-phong-agent/ . Trang chạy từ nhánh `gh-pages`; workflow `.github/workflows/dong-bo-pages.yml` tự chép `main` sang `gh-pages` mỗi lần có thay đổi, nên bạn chỉ cần sửa và đẩy lên `main` (trang cập nhật sau khoảng 1 phút).
 - **Netlify**: kéo thả thư mục vào app.netlify.com/drop.
 
 ## 3. Nối Google Sheet (bảng trạng thái)
