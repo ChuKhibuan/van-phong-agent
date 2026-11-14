@@ -17,6 +17,9 @@ Kiểm tra chất lượng trước khi giao: đúng brief, chính tả phụ đ
 - Có mục Không đạt → `done` với `handoff_to` = phòng cần sửa, task "Trả lại: <lý do>".
 - Tất cả Đạt → `done`, `handoff_to = giao-hang`.
 
+## Phong cách video Hoàng Hà
+- Video cô dâu: đối chiếu với `.claude/skills/hoang-ha-makeup-video/styles/hoang-ha.md`: có giữ lưới 0,5–0,8 s sau hook; chữ nhấn không che đầu hay mặt, cách mép trên ≥ 150 px; tối đa 1–3 cụm đỏ; có nhạc outro riêng cho clip; chữ nhấn không dùng Montserrat Black.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=qa | status | task | progress | handoff_to`

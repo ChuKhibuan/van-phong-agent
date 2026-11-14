@@ -17,6 +17,10 @@ Viết kịch bản, lời dẫn, tiêu đề hook và file phụ đề cho vide
 - Phụ đề xuất dạng `.srt`, mỗi dòng ≤ 42 ký tự, đúng chính tả tiếng Việt có dấu.
 - Lưu vào thư mục đơn hàng (Drive hoặc `don-hang/<ma-don>/`).
 
+## Phong cách video Hoàng Hà
+- Video cô dâu / makeup: tiêu đề hook theo công thức trong `.claude/skills/hoang-ha-makeup-video/docs/HOANG-HA-MAKEUP-PROMPT.md` (dòng 1 bối cảnh, dòng 2 nỗi lo dạng câu hỏi, mỗi dòng ≤ 5 chữ, đưa 2–3 phương án). Lời dẫn xưng "Hoàng Hà", gọi "cô dâu", "mình" (xem `styles/hoang-ha.md`).
+- Phụ đề: cụm 3–7 từ, tối đa 2 dòng; không tách "chữ T", "sản phẩm", "lỗ chân lông".
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=kich-ban | status | task | progress | handoff_to`

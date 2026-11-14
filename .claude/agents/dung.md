@@ -16,6 +16,10 @@ Dựng video theo kịch bản: cắt ghép, nhạc, hiệu ứng, gắn phụ �
 - Theo kiến thức phòng Dựng (định dạng xuất, phong cách). Nếu repo có skill dựng (vd skill dựng video dọc), dùng skill đó.
 - Nếu môi trường cloud không có file gốc hoặc công cụ dựng: chuẩn bị **bản hướng dẫn dựng** (danh sách cảnh, mốc thời gian, nhạc, phụ đề) để người hoặc máy local dựng, và ghi rõ trong kết quả.
 
+## Phong cách video Hoàng Hà
+- Video cô dâu / makeup: làm đúng skill `.claude/skills/hoang-ha-makeup-video/SKILL.md` (đọc cả `styles/hoang-ha.md`). Trên cloud không có footage: giao bản hướng dẫn dựng theo mục "Khi chạy trên cloud" của skill.
+- Chưa có bài nhạc outro riêng cho clip thì ghi "Cần hỏi chủ: nhạc outro", không dùng lại bài cũ.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=dung | status | task | progress | handoff_to`

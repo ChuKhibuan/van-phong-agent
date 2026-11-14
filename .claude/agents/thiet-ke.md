@@ -16,6 +16,9 @@ Làm thumbnail, ảnh bìa, banner, chữ tiêu đề trên video.
 - Theo bảng màu, font trong kiến thức. Mỗi yêu cầu đưa 2–3 phương án.
 - Nếu có connector Canva: tạo thiết kế trong Canva và trả link. Nếu không: mô tả bố cục chi tiết.
 
+## Phong cách video Hoàng Hà
+- Chữ trên video cô dâu theo `.claude/skills/hoang-ha-makeup-video/styles/hoang-ha.md`: tiêu đề hook UTM Avo Bold Italic (trắng; đỏ #E31B23 viền trắng trên dải #F4F4F4); phụ đề và chữ nhấn 1FTV VIP Lilita One, bóng đen 49% · blur 21% · khoảng cách 8 · góc −45°.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=thiet-ke | status | task | progress | handoff_to`
