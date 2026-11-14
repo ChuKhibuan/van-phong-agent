@@ -7,7 +7,9 @@ description: Dựng video dọc 1080x1920 theo phong cách Hoàng Hà Makeup —
 
 > **Khi chạy trên cloud (Routine):** không có footage, ffmpeg, font hay `assets/sfx/`. Khi đó KHÔNG dựng file video; hãy giao **bản hướng dẫn dựng**: tiêu đề hook (2–3 phương án), 4 clip đề xuất cho lưới, bảng cảnh theo từng câu, danh sách chữ nhấn + mốc thời gian + SFX, ghi chú outro. Việc xuất video làm trên máy chủ (CapCut hoặc script trong `scripts/`).
 
-Đọc trước: `styles/hoang-ha.md` (quy chuẩn hình, chữ, âm) và `docs/HOANG-HA-MAKEUP-PROMPT.md` (mẫu đề bài + công thức tiêu đề). Tiết kiệm token: không xem lại video mẫu, chỉ trích khung hình khi cần kiểm tra.
+> **Chuẩn mới nhất: `kien-thuc-HH-MAKEUP-V2.md` (14/11/2026).** Khi file đó khác với hướng dẫn dưới đây hoặc `styles/`, làm theo V2. Thứ tự ưu tiên: chỉ dẫn riêng chủ chốt cho đơn hiện tại > V2 > ví dụ và script cũ. Các con số kỹ thuật trong ví dụ cũ (voice ×1.7, atempo 1.1, giảm nhạc 28–32 dB, mẫu cắt beat) chỉ là điểm thử, phải nghe và đo lại.
+
+Đọc trước: `kien-thuc-HH-MAKEUP-V2.md`, `styles/hoang-ha.md` (quy chuẩn hình, chữ, âm) và `docs/HOANG-HA-MAKEUP-PROMPT.md` (mẫu đề bài + công thức tiêu đề). Tiết kiệm token: không xem lại video mẫu, chỉ trích khung hình khi cần kiểm tra.
 
 ## Quy trình
 

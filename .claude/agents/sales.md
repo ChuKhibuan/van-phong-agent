@@ -26,6 +26,9 @@ Trả lời khách hỏi giá, soạn báo giá, theo dõi khách chưa chốt v
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
 - Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
+## Skill dùng
+- Khách VÍT MEDIA (video, AI, thiết kế): skill `.claude/skills/vit-media/`. Khách cưới: Hoàng Hà Makeup.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=sales | status | task | progress | handoff_to`

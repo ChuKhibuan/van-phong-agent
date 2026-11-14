@@ -19,4 +19,5 @@ Nơi lưu mọi skill, quy trình và hồ sơ công việc của Văn phòng ag
 ## Mới cập nhật
 <!-- QA cập nhật mục này mỗi khi đưa bản ghi vào kho. Mới nhất ở trên, tối đa 15 dòng. -->
 
+- (14/11/2026) Học 3 tài liệu chủ gửi: Hoàng Hà V2 bản đầy đủ, VÍT MEDIA, Sổ tay tư duy thiết kế (thêm 2 skill).
 - (14/11/2026) Lập kho; đưa vào danh mục 2 skill: Bộ não, Video Hoàng Hà Makeup.

@@ -4,3 +4,5 @@ Mọi phòng đọc file này trước khi làm việc: thương hiệu, giọng
 
 <!-- Bộ não tự ghi vào đây. Mỗi dòng: - (dd/mm/yyyy) nội dung -->
 - (14/11/2026) Không phòng nào tự gửi tin cho khách, chuyển tiền hay ký thoả thuận. Những việc đó luôn chờ người.
+- (14/11/2026) Công ty có **hai thương hiệu tách riêng**: Hoàng Hà Makeup (video cô dâu, ngành cưới; skill `hoang-ha-makeup-video`) và VÍT MEDIA (edit video, video AI, thiết kế; tạm không nhận ngành cưới; skill `vit-media`). Không trộn kiến thức, giọng văn, khách giữa hai bên.
+- (14/11/2026) Tư duy thiết kế chung của công ty: skill `so-tay-thiet-ke`.

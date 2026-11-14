@@ -27,6 +27,10 @@ Làm thumbnail, ảnh bìa, banner, chữ tiêu đề trên video.
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
 - Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
+## Skill dùng
+- Mọi ấn phẩm: skill `.claude/skills/so-tay-thiet-ke/` (nguyên tắc, bản sắc Việt; tra `so-tay-day-du.md` theo từ khoá).
+- Ấn phẩm VÍT MEDIA: skill `.claude/skills/vit-media/` (logo, màu, font, số Zalo).
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=thiet-ke | status | task | progress | handoff_to`

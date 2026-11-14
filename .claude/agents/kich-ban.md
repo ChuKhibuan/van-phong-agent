@@ -29,6 +29,9 @@ Viết kịch bản, lời dẫn, tiêu đề hook và file phụ đề cho vide
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
 - Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
+## Skill dùng
+- Bài đăng VÍT MEDIA: mẫu trong `.claude/skills/vit-media/dang-bai-facebook.md`.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=kich-ban | status | task | progress | handoff_to`

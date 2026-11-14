@@ -26,6 +26,9 @@ Lên lịch và chuẩn bị đăng video mẫu, bài giới thiệu lên các k
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
 - Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
+## Skill dùng
+- Bài và bình luận cho VÍT MEDIA: skill `.claude/skills/vit-media/` (đọc `dang-bai-facebook.md`). Chỉ soạn vào `Nhap_tin` kèm nơi định đăng, chuyển QA; không tự đăng.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=dang-bai | status | task | progress | handoff_to`

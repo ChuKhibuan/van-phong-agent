@@ -40,6 +40,9 @@ Chủ chỉ làm việc trực tiếp với Bộ não và QA, nên mọi việc 
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
 - Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
+## Skill dùng
+- Kiểm ấn phẩm: skill `so-tay-thiet-ke`; kiểm nội dung VÍT MEDIA: skill `vit-media`; kiểm video cô dâu: `hoang-ha-makeup-video/kien-thuc-HH-MAKEUP-V2.md` mục 11.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=qa | status | task | progress | handoff_to`

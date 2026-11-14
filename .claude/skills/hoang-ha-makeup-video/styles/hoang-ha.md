@@ -61,7 +61,7 @@ Kể chuyện cô dâu bằng **lời dẫn tự nhiên** (giọng Hoàng Hà, x
   - `whoosh.wav` — tiếng xì tăng dần 0,54 s (giây 6,55), đỉnh ở 0,3 s → đặt sớm 0,3 s trước vết cắt.
   - `ding.wav` — tiếng chuông ngân 0,9 s (giây 67,01), đặt sớm 0,1 s khi lộ thành phẩm.
   - Các tiếng khác trong file (click ngắn, chuông cao 2 kHz, tiếng lấp lánh) còn ở SFX.MP3 nếu cần.
-- **Pop** đúng khung chữ bật — mốc −25 dB, cân lại theo giọng từng clip.
+- **Pop** đúng khung chữ bật. File SFX đã cân sẵn thì thử volume 1.0; nguồn khác mới bắt đầu từ −25 dB rồi cân lại. Không áp cả hai cùng lúc (V2).
 - **Whoosh** khi chuyển ý / chuyển hình / tiêu đề hook rút đi.
 - **Ding** khi lộ thành phẩm.
 - Ưu tiên tiếng đã có trên timeline CapCut.
@@ -73,4 +73,4 @@ Kể chuyện cô dâu bằng **lời dẫn tự nhiên** (giọng Hoàng Hà, x
 | Trắng chữ | `#FFFFFF` |
 | Đỏ nhấn | `#E31B23` |
 | Dải trắng hook | `#F4F4F4` |
-| Viền/bóng tối | đen 60–80% |
+| Bóng chữ thân (phụ đề, chữ nhấn) | đen, opacity 49% · blur 21% · khoảng cách 8 · góc −45° (CapCut) — thay cho "đen 60–80%" cũ (V2) |
