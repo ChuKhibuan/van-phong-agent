@@ -12,6 +12,7 @@
  * Lưu ý: KEY nằm trong mã trang web nên chỉ chống spam ngẫu nhiên, không phải bảo mật thật.
  * Script này chỉ GHI THÊM dòng vào tab Inbox, không đọc hay sửa dữ liệu khác.
  */
+const SHEET_ID = '1oiuUuNbyVBbLuhJmtOhiCTnqZyTxu1c0OexZSOs1EWw';
 const KEY = 'vpa-74af1392b6a72d086f';
 const TYPES = ['message', 'teach', 'handoff', 'approve'];
 
@@ -21,7 +22,7 @@ function doPost(e) {
     if (KEY && data.key !== KEY) return out({ ok: false, error: 'sai key' });
     const type = TYPES.indexOf(data.type) >= 0 ? data.type : 'message';
     const clip = (s, n) => String(s == null ? '' : s).slice(0, n);
-    const ss = SpreadsheetApp.getActiveSpreadsheet();
+    const ss = SpreadsheetApp.getActiveSpreadsheet() || SpreadsheetApp.openById(SHEET_ID);
     const sh = ss.getSheetByName('Inbox') || ss.insertSheet('Inbox');
     if (sh.getLastRow() === 0) sh.appendRow(['timestamp', 'from', 'to', 'type', 'text', 'status', 'note']);
     // dấu ' ở đầu để Sheet giữ nguyên chuỗi, không tự đổi định dạng

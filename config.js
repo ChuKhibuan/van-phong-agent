@@ -18,7 +18,7 @@ export const OFFICE = {
     csvUrl: 'https://docs.google.com/spreadsheets/d/1oiuUuNbyVBbLuhJmtOhiCTnqZyTxu1c0OexZSOs1EWw/gviz/tq?tqx=out:csv&sheet=Board',
     pollSeconds: 7,          // bao lâu đọc lại bảng (giây)
     // (Tuỳ chọn) URL Web App Apps Script để gửi tin/dạy/giao việc vào tab "Inbox"
-    inboxUrl: '',
+    inboxUrl: 'https://script.google.com/macros/s/AKfycbxMajiU0rXvP2L_T0PwdaKtR72QO7ufE4nu1iEiZUYoJ1XYmEY_ji9WQ7Gyq8_RTLtF7g/exec',
     inboxKey: 'vpa-74af1392b6a72d086f',          // trùng KEY trong apps-script/Code.gs (chống spam nhẹ)
   },
 
