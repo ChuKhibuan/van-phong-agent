@@ -1,10 +1,8 @@
 /**
  * Hộp thư (Inbox) cho Văn phòng agent — CHỈ CHỦ TÀI KHOẢN được gửi lệnh.
  *
- * Triển khai: Ứng dụng web · Thực thi với tư cách: NGƯỜI DÙNG TRUY CẬP ỨNG DỤNG
- *             · Người có quyền truy cập: CHỈ MÌNH TÔI
- * → Google tự chặn mọi tài khoản khác; script còn kiểm tra thêm email người gửi
- *   trùng với tài khoản chủ (lưu trong Script Properties, KHÔNG ghi trong mã công khai).
+ * Triển khai: Ứng dụng web · Thực thi với tư cách: TÔI · Người có quyền truy cập: CHỈ MÌNH TÔI
+ * → Google tự chặn mọi tài khoản khác ngay ở cửa vào (không cần ghi email trong mã).
  *
  * Trang web gửi lệnh bằng form POST (trường `payload` chứa JSON) mở trong một cửa sổ nhỏ,
  * để trình duyệt dùng đúng phiên đăng nhập Google của bạn. Script trả về trang "Đã gửi".
@@ -18,12 +16,8 @@ const HEAD = ['timestamp', 'from', 'to', 'type', 'text', 'status', 'note', 'file
 const MAX_FILES = 10;
 const MAX_BYTES = 25 * 1024 * 1024;
 
-// Chạy một lần trong trình sửa: ghi nhớ tài khoản chủ, cấp quyền Drive, tạo thư mục nhận file.
-function caiDatChuSoHuu() {
-  const me = Session.getActiveUser().getEmail();
-  PropertiesService.getScriptProperties().setProperty('OWNER', me);
-  Logger.log('Chủ sở hữu: ' + me + ' · thư mục: ' + getFolder_().getUrl());
-}
+// Chạy một lần trong trình sửa để cấp quyền Drive và tạo thư mục nhận file.
+function capQuyenDrive() { Logger.log(getFolder_().getUrl()); }
 
 function doPost(e) {
   const fromForm = !!(e && e.parameter && e.parameter.payload);
@@ -38,13 +32,6 @@ function doPost(e) {
 }
 
 function handle_(data) {
-  // chỉ chủ tài khoản
-  const me = Session.getActiveUser().getEmail();
-  const props = PropertiesService.getScriptProperties();
-  let owner = props.getProperty('OWNER');
-  if (!owner && me && me === Session.getEffectiveUser().getEmail()) { owner = me; props.setProperty('OWNER', me); }
-  if (!me || me !== owner) return { ok: false, error: 'Chỉ tài khoản chủ được gửi lệnh.' };
-
   const type = TYPES.indexOf(data.type) >= 0 ? data.type : 'message';
   const clip = (s, n) => String(s == null ? '' : s).slice(0, n);
 
