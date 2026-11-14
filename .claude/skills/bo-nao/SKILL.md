@@ -30,7 +30,7 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 
 | Loại kiến thức | Phòng nhận |
 |---|---|
-| Bảng giá, gói dịch vụ, khuyến mãi, cách báo giá | sales, tiep-nhan, giao-hang |
+| Bảng giá, gói dịch vụ, khuyến mãi, cách báo giá | tiep-nhan (Báo giá), sales, giao-hang |
 | Giọng văn, thương hiệu, từ cấm | chung (mọi phòng) |
 | Kênh đăng, lịch đăng, hashtag, chỉ số | dang-bai |
 | Cách viết kịch bản, hook, phụ đề, font chữ | kich-ban, dung, thiet-ke, qa |
@@ -53,7 +53,8 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 
 - **Bộ não**: nhận lệnh, bài dạy, file và đường dẫn từ chủ; chia việc.
 - **QA · Kiểm duyệt**: cửa duyệt duy nhất. Mọi việc cần chủ duyệt đều chuyển QA kiểm tra trước, rồi QA ghi `waiting` (Chờ duyệt). Chủ duyệt hoặc yêu cầu sửa ở phòng QA.
-- **Bán hàng**: chỉ **soạn** báo giá / tin nhắn khách, xong thì chuyển QA. Bấm gửi thật luôn do người làm (agent không có quyền nhắn khách).
+- **Báo giá** (mã `tiep-nhan`): nhận yêu cầu, chỉ **soạn** báo giá theo giá đã học, xong thì chuyển QA; tạo đơn khi khách chốt.
+- **Bán hàng**: trả lời, theo dõi, nhắc khách; khách hỏi giá thì chuyển Báo giá. Chỉ **soạn** tin nhắn, xong thì chuyển QA. Bấm gửi thật luôn do người làm (agent không có quyền nhắn khách).
 - **Quản lý CTV**: chỉ **tính** hoa hồng và **đề xuất**, xong thì chuyển QA. Trả tiền, chuyển khoản, ký thoả thuận **luôn do người làm**.
 - **Giao hàng & CSKH**: tin gửi khách soạn sẵn, chuyển QA, chủ duyệt rồi người mới gửi (ít nhất ở giai đoạn đầu).
 

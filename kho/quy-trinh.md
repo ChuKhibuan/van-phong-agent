@@ -7,7 +7,7 @@ Chủ chỉ làm việc trực tiếp với **Bộ não** (ra lệnh, dạy) và
 | Quy trình | Chuỗi phòng |
 |---|---|
 | Đơn dựng video | Báo giá → Bộ não → Kịch bản & phụ đề → Dựng → Thiết kế → QA → Giao hàng & CSKH → Lưu trữ → QA |
-| Khách hỏi giá | Bộ não → Bán hàng → QA (chờ chủ duyệt) |
+| Khách hỏi giá | Bộ não → Báo giá → QA (chờ chủ duyệt) → Bán hàng theo dõi khách |
 | Đăng video mẫu | Bộ não → Kịch bản & phụ đề → Thiết kế → Đăng bài → QA |
 | Tính hoa hồng CTV | Báo giá → Quản lý CTV → QA (chờ chủ duyệt) |
 | Học kiến thức mới | Bộ não → Lưu trữ → QA |

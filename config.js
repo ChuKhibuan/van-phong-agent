@@ -56,11 +56,11 @@ export const OFFICE = {
     // ----- Khu Kinh doanh -----
     {
       id: 'sales', name: 'Bán hàng', zone: 'kinh-doanh', agent: 'sales', approval: true,
-      role: 'Trả lời khách hỏi giá, soạn báo giá, theo dõi khách chưa chốt và soạn tin nhắc lại. Mọi tin gửi khách phải được duyệt.',
+      role: 'Trả lời câu hỏi của khách, theo dõi khách chưa chốt và soạn tin nhắc lại, hỗ trợ chốt đơn. Khách hỏi giá thì chuyển phòng Báo giá. Mọi tin gửi khách phải được duyệt.',
       x: -11, z: 0, level: 1, w: 8, d: 8,
       floor: '#f7dc9c', wall: '#fdf7e8', accent: '#b98a2a',
       layout: 'desks', staff: 2, cat: '#8d8f99', props: ['sofa', 'board'],
-      suggestions: ['Soạn báo giá cho khách hỏi gói…', 'Liệt kê khách chưa chốt quá 3 ngày', 'Soạn tin nhắc lại cho khách…'],
+      suggestions: ['Liệt kê khách chưa chốt quá 3 ngày', 'Soạn tin nhắc lại cho khách…', 'Trả lời khách hỏi về quy trình…'],
     },
     {
       id: 'dang-bai', name: 'Đăng bài', zone: 'kinh-doanh', agent: 'dang-bai',
@@ -118,12 +118,12 @@ export const OFFICE = {
 
     // ----- Khu Vận hành -----
     {
-      id: 'tiep-nhan', name: 'Báo giá', zone: 'van-hanh', agent: 'tiep-nhan',
-      role: 'Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ não chia việc.',
+      id: 'tiep-nhan', name: 'Báo giá', zone: 'van-hanh', agent: 'tiep-nhan', approval: true,
+      role: 'Nhận yêu cầu và brief của khách, soạn báo giá (chờ bạn duyệt qua QA), tạo đơn trên Sheet khi khách chốt rồi chuyển Bộ não chia việc.',
       x: 0, z: 11, level: 0, w: 8, d: 8,
       floor: '#c6e6c4', wall: '#f2f9f1', accent: '#4c8a4a',
       layout: 'reception', staff: 2, cat: '#f2b36b', dog: '#5b4636', props: ['sofa', 'cooler'],
-      suggestions: ['Tạo đơn mới từ brief: …', 'Liệt kê đơn đang mở', 'Brief này còn thiếu gì?'],
+      suggestions: ['Soạn báo giá cho khách hỏi gói…', 'Brief này còn thiếu gì để báo giá?', 'Tạo đơn mới (khách đã chốt): …', 'Liệt kê đơn đang mở'],
     },
     {
       id: 'giao-hang', name: 'Giao hàng & CSKH', zone: 'van-hanh', agent: 'giao-hang',
@@ -168,7 +168,7 @@ export const OFFICE = {
   // chế độ demo cũng chạy theo đây. Việc cần bạn duyệt luôn kết thúc ở QA.
   flows: {
     'Đơn dựng video': ['tiep-nhan', 'bo-nao', 'kich-ban', 'dung', 'thiet-ke', 'qa', 'giao-hang', 'luu-tru', 'qa'],
-    'Khách hỏi giá': ['bo-nao', 'sales', 'qa'],
+    'Khách hỏi giá': ['bo-nao', 'tiep-nhan', 'qa'],
     'Đăng video mẫu': ['bo-nao', 'kich-ban', 'thiet-ke', 'dang-bai', 'qa'],
     'Tính hoa hồng CTV': ['tiep-nhan', 'ctv', 'qa'],
     'Học kiến thức mới': ['bo-nao', 'luu-tru', 'qa'],
