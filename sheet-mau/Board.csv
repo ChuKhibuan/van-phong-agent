@@ -1,0 +1,3 @@
+timestamp,agent,status,task,progress,handoff_to
+2026-11-14T09:00:00+07:00,bo-nao,idle,,0,
+2026-11-14T09:01:00+07:00,tiep-nhan,done,"Đơn #A1: video cưới 60 giây",100,bo-nao

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Văn phòng agent: thế giới isometric nơi mỗi phòng là một AI agent làm việc theo lịch.">
+  <title>Văn phòng agent</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 6 58 20v24L32 58 6 44V20z' fill='%23f6cfd9'/%3E%3Cpath d='M32 6 58 20 32 34 6 20z' fill='%23c25b7d'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+  { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  } }
+  </script>
+</head>
+<body>
+  <canvas id="scene" aria-label="Văn phòng 3D. Bấm vào phòng hoặc nhân viên để mở khung chat."></canvas>
+  <div id="overlay" aria-hidden="false"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><path d="M32 6 58 20v24L32 58 6 44V20z" fill="var(--brand-a)"/><path d="M32 6 58 20 32 34 6 20z" fill="var(--brand-b)"/></svg>
+      <h1>Văn phòng agent</h1>
+    </div>
+    <div id="source" class="source" data-ok="1"><i></i><span>Đang kết nối…</span></div>
+    <nav class="tools" aria-label="Tuỳ chọn">
+      <button id="btn-home" class="icon-btn" title="Về góc nhìn ban đầu" aria-label="Về góc nhìn ban đầu">
+        <svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7v9h-6v-6H9v6H3z"/></svg></button>
+      <button id="btn-theme" class="icon-btn" aria-label="Đổi giao diện sáng/tối">
+        <svg viewBox="0 0 24 24" class="i-auto"><path d="M12 3a9 9 0 1 0 0 18z"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <svg viewBox="0 0 24 24" class="i-light"><circle cx="12" cy="12" r="4.5"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 24 24" class="i-dark"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4a8.5 8.5 0 1 0 11.5 11.5z"/></svg>
+      </button>
+      <button id="btn-motion" class="icon-btn" aria-pressed="false" aria-label="Giảm chuyển động">
+        <svg viewBox="0 0 24 24"><path d="M4 12h3l2-5 4 10 2-5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button id="btn-quality" class="icon-btn" aria-label="Chất lượng đồ hoạ">
+        <svg viewBox="0 0 24 24" class="i-high"><path d="M12 2 3 7v10l9 5 9-5V7z"/></svg>
+        <svg viewBox="0 0 24 24" class="i-low"><rect x="3" y="7" width="16" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="5" y="9" width="6" height="6" rx="1"/><path d="M20 10h2v4h-2z"/></svg>
+      </button>
+      <button id="btn-settings" class="icon-btn" title="Cài đặt nguồn dữ liệu" aria-label="Cài đặt">
+        <svg viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7 7 0 0 0-1.7-1L15 3h-4l-.4 2.6a7 7 0 0 0-1.7 1l-2.4-1-2 3.4L6.6 11a7.5 7.5 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7 7 0 0 0 1.7 1L11 21h4l.4-2.6a7 7 0 0 0 1.7-1l2.4 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg></button>
+    </nav>
+  </header>
+
+  <aside id="panel" class="panel" hidden aria-label="Khung chat với agent"></aside>
+  <section id="feed" class="feed" aria-label="Nhật ký hoạt động"></section>
+  <div id="toast" class="toast" role="status"></div>
+
+  <div id="hint" class="hint">
+    <p>Kéo để xoay · cuộn hoặc chụm hai ngón để phóng to · <b>bấm vào phòng hoặc nhân viên</b> để chat với agent.</p>
+    <button class="btn btn-ghost">Đã hiểu</button>
+  </div>
+
+  <dialog id="settings" class="settings">
+    <form method="dialog">
+      <h2>Nguồn dữ liệu</h2>
+      <label>Chế độ
+        <select name="source">
+          <option value="auto">Tự động (có link CSV thì dùng Sheet)</option>
+          <option value="sheet">Google Sheet</option>
+          <option value="mock">Dữ liệu mẫu (demo)</option>
+        </select>
+      </label>
+      <label>Link CSV tab Board
+        <input name="csvUrl" type="url" placeholder="https://docs.google.com/spreadsheets/d/…/gviz/tq?tqx=out:csv&sheet=Board">
+      </label>
+      <label>Đọc lại mỗi (giây)
+        <input name="pollSeconds" type="number" min="3" max="120" value="7">
+      </label>
+      <label>URL Apps Script (Inbox) — tuỳ chọn
+        <input name="inboxUrl" type="url" placeholder="https://script.google.com/macros/s/…/exec">
+      </label>
+      <label>Mã Inbox (KEY)
+        <input name="inboxKey" type="text" autocomplete="off">
+      </label>
+      <p class="muted">Lưu trên trình duyệt này, ghi đè giá trị trong config.js.</p>
+      <div class="row">
+        <button type="button" class="btn btn-ghost btn-reset">Về mặc định</button>
+        <span style="flex:1"></span>
+        <button type="button" class="btn btn-ghost btn-cancel">Huỷ</button>
+        <button type="submit" class="btn">Lưu</button>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript>Trang này cần bật JavaScript.</noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
