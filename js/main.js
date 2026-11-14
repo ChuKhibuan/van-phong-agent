@@ -285,7 +285,7 @@ else hint.querySelector('button').addEventListener('click', () => { ls.set('vpa.
 // ---------------- nguồn dữ liệu ----------------
 const source = createSource(dataSettings, OFFICE.rooms, OFFICE.flows);
 source.start(applyRows, (s) => {
-  if (source.kind === 'mock') ui.setSource('Dữ liệu mẫu (demo)', true);
+  if (source.kind === 'mock') { ui.setSource('DỮ LIỆU MẪU – không phải việc thật', true); document.body.classList.add('demo'); }
   else if (s.ok) ui.setSource('Board · cập nhật ' + s.at.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit', second: '2-digit' }), true);
   else ui.setSource('Lỗi đọc Board: ' + s.error, false);
 });

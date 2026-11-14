@@ -161,7 +161,7 @@ class MockSource {
   nextSample() {
     const [name, steps] = this.flows[this.k % this.flows.length];
     const list = SAMPLES[name] || [name];
-    const task = list[Math.floor(this.k / this.flows.length) % list.length];
+    const task = 'MẪU · ' + list[Math.floor(this.k / this.flows.length) % list.length];
     this.k++;
     return { task, steps };
   }

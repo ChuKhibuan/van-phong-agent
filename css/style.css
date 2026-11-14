@@ -232,3 +232,12 @@ body:has(.panel.open) .hint { display: none; }
   .contact { padding: 5px 8px; font-size: 12px; }
   .source { display: none; }
 }
+
+/* chế độ dữ liệu mẫu: dải cảnh báo rõ ràng */
+body.demo::after {
+  content: 'ĐANG XEM DỮ LIỆU MẪU — các đơn và việc trên màn hình là giả, chỉ để minh hoạ';
+  position: fixed; left: 50%; top: 60px; transform: translateX(-50%); z-index: 4;
+  background: #d98a12; color: #2a1d00; font-size: 12.5px; font-weight: 700;
+  padding: 6px 14px; border-radius: 999px; box-shadow: var(--shadow); pointer-events: none; white-space: nowrap;
+}
+@media (max-width: 640px) { body.demo::after { font-size: 10.5px; white-space: normal; text-align: center; width: calc(100vw - 32px); } }
