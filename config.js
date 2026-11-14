@@ -7,6 +7,7 @@
 
 export const OFFICE = {
   title: 'Văn phòng agent',
+  repo: 'https://github.com/ChuKhibuan/van-phong-agent', // để trang mở được file trong kho
 
   // ---------------- Nguồn dữ liệu (bảng trạng thái) ----------------
   data: {
@@ -28,7 +29,11 @@ export const OFFICE = {
     'kinh-doanh': { name: 'Khu Kinh doanh', color: '#f6d58e' },
     'san-xuat': { name: 'Khu Sản xuất', color: '#b9d8f2' },
     'van-hanh': { name: 'Khu Vận hành', color: '#bfe3c0' },
+    'kho': { name: 'Kho tri thức', color: '#e3d3b8' },
   },
+
+  // Hai phòng bạn làm việc trực tiếp (hiện nút tắt trên thanh trên cùng)
+  contacts: ['bo-nao', 'qa'],
 
   // ---------------- Các phòng (mỗi phòng = một agent) ----------------
   // x, z    : vị trí tâm phòng (mét). Số âm = phía xa camera.
@@ -93,11 +98,22 @@ export const OFFICE = {
     },
     {
       id: 'qa', name: 'QA · Kiểm duyệt', zone: 'san-xuat', agent: 'qa',
-      role: 'Kiểm tra chất lượng trước khi giao: chính tả phụ đề, đúng brief, đúng định dạng, không lỗi hình/tiếng.',
+      role: 'Cửa kiểm duyệt của cả công ty: kiểm tra chất lượng mọi việc trước khi giao, gom mọi việc chờ bạn duyệt, và là phòng duy nhất được sửa, đính chính Kho lưu trữ.',
       x: 11, z: 0, level: 1, w: 8, d: 8,
       floor: '#bfe0ea', wall: '#f1f9fb', accent: '#3f8796',
       layout: 'desks', staff: 2, cat: '#8d8f99', props: ['board', 'cooler'],
-      suggestions: ['Kiểm tra video đơn…', 'Đối chiếu với brief khách', 'Lập checklist QA chuẩn'],
+      gatekeeper: true,
+      suggestions: ['Có việc nào đang chờ tôi duyệt?', 'Kiểm tra video đơn…', 'Đính chính trong kho: …', 'Rà lại kho, tìm thông tin cũ hoặc trùng'],
+    },
+
+    // ----- Kho tri thức -----
+    {
+      id: 'luu-tru', name: 'Lưu trữ', zone: 'kho', agent: 'luu-tru', archive: true,
+      role: 'Lưu skill, quy trình và hồ sơ công việc của cả công ty. Các phòng gửi tóm tắt sang đây; mọi thay đổi trong kho phải qua QA kiểm duyệt và đính chính.',
+      x: 22, z: 0, level: 1, w: 8, d: 8,
+      floor: '#ead9bd', wall: '#fbf6ec', accent: '#8a6a3c',
+      layout: 'desks', staff: 2, cat: '#d9c3a5', props: ['shelf', 'shelf', 'shelf', 'rug'],
+      suggestions: ['Tìm hồ sơ đơn…', 'Liệt kê các skill công ty đang có', 'Lưu hồ sơ việc vừa xong: …'],
     },
 
     // ----- Khu Vận hành -----
@@ -144,14 +160,17 @@ export const OFFICE = {
     ['dang-bai', 'tiep-nhan', 'stairs'],
     ['tiep-nhan', 'giao-hang', 'stairs'],
     ['tiep-nhan', 'ctv', 'stairs'],
+    ['qa', 'luu-tru', 'stairs'],
   ],
 
   // ---------------- Quy trình mẫu ----------------
-  // Dùng cho chế độ demo và làm tài liệu cho Bộ não biết thứ tự chuyền việc.
+  // Thứ tự chuyền việc giữa các phòng. Bộ não và các subagent làm theo đây;
+  // chế độ demo cũng chạy theo đây. Việc cần bạn duyệt luôn kết thúc ở QA.
   flows: {
-    'Đơn dựng video': ['tiep-nhan', 'bo-nao', 'kich-ban', 'dung', 'thiet-ke', 'qa', 'giao-hang'],
-    'Khách hỏi giá': ['bo-nao', 'sales'],
-    'Đăng video mẫu': ['bo-nao', 'dang-bai'],
-    'Tính hoa hồng CTV': ['tiep-nhan', 'ctv'],
+    'Đơn dựng video': ['tiep-nhan', 'bo-nao', 'kich-ban', 'dung', 'thiet-ke', 'qa', 'giao-hang', 'luu-tru', 'qa'],
+    'Khách hỏi giá': ['bo-nao', 'sales', 'qa'],
+    'Đăng video mẫu': ['bo-nao', 'kich-ban', 'thiet-ke', 'dang-bai', 'qa'],
+    'Tính hoa hồng CTV': ['tiep-nhan', 'ctv', 'qa'],
+    'Học kiến thức mới': ['bo-nao', 'luu-tru', 'qa'],
   },
 };

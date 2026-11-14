@@ -1,20 +1,21 @@
 /**
  * Hộp thư (Inbox) cho Văn phòng agent.
  * Trang web gửi tin nhắn / bài dạy / giao việc / duyệt → ghi một dòng vào tab "Inbox".
+ * File gửi kèm được lưu vào thư mục Drive "Văn phòng agent · Tệp gửi" (chỉ bạn xem được),
+ * link file ghi vào cột `files`; đường dẫn trên máy ghi vào cột `paths`.
  *
- * Cài đặt:
- * 1. Mở Google Sheet → Tiện ích mở rộng → Apps Script → dán file này.
- * 2. Đổi KEY bên dưới thành một chuỗi bất kỳ, chép y hệt vào config.js (data.inboxKey).
- * 3. Triển khai → Triển khai mới → Loại: Ứng dụng web
- *      Thực thi với tư cách: Tôi      Ai có quyền truy cập: Bất kỳ ai
- * 4. Chép URL kết thúc bằng /exec vào config.js (data.inboxUrl) hoặc Cài đặt trên trang web.
- *
- * Lưu ý: KEY nằm trong mã trang web nên chỉ chống spam ngẫu nhiên, không phải bảo mật thật.
- * Script này chỉ GHI THÊM dòng vào tab Inbox, không đọc hay sửa dữ liệu khác.
+ * Cài đặt: tạo dự án Apps Script → dán file này → Triển khai → Ứng dụng web
+ *   (Thực thi với tư cách: Tôi · Người có quyền truy cập: Bất kỳ ai) → chép URL /exec vào config.js.
+ * KEY nằm trong mã trang web nên chỉ chống spam ngẫu nhiên, không phải bảo mật thật.
+ * Script chỉ GHI THÊM dòng vào tab Inbox và tạo file mới trong thư mục trên; không đọc hay sửa dữ liệu khác.
  */
 const SHEET_ID = '1oiuUuNbyVBbLuhJmtOhiCTnqZyTxu1c0OexZSOs1EWw';
 const KEY = 'vpa-74af1392b6a72d086f';
 const TYPES = ['message', 'teach', 'handoff', 'approve'];
+const FOLDER_NAME = 'Văn phòng agent · Tệp gửi';
+const HEAD = ['timestamp', 'from', 'to', 'type', 'text', 'status', 'note', 'files', 'paths'];
+const MAX_FILES = 10;
+const MAX_BYTES = 25 * 1024 * 1024;
 
 function doPost(e) {
   try {
@@ -22,15 +23,38 @@ function doPost(e) {
     if (KEY && data.key !== KEY) return out({ ok: false, error: 'sai key' });
     const type = TYPES.indexOf(data.type) >= 0 ? data.type : 'message';
     const clip = (s, n) => String(s == null ? '' : s).slice(0, n);
-    const ss = SpreadsheetApp.getActiveSpreadsheet() || SpreadsheetApp.openById(SHEET_ID);
+
+    // file đính kèm → Drive
+    const links = [];
+    const files = Array.isArray(data.files) ? data.files.slice(0, MAX_FILES) : [];
+    if (files.length) {
+      const folder = getFolder_();
+      let total = 0;
+      files.forEach(function (f) {
+        const bytes = Utilities.base64Decode(String(f.data || ''));
+        total += bytes.length;
+        if (total > MAX_BYTES) throw new Error('Tổng file quá 25 MB');
+        const blob = Utilities.newBlob(bytes, clip(f.type, 100) || 'application/octet-stream', clip(f.name, 200) || 'tep');
+        const file = folder.createFile(blob);
+        links.push(file.getName() + ' — ' + file.getUrl());
+      });
+    }
+    const paths = Array.isArray(data.paths) ? data.paths.map(function (p) { return clip(p, 500); }).slice(0, 20) : [];
+
+    const ss = SpreadsheetApp.openById(SHEET_ID);
     const sh = ss.getSheetByName('Inbox') || ss.insertSheet('Inbox');
-    if (sh.getLastRow() === 0) sh.appendRow(['timestamp', 'from', 'to', 'type', 'text', 'status', 'note']);
-    // dấu ' ở đầu để Sheet giữ nguyên chuỗi, không tự đổi định dạng
-    sh.appendRow(["'" + new Date().toISOString(), clip(data.from, 40), clip(data.to, 40), type, clip(data.text, 4000), 'new', '']);
-    return out({ ok: true });
+    if (sh.getLastRow() === 0) sh.appendRow(HEAD);
+    sh.appendRow(["'" + new Date().toISOString(), clip(data.from, 40), clip(data.to, 40), type,
+      clip(data.text, 4000), 'new', '', links.join('\n'), paths.join('\n')]);
+    return out({ ok: true, files: links.length });
   } catch (err) {
     return out({ ok: false, error: String(err) });
   }
+}
+
+function getFolder_() {
+  const it = DriveApp.getFoldersByName(FOLDER_NAME);
+  return it.hasNext() ? it.next() : DriveApp.createFolder(FOLDER_NAME);
 }
 
 function doGet() { return out({ ok: true, hint: 'Dùng POST' }); }

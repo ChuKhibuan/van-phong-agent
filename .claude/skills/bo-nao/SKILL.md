@@ -43,17 +43,31 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 
 ## Cách chia việc (Inbox `type = message` gửi cho Bộ não, hoặc đơn mới từ Tiếp nhận)
 
-- Quy trình mẫu nằm trong `config.js` → `flows`. Mặc định đơn dựng video:
-  `tiep-nhan → bo-nao → kich-ban → dung → thiet-ke → qa → giao-hang`.
-- Mỗi bước: gọi subagent của phòng (`.claude/agents/<id>.md`), đưa đủ ngữ cảnh (mã đơn, brief, kết quả bước trước, đường dẫn file).
+- Chuỗi phòng của từng quy trình nằm trong `kho/quy-trinh.md` (và `config.js` → `flows`). Đơn dựng video:
+  `tiep-nhan → bo-nao → kich-ban → dung → thiet-ke → qa → giao-hang → luu-tru → qa`.
+- Mỗi bước: gọi subagent của phòng (`.claude/agents/<id>.md`), đưa đủ ngữ cảnh (mã đơn, brief, kết quả bước trước, link file, đường dẫn trên máy chủ). Phòng làm xong ghi `done` với `handoff_to` = phòng kế tiếp; chỉ gọi phòng kế tiếp sau khi phòng trước đã xong.
 - Không bỏ qua **QA** trước khi giao khách.
 - Việc không thuộc phòng nào: Bộ não tự làm hoặc hỏi chủ.
 
-## Hai phòng có cổng duyệt (tiền và uy tín)
+## Chủ chỉ làm việc với Bộ não và QA
 
-- **Bán hàng**: agent chỉ **soạn** báo giá / tin nhắn khách. Kết quả ghi `status = waiting`. Chỉ khi Inbox có dòng `type = approve` cho đúng việc đó thì mới coi là được gửi — và việc bấm gửi thật vẫn do người làm (agent không có quyền nhắn khách).
-- **Quản lý CTV**: agent **tính** hoa hồng và **đề xuất**. Ghi `status = waiting`. Trả tiền, chuyển khoản, ký thoả thuận **luôn do người làm**. Agent không bao giờ tự thực hiện thanh toán.
-- Giao hàng & CSKH: tin nhắn gửi khách (nhắc thanh toán, gửi file) cũng soạn sẵn và chờ duyệt ở giai đoạn đầu.
+- **Bộ não**: nhận lệnh, bài dạy, file và đường dẫn từ chủ; chia việc.
+- **QA · Kiểm duyệt**: cửa duyệt duy nhất. Mọi việc cần chủ duyệt đều chuyển QA kiểm tra trước, rồi QA ghi `waiting` (Chờ duyệt). Chủ duyệt hoặc yêu cầu sửa ở phòng QA.
+- **Bán hàng**: chỉ **soạn** báo giá / tin nhắn khách, xong thì chuyển QA. Bấm gửi thật luôn do người làm (agent không có quyền nhắn khách).
+- **Quản lý CTV**: chỉ **tính** hoa hồng và **đề xuất**, xong thì chuyển QA. Trả tiền, chuyển khoản, ký thoả thuận **luôn do người làm**.
+- **Giao hàng & CSKH**: tin gửi khách soạn sẵn, chuyển QA, chủ duyệt rồi người mới gửi (ít nhất ở giai đoạn đầu).
+
+## Kho lưu trữ (QA giữ quyền sửa)
+
+- Kho ở thư mục `kho/` (mục lục: `kho/README.md`).
+- Phòng **Lưu trữ** chỉ soạn bản ghi mới vào `kho/cho-duyet/`; **chỉ QA** được đưa vào kho chính, sửa và đính chính, mỗi lần sửa ghi vào `kho/dinh-chinh.md`.
+- Sau khi học bài mới: ngoài cập nhật skill này, gửi tóm tắt cho Lưu trữ (`handoff_to` có `luu-tru`) để vào kho qua QA.
+- Đơn đã xong hẳn: Giao hàng & CSKH chuyển Lưu trữ lập hồ sơ, QA duyệt.
+
+## File và đường dẫn chủ gửi kèm (cột `files`, `paths` trong Inbox)
+
+- `files`: link Google Drive của file chủ tải lên từ trang web. Đọc bằng công cụ Google Drive, đưa link cho phòng cần dùng.
+- `paths`: đường dẫn trên máy của chủ (ví dụ `D:\1. Hoàng Hà makeup\...`). Routine chạy trên cloud nên **không mở được**. Ghi nguyên văn vào việc giao cho phòng; phòng nào cần đọc nội dung file thì ghi `Hỏi chủ: tải <tên file> lên Drive` hoặc để bước đó cho máy chủ làm (ví dụ xuất video bằng CapCut).
 
 ## Kiểm tra (sau mỗi bước)
 

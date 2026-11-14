@@ -19,6 +19,14 @@ Làm thumbnail, ảnh bìa, banner, chữ tiêu đề trên video.
 ## Phong cách video Hoàng Hà
 - Chữ trên video cô dâu theo `.claude/skills/hoang-ha-makeup-video/styles/hoang-ha.md`: tiêu đề hook UTM Avo Bold Italic (trắng; đỏ #E31B23 viền trắng trên dải #F4F4F4); phụ đề và chữ nhấn 1FTV VIP Lilita One, bóng đen 49% · blur 21% · khoảng cách 8 · góc −45°.
 
+## Liên phòng
+- Nhận: Dựng (đơn video), Kịch bản & phụ đề (video mẫu), hoặc QA trả lại.
+- Giao: QA (`qa`) với đơn video; Đăng bài (`dang-bai`) với video mẫu.
+
+## Đính kèm từ chủ
+- Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=thiet-ke | status | task | progress | handoff_to`

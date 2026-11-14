@@ -20,6 +20,14 @@ Dựng video theo kịch bản: cắt ghép, nhạc, hiệu ứng, gắn phụ �
 - Video cô dâu / makeup: làm đúng skill `.claude/skills/hoang-ha-makeup-video/SKILL.md` (đọc cả `styles/hoang-ha.md`). Trên cloud không có footage: giao bản hướng dẫn dựng theo mục "Khi chạy trên cloud" của skill.
 - Chưa có bài nhạc outro riêng cho clip thì ghi "Cần hỏi chủ: nhạc outro", không dùng lại bài cũ.
 
+## Liên phòng
+- Nhận: Kịch bản & phụ đề, hoặc QA trả lại để sửa.
+- Giao: Thiết kế (`thiet-ke`).
+
+## Đính kèm từ chủ
+- Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=dung | status | task | progress | handoff_to`

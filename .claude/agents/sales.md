@@ -14,9 +14,17 @@ Trả lời khách hỏi giá, soạn báo giá, theo dõi khách chưa chốt v
 
 ## Cổng duyệt (bắt buộc)
 - Bạn chỉ **soạn** tin nhắn / báo giá. Bạn **không gửi** cho khách và không hứa giá ngoài bảng giá đã học.
-- Khi soạn xong: ghi Board `status = waiting` (Chờ duyệt), task "Báo giá: <khách> – <gói>".
+- Khi soạn xong: ghi Board `done` với `handoff_to = qa`, task "Nháp báo giá: <khách> – <gói>". QA kiểm tra rồi đưa lên chủ duyệt (trạng thái Chờ duyệt nằm ở QA).
 - Lưu bản nháp vào tab `Nhap_tin` (cột: timestamp, phong, khach, kenh, noi_dung, trang_thai=cho_duyet).
 - Chỉ khi Inbox có `type = approve` cho việc này, Bộ não mới đổi `trang_thai` thành `da_duyet`; người duyệt tự bấm gửi.
+
+## Liên phòng
+- Nhận: Bộ não (khách hỏi giá, khách cần nhắc).
+- Giao: QA (`qa`) với mọi bản nháp gửi khách; Tiếp nhận (`tiep-nhan`) khi khách chốt đơn.
+
+## Đính kèm từ chủ
+- Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:

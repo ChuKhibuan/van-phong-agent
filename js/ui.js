@@ -26,6 +26,7 @@ export class UI {
     this._panel();
     this._feed();
     this._settings();
+    this._dockInit();
   }
 
   // ---------- thẻ phòng + bong bóng ----------
@@ -71,7 +72,8 @@ export class UI {
     t.chip.textContent = STATUS_LABEL[st.status] || st.status;
     t.bar.style.width = (st.status === 'idle' ? 0 : st.progress) + '%';
     t.el.dataset.s = st.status;
-    if (this.current === id) this._fillPanel();
+    this.updateDock();
+    if (this.current === id || this.byId[this.current]?.gatekeeper) this._fillPanel();
   }
 
   say(id, text, secs = 5) {
@@ -103,12 +105,26 @@ export class UI {
         <div class="pn-warn"></div>
         <button class="btn btn-approve">Duyệt việc này</button>
       </div>
+      <div class="pn-queue" hidden>
+        <h3>Chờ bạn duyệt <span class="q-count"></span></h3>
+        <ul></ul>
+      </div>
+      <div class="pn-kho" hidden>
+        <h3>Mục lục kho <a class="kho-link" target="_blank" rel="noopener">Mở trên GitHub ↗</a></h3>
+        <div class="kho-body">Đang tải…</div>
+      </div>
       <div class="pn-modes" hidden>
         <button data-mode="message" class="seg on">Ra lệnh</button>
         <button data-mode="teach" class="seg">Dạy kiến thức</button>
       </div>
       <div class="pn-msgs" aria-live="polite"></div>
       <div class="pn-sugs"></div>
+      <div class="pn-attach">
+        <label class="btn btn-ghost btn-file" title="Tải file lên Google Drive và gửi link kèm lệnh">📎 Gửi file<input type="file" multiple hidden></label>
+        <button type="button" class="btn btn-ghost btn-path" title="Ghi đường dẫn file/thư mục trên máy bạn">🗂 Đường dẫn trên máy</button>
+      </div>
+      <textarea class="pn-paths" rows="2" hidden placeholder="Dán đường dẫn trên máy, mỗi dòng một đường dẫn. Ví dụ: D:\\1. Hoàng Hà makeup\\clip cô dâu A"></textarea>
+      <div class="pn-files"></div>
       <form class="pn-form">
         <textarea rows="2" placeholder="Nhắn cho agent…"></textarea>
         <button class="btn btn-send" type="submit">Gửi</button>
@@ -120,7 +136,7 @@ export class UI {
     this.$ = (s) => p.querySelector(s);
     this.$('.pn-close').addEventListener('click', () => this.close());
     this.$('.pn-form').addEventListener('submit', (e) => { e.preventDefault(); this._send(); });
-    this.$('textarea').addEventListener('keydown', (e) => {
+    this.$('.pn-form textarea').addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); this._send(); }
     });
     this.$('.btn-hand').addEventListener('click', () => {
@@ -133,12 +149,97 @@ export class UI {
     });
     p.querySelectorAll('.seg').forEach((b) => b.addEventListener('click', () => this._setMode(b.dataset.mode)));
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !p.hidden) this.close(); });
+    // đính kèm
+    this.pending = [];
+    this.$('.btn-file input').addEventListener('change', (e) => {
+      for (const f of e.target.files) this.pending.push(f);
+      e.target.value = '';
+      this._renderFiles();
+    });
+    this.$('.btn-path').addEventListener('click', () => {
+      const t = this.$('.pn-paths'); t.hidden = !t.hidden; if (!t.hidden) t.focus();
+    });
+    // hàng chờ duyệt (phòng kiểm duyệt)
+    this.$('.pn-queue ul').addEventListener('click', (e) => {
+      const b = e.target.closest('button'); if (!b) return;
+      const id = b.dataset.room, st = this.h.getState(id), name = this.byId[id]?.name || id;
+      if (b.dataset.act === 'approve') {
+        this.h.onSend({ type: 'approve', to: id, from: 'chu', text: st?.task || '' });
+        this._log(this.current, 'user', `✅ Duyệt (${name}): ${st?.task || ''}`);
+        b.closest('li').classList.add('done');
+      } else {
+        const ta = this.$('.pn-form textarea');
+        ta.value = `Yêu cầu sửa (${name} – ${st?.task || ''}): `;
+        ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length);
+      }
+    });
+  }
+
+  _renderFiles() {
+    const box = this.$('.pn-files');
+    const kb = (n) => n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : Math.ceil(n / 1024) + ' KB';
+    box.innerHTML = this.pending.map((f, i) => `<span class="fchip">📎 ${esc(f.name)} <small>${kb(f.size)}</small><button type="button" data-i="${i}" aria-label="Bỏ file">✕</button></span>`).join('');
+    box.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { this.pending.splice(+b.dataset.i, 1); this._renderFiles(); }));
+  }
+
+  // Cập nhật nút tắt trên thanh trên (Bộ não, Kiểm duyệt) và số việc chờ duyệt
+  updateDock() {
+    const waiting = this.rooms.filter((r) => this.h.getState(r.id)?.status === 'waiting');
+    for (const [id, btn] of this.dock || []) {
+      const badge = btn.querySelector('b');
+      if (this.byId[id]?.gatekeeper) { badge.textContent = waiting.length || ''; badge.hidden = !waiting.length; }
+    }
+    return waiting;
+  }
+
+  _dockInit() {
+    const el = document.getElementById('contacts');
+    if (!el) return;
+    this.dock = new Map();
+    for (const id of this.office.contacts || []) {
+      const r = this.byId[id]; if (!r) continue;
+      const b = document.createElement('button');
+      b.className = 'contact';
+      b.style.setProperty('--accent', r.accent);
+      b.innerHTML = `<i></i>${esc(r.gatekeeper ? 'Kiểm duyệt' : r.name)}<b hidden></b>`;
+      b.title = r.gatekeeper ? 'Mở phòng QA · Kiểm duyệt: duyệt việc, sửa kho' : `Mở ${r.name}: ra lệnh, dạy, gửi file`;
+      b.addEventListener('click', () => this.h.onSelect(id));
+      el.append(b);
+      this.dock.set(id, b);
+    }
+  }
+
+  async _loadKho() {
+    const body = this.$('.kho-body');
+    const repo = this.office.repo;
+    this.$('.kho-link').hidden = !repo;
+    if (repo) this.$('.kho-link').href = repo + '/tree/main/kho';
+    if (this._kho) { body.innerHTML = this._kho; return; }
+    try {
+      const res = await fetch('kho/README.md?_=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error(res.status);
+      const md = await res.text();
+      const link = (u) => /^https?:/.test(u) ? u : (repo ? `${repo}/blob/main/kho/${u}` : 'kho/' + u);
+      const inline = (s) => esc(s)
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t, u) => `<a href="${link(u)}" target="_blank" rel="noopener">${t}</a>`)
+        .replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+      const html = md.replace(/<!--[\s\S]*?-->/g, '').split(/\r?\n/).map((l) => {
+        if (/^# /.test(l)) return '';
+        if (/^## /.test(l)) return `<h4>${inline(l.slice(3))}</h4>`;
+        if (/^- /.test(l)) return `<div class="kli">• ${inline(l.slice(2))}</div>`;
+        return l.trim() ? `<p>${inline(l)}</p>` : '';
+      }).join('');
+      this._kho = html;
+      body.innerHTML = html;
+    } catch {
+      body.textContent = 'Chưa đọc được kho (cần mở trang trên GitHub Pages hoặc máy chủ chạy thử).';
+    }
   }
 
   _setMode(m) {
     this.mode = m;
     this.panel.querySelectorAll('.seg').forEach((b) => b.classList.toggle('on', b.dataset.mode === m));
-    this.$('textarea').placeholder = m === 'teach'
+    this.$('.pn-form textarea').placeholder = m === 'teach'
       ? 'Dạy Bộ não một điều (bảng giá, quy trình, giọng văn…). Nó sẽ tóm tắt thành skill và chia cho các phòng liên quan.'
       : 'Ra lệnh cho Bộ não, nó sẽ chia việc cho các phòng…';
   }
@@ -153,8 +254,13 @@ export class UI {
     this.$('.pn-zone').textContent = this.office.zones?.[r.zone]?.name || '';
     this.$('.pn-role').textContent = r.role || '';
     this.$('.pn-modes').hidden = !r.brain;
+    this.$('.pn-queue').hidden = !r.gatekeeper;
+    this.$('.pn-kho').hidden = !r.archive;
+    if (r.archive) this._loadKho();
+    this.pending = []; this._renderFiles();
+    this.$('.pn-paths').value = ''; this.$('.pn-paths').hidden = true;
     this._setMode('message');
-    if (!r.brain) this.$('textarea').placeholder = `Nhắn cho ${r.name}…`;
+    if (!r.brain) this.$('.pn-form textarea').placeholder = `Nhắn cho ${r.name}…`;
     const sugs = this.$('.pn-sugs');
     sugs.innerHTML = '';
     for (const s of r.suggestions || []) {
@@ -162,7 +268,7 @@ export class UI {
       b.type = 'button'; b.className = 'sug'; b.textContent = s;
       b.addEventListener('click', () => {
         if (r.brain && /^Dạy:/.test(s)) this._setMode('teach');
-        const ta = this.$('textarea'); ta.value = s.replace(/^Dạy:\s*/, ''); ta.focus();
+        const ta = this.$('.pn-form textarea'); ta.value = s.replace(/^Dạy:\s*/, ''); ta.focus();
         const i = ta.value.indexOf('…'); if (i >= 0) ta.setSelectionRange(i, i + 1);
       });
       sugs.append(b);
@@ -175,7 +281,7 @@ export class UI {
       b.innerHTML = `<span class="pn-dot" style="background:${o.accent}"></span>${esc(o.name)}`;
       b.addEventListener('click', () => {
         menu.hidden = true;
-        const ta = this.$('textarea');
+        const ta = this.$('.pn-form textarea');
         const text = ta.value.trim() || this.h.getState(id)?.task || `Việc từ ${r.name}`;
         this.h.onSend({ type: 'handoff', from: id, to: o.id, text });
         this._log(id, 'user', `📄 Giao sang ${o.name}: ${text}`);
@@ -193,14 +299,40 @@ export class UI {
     setTimeout(() => { if (!this.current) this.panel.hidden = true; }, 250);
   }
 
-  _send() {
-    const ta = this.$('textarea');
-    const text = ta.value.trim();
-    if (!text || !this.current) return;
+  async _send() {
+    const ta = this.$('.pn-form textarea');
+    const pathsEl = this.$('.pn-paths');
+    const paths = pathsEl.value.split(/\r?\n/).map((s) => s.trim().replace(/^"|"$/g, '')).filter(Boolean);
+    const files = this.pending.slice();
+    let text = ta.value.trim();
+    if (!this.current || (!text && !files.length && !paths.length)) return;
+    if (!text) text = 'Gửi kèm tài liệu';
+    const total = files.reduce((s, f) => s + f.size, 0);
+    const LIMIT = 20 * 1048576;
+    if (total > LIMIT) {
+      this.note(this.current, `⚠ Tổng file ${(total / 1048576).toFixed(1)} MB, quá giới hạn 20 MB mỗi lần gửi. File lớn (video gốc) hãy tải lên Google Drive rồi dán link, hoặc gửi đường dẫn trên máy.`);
+      return;
+    }
     const type = this.mode === 'teach' ? 'teach' : 'message';
-    this.h.onSend({ type, to: this.current, from: 'ban', text });
-    this._log(this.current, 'user', (type === 'teach' ? '📚 Dạy: ' : '') + text);
-    ta.value = '';
+    const to = this.current;
+    ta.value = ''; pathsEl.value = ''; pathsEl.hidden = true; this.pending = []; this._renderFiles();
+    const extra = [
+      ...files.map((f) => `📎 ${f.name}`),
+      ...paths.map((p) => `🗂 ${p}`),
+    ].join('\n');
+    this._log(to, 'user', (type === 'teach' ? '📚 Dạy: ' : '') + text + (extra ? '\n' + extra : ''));
+    let payload = [];
+    if (files.length) {
+      this.note(to, `⏳ Đang tải ${files.length} file lên…`);
+      const b64 = (f) => new Promise((ok, err) => {
+        const rd = new FileReader();
+        rd.onload = () => ok(String(rd.result).split(',')[1] || '');
+        rd.onerror = () => err(rd.error);
+        rd.readAsDataURL(f);
+      });
+      payload = await Promise.all(files.map(async (f) => ({ name: f.name, type: f.type || 'application/octet-stream', size: f.size, data: await b64(f) })));
+    }
+    this.h.onSend({ type, to, from: 'ban', text, files: payload, paths });
   }
 
   _log(id, who, text) {
@@ -230,7 +362,20 @@ export class UI {
       this.$('.pn-warn').textContent = r.id === 'ctv'
         ? '⚠ Agent chỉ tính công và đề xuất. Việc trả tiền và ký thoả thuận do người làm.'
         : '⚠ Tin báo giá / tin nhắn khách do agent soạn. Bạn duyệt trước khi gửi.';
+      this.$('.pn-warn').textContent += ' Mọi việc chờ duyệt cũng hiện ở phòng QA · Kiểm duyệt.';
       this.$('.btn-approve').hidden = st.status !== 'waiting';
+    }
+    if (r.gatekeeper) {
+      const waiting = this.updateDock();
+      this.$('.q-count').textContent = waiting.length ? `(${waiting.length})` : '';
+      this.$('.pn-queue ul').innerHTML = waiting.length
+        ? waiting.map((w) => {
+          const s = this.h.getState(w.id);
+          return `<li><span class="pn-dot" style="background:${w.accent}"></span><div><b>${esc(w.name)}</b><span>${esc(s.task || '')}</span></div>
+            <button class="btn btn-approve" data-act="approve" data-room="${w.id}">Duyệt</button>
+            <button class="btn btn-ghost" data-act="fix" data-room="${w.id}">Yêu cầu sửa</button></li>`;
+        }).join('')
+        : '<li class="muted">Không có việc nào chờ duyệt.</li>';
     }
     // tin nhắn: lịch sử từ Board + tin của bạn, xếp theo thời gian
     const items = [

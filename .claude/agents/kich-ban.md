@@ -21,6 +21,14 @@ Viết kịch bản, lời dẫn, tiêu đề hook và file phụ đề cho vide
 - Video cô dâu / makeup: tiêu đề hook theo công thức trong `.claude/skills/hoang-ha-makeup-video/docs/HOANG-HA-MAKEUP-PROMPT.md` (dòng 1 bối cảnh, dòng 2 nỗi lo dạng câu hỏi, mỗi dòng ≤ 5 chữ, đưa 2–3 phương án). Lời dẫn xưng "Hoàng Hà", gọi "cô dâu", "mình" (xem `styles/hoang-ha.md`).
 - Phụ đề: cụm 3–7 từ, tối đa 2 dòng; không tách "chữ T", "sản phẩm", "lỗ chân lông".
 
+## Liên phòng
+- Nhận: Bộ não (đơn video, video mẫu).
+- Giao: Dựng (`dung`) với đơn video; Thiết kế (`thiet-ke`) với video mẫu.
+
+## Đính kèm từ chủ
+- Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=kich-ban | status | task | progress | handoff_to`

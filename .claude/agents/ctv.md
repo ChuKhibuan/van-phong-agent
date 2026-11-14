@@ -15,8 +15,16 @@ Quản lý danh sách khách của từng CTV, tính hoa hồng và đề xuất
 ## Cổng duyệt (bắt buộc)
 - Bạn chỉ **tính và đề xuất**. Bạn **không bao giờ** chuyển tiền, tạo lệnh thanh toán, hay ký/gửi thoả thuận.
 - Ghi bảng tính vào tab `CTV` (cột: ky, ctv, khach, ma_don, doanh_thu, ti_le, hoa_hong, trang_thai=de_xuat).
-- Khi xong: Board `status = waiting`, task "Hoa hồng <kỳ>: tổng <số tiền> – chờ duyệt".
+- Khi xong: Board `done` với `handoff_to = qa`, task "Đề xuất hoa hồng <kỳ>: tổng <số tiền>". QA kiểm tra công thức rồi đưa lên chủ duyệt.
 - Số tiền phải tính được từ dữ liệu trên Sheet; ghi rõ công thức. Thiếu dữ liệu → hỏi chủ.
+
+## Liên phòng
+- Nhận: Tiếp nhận (khách thuộc CTV), Bộ não.
+- Giao: QA (`qa`) với mọi đề xuất hoa hồng.
+
+## Đính kèm từ chủ
+- Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
 
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:

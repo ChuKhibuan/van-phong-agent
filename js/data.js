@@ -141,6 +141,8 @@ class MockSource {
     this.rooms = rooms;
     this.byId = Object.fromEntries(rooms.map((r) => [r.id, r]));
     this.brain = (rooms.find((r) => r.brain) || rooms[0]).id;
+    this.archive = rooms.find((r) => r.archive)?.id;
+    this.gate = rooms.find((r) => r.gatekeeper)?.id;
     this.flows = Object.entries(flows).filter(([, s]) => s.every((id) => this.byId[id]));
     if (!this.flows.length) this.flows = [['Quy trình', rooms.map((r) => r.id)]];
     this.state = Object.fromEntries(rooms.map((r) => [r.id, { status: 'idle', task: '', progress: 0 }]));
@@ -185,11 +187,18 @@ class MockSource {
         if (p < 100) { this.emit(agent, 'working', j.task, p); continue; }
         const next = j.steps[j.i + 1];
         const handoff = next ? [next] : (j.fanout || []);
-        const needApproval = !next && this.byId[agent].approval;
+        // việc cần chủ duyệt: dừng ở phòng có approval, hoặc dồn về phòng kiểm duyệt (QA) ở cuối chuỗi
+        const needApproval = !next && (this.byId[agent].approval ||
+          (this.byId[agent].gatekeeper && j.steps.some((id) => this.byId[id]?.approval)));
         this.emit(agent, needApproval ? 'waiting' : 'done', j.task, 100, handoff);
         this.jobs.splice(this.jobs.indexOf(j), 1);
         if (next) this.jobs.push({ ...j, i: j.i + 1, started: false, startAt: now + 1200 });
-        for (const f of j.fanout || []) this.queue('Học kiến thức mới: ' + j.task.replace(/^Dạy:\s*/, ''), [f], 1200, { speed: 2.5 });
+        for (const f of j.fanout || []) {
+          const lesson = j.task.replace(/^Dạy:\s*/, '');
+          // kho lưu trữ: lưu bản ghi rồi chuyển QA đính chính
+          if (f === this.archive && this.gate) this.queue('Lưu vào kho: ' + lesson, [f, this.gate], 1200, { speed: 2 });
+          else this.queue('Học kiến thức mới: ' + lesson, [f], 1200, { speed: 2.5 });
+        }
         const s = this.state[agent], task = j.task;
         // phòng cần duyệt: demo tự "duyệt" sau 25 giây
         setTimeout(() => {
@@ -216,8 +225,9 @@ class MockSource {
       return { ok: true, local: true };
     }
     if (cmd.type === 'teach') {
-      const others = this.rooms.filter((r) => !r.brain).map((r) => r.id).sort(() => Math.random() - 0.5);
-      this.queue('Dạy: ' + (text || 'kiến thức mới'), [this.brain], 300, { fanout: others.slice(0, 3), speed: 1.6 });
+      const others = this.rooms.filter((r) => !r.brain && !r.archive && !r.gatekeeper).map((r) => r.id).sort(() => Math.random() - 0.5);
+      const fanout = [...(this.archive ? [this.archive] : []), ...others.slice(0, 2)];
+      this.queue('Dạy: ' + (text || 'kiến thức mới'), [this.brain], 300, { fanout, speed: 1.6 });
       return { ok: true, local: true };
     }
     const task = text || 'Việc mới từ bạn';

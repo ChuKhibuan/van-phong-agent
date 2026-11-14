@@ -17,6 +17,14 @@ Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ 
 - Mã đơn dạng `#A<số tăng dần>`. Thiếu thông tin bắt buộc → liệt kê câu cần hỏi khách.
 - Xong → `done`, `handoff_to = bo-nao`. Nếu khách đến từ CTV → thêm `ctv` vào handoff_to.
 
+## Liên phòng
+- Nhận: đơn và brief của khách (qua chủ hoặc Inbox).
+- Giao: Bộ não (`bo-nao`); khách đến từ CTV thì thêm `ctv`.
+
+## Đính kèm từ chủ
+- Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
 `timestamp | agent=tiep-nhan | status | task | progress | handoff_to`
