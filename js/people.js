@@ -40,7 +40,7 @@ export class People {
       });
     }
     this._buildMeshes();
-    this._buildCats();
+    // mèo, chó: xem js/pets.js
   }
 
   _buildMeshes() {
@@ -221,7 +221,6 @@ export class People {
       this._pose(p, t, roomStatus(p.roomId));
     }
     for (const m of this.meshes) m.instanceMatrix.needsUpdate = true;
-    this._cats(t);
   }
 
   _pose(p, t, status) {

@@ -40,7 +40,7 @@ export const OFFICE = {
   // level   : tầng (0 mặt đất, 1 cao nửa tầng, -1 thấp hơn…)
   // w, d    : kích thước phòng
   // layout  : 'brain' | 'reception' | 'desks'
-  // staff   : số nhân viên   cat: màu mèo (false = không có mèo)
+  // staff   : số nhân viên   cat: màu mèo (false = không có mèo)   dog: màu chó (bỏ trống = không có chó)
   // approval: true → việc xong ở trạng thái "Chờ duyệt", người phải duyệt
   // agent   : file subagent .claude/agents/<agent>.md
   rooms: [
@@ -49,7 +49,7 @@ export const OFFICE = {
       role: 'Nhận lệnh và bài dạy từ bạn, tóm tắt thành kiến thức (skill), chia việc và kiến thức cho các phòng, kiểm tra kết quả.',
       x: 0, z: 0, level: 1, w: 10, d: 10,
       floor: '#f6cfd9', wall: '#fdf2f5', accent: '#c25b7d',
-      layout: 'brain', staff: 3, cat: '#f2b36b', props: ['rug'],
+      layout: 'brain', staff: 3, cat: '#f2b36b', dog: '#d9a066', props: ['rug'],
       suggestions: ['Dạy: bảng giá gói dựng video cưới là…', 'Tóm tắt những gì đã học tuần này', 'Kiểm tra tiến độ tất cả các phòng', 'Có đơn mới, chia việc giúp tôi'],
     },
 
@@ -67,7 +67,7 @@ export const OFFICE = {
       role: 'Lên lịch và chuẩn bị đăng video mẫu, bài giới thiệu lên các kênh; theo dõi bài nào kéo được khách.',
       x: -11, z: 11, level: 0, w: 8, d: 8,
       floor: '#f5cf8a', wall: '#fdf6e6', accent: '#c07a2c',
-      layout: 'desks', staff: 2, cat: '#e58a4e', props: ['tv', 'beanbags'],
+      layout: 'desks', staff: 2, cat: '#e58a4e', dog: '#f1e6d2', props: ['tv', 'beanbags'],
       suggestions: ['Lên lịch đăng tuần tới', 'Viết caption cho video mẫu mới', 'Báo cáo bài nào kéo khách nhất'],
     },
 
@@ -112,7 +112,7 @@ export const OFFICE = {
       role: 'Lưu skill, quy trình và hồ sơ công việc của cả công ty. Các phòng gửi tóm tắt sang đây; mọi thay đổi trong kho phải qua QA kiểm duyệt và đính chính.',
       x: 22, z: 0, level: 1, w: 8, d: 8,
       floor: '#ead9bd', wall: '#fbf6ec', accent: '#8a6a3c',
-      layout: 'desks', staff: 2, cat: '#d9c3a5', props: ['shelf', 'shelf', 'shelf', 'rug'],
+      layout: 'desks', staff: 2, cat: '#d9c3a5', dog: '#b5651d', props: ['shelf', 'shelf', 'shelf', 'rug'],
       suggestions: ['Tìm hồ sơ đơn…', 'Liệt kê các skill công ty đang có', 'Lưu hồ sơ việc vừa xong: …'],
     },
 
@@ -122,7 +122,7 @@ export const OFFICE = {
       role: 'Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ não chia việc.',
       x: 0, z: 11, level: 0, w: 8, d: 8,
       floor: '#c6e6c4', wall: '#f2f9f1', accent: '#4c8a4a',
-      layout: 'reception', staff: 2, cat: '#f2b36b', props: ['sofa', 'cooler'],
+      layout: 'reception', staff: 2, cat: '#f2b36b', dog: '#5b4636', props: ['sofa', 'cooler'],
       suggestions: ['Tạo đơn mới từ brief: …', 'Liệt kê đơn đang mở', 'Brief này còn thiếu gì?'],
     },
     {

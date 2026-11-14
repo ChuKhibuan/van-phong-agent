@@ -185,6 +185,11 @@ export class World {
       R.blocks.push([cp[0] - 0.35, cp[0] + 0.35, cp[1] - 0.4, cp[1] + 0.4]);
       this.cats.push({ pos: L(cp[0], 0, cp[1]), rotY: Math.random() * 6.28, color: typeof c.cat === 'string' ? c.cat : '#f2b36b', roomId: R.id });
     }
+    // chó (tuỳ chọn): dog: '#màu'
+    if (c.dog) {
+      this.dogs = this.dogs || [];
+      this.dogs.push({ pos: (R.hub || L(0, 0, 0)).clone(), rotY: Math.random() * 6.28, color: typeof c.dog === 'string' ? c.dog : '#c8945a', roomId: R.id });
+    }
     R.anchor.copy(L(-w * 0.18, WALL_H + 0.7, -d * 0.18));
     R.hit = { cx: x, cy: y + 1.2, cz: z, w, h: 2.6, d };
   }

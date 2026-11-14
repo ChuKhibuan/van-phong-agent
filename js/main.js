@@ -4,6 +4,7 @@ import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { OFFICE } from '../config.js';
 import { World } from './world.js';
 import { People } from './people.js';
+import { Pets } from './pets.js';
 import { UI, ls, STATUS_LABEL } from './ui.js';
 import { createSource } from './data.js';
 
@@ -25,6 +26,8 @@ const world = new World(OFFICE);
 scene.add(world.group);
 const people = new People(world, { reduced: prefs.reduced });
 scene.add(people.group);
+const pets = new Pets(world, { reduced: prefs.reduced });
+scene.add(pets.group);
 
 const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 400);
 const controls = new OrbitControls(camera, canvas);
@@ -111,6 +114,7 @@ function applyQuality() {
 
 function applyReduced() {
   people.setReduced(prefs.reduced);
+  pets.setReduced(prefs.reduced);
   controls.enableDamping = !prefs.reduced;
   document.documentElement.dataset.reduced = prefs.reduced ? '1' : '0';
   const b = document.getElementById('btn-motion');
@@ -314,6 +318,7 @@ function frameBody(dt) {
   const t = simT;
   controls.update();
   people.update(dt, t, roomStatus);
+  pets.update(dt, t);
 
   // cây đung đưa
   world.plants.forEach((p, i) => {
@@ -377,4 +382,4 @@ function frameBody(dt) {
 requestAnimationFrame(frame);
 
 // gỡ lỗi từ console
-window.__office = { world, people, state, camera, renderer, scene, controls, step: (n = 1) => { for (let i = 0; i < n; i++) frameBody(1 / 30); } };
+window.__office = { world, people, pets, state, camera, renderer, scene, controls, step: (n = 1) => { for (let i = 0; i < n; i++) frameBody(1 / 30); } };

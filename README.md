@@ -106,3 +106,15 @@ Notion: viết thêm một lớp tương tự đọc database qua một proxy nh
 
 Toàn bộ khối tĩnh gộp thành 1 mesh màu đỉnh; người, mèo, cây, màn hình dùng InstancedMesh → khoảng 20 draw call, ~27 nghìn tam giác.
 Máy yếu: bấm nút chất lượng để tắt bóng đổ và giảm độ phân giải. Có nút giảm chuyển động (tự bật nếu hệ điều hành đang bật).
+
+## Cập nhật: Lưu trữ, cửa duyệt QA, gửi file (14/11/2026)
+
+- **Bạn chỉ cần làm việc với 2 phòng**: nút **Bộ não** và **Kiểm duyệt** trên thanh trên cùng.
+  - Bộ não: ra lệnh, dạy kiến thức, gửi file và đường dẫn.
+  - Kiểm duyệt (QA): danh sách **Chờ bạn duyệt** của cả công ty (số đỏ trên nút), bấm **Duyệt** hoặc **Yêu cầu sửa**.
+- **Phòng Lưu trữ** (Kho tri thức, nối với QA): giữ skill, quy trình, hồ sơ công việc trong thư mục `kho/`.
+  Lưu trữ chỉ soạn bản ghi vào `kho/cho-duyet/`; **chỉ QA được sửa, đính chính** và ghi lại ở `kho/dinh-chinh.md`.
+- **Liên phòng**: chuỗi chuyền việc của từng quy trình ở `kho/quy-trinh.md`; mỗi subagent có mục "Liên phòng" (nhận từ ai, giao cho ai). Việc cần duyệt luôn dồn về QA.
+- **Gửi file**: nút 📎 trong khung chat. File (tổng ≤ 20 MB mỗi lần) được lưu vào thư mục Drive "Văn phòng agent · Tệp gửi" của bạn, link ghi vào cột `files` trong Inbox. Video gốc dung lượng lớn: tải lên Drive rồi dán link.
+- **Đường dẫn trên máy**: nút 🗂, mỗi dòng một đường dẫn, ghi vào cột `paths`. Routine chạy trên cloud **không mở được** ổ đĩa của bạn: các phòng ghi lại đường dẫn để bước làm trên máy bạn (ví dụ xuất video) dùng, hoặc hỏi bạn tải file lên Drive.
+- **Thú cưng**: mèo ở mọi phòng, chó ở Bộ não, Tiếp nhận, Đăng bài, Lưu trữ (`dog: '#màu'` trong `config.js`). Nút giảm chuyển động cho chúng nằm yên.
