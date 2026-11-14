@@ -112,13 +112,16 @@ class SheetSource {
   async send(cmd) {
     if (!this.s.inboxUrl) return { ok: false, reason: 'no-inbox' };
     try {
-      // text/plain để không bị preflight CORS; Apps Script vẫn đọc được JSON.
-      await fetch(this.s.inboxUrl, {
-        method: 'POST', mode: 'no-cors',
-        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-        body: JSON.stringify({ ...cmd, key: this.s.inboxKey || '' }),
-      });
-      return { ok: true, queued: true };
+      // Gửi bằng form POST vào cửa sổ nhỏ "vpa_send" (giao diện đã mở sẵn khi bạn bấm).
+      // Trình duyệt dùng đúng phiên đăng nhập Google của bạn, nên Apps Script
+      // (chế độ "Chỉ mình tôi") chặn được mọi tài khoản khác.
+      const f = document.createElement('form');
+      f.method = 'POST'; f.action = this.s.inboxUrl; f.target = 'vpa_send'; f.acceptCharset = 'UTF-8';
+      f.style.display = 'none';
+      const i = document.createElement('input');
+      i.type = 'hidden'; i.name = 'payload'; i.value = JSON.stringify(cmd);
+      f.append(i); document.body.append(f); f.submit(); f.remove();
+      return { ok: true, queued: true, window: true };
     } catch (e) {
       return { ok: false, reason: e.message };
     }

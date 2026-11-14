@@ -148,6 +148,7 @@ export class UI {
     });
     this.$('.btn-approve').addEventListener('click', () => {
       const st = this.h.getState(this.current);
+      this._prepWin();
       this.h.onSend({ type: 'approve', to: this.current, from: 'nguoi-duyet', text: st?.task || '' });
       this._log(this.current, 'user', '✅ Đã duyệt: ' + (st?.task || ''));
     });
@@ -168,6 +169,7 @@ export class UI {
       const b = e.target.closest('button'); if (!b) return;
       const id = b.dataset.room, st = this.h.getState(id), name = this.byId[id]?.name || id;
       if (b.dataset.act === 'approve') {
+        this._prepWin();
         this.h.onSend({ type: 'approve', to: id, from: 'chu', text: st?.task || '' });
         this._log(this.current, 'user', `✅ Duyệt (${name}): ${st?.task || ''}`);
         this._markHandled(id, 'approved');
@@ -181,6 +183,24 @@ export class UI {
     this.$('.pn-fix').addEventListener('click', (e) => {
       if (e.target.closest('button')) { this.fixFor = null; this._renderFix(); }
     });
+  }
+
+  // Mở sẵn cửa sổ nhỏ nhận kết quả gửi lệnh. Phải gọi ngay trong lúc bấm (trước mọi await),
+  // nếu không trình duyệt sẽ chặn cửa sổ bật lên.
+  _prepWin() {
+    const s = this.h.settings();
+    const live = s.inboxUrl && s.source !== 'mock' && !(s.source === 'auto' && !s.csvUrl);
+    if (!live) return;
+    try {
+      const w = window.open('', 'vpa_send', 'width=460,height=300');
+      if (!w) { this.note(this.current, '⚠ Trình duyệt chặn cửa sổ gửi lệnh. Cho phép cửa sổ bật lên cho trang này rồi gửi lại.'); return; }
+      try {
+        if (w.location.href === 'about:blank') {
+          w.document.title = 'Đang gửi…';
+          w.document.body.innerHTML = '<p style="font:15px system-ui,sans-serif;padding:18px">Đang gửi lệnh tới Inbox…</p>';
+        }
+      } catch { /* cửa sổ đang ở trang Google: bỏ qua */ }
+    } catch { /* bỏ qua */ }
   }
 
   // khoá nhận diện một việc chờ duyệt: phòng + dòng Board đang hiển thị
@@ -317,6 +337,7 @@ export class UI {
         menu.hidden = true;
         const ta = this.$('.pn-form textarea');
         const text = ta.value.trim() || this.h.getState(id)?.task || `Việc từ ${r.name}`;
+        this._prepWin();
         this.h.onSend({ type: 'handoff', from: id, to: o.id, text });
         this._log(id, 'user', `📄 Giao sang ${o.name}: ${text}`);
         ta.value = '';
@@ -347,6 +368,7 @@ export class UI {
       this.note(this.current, `⚠ Tổng file ${(total / 1048576).toFixed(1)} MB, quá giới hạn 20 MB mỗi lần gửi. File lớn (video gốc) hãy tải lên Google Drive rồi dán link, hoặc gửi đường dẫn trên máy.`);
       return;
     }
+    this._prepWin(); // mở cửa sổ gửi ngay lúc bấm, trước khi đọc file
     const type = this.mode === 'teach' ? 'teach' : 'message';
     const to = this.current;
     const fix = this.fixFor;

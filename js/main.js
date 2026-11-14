@@ -232,7 +232,7 @@ const ui = new UI(OFFICE, {
     }
     const res = await source.send(cmd);
     if (res.ok && res.local) return;
-    if (res.ok) { ui.note(cmd.to, '📮 Đã gửi vào Inbox. Agent sẽ đọc ở lượt chạy kế tiếp của Routine.'); return; }
+    if (res.ok) { ui.note(cmd.to, '📮 Đã gửi. Cửa sổ nhỏ hiện ✅ là lệnh đã vào Inbox; Bộ não đọc ở lượt chạy kế tiếp. (Chỉ tài khoản Google của chủ gửi được.)'); return; }
     if (res.reason === 'no-inbox') {
       const line = `[${cmd.type}] → ${cmd.to}: ${cmd.text}`;
       try { await navigator.clipboard.writeText(line); } catch { /* bỏ qua */ }
