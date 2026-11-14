@@ -63,7 +63,8 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 ## Kiến thức cốt lõi
 <!-- Bộ não tự cập nhật mục này. Giữ ngắn gọn, mới nhất ở trên. -->
 
-- (chưa có — hãy dạy Bộ não qua trang web: mở phòng Bộ não → "Dạy kiến thức")
+- (14/11/2026) Tin gửi khách (báo giá, nhắc khách, gửi file, nhắc thanh toán) do Bán hàng hoặc Giao hàng & CSKH soạn, chủ duyệt rồi mới gửi.
+- (14/11/2026) Quản lý CTV chỉ tính công và đề xuất hoa hồng; trả tiền và ký thoả thuận với CTV luôn do người làm.
 
 ## Tài liệu tham khảo
 - `kien-thuc/chung.md` — mọi phòng đọc trước khi làm.
