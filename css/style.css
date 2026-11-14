@@ -241,3 +241,8 @@ body.demo::after {
   padding: 6px 14px; border-radius: 999px; box-shadow: var(--shadow); pointer-events: none; white-space: nowrap;
 }
 @media (max-width: 640px) { body.demo::after { font-size: 10.5px; white-space: normal; text-align: center; width: calc(100vw - 32px); } }
+
+/* yêu cầu sửa đang soạn */
+.pn-fix { display: flex; align-items: flex-start; gap: 8px; font-size: 12.5px; line-height: 1.4; padding: 7px 8px 7px 10px; border-radius: 10px; background: color-mix(in srgb, var(--waiting) 16%, transparent); }
+.pn-fix span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.pn-fix button { border: 0; background: transparent; cursor: pointer; color: var(--muted); }

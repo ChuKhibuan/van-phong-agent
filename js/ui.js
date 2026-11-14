@@ -22,6 +22,8 @@ export class UI {
     this.current = null;
     this.mode = 'message';
     this.localMsgs = ls.get('vpa.msgs', {});
+    this.handled = ls.get('vpa.handled', {}) || {}; // việc chờ duyệt bạn đã duyệt / yêu cầu sửa
+    this.fixFor = null;
     this._tags();
     this._panel();
     this._feed();
@@ -68,8 +70,9 @@ export class UI {
 
   setRoomState(id, st) {
     const t = this.tags.get(id); if (!t) return;
-    t.chip.dataset.s = st.status;
-    t.chip.textContent = STATUS_LABEL[st.status] || st.status;
+    const h = st.status === 'waiting' && this.handled?.[this._wkey(id)];
+    t.chip.dataset.s = h ? 'working' : st.status;
+    t.chip.textContent = h ? (h.how === 'approved' ? 'Đã duyệt' : 'Đang sửa') : (STATUS_LABEL[st.status] || st.status);
     t.bar.style.width = (st.status === 'idle' ? 0 : st.progress) + '%';
     t.el.dataset.s = st.status;
     this.updateDock();
@@ -125,6 +128,7 @@ export class UI {
       </div>
       <textarea class="pn-paths" rows="2" hidden placeholder="Dán đường dẫn trên máy, mỗi dòng một đường dẫn. Ví dụ: D:\\1. Hoàng Hà makeup\\clip cô dâu A"></textarea>
       <div class="pn-files"></div>
+      <div class="pn-fix" hidden></div>
       <form class="pn-form">
         <textarea rows="2" placeholder="Nhắn cho agent…"></textarea>
         <button class="btn btn-send" type="submit">Gửi</button>
@@ -166,13 +170,42 @@ export class UI {
       if (b.dataset.act === 'approve') {
         this.h.onSend({ type: 'approve', to: id, from: 'chu', text: st?.task || '' });
         this._log(this.current, 'user', `✅ Duyệt (${name}): ${st?.task || ''}`);
-        b.closest('li').classList.add('done');
+        this._markHandled(id, 'approved');
       } else {
-        const ta = this.$('.pn-form textarea');
-        ta.value = `Yêu cầu sửa (${name} – ${st?.task || ''}): `;
-        ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length);
+        // yêu cầu sửa: gắn với đúng việc, chờ bạn gõ nội dung cần sửa rồi Gửi
+        this.fixFor = { id, key: this._wkey(id), name, task: st?.task || '' };
+        this._renderFix();
+        this.$('.pn-form textarea').focus();
       }
     });
+    this.$('.pn-fix').addEventListener('click', (e) => {
+      if (e.target.closest('button')) { this.fixFor = null; this._renderFix(); }
+    });
+  }
+
+  // khoá nhận diện một việc chờ duyệt: phòng + dòng Board đang hiển thị
+  _wkey(id) {
+    const st = this.h.getState(id);
+    const r = st?.real;
+    return id + '|' + (r ? `${+r.timestamp}:${r.seq ?? ''}` : (st?.task || ''));
+  }
+  _isHandled(id) { return !!this.handled[this._wkey(id)]; }
+  _markHandled(id, how, key) {
+    this.handled[key || this._wkey(id)] = { how, at: Date.now() };
+    const keys = Object.keys(this.handled);
+    if (keys.length > 200) keys.sort((a, b) => this.handled[a].at - this.handled[b].at).slice(0, keys.length - 200).forEach((k) => delete this.handled[k]);
+    ls.set('vpa.handled', this.handled);
+    this.setRoomState(id, this.h.getState(id));
+    this._fillPanel();
+  }
+  _renderFix() {
+    const el = this.$('.pn-fix');
+    const f = this.fixFor;
+    el.hidden = !f;
+    if (f) el.innerHTML = `<span>✏ Yêu cầu sửa <b>${esc(f.name)}</b>: ${esc(f.task)}</span><button type="button" aria-label="Huỷ yêu cầu sửa">✕</button>`;
+    const ta = this.$('.pn-form textarea');
+    if (f) { if (this._ph == null) this._ph = ta.placeholder; ta.placeholder = 'Gõ điều cần sửa rồi bấm Gửi…'; }
+    else if (this._ph != null) { ta.placeholder = this._ph; this._ph = null; }
   }
 
   _renderFiles() {
@@ -184,7 +217,7 @@ export class UI {
 
   // Cập nhật nút tắt trên thanh trên (Bộ não, Kiểm duyệt) và số việc chờ duyệt
   updateDock() {
-    const waiting = this.rooms.filter((r) => this.h.getState(r.id)?.status === 'waiting');
+    const waiting = this.rooms.filter((r) => this.h.getState(r.id)?.status === 'waiting' && !this._isHandled(r.id));
     for (const [id, btn] of this.dock || []) {
       const badge = btn.querySelector('b');
       if (this.byId[id]?.gatekeeper) { badge.textContent = waiting.length || ''; badge.hidden = !waiting.length; }
@@ -261,6 +294,7 @@ export class UI {
     this.$('.pn-paths').value = ''; this.$('.pn-paths').hidden = true;
     this._setMode('message');
     if (!r.brain) this.$('.pn-form textarea').placeholder = `Nhắn cho ${r.name}…`;
+    this.fixFor = null; this._renderFix();
     const sugs = this.$('.pn-sugs');
     sugs.innerHTML = '';
     for (const s of r.suggestions || []) {
@@ -315,6 +349,13 @@ export class UI {
     }
     const type = this.mode === 'teach' ? 'teach' : 'message';
     const to = this.current;
+    const fix = this.fixFor;
+    if (fix) {
+      // gửi yêu cầu sửa kèm ngữ cảnh việc đang chờ duyệt, rồi cho việc đó rời hàng chờ
+      text = `Yêu cầu sửa việc của phòng ${fix.name} ("${fix.task}"): ${text}`;
+      this.fixFor = null; this._renderFix();
+      this._markHandled(fix.id, 'fix', fix.key);
+    }
     ta.value = ''; pathsEl.value = ''; pathsEl.hidden = true; this.pending = []; this._renderFiles();
     const extra = [
       ...files.map((f) => `📎 ${f.name}`),
@@ -363,7 +404,7 @@ export class UI {
         ? '⚠ Agent chỉ tính công và đề xuất. Việc trả tiền và ký thoả thuận do người làm.'
         : '⚠ Tin báo giá / tin nhắn khách do agent soạn. Bạn duyệt trước khi gửi.';
       this.$('.pn-warn').textContent += ' Mọi việc chờ duyệt cũng hiện ở phòng QA · Kiểm duyệt.';
-      this.$('.btn-approve').hidden = st.status !== 'waiting';
+      this.$('.btn-approve').hidden = st.status !== 'waiting' || this._isHandled(id);
     }
     if (r.gatekeeper) {
       const waiting = this.updateDock();
