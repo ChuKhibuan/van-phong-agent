@@ -12,7 +12,7 @@
  * Lưu ý: KEY nằm trong mã trang web nên chỉ chống spam ngẫu nhiên, không phải bảo mật thật.
  * Script này chỉ GHI THÊM dòng vào tab Inbox, không đọc hay sửa dữ liệu khác.
  */
-const KEY = 'doi-chuoi-nay';
+const KEY = 'vpa-74af1392b6a72d086f';
 const TYPES = ['message', 'teach', 'handoff', 'approve'];
 
 function doPost(e) {
