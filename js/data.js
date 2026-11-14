@@ -97,7 +97,8 @@ class SheetSource {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const text = await res.text();
         if (/^\s*</.test(text)) throw new Error('Link không trả về CSV (có thể Sheet chưa chia sẻ/xuất bản)');
-        const rows = parseCsv(text).map((r) => normalizeRow(r, this.resolve)).filter(Boolean);
+        // seq = vị trí dòng trong Sheet: dòng thêm sau luôn mới hơn, kể cả khi giờ ghi bị lệch
+        const rows = parseCsv(text).map((r, i) => { const n = normalizeRow(r, this.resolve); if (n) n.seq = i; return n; }).filter(Boolean);
         onRows(rows);
         onStatus({ ok: true, at: new Date() });
       } catch (e) {

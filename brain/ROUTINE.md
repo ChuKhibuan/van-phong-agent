@@ -20,7 +20,7 @@ Mỗi lượt chạy:
    - `message` gửi phòng khác → gọi đúng subagent đó với nội dung tin nhắn.
    - `handoff` (`from` → `to`) → gọi subagent `to` với nội dung; ghi Board dòng `to | working` (không ghi handoff từ `from`, vì trang web đã tự vẽ cảnh giao tài liệu).
    - `approve` → tìm việc đang `waiting` của phòng `to`; đổi bản nháp liên quan (tab `Nhap_tin` hoặc `CTV`) sang `da_duyet`, ghi Board `to | done | Đã duyệt: <task> | 100`. **Không** tự gửi tin cho khách, **không** thanh toán.
-3. **Ghi Board** (thêm dòng, không sửa dòng cũ) mỗi khi một phòng bắt đầu, đạt mốc, xong, hoặc chờ duyệt.
+3. **Ghi Board** (thêm dòng, không sửa dòng cũ; giờ lấy bằng `TZ=Asia/Ho_Chi_Minh date -Iseconds`, không đoán) mỗi khi một phòng bắt đầu, đạt mốc, xong, hoặc chờ duyệt.
    Khi giao việc sang phòng khác, dòng `done` của phòng trước phải có `handoff_to = <phòng sau>`.
 4. **Kiểm tra** kết quả mỗi bước theo skill. Sai → trả lại tối đa 2 lần, sau đó ghi `waiting` với task `Hỏi chủ: …`.
 5. **Việc tồn**: nếu có khách chưa chốt > 3 ngày (tab `Don_hang` / `Nhap_tin`), giao Bán hàng soạn tin nhắc (chờ duyệt). Nếu có đơn đã giao mà chưa thanh toán, giao Giao hàng & CSKH soạn tin nhắc (chờ duyệt).

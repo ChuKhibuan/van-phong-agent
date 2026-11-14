@@ -182,7 +182,8 @@ function startDelivery(from, to, task) {
 }
 
 function applyRows(rows) {
-  rows = rows.filter((r) => state[r.agent]).sort((a, b) => a.timestamp - b.timestamp);
+  const ord = (r) => (r.seq ?? +r.timestamp);
+  rows = rows.filter((r) => state[r.agent]).sort((a, b) => ord(a) - ord(b));
   for (const r of rows) {
     const key = `${+r.timestamp}|${r.agent}|${r.status}|${r.progress}|${r.task}`;
     if (seen.has(key)) continue;
@@ -190,7 +191,7 @@ function applyRows(rows) {
     const st = state[r.agent];
     st.history.push(r);
     if (st.history.length > 60) st.history.shift();
-    if (st.real && r.timestamp < st.real.timestamp) continue;
+    if (st.real && ord(r) < ord(st.real)) continue;
     const prev = st.real;
     st.real = r;
     if (firstBatch) { show(r.agent, r); continue; }

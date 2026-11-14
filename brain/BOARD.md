@@ -7,7 +7,7 @@ Chỉ **thêm dòng**, không sửa dòng cũ (lịch sử chính là khung chat
 
 | Cột | Ví dụ | Ghi chú |
 |---|---|---|
-| timestamp | `2026-11-14T09:05:00+07:00` | ISO 8601. Định dạng cột là *Văn bản thuần* để Sheet không tự đổi. |
+| timestamp | `2026-11-14T09:05:00+07:00` | ISO 8601, lấy bằng `TZ=Asia/Ho_Chi_Minh date -Iseconds` (không đoán giờ). Cột để dạng *Văn bản thuần*. |
 | agent | `kich-ban` | id phòng trong `config.js` (hoặc tên phòng). |
 | status | `idle` / `working` / `done` / `waiting` | `waiting` = Chờ duyệt. |
 | task | `Đơn #A12: viết kịch bản 45s` | Ngắn, tiếng Việt. |

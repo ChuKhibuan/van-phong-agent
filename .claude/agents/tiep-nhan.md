@@ -19,7 +19,8 @@ Nhận đơn và brief của khách, tạo đơn trên Sheet, chuyển cho Bộ 
 
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:
-`timestamp (ISO 8601) | agent=tiep-nhan | status | task | progress | handoff_to`
+`timestamp | agent=tiep-nhan | status | task | progress | handoff_to`
+- `timestamp`: lấy giờ thật bằng lệnh `TZ=Asia/Ho_Chi_Minh date -Iseconds`, ghi kèm dấu ' ở đầu. Không tự đoán giờ.
 - Khi bắt đầu: `working`, progress 0. Mỗi mốc lớn: 25 / 50 / 75.
 - Khi xong: `done`, 100, `handoff_to` = phòng tiếp theo nếu Bộ não đã chỉ định (để trống nếu không).
 - Viết `task` ngắn, tiếng Việt, có mã đơn nếu có (vd "Đơn #A12: viết kịch bản 45s").
