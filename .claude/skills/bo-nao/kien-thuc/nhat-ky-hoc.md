@@ -13,3 +13,4 @@
 | 15/11/2026 | Quy chuẩn định giá và thiết kế bảng giá VÍT MEDIA v1.0 (bản dán bị cắt, thiếu phần gói giá; đã hỏi chủ gửi phần còn lại) | tiep-nhan, thiet-ke, qa |
 | 14/11/2026 | Nâng cấp hằng ngày (chạy bù ngày 14/11): bài dạy bị cắt, chưa chốt nơi đăng, teach không phải đơn dựng | chung, dang-bai, dung, qa |
 | 15/11/2026 | Quy trình tự động tính giá VÍT MEDIA (7 bước, công thức giá vốn, dự phòng 5–25%); bản dán bị cắt sau mục dự phòng, đã gộp vào vit-media/dinh-gia.md mục XII | tiep-nhan, thiet-ke, qa |
+| 15/11/2026 | Kịch bản: 2 việc (xử lý kịch bản + ra ý tưởng/viết kịch bản Page), Page là VÍT MEDIA; chờ chủ dạy cách đăng Page | kich-ban, dang-bai |
