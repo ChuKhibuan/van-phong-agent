@@ -1,6 +1,8 @@
 # Quy chuẩn định giá và bảng giá VÍT MEDIA (v1.0)
 
 Chủ dạy ngày 15/11/2026, gửi làm hai lần. Phần đầu (mục I–III bước 2) bị cắt khi dán nên chỉ còn bản tóm tắt; phần sau (từ mục III bước 2 cuối đến XI) chép theo bản chủ gửi bổ sung.
+
+> Phần bổ sung mới hơn (agent ghi khi chạy tự động) nằm ở `tri-thuc/bo-sung/vit-media-*.md`: đọc kèm, bản đó mới hơn chỗ nào mâu thuẫn.
 Dùng cho phòng Báo giá (`tiep-nhan`), Thiết kế, QA. Mọi báo giá vẫn chuyển QA để chủ duyệt rồi người gửi.
 
 ## I–III. Phân tích trước khi báo giá (tóm tắt phần đầu)

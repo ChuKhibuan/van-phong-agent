@@ -33,7 +33,7 @@ Với mỗi phòng có việc hôm nay, viết 1–5 bài học. Một bài họ
 - Mỗi file phòng giữ dưới ~80 dòng: dồn các bài học cũ cùng chủ đề thành một quy tắc chung.
 - Bài học áp cho cả văn phòng → `tri-thuc/kien-thuc/chung.md`; điều quan trọng nhất → `tri-thuc/cot-loi.md` (tối đa ~30 dòng).
 - Bài học mà **phòng sau trong chuỗi** cũng cần (bảng "Kiến thức chảy xuôi" trong `kho/quy-trinh.md`) → thêm một dòng ngắn vào mục `## Nhận từ phòng khác` của phòng sau: `- (dd/mm/yyyy · từ <phòng>) …`.
-- Phòng có skill chuyên môn (`hoang-ha-makeup-video`, `vit-media`, `so-tay-thiet-ke`) và bài học thuộc chuyên môn đó: thêm vào file kiến thức của phòng, ghi rõ "bổ sung cho skill <tên>"; không sửa thẳng file skill chuyên môn (để QA làm).
+- Phòng có skill chuyên môn (`hoang-ha-makeup-video`, `vit-media`, `so-tay-thiet-ke`) và bài học thuộc chuyên môn đó: ghi vào `tri-thuc/bo-sung/<tên-skill>-<chủ-đề>.md` (thư mục `.claude/` không ghi được khi chạy tự động); không sửa thẳng file skill chuyên môn.
 - `tri-thuc/kien-thuc/nhat-ky-hoc.md`: một dòng `ngày · Nâng cấp hằng ngày: <tóm tắt> · <các phòng>`.
 
 ## 3b. Làm cho ngày mai rẻ hơn (sổ hỏi đáp, công thức)
