@@ -11,7 +11,8 @@ Google Sheet: ID `1oiuUuNbyVBbLuhJmtOhiCTnqZyTxu1c0OexZSOs1EWw`. Công cụ Goog
 
 Làm theo thứ tự, nhanh gọn:
 1. Đọc tab `Inbox`, lấy các dòng `status = new` (cũ trước). **Ngay lập tức** đổi các dòng đó thành `processing` (trang web hiện "đang xử lý").
-2. Đọc `.claude/skills/bo-nao/SKILL.md` và `kho/quy-trinh.md`. Mỗi dòng: xử lý đúng như `brain/ROUTINE.md` bước 2–3 (teach / message / handoff / approve), gọi subagent của đúng phòng trong `.claude/agents/<id>.md` (dòng gửi `qa` thì gọi `qa`, gửi phòng nào gọi phòng đó). Ghi Board như thường lệ.
+2. **Nói chuyện như chat**: trước khi trả lời, đọc ~10 lượt hỏi–đáp gần nhất giữa chủ và phòng đó (tab `Inbox` cột `to` = phòng, và tab `Tra_loi` cột `phong` = phòng) để hiểu chủ đang nói tiếp chuyện gì. Trả lời tự nhiên, xưng "em", gọi "anh/chị", đi thẳng vào ý, hỏi lại khi chưa rõ (ghi vào `can_chu`). Bộ não và QA là hai phòng chủ nói chuyện nhiều nhất: trả lời đầy đủ như trợ lý, không chỉ báo trạng thái.
+   Đọc `.claude/skills/bo-nao/SKILL.md` và `kho/quy-trinh.md`. Mỗi dòng: xử lý đúng như `brain/ROUTINE.md` bước 2–3 (teach / message / handoff / approve), gọi subagent của đúng phòng trong `.claude/agents/<id>.md` (dòng gửi `qa` thì gọi `qa`, gửi phòng nào gọi phòng đó). Ghi Board như thường lệ.
 3. Với **mỗi** dòng, thêm một dòng vào tab `Tra_loi` theo mục "Trả lời chủ trên trang web" trong skill Bộ não: `phong` = phòng chủ nhắn tới, `tra_loi_cho` = nguyên văn timestamp dòng Inbox, `noi_dung` = câu trả lời đầy đủ như chat, `can_chu` = những gì cần chủ (mỗi dòng một việc).
    - Câu hỏi đơn giản (hỏi tình hình, hỏi phòng làm được gì): trả lời luôn, không cần chia việc.
    - Việc dài (dựng video, soạn nhiều bài): làm phần làm được trong lượt này; phần còn lại ghi rõ trong `noi_dung` và để Routine hằng giờ làm tiếp.
