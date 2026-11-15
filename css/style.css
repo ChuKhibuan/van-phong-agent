@@ -292,3 +292,9 @@ html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; text-size-adjus
   .panel.open { transform: none; }
   .has-chat .pn-queue, .has-chat .pn-kho { max-height: 28vh; }
 }
+@media (max-height: 520px) {
+  .pn-zone, .pn-status, .pn-progress, .pn-task, .pn-hand, .pn-attach { display: none !important; }
+  .pn-modes .seg { padding: 4px 8px; font-size: 12.5px; }
+  .pn-msgs { min-height: 0; flex: 1; }
+  .pn-form textarea { min-height: 40px; max-height: 64px; }
+}
