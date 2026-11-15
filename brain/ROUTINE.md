@@ -22,6 +22,7 @@ Chủ chỉ làm việc trực tiếp với **Bộ não** và **QA · Kiểm duy
 
 Mỗi lượt chạy:
 1. Đọc tab `Inbox`, lấy dòng `status = new`, cũ nhất trước; đổi thành `processing` trước khi xử lý. Cột `files` là link Google Drive file chủ gửi kèm (đọc bằng công cụ Google Drive). Cột `paths` là đường dẫn trên máy chủ: bạn không mở được, ghi nguyên văn vào việc giao cho phòng.
+   **Việc cần máy của chủ** (mở / đăng trên Chrome, Facebook, file trong cột `paths`, Canva khi cloud không có Canva): bạn không làm được trên cloud. Làm phần làm được (soạn nội dung, nháp), đổi dòng Inbox thành `cho_may` (không phải `done`), note "Chờ máy trực", và ghi một dòng `Tra_loi`: "Việc này cần máy tính của anh/chị, em đã soạn sẵn <phần đã làm>; máy bật là em làm tiếp ngay." Máy trực sẽ tự nhặt dòng `cho_may` khi máy bật. Lượt sau gặp dòng `cho_may` thì bỏ qua.
 2. Xử lý theo `type`:
    - `teach`: học theo skill; cập nhật `SKILL.md`, `kien-thuc/`, nhật ký học; gửi tóm tắt cho Lưu trữ. Ghi Board `bo-nao | done | Học: <tóm tắt> | 100 | <các phòng nhận>,luu-tru`.
    - `message` gửi `bo-nao`: chia việc theo `kho/quy-trinh.md`; mỗi bước ghi Board phòng đó `working`, gọi subagent, rồi `done` với `handoff_to` = phòng kế tiếp.

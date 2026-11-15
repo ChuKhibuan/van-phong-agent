@@ -12,3 +12,8 @@ Bảng màu, font, mẫu thumbnail/ảnh bìa, logo.
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (15/11/2026 · deck VinFast HRM) Canva MCP rất tốn ngữ cảnh: mỗi edit-design trả về cả trang (15–25k token). Gộp mọi thao tác của 1 trang vào 1 lần gọi; chỉ đọc design_content khi cần và lọc từ file kết quả bằng PowerShell (máy không có Python).
+- (15/11/2026 · deck VinFast HRM) Deck nhập từ ảnh (thẻ là ảnh cắt rời) thì không đổi màu/chữ được, chỉ thay nền, khung, dải trang trí. Báo trước cho chủ biết làm được tới đâu rồi mới làm.
+- (15/11/2026 · deck VinFast HRM) Chèn ảnh vào Canva: ảnh dán trong chat không thành file trên máy → nhờ chủ tải lên Canva, rồi list-folder-items "uploads" → update_fill/insert_fill. Ảnh lớn bị crop mất chủ thể thì chỉnh bằng crop_media.
+- (15/11/2026 · deck VinFast HRM) Text box co giãn tự nhiên bị co lại sau format_text, chữ không xuống dòng → resize_element lại width ngay.
+- (15/11/2026 · deck VinFast HRM) Phong cách "tạp chí xanh" chủ thích: nền trắng/xanh rất nhạt #F5F8FF, mảng xanh chéo #2A4FD8 + dải mờ #A9BEFF (opacity 0.6), gạch dưới tiêu đề, nhãn chương xanh, slide kết nền xanh chữ trắng. Luôn sửa trên bản sao, giữ nguyên bản gốc.
