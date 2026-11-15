@@ -11,4 +11,8 @@ Checklist kiểm tra trước khi giao: đúng brief, chính tả phụ đề, �
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (15/11/2026 · việc thật) Khi chào chủ, đánh số danh sách việc chờ: chủ trả lời theo số (vd "1." kèm nội dung, hay chỉ "Đăng vào nhóm" cho câu hỏi đang mở) và QA tự hiểu là trả lời việc nào, không hỏi lại.
+- (15/11/2026 · việc thật) Chủ dán phần tài liệu dạy còn thiếu ngay ở QA: QA ghép vào skill (vd `vit-media/dinh-gia.md`), cập nhật kiến thức các phòng dùng nó, ghi `kho/dinh-chinh.md` và "Mới cập nhật", push, rồi nhắn từng phòng liên quan đọc bản mới.
+- (15/11/2026 · việc thật) Chủ duyệt nơi đăng chung chung ("đăng vào nhóm", không tên nhóm): đổi Nhap_tin `da_duyet`, ghi rõ cột kênh (hội nhóm đúng chủ đề, cho phép quảng bá, dưới tên Page Vít media), Board `done` cho Đăng bài; người đăng chọn nhóm theo `dang-bai-facebook.md`, không bắt chủ kể tên nhóm.
+- (15/11/2026 · máy chủ) Máy chủ Windows không có Python/Node: sửa file bằng công cụ Edit, không dùng script. `TZ=Asia/Ho_Chi_Minh date` trong Git Bash trả giờ UTC; lấy giờ VN bằng `date -u -d '+7 hours' +%Y-%m-%dT%H:%M:%S+07:00`. Thư mục Drive `00 · Chờ QA duyệt` có thể trống; vẫn kiểm mỗi lượt.
 - (14/11/2026 · việc thật) Bản nháp thiếu thông tin chủ phải chốt (nơi đăng, giá) thì ghi `waiting` kèm câu `Hỏi chủ:` cụ thể, đối chiếu mẫu skill (độ dài, số liên hệ, không giá/cam kết) trước khi chuyển chủ.
