@@ -45,4 +45,5 @@ Chỉ thêm dòng; QA được sửa cột `trang_thai`, `thu_muc`, `ghi_chu`.
 ## Thông tin khách
 
 - Repo: tuyệt đối không ghi số điện thoại, số tài khoản, giấy tờ, địa chỉ của khách.
-- Drive: chỉ lưu thông tin liên hệ khách khi thư mục `1.1 AI bộ nhớ` ở chế độ **hạn chế** (kiểm tra `get_file_metadata` có `includeRichMetadata`: `visibility` phải là `PRIVATE`/`limited`, không phải `UNLISTED` hay `anyone`). Nếu đang chia sẻ bằng link: bỏ thông tin liên hệ khỏi file và ghi Board `qa | waiting | Hỏi chủ: thư mục Drive đang chia sẻ bằng link, chuyển về hạn chế để lưu thông tin khách | 100`.
+- Drive: chủ đã chọn **giữ chia sẻ bằng link** cho thư mục `1.1 AI bộ nhớ` (15/11/2026), nên KHÔNG lưu số điện thoại, số tài khoản, giấy tờ, địa chỉ của khách vào bất kỳ file nào trên Drive. Chỉ ghi tên gọi ngắn hoặc mã đơn (`#A…`). Không hỏi lại chủ về việc chuyển chế độ chia sẻ.
+- Cần thông tin liên hệ của khách thì ghi "xem trong Zalo/tin nhắn gốc" thay vì chép số.
