@@ -19,3 +19,5 @@ Các kênh, lịch đăng, mẫu caption, hashtag, cách đo bài nào kéo khá
 ## Nhận từ phòng khác
 <!-- Điều phòng trước trong chuỗi đã học mà phòng này cần. Mỗi dòng: - (dd/mm/yyyy · từ <phòng>) nội dung -->
 - (15/11/2026 · chủ dặn) Kịch bản làm xong thì chuyển thẳng sang phòng này kèm phiếu bàn giao (`kho/quy-trinh.md`); chữ Kịch bản đã chốt (hook, tiêu đề, chữ trên ảnh, caption) dùng nguyên văn.
+
+- (15/11/2026 · chủ dặn) Chủ cho phép Đăng bài tự đính ảnh từ `D:\2.Vid media\Bài đăng` (khi đã nhận lệnh trực tiếp) và chỉ cần báo vào QA khi xong. Công cụ upload của Chrome chỉ nhận file trong thư mục phiên được phép và Business Suite không lộ ô file ẩn: máy trực chưa đính được ảnh, cần mở phòng Đăng bài trong app Claude (computer use) hoặc chủ đính tay.
