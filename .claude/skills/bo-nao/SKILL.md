@@ -1,6 +1,6 @@
 ---
 name: bo-nao
-description: Bộ não trung tâm của Văn phòng agent. Dùng mỗi khi cần xử lý Inbox, học kiến thức chủ dạy, chia việc cho các phòng (Bán hàng, Đăng bài, Kịch bản & phụ đề, Dựng, Thiết kế, QA, Báo giá, Quản lý CTV, Giao hàng & CSKH), hoặc khi một phòng cần biết quy tắc, bảng giá, giọng văn, quy trình của doanh nghiệp. Skill này TỰ CẬP NHẬT: mỗi bài dạy mới được tóm tắt vào đây và vào kien-thuc/.
+description: Bộ não trung tâm của Văn phòng agent. Dùng mỗi khi cần xử lý Inbox, học kiến thức chủ dạy, chia việc cho các phòng (Bán hàng, Đăng bài, Kịch bản & phụ đề, Dựng, Thiết kế, QA, Báo giá, Quản lý CTV, Giao hàng & CSKH), hoặc khi một phòng cần biết quy tắc, bảng giá, giọng văn, quy trình của doanh nghiệp. Skill này TỰ CẬP NHẬT: mỗi bài dạy mới được tóm tắt vào thư mục tri-thuc/ (kiến thức các phòng, cốt lõi, hỏi đáp, công thức).
 ---
 
 # Bộ não — kiến thức sống của văn phòng
@@ -17,10 +17,10 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 2. Viết lại thành gạch đầu dòng ngắn, mỗi dòng một ý, có ngày học `(dd/mm/yyyy)`.
 3. Quyết định phòng nào cần biết (xem bảng dưới). Một bài có thể đi nhiều phòng.
 4. Ghi vào:
-   - `kien-thuc/chung.md` nếu cả văn phòng cần biết (tên thương hiệu, giọng văn, giờ làm…).
-   - `kien-thuc/<id-phòng>.md` cho phòng liên quan.
-   - Mục **Kiến thức cốt lõi** bên dưới: chỉ những điều quan trọng nhất (tối đa ~30 dòng). Nếu dài hơn, gộp hoặc chuyển chi tiết xuống file phòng.
-   - `kien-thuc/nhat-ky-hoc.md`: một dòng `ngày · tóm tắt · phòng nhận`.
+   - `tri-thuc/kien-thuc/chung.md` nếu cả văn phòng cần biết (tên thương hiệu, giọng văn, giờ làm…).
+   - `tri-thuc/kien-thuc/<id-phòng>.md` cho phòng liên quan.
+   - `tri-thuc/cot-loi.md` (Kiến thức cốt lõi): chỉ những điều quan trọng nhất (tối đa ~30 dòng). Nếu dài hơn, gộp hoặc chuyển chi tiết xuống file phòng.
+   - `tri-thuc/kien-thuc/nhat-ky-hoc.md`: một dòng `ngày · tóm tắt · phòng nhận`.
 5. Nếu bài dạy **mâu thuẫn** với điều đã học: kiến thức mới thắng, sửa dòng cũ (không để hai dòng trái nhau), ghi chú `(thay cho …)` trong nhật ký.
 6. Nếu bài dạy **mơ hồ** (thiếu con số, không rõ áp dụng cho ai): vẫn ghi phần chắc chắn, và ghi một câu hỏi vào Board (`status = waiting`, task bắt đầu bằng `Hỏi chủ:`).
 7. Ghi Board: `bo-nao | done | Học: <tóm tắt 1 dòng> | 100 | <các phòng nhận, cách nhau dấu phẩy>`.
@@ -46,6 +46,7 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 - Chuỗi phòng của từng quy trình nằm trong `kho/quy-trinh.md` (và `config.js` → `flows`). Đơn dựng video:
   `tiep-nhan → bo-nao → kich-ban → dung → thiet-ke → qa → giao-hang → luu-tru → qa`.
 - Mỗi bước: gọi subagent của phòng (`.claude/agents/<id>.md`), đưa đủ ngữ cảnh (mã đơn, brief, kết quả bước trước, link file, đường dẫn trên máy chủ). Phòng làm xong ghi `done` với `handoff_to` = phòng kế tiếp; chỉ gọi phòng kế tiếp sau khi phòng trước đã xong.
+- Phòng liên quan chuyền tay ngay trong cùng lượt bằng **phiếu bàn giao** (mẫu trong `kho/quy-trinh.md`); điều phòng trước học được mà phòng sau cần thì ghi vào mục `## Nhận từ phòng khác` của phòng sau.
 - Không bỏ qua **QA** trước khi giao khách.
 - Việc không thuộc phòng nào: Bộ não tự làm hoặc hỏi chủ.
 
@@ -84,7 +85,7 @@ Chủ đọc và làm việc ngay trên trang web, nên mỗi tin của chủ (d
 
 ## Nâng cấp skill hằng ngày (18:30, Thứ 2–Thứ 7)
 
-- Routine riêng chạy `brain/NANG-CAP.md`: gom việc thật trong ngày (Board, Inbox, bản nháp, đính chính), rút 1–5 bài học cho mỗi phòng có việc, ghi vào mục `## Bài học từ việc thật` của `kien-thuc/<phòng>.md`, QA soát, đẩy lên GitHub, bản tin lưu Drive `02 · Bản tin nâng cấp skill`.
+- Routine riêng chạy `brain/NANG-CAP.md`: gom việc thật trong ngày (Board, Inbox, bản nháp, đính chính), rút 1–5 bài học cho mỗi phòng có việc, ghi vào mục `## Bài học từ việc thật` của `tri-thuc/kien-thuc/<phòng>.md`, QA soát, đẩy lên GitHub, bản tin lưu Drive `02 · Bản tin nâng cấp skill`.
 - Mọi phòng đọc mục đó trước khi làm, nên sáng hôm sau cả văn phòng đã dùng bài học hôm trước.
 - Điều chủ sửa luôn được ưu tiên thành bài học; cách làm được chủ duyệt ngay cũng ghi lại để lặp lại.
 
@@ -99,25 +100,19 @@ Chủ đọc và làm việc ngay trên trang web, nên mỗi tin của chủ (d
 - Sai → ghi Board `working` cho phòng đó với task `Sửa: <lý do>` và gọi lại subagent (tối đa 2 lần), sau đó hỏi chủ.
 
 ## Kiến thức cốt lõi
-<!-- Bộ não tự cập nhật mục này. Giữ ngắn gọn, mới nhất ở trên. -->
-
-- (14/11/2026) Hai thương hiệu tách riêng: **Hoàng Hà Makeup** (ngành cưới, skill `hoang-ha-makeup-video`, chuẩn mới nhất `kien-thuc-HH-MAKEUP-V2.md`) và **VÍT MEDIA** (edit video, video AI, thiết kế; không nhận cưới; skill `vit-media`). Thiết kế dùng thêm skill `so-tay-thiet-ke`.
-- (14/11/2026) Đăng bài / bình luận Facebook: agent chỉ soạn, chuyển QA, chủ duyệt, người bấm đăng. Không giá, thời hạn, kinh nghiệm chưa xác nhận.
-- (14/11/2026) Video cô dâu / makeup làm theo skill `hoang-ha-makeup-video` (Dựng, Kịch bản, Thiết kế, QA cùng dùng). Mỗi clip một bài nhạc outro riêng; thiếu thì hỏi chủ.
-- (14/11/2026) Tin gửi khách (báo giá, nhắc khách, gửi file, nhắc thanh toán) do Bán hàng hoặc Giao hàng & CSKH soạn, chủ duyệt rồi mới gửi.
-- (14/11/2026) Quản lý CTV chỉ tính công và đề xuất hoa hồng; trả tiền và ký thoả thuận với CTV luôn do người làm.
+Nằm ở `tri-thuc/cot-loi.md` (thư mục tri-thuc/ là nơi các phòng tự ghi được; file skill này chỉ chủ sửa). Đọc file đó trước khi làm.
 
 ## Vận hành tiết kiệm token
 Việc của văn phòng lặp lại hằng ngày, nên mỗi lần lặp phải rẻ hơn lần trước:
-- **Câu hỏi** → `hoi-dap.md` trước. **Việc lặp lại** → `cong-thuc/` trước. Có thì làm theo, không nghĩ lại từ đầu.
+- **Câu hỏi** → `tri-thuc/hoi-dap.md` trước. **Việc lặp lại** → `tri-thuc/cong-thuc/` trước. Có thì làm theo, không nghĩ lại từ đầu.
 - Đọc đúng mục cần (Grep rồi Read đoạn đó), đúng dải dòng Sheet cần; không đọc cả tab, cả thư mục. Ghi Sheet theo lô.
-- Việc ngắn tự làm với `kien-thuc/<phòng>.md` của phòng đó; chỉ gọi subagent khi việc dài nhiều bước hoặc công thức yêu cầu.
+- Việc ngắn tự làm với `tri-thuc/kien-thuc/<phòng>.md` của phòng đó; chỉ gọi subagent khi việc dài nhiều bước hoặc công thức yêu cầu.
 - Đọc web bằng chữ (`get_page_text`, `find`), hạn chế chụp màn hình.
-- Làm xong một kiểu việc mới mà sẽ lặp lại → viết công thức. Vòng nâng cấp cuối ngày gộp câu hỏi lặp vào `hoi-dap.md`.
+- Làm xong một kiểu việc mới mà sẽ lặp lại → viết công thức. Vòng nâng cấp cuối ngày gộp câu hỏi lặp vào `tri-thuc/hoi-dap.md`.
 
 ## Tài liệu tham khảo
-- `hoi-dap.md` — câu chủ hay hỏi. `cong-thuc/` — cách làm sẵn cho việc lặp lại.
-- `kien-thuc/chung.md` — mọi phòng đọc trước khi làm.
-- `kien-thuc/<id-phòng>.md` — kiến thức riêng từng phòng.
-- `kien-thuc/nhat-ky-hoc.md` — lịch sử học.
+- `tri-thuc/hoi-dap.md` — câu chủ hay hỏi. `tri-thuc/cong-thuc/` — cách làm sẵn cho việc lặp lại.
+- `tri-thuc/kien-thuc/chung.md` — mọi phòng đọc trước khi làm.
+- `tri-thuc/kien-thuc/<id-phòng>.md` — kiến thức riêng từng phòng.
+- `tri-thuc/kien-thuc/nhat-ky-hoc.md` — lịch sử học.
 - `../../../brain/BOARD.md` — định dạng các tab Google Sheet.

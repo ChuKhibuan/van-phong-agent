@@ -17,7 +17,7 @@ Mỗi mục:
 Các phòng `waiting` trong phần tình trạng kèm theo, cộng việc ở `qa`. Nêu từng việc và chủ cần làm gì. · nguồn: tab Board
 
 ### Phòng X làm được gì?
-Tóm tắt từ dòng `description` trong `.claude/agents/<id>.md` và mục đầu của `kien-thuc/<id>.md`. · nguồn: repo
+Tóm tắt từ dòng `description` trong `.claude/agents/<id>.md` và mục đầu của `tri-thuc/kien-thuc/<id>.md`. · nguồn: repo
 
 ### Agent có dùng được máy tính (computer use) không?
 Máy trực có Chrome của chủ, Canva, Google Sheets/Drive/Docs, file trên máy. Không điều khiển được app desktop (CapCut, Zalo…): việc đó cần mở phòng trong app Claude. · nguồn: brain/TRA-LOI-NGAY.md

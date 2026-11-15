@@ -22,7 +22,7 @@ Kinh doanh     │           │          │
 | `config.js` | **File cấu hình duy nhất**: các phòng, khu, lối đi, quy trình, nguồn dữ liệu. |
 | `index.html`, `css/`, `js/` | Trang web tĩnh (Three.js qua CDN, không cần build). |
 | `js/data.js` | Lớp dữ liệu: Google Sheet CSV, dữ liệu mẫu, khung WebSocket. Đổi nguồn không phải sửa giao diện. |
-| `.claude/skills/bo-nao/` | **Bộ não dạng skill**: `SKILL.md` + `kien-thuc/` (kiến thức chung và từng phòng). Routine tự cập nhật sau mỗi bài dạy. |
+| `.claude/skills/bo-nao/` | **Bộ não dạng skill**: `SKILL.md` (hướng dẫn, chủ sửa). Kiến thức các phòng tự ghi nằm ở `tri-thuc/` (cốt lõi, kiến thức phòng, hỏi đáp, công thức). |
 | `.claude/agents/` | 10 subagent, mỗi phòng một file (vai trò, quy tắc, cổng duyệt). |
 | `brain/ROUTINE.md` | Prompt dán vào Claude Code Routine. |
 | `brain/BOARD.md` | Định dạng các tab Google Sheet. |
@@ -77,7 +77,7 @@ Mở phòng **Bộ não** → **Dạy kiến thức** → gõ, ví dụ:
 "Gói dựng video cưới 60 giây giá 1.500.000đ, giao trong 3 ngày, sửa miễn phí 2 lần."
 
 Lượt chạy kế tiếp, Bộ não:
-1. Tóm tắt thành quy tắc ngắn, ghi vào `SKILL.md` (mục Kiến thức cốt lõi) và `kien-thuc/sales.md`, `tiep-nhan.md`, `giao-hang.md`.
+1. Tóm tắt thành quy tắc ngắn, ghi vào `tri-thuc/cot-loi.md` và `tri-thuc/kien-thuc/sales.md`, `tiep-nhan.md`, `giao-hang.md`.
 2. Ghi nhật ký học, commit.
 3. Ghi Board `bo-nao | done | Học: … | 100 | sales,tiep-nhan,giao-hang` → trên trang bạn thấy 3 nhân viên cầm tài liệu đi sang 3 phòng.
 
@@ -92,7 +92,7 @@ Lượt chạy kế tiếp, Bộ não:
 Trong `config.js`:
 1. Chép một khối trong `rooms`, đổi `id`, `name`, `zone`, `x`, `z`, `level`, màu, `staff`, `props`, `suggestions`.
 2. Thêm dòng vào `links` nối với phòng kề bên, ví dụ `['qa', 'phong-moi', 'stairs']`.
-3. (Cho bộ não) thêm `.claude/agents/<id>.md` và `.claude/skills/bo-nao/kien-thuc/<id>.md` — có thể chép từ phòng tương tự.
+3. (Cho bộ não) thêm `.claude/agents/<id>.md` và `tri-thuc/kien-thuc/<id>.md` — có thể chép từ phòng tương tự.
 
 Gợi ý vị trí: các phòng cách nhau 11 m theo x hoặc z. Mỗi `level` cao 1,6 m; hai phòng khác tầng sẽ tự có cầu thang.
 

@@ -11,4 +11,4 @@ Danh mục mọi skill các phòng đang dùng. Skill nằm trong `.claude/skill
 
 ## Kiến thức theo phòng
 
-Kiến thức chi tiết của từng phòng nằm trong `.claude/skills/bo-nao/kien-thuc/<id-phòng>.md`.
+Kiến thức chi tiết của từng phòng nằm trong `tri-thuc/kien-thuc/<id-phòng>.md`.

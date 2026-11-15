@@ -9,3 +9,7 @@ Phong cách dựng, nhạc, nhịp cắt, định dạng xuất (vd 1080x1920), 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (14/11/2026 · chủ sửa) Nhận nội dung teach không phải đơn dựng: không đòi footage, voice, nhạc outro; chỉ hỏi các thứ đó khi có đơn sản xuất thật.
+
+## Nhận từ phòng khác
+<!-- Điều phòng trước trong chuỗi đã học mà phòng này cần. Mỗi dòng: - (dd/mm/yyyy · từ <phòng>) nội dung -->
+- (15/11/2026 · chủ dặn) Kịch bản làm xong thì chuyển thẳng sang phòng này kèm phiếu bàn giao (`kho/quy-trinh.md`); chữ Kịch bản đã chốt (hook, tiêu đề, chữ trên ảnh, caption) dùng nguyên văn.

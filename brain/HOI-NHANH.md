@@ -11,7 +11,7 @@ Google Sheet: ID `1oiuUuNbyVBbLuhJmtOhiCTnqZyTxu1c0OexZSOs1EWw`. Công cụ Goog
 
 Làm đúng thứ tự, ít bước nhất có thể:
 1. Với các dòng Inbox trong phần "Tin cần trả lời": đọc đúng các dòng đó bằng một lệnh `get_values` (ví dụ `Inbox!A12:I14`) để lấy `timestamp` nguyên văn, rồi đổi cột F thành `processing` (một lệnh `update_values` cho mỗi dòng hoặc một dải liền). **Không** đọc cả tab Inbox, Tra_loi, Board: ngữ cảnh đã có sẵn ở dưới.
-2. Trả lời từng câu dựa trên: phần dữ liệu gửi kèm, `.claude/skills/bo-nao/hoi-dap.md` (câu chủ hay hỏi, đọc trước tiên), và khi cần thì đọc đúng một file `kien-thuc/<phòng>.md` hoặc `kho/...` liên quan (dùng Grep để tìm, không đọc cả thư mục).
+2. Trả lời từng câu dựa trên: phần dữ liệu gửi kèm, `tri-thuc/hoi-dap.md` (câu chủ hay hỏi, đọc trước tiên), và khi cần thì đọc đúng một file `tri-thuc/kien-thuc/<phòng>.md` hoặc `kho/...` liên quan (dùng Grep để tìm, không đọc cả thư mục).
    Xưng "em", gọi "anh/chị", đi thẳng vào ý, ngắn gọn, đúng sự thật. Không biết thì nói chưa có thông tin và đưa câu hỏi vào `can_chu`. Không bịa giá, số liệu, tên khách.
 3. **Nếu một tin hoá ra là giao việc** (cần soạn, tạo, đăng, sửa, học, duyệt… hoặc cần công cụ khác ngoài Sheets): KHÔNG làm. Đổi cột G (`note`) của dòng đó thành đúng chữ `chuyen_lon`, giữ status `processing`, không ghi `Tra_loi` cho dòng đó. Máy trực sẽ tự giao cho lượt lớn (Sonnet) ngay sau.
 4. Ghi **tất cả** câu trả lời vào tab `Tra_loi` bằng **một** lệnh `append_values` (mỗi tin một dòng): `timestamp` = giờ thật trong dữ liệu gửi kèm, có dấu ' ở đầu | `phong` = cột `to` của tin | `tra_loi_cho` = nguyên văn timestamp dòng Inbox | `noi_dung` = câu trả lời (markdown gọn) | `can_chu` = việc cần chủ, mỗi dòng một việc, không có thì để trống.

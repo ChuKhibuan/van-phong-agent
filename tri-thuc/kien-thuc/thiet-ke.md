@@ -17,3 +17,7 @@ Bảng màu, font, mẫu thumbnail/ảnh bìa, logo.
 - (15/11/2026 · deck VinFast HRM) Chèn ảnh vào Canva: ảnh dán trong chat không thành file trên máy → nhờ chủ tải lên Canva, rồi list-folder-items "uploads" → update_fill/insert_fill. Ảnh lớn bị crop mất chủ thể thì chỉnh bằng crop_media.
 - (15/11/2026 · deck VinFast HRM) Text box co giãn tự nhiên bị co lại sau format_text, chữ không xuống dòng → resize_element lại width ngay.
 - (15/11/2026 · deck VinFast HRM) Phong cách "tạp chí xanh" chủ thích: nền trắng/xanh rất nhạt #F5F8FF, mảng xanh chéo #2A4FD8 + dải mờ #A9BEFF (opacity 0.6), gạch dưới tiêu đề, nhãn chương xanh, slide kết nền xanh chữ trắng. Luôn sửa trên bản sao, giữ nguyên bản gốc.
+
+## Nhận từ phòng khác
+<!-- Điều phòng trước trong chuỗi đã học mà phòng này cần. Mỗi dòng: - (dd/mm/yyyy · từ <phòng>) nội dung -->
+- (15/11/2026 · chủ dặn) Kịch bản làm xong thì chuyển thẳng sang phòng này kèm phiếu bàn giao (`kho/quy-trinh.md`); chữ Kịch bản đã chốt (hook, tiêu đề, chữ trên ảnh, caption) dùng nguyên văn.
