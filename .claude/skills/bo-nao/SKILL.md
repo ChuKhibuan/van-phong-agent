@@ -107,7 +107,16 @@ Chủ đọc và làm việc ngay trên trang web, nên mỗi tin của chủ (d
 - (14/11/2026) Tin gửi khách (báo giá, nhắc khách, gửi file, nhắc thanh toán) do Bán hàng hoặc Giao hàng & CSKH soạn, chủ duyệt rồi mới gửi.
 - (14/11/2026) Quản lý CTV chỉ tính công và đề xuất hoa hồng; trả tiền và ký thoả thuận với CTV luôn do người làm.
 
+## Vận hành tiết kiệm token
+Việc của văn phòng lặp lại hằng ngày, nên mỗi lần lặp phải rẻ hơn lần trước:
+- **Câu hỏi** → `hoi-dap.md` trước. **Việc lặp lại** → `cong-thuc/` trước. Có thì làm theo, không nghĩ lại từ đầu.
+- Đọc đúng mục cần (Grep rồi Read đoạn đó), đúng dải dòng Sheet cần; không đọc cả tab, cả thư mục. Ghi Sheet theo lô.
+- Việc ngắn tự làm với `kien-thuc/<phòng>.md` của phòng đó; chỉ gọi subagent khi việc dài nhiều bước hoặc công thức yêu cầu.
+- Đọc web bằng chữ (`get_page_text`, `find`), hạn chế chụp màn hình.
+- Làm xong một kiểu việc mới mà sẽ lặp lại → viết công thức. Vòng nâng cấp cuối ngày gộp câu hỏi lặp vào `hoi-dap.md`.
+
 ## Tài liệu tham khảo
+- `hoi-dap.md` — câu chủ hay hỏi. `cong-thuc/` — cách làm sẵn cho việc lặp lại.
 - `kien-thuc/chung.md` — mọi phòng đọc trước khi làm.
 - `kien-thuc/<id-phòng>.md` — kiến thức riêng từng phòng.
 - `kien-thuc/nhat-ky-hoc.md` — lịch sử học.

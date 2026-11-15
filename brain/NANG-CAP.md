@@ -18,6 +18,7 @@ Google Sheet văn phòng: ID `1oiuUuNbyVBbLuhJmtOhiCTnqZyTxu1c0OexZSOs1EWw`. Gi�
 - `kho/dinh-chinh.md` và `git log --since=midnight`: đính chính, thay đổi hôm nay.
 - Drive `Danh mục tài liệu`: file mới hôm nay, file `tra_lai`.
 Không có hoạt động nào hôm nay → dừng, không ghi gì, trả lời "Hôm nay không có việc để rút bài học".
+Tiết kiệm: các tab chỉ thêm dòng ở cuối, nên lấy số dòng bằng `get_spreadsheet` rồi chỉ đọc khoảng 150 dòng cuối mỗi tab (đủ cho một ngày); không đọc cả tab. Kiểm tra trước tab `Board` và `Inbox`: không có dòng nào hôm nay thì dừng luôn, không đọc tab, file khác.
 
 ## 2. Rút bài học cho từng phòng
 Với mỗi phòng có việc hôm nay, viết 1–5 bài học. Một bài học tốt:
@@ -34,6 +35,10 @@ Với mỗi phòng có việc hôm nay, viết 1–5 bài học. Một bài họ
 - Phòng có skill chuyên môn (`hoang-ha-makeup-video`, `vit-media`, `so-tay-thiet-ke`) và bài học thuộc chuyên môn đó: thêm vào file kiến thức của phòng, ghi rõ "bổ sung cho skill <tên>"; không sửa thẳng file skill chuyên môn (để QA làm).
 - `kien-thuc/nhat-ky-hoc.md`: một dòng `ngày · Nâng cấp hằng ngày: <tóm tắt> · <các phòng>`.
 
+## 3b. Làm cho ngày mai rẻ hơn (sổ hỏi đáp, công thức)
+Mô hình việc của văn phòng lặp lại hằng ngày; mỗi lần lặp mà phải nghĩ lại từ đầu là tốn token.
+- **Sổ hỏi đáp** `.claude/skills/bo-nao/hoi-dap.md`: câu hỏi chủ hỏi từ 2 lần trở lên (hôm nay hoặc cộng dồn), có câu trả lời đúng → thêm hoặc gộp một mục. Thông tin hay đổi thì ghi chỗ xem, không ghi số cố định. Giữ dưới ~60 mục.
+- **Công thức** `.claude/skills/bo-nao/cong-thuc/`: kiểu việc làm từ 2 lần trở lên và đã chạy đúng → viết công thức theo mẫu trong `README.md` và thêm vào bảng; công thức có sẵn mà hôm nay chủ sửa / QA trả lại → sửa bước tương ứng.
 ## 4. QA soát
 Gọi subagent `qa`: đọc `git diff` của bước 3, kiểm tra không bịa, không lộ thông tin khách, không mâu thuẫn. QA sửa tại chỗ nếu cần và ghi `kho/dinh-chinh.md`.
 
