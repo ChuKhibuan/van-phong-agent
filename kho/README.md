@@ -12,6 +12,7 @@ Nơi lưu mọi skill, quy trình và hồ sơ công việc của Văn phòng ag
 
 - [Skill của công ty](skill.md)
 - [Quy trình liên phòng](quy-trinh.md)
+- [Kho tài liệu trên Google Drive](drive.md)
 - [Hồ sơ công việc](cong-viec/README.md)
 - [Nhật ký đính chính](dinh-chinh.md)
 - [Bản ghi chờ QA duyệt](cho-duyet/README.md)

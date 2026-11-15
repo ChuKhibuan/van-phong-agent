@@ -1,6 +1,7 @@
 # Prompt cho Claude Code Routine
 
 Routine "Bộ não · Văn phòng agent" đang chạy với đúng prompt dưới đây (mỗi giờ 8:00–18:00, Thứ 2–Thứ 7, giờ Việt Nam).
+Vòng nâng cấp skill cuối ngày là routine riêng, prompt ở `brain/NANG-CAP.md`.
 Connector: Google Sheets, Google Drive, Google Docs, Canva. Repo: ChuKhibuan/van-phong-agent.
 
 ---
@@ -30,11 +31,11 @@ Mỗi lượt chạy:
    - `approve`: chủ duyệt việc đang `waiting` của phòng `to` (thường là `qa` hoặc phòng gửi nháp). Đổi bản nháp liên quan (tab `Nhap_tin` hoặc `CTV`) sang `da_duyet`; ghi Board `to | done | Đã duyệt: <task> | 100`.
 3. Kiểm tra kết quả mỗi bước; sai thì trả lại tối đa 2 lần, sau đó ghi `waiting` với task `Hỏi chủ: …` ở phòng `qa`.
 4. Việc tồn: khách chưa chốt quá 3 ngày → Bán hàng soạn tin nhắc rồi chuyển QA. Đơn đã giao chưa thanh toán → Giao hàng & CSKH soạn tin nhắc rồi chuyển QA.
-5. Kho (`kho/`): Lưu trữ chỉ tạo file trong `kho/cho-duyet/`; chỉ QA chuyển vào kho chính, sửa, đính chính (ghi `kho/dinh-chinh.md`). Nếu có file trong `kho/cho-duyet/` (trừ README) thì gọi QA xử lý.
+5. Kho (`kho/`): Lưu trữ chỉ tạo file trong `kho/cho-duyet/`; chỉ QA chuyển vào kho chính, sửa, đính chính (ghi `kho/dinh-chinh.md`). Nếu có file trong `kho/cho-duyet/` (trừ README) thì gọi QA xử lý. Tài liệu file thật lưu trên Drive theo `kho/drive.md`: phòng làm ra file đặt vào `00 · Chờ QA duyệt`, file chủ gửi kèm thì gọi Lưu trữ chuyển vào `07`; nếu `00 · Chờ QA duyệt` có file thì gọi QA xử lý.
 6. Đổi status dòng Inbox đã xử lý thành `done` (hoặc `error`, lý do ở cột `note`).
 7. Nếu skill, `kien-thuc/` hoặc `kho/` thay đổi: `git add .claude/skills kho && git commit -m "<phòng>: <việc>"` rồi `git push origin HEAD:main`. Push lỗi thì ghi Board `qa | waiting | Hỏi chủ: không lưu được lên GitHub | 100`.
 8. Cuối lượt: phòng nào đã làm việc trong lượt này mà không còn việc dở thì ghi một dòng `idle`.
-9. Inbox không có dòng mới, không có việc tồn, `kho/cho-duyet/` trống: không ghi gì, kết thúc ngắn gọn.
+9. Inbox không có dòng mới, không có việc tồn, `kho/cho-duyet/` và Drive `00 · Chờ QA duyệt` trống: không ghi gì, kết thúc ngắn gọn.
 
 Tuyệt đối:
 - Không gửi tin nhắn cho khách, không chuyển tiền, không tạo lệnh thanh toán, không ký hay gửi thoả thuận.

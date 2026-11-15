@@ -9,3 +9,4 @@
 | 14/11/2026 | VÍT MEDIA: dịch vụ, nhận diện, quy trình đăng bài và bình luận Facebook | dang-bai, sales, thiet-ke, kich-ban, qa, chung |
 | 14/11/2026 | Sổ tay tư duy thiết kế (93 bài học) thành skill so-tay-thiet-ke | thiet-ke, qa |
 | 14/11/2026 | Việc soạn báo giá chuyển từ Bán hàng sang phòng Báo giá | tiep-nhan, sales |
+| 15/11/2026 | Lưu tài liệu lên Drive "1.1 AI bộ nhớ" theo kho/drive.md; thêm vòng nâng cấp skill hằng ngày (brain/NANG-CAP.md) | mọi phòng |

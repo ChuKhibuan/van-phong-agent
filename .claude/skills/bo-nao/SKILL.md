@@ -65,6 +65,18 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 - Sau khi học bài mới: ngoài cập nhật skill này, gửi tóm tắt cho Lưu trữ (`handoff_to` có `luu-tru`) để vào kho qua QA.
 - Đơn đã xong hẳn: Giao hàng & CSKH chuyển Lưu trữ lập hồ sơ, QA duyệt.
 
+## Kho tài liệu trên Google Drive
+
+- File thật của công ty nằm trong thư mục Drive `1.1 AI bộ nhớ`; cây thư mục, cách đặt tên, quyền và danh mục ở `kho/drive.md`.
+- Việc nào làm ra file (báo giá, kịch bản, thiết kế, biên bản giao, bảng tính công CTV…): phòng làm đặt vào `00 · Chờ QA duyệt` và ghi `Danh mục tài liệu`; QA duyệt rồi chuyển vào đúng chỗ.
+- File chủ gửi kèm: Lưu trữ chuyển vào `07 · Tài liệu chủ gửi`.
+
+## Nâng cấp skill hằng ngày (18:30, Thứ 2–Thứ 7)
+
+- Routine riêng chạy `brain/NANG-CAP.md`: gom việc thật trong ngày (Board, Inbox, bản nháp, đính chính), rút 1–5 bài học cho mỗi phòng có việc, ghi vào mục `## Bài học từ việc thật` của `kien-thuc/<phòng>.md`, QA soát, đẩy lên GitHub, bản tin lưu Drive `02 · Bản tin nâng cấp skill`.
+- Mọi phòng đọc mục đó trước khi làm, nên sáng hôm sau cả văn phòng đã dùng bài học hôm trước.
+- Điều chủ sửa luôn được ưu tiên thành bài học; cách làm được chủ duyệt ngay cũng ghi lại để lặp lại.
+
 ## File và đường dẫn chủ gửi kèm (cột `files`, `paths` trong Inbox)
 
 - `files`: link Google Drive của file chủ tải lên từ trang web. Đọc bằng công cụ Google Drive, đưa link cho phòng cần dùng.
