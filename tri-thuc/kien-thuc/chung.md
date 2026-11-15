@@ -10,6 +10,8 @@ Mọi phòng đọc file này trước khi làm việc: thương hiệu, giọng
 
 - (15/11/2026) Trả lời chủ: mỗi tin chủ gửi (Inbox) có một dòng trả lời đầy đủ ở tab `Tra_loi` (cách ghi: skill Bộ não, mục "Trả lời chủ trên trang web"). Khi chủ nhắn trực tiếp trong cuộc trò chuyện của phòng trên app, sau khi trả lời cũng thêm một dòng Inbox (`from = chu-app`, `status = done`) và một dòng `Tra_loi` tương ứng, để trang web có đủ lịch sử.
 
+- (15/11/2026) Quy chuẩn tư vấn khách và chăm sóc VÍT MEDIA v1.0 (chủ dạy): `tri-thuc/tu-van-khach-vit-media.md`. Phòng Bán hàng, Giao hàng & CSKH, Báo giá, Kịch bản đọc trước khi soạn tin khách. Xưng em/anh-chị, Zalo cố định 0945 115 516, mọi tin gửi khách vẫn chờ chủ duyệt.
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (14/11/2026 · việc thật) Bài dạy dán qua ô chat bị cắt ở ~4000 ký tự (Hoàng Hà, giá VÍT MEDIA): chỉ học phần chắc chắn, ghi rõ thiếu phần nào và hỏi chủ gửi bằng file tải lên Drive; không suy đoán phần cắt.

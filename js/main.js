@@ -7,6 +7,7 @@ import { People } from './people.js';
 import { Pets } from './pets.js';
 import { UI, ls, STATUS_LABEL } from './ui.js';
 import { createSource } from './data.js';
+import { TV } from './tv.js';
 
 // ---------------- cài đặt người dùng ----------------
 const prefs = {
@@ -158,6 +159,7 @@ const state = Object.fromEntries(OFFICE.rooms.map((r) => [r.id, {
   status: 'idle', task: '', progress: 0, history: [], real: null, hold: 0, shownAt: 0,
 }]));
 const seen = new Set();
+const allRows = [];   // mọi dòng Board đã thấy (cho màn hình TV so sánh các phòng)
 let firstBatch = true;
 
 function show(id, row) {
@@ -192,6 +194,7 @@ function applyRows(rows) {
     const key = `${+r.timestamp}|${r.agent}|${r.status}|${r.progress}|${r.task}`;
     if (seen.has(key)) continue;
     seen.add(key);
+    allRows.push(r);
     const st = state[r.agent];
     st.history.push(r);
     if (st.history.length > 60) st.history.shift();
@@ -216,6 +219,7 @@ function applyRows(rows) {
     }
   }
   firstBatch = false;
+  tv?.refresh();
 }
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -281,6 +285,10 @@ document.getElementById('btn-home').addEventListener('click', () => {
 const hint = document.getElementById('hint');
 if (ls.get('vpa.hint', false)) hint.remove();
 else hint.querySelector('button').addEventListener('click', () => { ls.set('vpa.hint', true); hint.remove(); });
+
+// ---------------- màn hình TV: so sánh các phòng ----------------
+const tv = new TV(OFFICE, () => allRows);
+document.getElementById('btn-tv').addEventListener('click', () => tv.open());
 
 // ---------------- nguồn dữ liệu ----------------
 const source = createSource(dataSettings, OFFICE.rooms, OFFICE.flows);

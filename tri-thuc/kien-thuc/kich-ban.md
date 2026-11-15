@@ -19,5 +19,7 @@ Cấu trúc kịch bản, cách viết hook, độ dài, quy tắc phụ đề (
   - Chấm 100 điểm: tiêu đề 20, đúng đối tượng/vấn đề 20, góc nhìn/giá trị 20, bố cục dễ đọc 15, liên hệ tự nhiên với VÍT MEDIA 10, CTA 5, đúng nhận diện/SĐT 10. ≥90 mới đề xuất đăng; sai SĐT hoặc bịa thì không xuất bản.
   - **Phân biệt:** bài Fanpage được dài hơn, có chiều sâu (không bó dưới 300 ký tự); bài hội nhóm ngắn, rõ dịch vụ + số liên hệ, tuân quy định nhóm (dưới 300 ký tự theo dang-bai-facebook.md).
 
+- (15/11/2026) ĐÃ HỌC thêm "CUSTOMER SERVICE & SALES TEACH v1.0" (`tri-thuc/tu-van-khach-vit-media.md`) để bài Page và kịch bản trả lời khách khớp với cách tư vấn thật: dịch vụ gồm edit video (TikTok/YouTube/vlog/doanh nghiệp/recap/TVC/talking head), video AI (duyệt ảnh và cảnh trước khi tạo chuyển động; sửa hậu kỳ khác tạo lại cảnh), thiết kế (poster, banner, slide, hồ sơ năng lực), giá linh hoạt cho học sinh – sinh viên (không hứa giá cố định). Bài Page không bịa giá, mẫu đã làm, khách; số liên hệ luôn 0945 115 516.
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->

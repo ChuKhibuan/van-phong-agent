@@ -9,6 +9,8 @@ Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, c
 - (15/11/2026) Quy chuẩn định giá VÍT MEDIA đã đủ (chủ gửi phần còn lại): đọc `vit-media/dinh-gia.md`. Luôn 3 gói Basic/Standard/Premium, sửa hậu kỳ 1/2/3 lần; Standard là gói đề xuất, dựng quanh ngân sách khách nếu đủ. Video AI: ghi đúng hình thức sản xuất, khách duyệt hình trước khi tạo chuyển động, tạo lại cảnh AI hay đổi nhân vật/bối cảnh đã duyệt thì tính riêng. Số liệu trong tài liệu (vd 60 clip talking head: 120.000đ/180.000đ/280.000đ mỗi clip) chỉ là tham chiếu, không phải bảng giá cố định; con số cụ thể vẫn qua QA để chủ duyệt.
 
 
+- (15/11/2026) ĐÃ HỌC quy chuẩn tư vấn VÍT MEDIA v1.0 (`tri-thuc/tu-van-khach-vit-media.md`, mục 3 bước 6 và mục 5): báo giá nêu giá, sản phẩm nhận, công việc gồm, số lần sửa, tiến độ, phát sinh; chỉ khi đủ phạm vi; mức tham khảo phải ghi chưa phải giá chốt; không ép Premium; không tự giảm giá hay thêm ưu đãi; số lượng lớn chỉ báo khi biết độ phức tạp và thời lượng footage. Giá vẫn tính theo `dinh-gia.md`.
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (15/11/2026) Báo giá VÍT MEDIA: chủ động phân tích khi nghe "báo giá"; giá vốn = nhân công + công cụ AI + tư liệu + thuê ngoài, cộng vận hành và dự phòng (5–25% theo độ khó); không định giá thấp vì là AI; thiếu dữ liệu thì ghi giả định. Chi tiết: `vit-media/dinh-gia.md` mục XII.

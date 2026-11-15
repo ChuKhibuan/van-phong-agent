@@ -18,3 +18,4 @@
 | 15/11/2026 | Đã ghi được (thư mục nay là tri-thuc/kien-thuc/): Kịch bản 2 việc cho Page VÍT MEDIA; chủ chỉnh: VÍT MEDIA là công ty chính, Hoàng Hà Makeup chỉ là một khách hàng | chung, kich-ban, cot-loi |
 - (15/11/2026) kich-ban: học xong tài liệu VÍT MEDIA CONTENT TEACH v1.0 (đọc đúng tab 2 của Google Doc), tóm tắt trong kien-thuc/kich-ban.md.
 - (15/11/2026) dang-bai: chủ tự lên lịch bài Page 9.png 9h 16/11 và dặn từ nay tự đính ảnh + lên lịch bài đã duyệt không cần xin; giới hạn kỹ thuật đính file vẫn còn (xem kien-thuc/dang-bai.md).
+| 15/11/2026 | Quy chuẩn tư vấn khách và chăm sóc VÍT MEDIA v1.0 (Google Doc CUSTOMER SERVICE & SALES TEACH, 15 phần, đọc đủ): lưu tri-thuc/tu-van-khach-vit-media.md; kien-thuc sales, giao-hang, tiep-nhan, kich-ban, chung đều trỏ tới (thư mục .claude/skills bị chặn ghi nên không đặt vào skill vit-media) | sales, giao-hang, tiep-nhan, kich-ban, chung |
