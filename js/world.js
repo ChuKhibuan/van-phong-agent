@@ -157,6 +157,7 @@ export class World {
     else if (c.layout === 'brain') this._brain(R, L);
     else this._desks(R, L);
 
+    if (c.bed !== false) this._bed(R, L);
     for (const p of c.props || []) this._prop(R, p, L);
 
     // cây ở góc
@@ -355,6 +356,51 @@ export class World {
     B.cyl(0.22, 0.22, 0.06, 12, p.x - 0.65, R.y + 1.75, p.z + 0.04, '#ffd27a');
     B.box(1.0, 0.1, 0.03, p.x + 0.2, R.y + 1.85, p.z + 0.04, '#ffffff');
     B.box(0.7, 0.07, 0.03, p.x + 0.05, R.y + 1.66, p.z + 0.04, '#dbe7f3');
+  }
+
+  // Giường chung cho nhân sự của phòng: rảnh thì lên nằm. Gối ở phía -z của giường.
+  // R.beds: mỗi chỗ nằm { pos (chân người, trên đệm), rotY, side (chỗ đứng cạnh giường) }
+  _bed(R, L) {
+    const { w, d } = R, c = R.cfg, B = this.bag, accent = c.accent || '#888';
+    R.beds = [];
+    const LEN = 2.1;
+    for (let n = Math.max(1, R.seats.length); n >= 1; n--) {
+      const W = 0.78 * n + 0.32;
+      const cands = [
+        [w / 2 - W / 2 - 0.35, -d / 2 + LEN / 2 + 0.2, 0],           // tường sau, bên phải
+        [w / 2 - LEN / 2 - 0.25, d / 2 - W / 2 - 0.35, -Math.PI / 2],  // góc trước phải, gối về +x
+        [-w / 2 + W / 2 + 0.35, d / 2 - LEN / 2 - 0.25, Math.PI],      // góc trước trái, gối về +z
+        [w / 2 - LEN / 2 - 0.25, 0, -Math.PI / 2],
+        [w * 0.18, d * 0.22, 0],
+        [-w * 0.1, d * 0.25, Math.PI / 2],
+      ];
+      for (const [cx, cz, ry] of cands) {
+        const along = Math.abs(Math.sin(ry)) > 0.5;
+        const hx = (along ? LEN : W) / 2 + 0.1, hz = (along ? W : LEN) / 2 + 0.1;
+        // chừa 0.5 phía chân giường để đi lên
+        if (!this._take(R, [cx - hx, cx + hx, cz - hz, cz + hz])) continue;
+        const P = (ox, oy, oz) => { const [a, b] = rot(ox, oz, ry); return L(cx + a, oy, cz + b); };
+        const add = (bw, bh, bd, ox, oy, oz, color) => { const p = P(ox, oy, oz); B.box(bw, bh, bd, p.x, p.y, p.z, color, ry); };
+        const wood = '#c9a27a';
+        add(W, 0.28, LEN, 0, 0.2, 0, wood);                                // khung
+        add(W - 0.08, 0.16, LEN - 0.1, 0, 0.42, 0.02, '#f7f5f0');          // đệm
+        add(W + 0.06, 0.75, 0.1, 0, 0.42, -LEN / 2 - 0.02, shade(wood, -0.08)); // đầu giường
+        add(W + 0.06, 0.4, 0.08, 0, 0.26, LEN / 2 + 0.01, shade(wood, -0.08));  // chân giường
+        add(W - 0.06, 0.06, LEN * 0.55, 0, 0.53, 0.38, shade(accent, 0.3));   // chăn
+        add(W - 0.06, 0.07, 0.16, 0, 0.535, 0.38 - LEN * 0.275, shade(accent, 0.38)); // mép chăn gấp
+        for (let i = 0; i < n; i++) {
+          const sx = (i - (n - 1) / 2) * 0.78;
+          add(0.52, 0.12, 0.3, sx, 0.56, -LEN / 2 + 0.3, '#ffffff');      // gối
+          const side = (n === 1 || i < n / 2) ? -1 : 1;
+          R.beds.push({
+            pos: P(sx, 0.68, 0.42), rotY: ry,
+            side: P(side * (W / 2 + 0.45), 0, 0.3),
+            foot: P(sx, 0, LEN / 2 + 0.55),
+          });
+        }
+        return;
+      }
+    }
   }
 
   _prop(R, kind, L) {

@@ -35,6 +35,8 @@ export class People {
           pants: PANTS[this.persons.length % PANTS.length],
           nextIdle: 8 + Math.random() * 25,
           busy: false,
+          bed: (R.beds || [])[i] || null,
+          sleepIn: 2 + Math.random() * 6,
         };
         this.persons.push(p);
       });
@@ -118,14 +120,40 @@ export class People {
 
   // ---------- điều khiển ----------
   inRoom(roomId) { return this.persons.filter((p) => p.roomId === roomId); }
-  free(roomId) { return this.inRoom(roomId).filter((p) => !p.busy && p.mode === 'seated'); }
+  free(roomId) { return this.inRoom(roomId).filter((p) => !p.busy && (p.mode === 'seated' || p.mode === 'sleeping')); }
 
   _walk(p, pts, onArrive) {
+    // đang nằm thì bước xuống cạnh giường trước
+    if (p.mode === 'sleeping' && p.bed) pts = [p.bed.foot.clone(), ...pts];
     p.path = pts; p.seg = 0; p.mode = 'walking'; p.onArrive = onArrive;
   }
 
   _standPoint(p) {
+    if (p.mode === 'sleeping' && p.bed) return p.bed.foot.clone();
     // đứng dậy: lùi ra sau ghế một chút
+    const back = new THREE.Vector3(-Math.sin(p.seat.rotY), 0, -Math.cos(p.seat.rotY)).multiplyScalar(0.55);
+    return p.seat.pos.clone().add(back);
+  }
+
+  // phòng rảnh: lên giường nằm
+  _toBed(p) {
+    const b = p.bed;
+    p.busy = true;
+    const up = b.pos.clone().setY(b.foot.y);
+    this._walk(p, [this._standPoint(p), b.foot.clone(), up, b.pos.clone()], () => {
+      p.mode = 'sleeping'; p.pos.copy(b.pos); p.rotY = b.rotY; p.busy = false;
+    });
+  }
+
+  // có việc: dậy về bàn
+  _wake(p) {
+    p.busy = true;
+    this._walk(p, [this._seatBack(p), p.seat.pos.clone()], () => {
+      p.mode = 'seated'; p.rotY = p.seat.rotY; p.pos.copy(p.seat.pos); p.busy = false;
+      p.sleepIn = 3 + Math.random() * 6;
+    });
+  }
+  _seatBack(p) {
     const back = new THREE.Vector3(-Math.sin(p.seat.rotY), 0, -Math.cos(p.seat.rotY)).multiplyScalar(0.55);
     return p.seat.pos.clone().add(back);
   }
@@ -209,6 +237,11 @@ export class People {
       } else if (p.mode === 'standing') {
         p.wait -= dt;
         if (p.wait <= 0 && p.after) { const f = p.after; p.after = null; f(); }
+      } else if (p.mode === 'sleeping') {
+        if (!p.busy && roomStatus(p.roomId) !== 'idle') this._wake(p);
+      } else if (p.mode === 'seated' && !p.busy && p.bed && roomStatus(p.roomId) === 'idle') {
+        p.sleepIn -= dt;
+        if (p.sleepIn <= 0) this._toBed(p);
       } else if (p.mode === 'seated' && !p.busy && !reduced) {
         p.nextIdle -= dt;
         if (p.nextIdle <= 0) {
@@ -227,9 +260,13 @@ export class People {
     const i = p.id;
     const seated = p.mode === 'seated';
     const walking = p.mode === 'walking';
+    const sleeping = p.mode === 'sleeping';
     const reduced = this.reduced;
     let hipY, legA = 0, legB = 0, armA = 0, armB = 0, bob = 0, headTilt = 0;
-    if (seated) {
+    if (sleeping) {
+      hipY = 0.42; armA = armB = -0.12;
+      headTilt = reduced ? 0 : Math.sin(t * 0.3 + p.phase) * 0.05;
+    } else if (seated) {
       hipY = 0.47;
       legA = legB = -Math.PI / 2;
       const working = status === 'working';
@@ -251,6 +288,8 @@ export class People {
       if (!walking && !reduced) bob = Math.sin(t * 2 + p.phase) * 0.006;
     }
     _base.makeRotationY(p.rotY).setPosition(p.pos.x, p.pos.y + bob, p.pos.z);
+    // nằm ngửa: đầu về phía gối (-z của giường), mặt hướng lên trời
+    if (sleeping) _base.multiply(_r.makeRotationX(-Math.PI / 2));
     const put = (mesh, x, y, z, pitch, sx = 1, sy = 1, sz = 1) => {
       _m.makeRotationX(pitch);
       if (sx !== 1 || sy !== 1 || sz !== 1) _m.scale(_s.set(sx, sy, sz));
@@ -265,7 +304,8 @@ export class People {
     const headY = hipY + 0.52 * breath + 0.22;
     put(this.head, 0, headY, 0, headTilt);
     put(this.hair, 0, headY, 0, headTilt);
-    put(this.eyes, 0, headY, 0, headTilt);
+    if (sleeping) put(this.eyes, 0, headY - 0.02, 0, headTilt, 1, 0.25, 1); // nhắm mắt
+    else put(this.eyes, 0, headY, 0, headTilt);
     put(this.armL, -0.28, hipY + 0.47, 0, armA);
     put(this.armR, 0.28, hipY + 0.47, 0, armB);
     if (p.carrying) put(this.doc, 0, hipY + 0.42, 0.36, -0.15);
@@ -302,5 +342,8 @@ export class People {
     return h ? this.persons[h.instanceId] : null;
   }
 
-  headPos(p, out) { return out.set(p.pos.x, p.pos.y + (p.mode === 'seated' ? 1.3 : 1.25), p.pos.z); }
+  headPos(p, out) {
+    if (p.mode === 'sleeping') return out.set(p.pos.x - Math.sin(p.rotY) * 1.2, p.pos.y + 0.3, p.pos.z - Math.cos(p.rotY) * 1.2);
+    return out.set(p.pos.x, p.pos.y + (p.mode === 'seated' ? 1.3 : 1.25), p.pos.z);
+  }
 }
