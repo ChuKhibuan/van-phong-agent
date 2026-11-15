@@ -97,6 +97,11 @@ function applyTheme() {
   hemi.color.set(T.hemiSky); hemi.groundColor.set(T.hemiGround); hemi.intensity = T.hemi;
   sun.color.set(T.sun); sun.intensity = T.sunI;
   for (const c of cores) c.mat.emissiveIntensity = themeNow === 'dark' ? 0.8 : 0.35;
+  // cột đèn: tối thì sáng rõ, sáng thì dịu
+  if (world.haloMesh) {
+    world.haloMesh.material.opacity = themeNow === 'dark' ? 0.42 : 0.16;
+    world.poolMesh.material.opacity = themeNow === 'dark' ? 0.24 : 0.08;
+  }
   document.getElementById('btn-theme').dataset.v = prefs.theme;
   document.getElementById('btn-theme').title = { auto: 'Giao diện: tự động', light: 'Giao diện: sáng', dark: 'Giao diện: tối' }[prefs.theme];
 }
@@ -356,6 +361,15 @@ function frameBody(dt) {
     world.screenMesh.setColorAt(i, _c.copy(ss.col).multiplyScalar(f * k));
   });
   world.screenMesh.instanceColor.needsUpdate = true;
+
+  // cột đèn lung linh nhẹ (quầng sáng phập phồng)
+  if (world.lamps.length && !prefs.reduced) {
+    world.lamps.forEach((lp, i) => {
+      const f = 0.82 + Math.sin(t * 2.1 + lp.phase) * 0.1 + Math.sin(t * 7.3 + lp.phase * 3) * 0.05;
+      world.haloMesh.setColorAt(i, _c.set('#ffc867').multiplyScalar(f));
+    });
+    world.haloMesh.instanceColor.needsUpdate = true;
+  }
 
   // bộ não
   for (const c of cores) {

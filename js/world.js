@@ -168,6 +168,22 @@ export class World {
       if (this._take(R, [px - 0.35, px + 0.35, pz - 0.35, pz + 0.35])) { this._plant(L(px, 0, pz), 1 + Math.random() * 0.25); planted++; }
     }
 
+    // cột đèn: 1–2 cột ở góc còn trống, ưu tiên góc phía trước (lan can kính)
+    if (c.lamps !== false) {
+      // [x, z, hướng tay đèn x, z]: góc trước, rồi dọc lan can / tường (tránh cửa nhờ _take)
+      const e = 0.32, ex = w / 2 - e, ez = d / 2 - e;
+      const cand = [[ex, ez, -1, -1], [-ex, ez, 1, -1], [ex, -ez, -1, 1], [-ex, -ez, 1, 1]];
+      for (const f of [0.25, -0.25, 0.05, 0.4, -0.4]) {
+        cand.push([ex, f * d, -1, 0], [f * w, ez, 0, -1], [-ex, f * d, 1, 0], [f * w, -ez, 0, 1]);
+      }
+      let lit = 0, last = null;
+      for (const [px, pz, dx, dz] of cand) {
+        if (lit >= 2) break;
+        if (last && Math.hypot(px - last[0], pz - last[1]) < Math.min(w, d) * 0.45) continue;   // 2 cột cách xa nhau
+        if (this._take(R, [px - 0.26, px + 0.26, pz - 0.26, pz + 0.26])) { this._lampPost(L(px, 0, pz), accent, dx, dz); lit++; last = [px, pz]; }
+      }
+    }
+
     // điểm tụ tập (hub): chỗ trống gần giữa phòng
     const cands = [[w * 0.12, d * 0.12], [0, 0], [w * 0.2, -d * 0.05], [-w * 0.05, d * 0.2], [w * 0.25, d * 0.25]];
     let hub = cands[0];
@@ -519,6 +535,26 @@ export class World {
     this.plants.push({ pos: pos.clone().setY(pos.y + 0.75 * s), s, phase: Math.random() * 6.28 });
   }
 
+  // cột đèn kiểu phố: chân đế, thân, tay vươn, chao đèn; bóng đèn + quầng sáng là instanced (phát sáng)
+  _lampPost(pos, accent, dx = -1, dz = 0) {
+    const B = this.bag, metal = '#3a4254', H = 2.05;
+    const k = Math.hypot(dx, dz) || 1, ux = dx / k, uz = dz / k;   // hướng tay đèn: vào giữa phòng
+    const ry = Math.atan2(-uz, ux);
+    B.cyl(0.17, 0.2, 0.1, 10, pos.x, pos.y + 0.05, pos.z, metal);              // đế
+    B.cyl(0.07, 0.09, 0.22, 8, pos.x, pos.y + 0.2, pos.z, shade(metal, 0.06));
+    B.cyl(0.035, 0.045, H, 8, pos.x, pos.y + H / 2, pos.z, metal);            // thân
+    B.cyl(0.06, 0.06, 0.05, 8, pos.x, pos.y + 1.0, pos.z, accent);           // vòng màu phòng
+    B.box(0.42, 0.035, 0.035, pos.x + ux * 0.19, pos.y + H, pos.z + uz * 0.19, metal, ry);   // tay vươn vào trong phòng
+    const hx = pos.x + ux * 0.36, hz = pos.z + uz * 0.36, hy = pos.y + H - 0.08;
+    B.cyl(0.03, 0.16, 0.13, 10, hx, hy, hz, shade(metal, 0.04));              // chao đèn
+    B.cyl(0.02, 0.02, 0.06, 6, hx, hy + 0.09, hz, metal);
+    this.lamps.push({
+      bulb: new THREE.Vector3(hx, hy - 0.08, hz),
+      floor: new THREE.Vector3(hx, pos.y + 0.03, hz),
+      phase: Math.random() * 6.28,
+    });
+  }
+
   // ---------- cầu thang / thang cuốn / hành lang ----------
   _connector(l) {
     const B = this.bag;
@@ -614,6 +650,27 @@ export class World {
     this.screenMesh.count = this.screens.length;
     this.screenMesh.frustumCulled = false;
     this.group.add(this.screenMesh);
+
+    // cột đèn: bóng đèn sáng + quầng sáng + vũng sáng dưới sàn (3 InstancedMesh)
+    const n = Math.max(1, this.lamps.length);
+    const glowMat = (color, opacity) => new THREE.MeshBasicMaterial({ color, transparent: true, opacity, depthWrite: false, blending: THREE.AdditiveBlending, toneMapped: false });
+    this.bulbMesh = new THREE.InstancedMesh(new THREE.SphereGeometry(0.075, 12, 8), new THREE.MeshBasicMaterial({ color: '#fff3c4', toneMapped: false }), n);
+    this.haloMesh = new THREE.InstancedMesh(new THREE.SphereGeometry(0.34, 16, 12), glowMat('#ffc867', 0.16), n);
+    this.poolMesh = new THREE.InstancedMesh(new THREE.CircleGeometry(0.85, 28).rotateX(-Math.PI / 2), glowMat('#ffd98a', 0.1), n);
+    const mm = new THREE.Matrix4();
+    this.lamps.forEach((lp, i) => {
+      this.bulbMesh.setMatrixAt(i, mm.makeTranslation(lp.bulb.x, lp.bulb.y, lp.bulb.z));
+      this.haloMesh.setMatrixAt(i, mm.makeTranslation(lp.bulb.x, lp.bulb.y, lp.bulb.z));
+      this.poolMesh.setMatrixAt(i, mm.makeTranslation(lp.floor.x, lp.floor.y, lp.floor.z));
+      this.haloMesh.setColorAt(i, new THREE.Color('#ffc867'));
+    });
+    for (const msh of [this.bulbMesh, this.haloMesh, this.poolMesh]) {
+      msh.count = this.lamps.length;
+      msh.frustumCulled = false;
+      this.group.add(msh);
+    }
+    this.haloMesh.renderOrder = 3;
+    this.poolMesh.renderOrder = 1;
 
     // hộp bấm chọn phòng (vô hình)
     this.hitboxes = [];
