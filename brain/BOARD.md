@@ -37,3 +37,13 @@ Chỉ **thêm dòng**, không sửa dòng cũ (lịch sử chính là khung chat
 Chia sẻ Sheet "Bất kỳ ai có đường liên kết — Người xem", rồi dùng:
 `https://docs.google.com/spreadsheets/d/<ID>/gviz/tq?tqx=out:csv&sheet=Board`
 (Hoặc *Tệp → Chia sẻ → Xuất bản lên web → tab Board → CSV*, nhưng link xuất bản có thể trễ vài phút.)
+
+## Tra_loi — câu trả lời của agent, trang web hiện như khung chat
+
+| Cột | Ví dụ | Ghi chú |
+|---|---|---|
+| timestamp | `2026-11-15T09:01:10+07:00` | giờ thật, dấu ' ở đầu |
+| phong | `bo-nao` | id phòng trả lời |
+| tra_loi_cho | `2026-11-15T00:21:06.000Z` | nguyên văn timestamp của dòng Inbox |
+| noi_dung | `Đã soạn báo giá… **Kết quả** - …` | markdown gọn |
+| can_chu | `Gửi lại phần 3 gói giá` | mỗi dòng một việc cần chủ; trống nếu không cần gì |

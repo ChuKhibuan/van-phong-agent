@@ -65,6 +65,17 @@ Bộ não là nơi duy nhất **chủ dạy trực tiếp**. Bộ não không l�
 - Sau khi học bài mới: ngoài cập nhật skill này, gửi tóm tắt cho Lưu trữ (`handoff_to` có `luu-tru`) để vào kho qua QA.
 - Đơn đã xong hẳn: Giao hàng & CSKH chuyển Lưu trữ lập hồ sơ, QA duyệt.
 
+## Trả lời chủ trên trang web (tab `Tra_loi`)
+Chủ đọc và làm việc ngay trên trang web, nên mỗi tin của chủ (dòng Inbox) phải có **một câu trả lời đầy đủ** như khi chat trực tiếp:
+- Thêm một dòng vào tab `Tra_loi`: `timestamp | phong | tra_loi_cho | noi_dung | can_chu`.
+  - `timestamp`: giờ thật (`TZ=Asia/Ho_Chi_Minh date -Iseconds`), có dấu ' ở đầu. `phong`: id phòng trả lời (phòng chủ nhắn tới).
+  - `tra_loi_cho`: chép **nguyên văn** cột `timestamp` của dòng Inbox đang trả lời (để trang web ghép đúng cặp hỏi–đáp).
+  - `noi_dung`: câu trả lời như chat, tiếng Việt, markdown gọn (`**đậm**`, gạch đầu dòng `- `, link). Nói đã làm gì, kết quả ở đâu (link Drive, tab Sheet), còn vướng gì. Không chỉ ghi "Đã xong".
+  - `can_chu`: những gì cần chủ trả lời hoặc gửi thêm, **mỗi dòng một việc**, viết thành câu hỏi hoặc yêu cầu cụ thể ("Gửi lại phần 3 gói giá từ mục III"). Không cần gì thì để trống.
+- Mỗi dòng Inbox một dòng `Tra_loi`. Việc nhiều bước: trả lời một lần khi xong lượt (Board vẫn ghi tiến độ từng bước).
+- Tab Sheet công khai theo link: không ghi số điện thoại, số tài khoản, giấy tờ, địa chỉ của khách.
+- Cột `note` của Inbox chỉ cần một dòng tóm tắt.
+
 ## Kho tài liệu trên Google Drive
 
 - File thật của công ty nằm trong thư mục Drive `1.1 AI bộ nhớ`; cây thư mục, cách đặt tên, quyền và danh mục ở `kho/drive.md`.

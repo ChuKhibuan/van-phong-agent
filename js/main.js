@@ -232,7 +232,7 @@ const ui = new UI(OFFICE, {
     }
     const res = await source.send(cmd);
     if (res.ok && res.local) return;
-    if (res.ok) { ui.note(cmd.to, '📮 Đã gửi. Cửa sổ nhỏ hiện ✅ là lệnh đã vào Inbox; Bộ não đọc ở lượt chạy kế tiếp. (Chỉ tài khoản Google của chủ gửi được.)'); return; }
+    if (res.ok) { ui.note(cmd.to, '📮 Đang gửi… cửa sổ nhỏ hiện ✅ là đã vào Inbox. Câu trả lời sẽ hiện ngay trong khung chat này.'); return; }
     if (res.reason === 'no-inbox') {
       const line = `[${cmd.type}] → ${cmd.to}: ${cmd.text}`;
       try { await navigator.clipboard.writeText(line); } catch { /* bỏ qua */ }
@@ -288,7 +288,7 @@ source.start(applyRows, (s) => {
   if (source.kind === 'mock') { ui.setSource('DỮ LIỆU MẪU – không phải việc thật', true); document.body.classList.add('demo'); }
   else if (s.ok) ui.setSource('Board · cập nhật ' + s.at.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit', second: '2-digit' }), true);
   else ui.setSource('Lỗi đọc Board: ' + s.error, false);
-});
+}, (chat) => ui.setChat(chat));
 
 // ---------------- vòng lặp ----------------
 applyTheme(); applyReduced(); applyQuality();

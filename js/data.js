@@ -89,8 +89,38 @@ class SheetSource {
     this.s = settings; this.resolve = makeAgentResolver(rooms);
     this.timer = null;
   }
-  start(onRows, onStatus) {
+  // Đọc thêm tab Inbox (tin chủ gửi) và Tra_loi (câu trả lời đầy đủ của agent) cho khung chat.
+  async _chat(onChat) {
+    if (!/sheet=Board/i.test(this.s.csvUrl)) return;
+    const get = async (tab) => {
+      const u = this.s.csvUrl.replace(/sheet=Board/i, 'sheet=' + tab) + '&_ts=' + Date.now();
+      const res = await fetch(u, { cache: 'no-store' });
+      if (!res.ok) return [];
+      const rows = parseCsv(await res.text());
+      return rows;
+    };
+    try {
+      const [inbox, replies] = await Promise.all([get('Inbox'), get('Tra_loi')]);
+      const pick = (r, k) => String(r[k] ?? '').trim();
+      onChat({
+        inbox: inbox.filter((r) => 'text' in r).map((r, i) => ({
+          key: pick(r, 'timestamp'), at: parseTime(pick(r, 'timestamp')), seq: i,
+          from: pick(r, 'from'), to: this.resolve(pick(r, 'to')) || pick(r, 'to'), type: pick(r, 'type'),
+          text: pick(r, 'text'), status: pick(r, 'status'), note: pick(r, 'note'),
+          files: pick(r, 'files'), paths: pick(r, 'paths'),
+        })).filter((m) => m.at),
+        // tab Tra_loi chưa có thì gviz trả về tab đầu: lọc theo cột noi_dung
+        replies: replies.filter((r) => 'noi_dung' in r).map((r) => ({
+          at: parseTime(pick(r, 'timestamp')), room: this.resolve(pick(r, 'phong')),
+          replyTo: pick(r, 'tra_loi_cho'), text: pick(r, 'noi_dung'),
+          needs: pick(r, 'can_chu').split(/\r?\n/).map((s) => s.replace(/^[-•*]\s*/, '').trim()).filter(Boolean),
+        })).filter((m) => m.at && m.room),
+      });
+    } catch { /* khung chat giữ dữ liệu cũ */ }
+  }
+  start(onRows, onStatus, onChat) {
     const tick = async () => {
+      if (onChat) this._chat(onChat);
       try {
         const u = this.s.csvUrl + (this.s.csvUrl.includes('?') ? '&' : '?') + '_ts=' + Date.now();
         const res = await fetch(u, { cache: 'no-store' });

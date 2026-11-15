@@ -70,7 +70,7 @@ export class UI {
 
   setRoomState(id, st) {
     const t = this.tags.get(id); if (!t) return;
-    const h = st.status === 'waiting' && this.handled?.[this._wkey(id)];
+    const h = st.status === 'waiting' && this.handled && (this.handled[this._wkey(id)] || (this._isHandled(id) && { how: 'approved' }));
     t.chip.dataset.s = h ? 'working' : st.status;
     t.chip.textContent = h ? (h.how === 'approved' ? 'Đã duyệt' : 'Đang sửa') : (STATUS_LABEL[st.status] || st.status);
     t.bar.style.width = (st.status === 'idle' ? 0 : st.progress) + '%';
@@ -209,7 +209,15 @@ export class UI {
     const r = st?.real;
     return id + '|' + (r ? `${+r.timestamp}:${r.seq ?? ''}` : (st?.task || ''));
   }
-  _isHandled(id) { return !!this.handled[this._wkey(id)]; }
+  _isHandled(id) {
+    if (this.handled[this._wkey(id)]) return true;
+    // đã duyệt / yêu cầu sửa ở bất kỳ máy nào: Inbox có lệnh sau lúc việc chuyển sang chờ duyệt
+    const st = this.h.getState(id);
+    const since = +(st?.real?.timestamp || st?.since || 0);
+    const name = this.byId[id]?.name || id;
+    return !!since && (this.chat?.inbox || []).some((m) => +m.at > since - 60e3 &&
+      ((m.type === 'approve' && m.to === id) || m.text.startsWith(`Yêu cầu sửa việc của phòng ${name}`)));
+  }
   _markHandled(id, how, key) {
     this.handled[key || this._wkey(id)] = { how, at: Date.now() };
     const keys = Object.keys(this.handled);
@@ -344,6 +352,7 @@ export class UI {
       });
       menu.append(b);
     }
+    this._jump = true;
     this._fillPanel();
   }
 
@@ -440,27 +449,118 @@ export class UI {
         }).join('')
         : '<li class="muted">Không có việc nào chờ duyệt.</li>';
     }
-    // tin nhắn: lịch sử từ Board + tin của bạn, xếp theo thời gian
-    const items = [
-      ...(st.history || []).filter((h) => h.task || h.status !== 'idle').map((h) => ({
-        at: +h.timestamp, who: 'agent',
-        text: (h.status === 'done' ? '✔ Xong: ' : h.status === 'waiting' ? '⏳ Chờ duyệt: ' : h.status === 'working' ? `⚙ ${h.progress}% · ` : '') + (h.task || 'Nghỉ') +
-          (h.handoff?.length ? ` → ${h.handoff.map((x) => this.byId[x]?.name || x).join(', ')}` : ''),
-      })),
-      ...(this.localMsgs[id] || []),
-    ].sort((a, b) => a.at - b.at);
-    // gộp các dòng tiến độ liên tiếp cho gọn
+    this._renderChat(id, st);
+  }
+
+  // ---------- khung chat: tin bạn gửi (Inbox) + câu trả lời (Tra_loi) + bước làm (Board) ----------
+  setChat(chat) {
+    const sig = chat.inbox.length + ':' + chat.replies.length + ':' + chat.inbox.map((m) => m.status).join('');
+    if (sig === this.chatSig) return;
+    this.chatSig = sig; this.chat = chat;
+    for (const r of this.rooms) { const s = this.h.getState(r.id); if (s?.status === 'waiting') this.setRoomState(r.id, s); }
+    this.updateDock();
+    if (this.current) this._fillPanel();
+  }
+
+  _md(s) {
+    // markdown gọn: **đậm**, `mã`, gạch đầu dòng, tiêu đề, link — đã escape trước
+    const inline = (t) => esc(t)
+      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+    const out = []; let list = null;
+    for (const line of String(s).split(/\r?\n/)) {
+      const li = line.match(/^\s*(?:[-•*]|\d+[.)])\s+(.*)$/);
+      if (li) { (list ||= []).push(`<li>${inline(li[1])}</li>`); continue; }
+      if (list) { out.push(`<ul>${list.join('')}</ul>`); list = null; }
+      const h = line.match(/^#{1,4}\s+(.*)$/);
+      if (h) out.push(`<p class="md-h">${inline(h[1])}</p>`);
+      else if (line.trim()) out.push(`<p>${inline(line)}</p>`);
+    }
+    if (list) out.push(`<ul>${list.join('')}</ul>`);
+    return out.join('');
+  }
+
+  _nextRun() {
+    // Routine chạy đầu mỗi giờ 8:00–18:00 giờ Việt Nam, Thứ 2–Thứ 7
+    const vn = new Date(Date.now() + 7 * 3600e3); // đọc bằng getUTC* = giờ VN
+    const t = new Date(vn); t.setUTCMinutes(0, 0, 0); t.setUTCHours(t.getUTCHours() + 1);
+    for (let i = 0; i < 200; i++) {
+      const h = t.getUTCHours(), d = t.getUTCDay();
+      if (d !== 0 && h >= 8 && h <= 18) break;
+      t.setUTCHours(h + 1);
+    }
+    const sameDay = t.getUTCDate() === vn.getUTCDate();
+    const days = ['Chủ nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'];
+    return `${t.getUTCHours()}:00${sameDay ? '' : ' ' + (t.getUTCDate() === new Date(+vn + 864e5).getUTCDate() ? 'mai' : days[t.getUTCDay()])}`;
+  }
+
+  _renderChat(id, st) {
+    const r = this.byId[id];
+    const chat = this.chat || { inbox: [], replies: [] };
+    const mine = chat.inbox.filter((m) => m.to === id);
+    const replies = chat.replies.filter((m) => m.room === id);
+    const answered = new Set(replies.map((m) => m.replyTo));
+    const items = [];
+    // bước làm trên Board: dòng nhỏ, gộp tiến độ
+    for (const h of (st.history || [])) {
+      if (!h.task && h.status === 'idle') continue;
+      items.push({ at: +h.timestamp, who: 'step', text: (h.status === 'done' ? '✔ ' : h.status === 'waiting' ? '⏳ Chờ duyệt: ' : h.status === 'working' ? '⚙ ' : '') + (h.task || 'Nghỉ') +
+        (h.handoff?.length ? ` → ${h.handoff.map((x) => this.byId[x]?.name || x).join(', ')}` : ''), s: h.status });
+    }
+    for (const m of mine) {
+      const extra = [...(m.files ? m.files.split('\n').map((f) => '📎 ' + f.split(' — ')[0]) : []), ...(m.paths ? m.paths.split('\n').map((p) => '🗂 ' + p) : [])];
+      const label = m.type === 'teach' ? '📚 Dạy: ' : m.type === 'approve' ? '✅ Duyệt: ' : m.type === 'handoff' ? `📄 Giao từ ${this.byId[m.from]?.name || m.from}: ` : '';
+      items.push({ at: +m.at, who: 'user', text: label + m.text + (extra.length ? '\n' + extra.join('\n') : ''), m });
+      // tin cũ chưa có câu trả lời riêng: dùng cột note của Inbox
+      if (m.note && !answered.has(m.key) && /done|error/.test(m.status)) items.push({ at: +m.at + 1, who: 'agent', md: m.note, err: m.status === 'error' });
+    }
+    for (const m of replies) items.push({ at: +m.at, who: 'agent', md: m.text, needs: m.needs });
+    // tin bạn vừa gửi mà Inbox chưa kịp hiện
+    const lastIn = mine.length ? Math.max(...mine.map((m) => +m.at)) : 0;
+    for (const m of (this.localMsgs[id] || [])) if (m.at > lastIn + 60e3 || !this.chat) items.push({ ...m });
+    items.sort((a, b) => a.at - b.at);
     const compact = [];
     for (const it of items) {
       const last = compact[compact.length - 1];
-      if (last && last.who === 'agent' && it.who === 'agent' && last.text.startsWith('⚙') && it.text.startsWith('⚙')) compact[compact.length - 1] = it;
+      if (last?.who === 'step' && it.who === 'step' && last.s === 'working' && it.s === 'working') compact[compact.length - 1] = it;
       else compact.push(it);
     }
+    const view = compact.slice(-40);
+    // tin cuối của bạn chưa được trả lời → đang chờ
+    let pending = '';
+    const lastUser = [...view].reverse().find((m) => m.who === 'user');
+    const lastAgent = [...view].reverse().find((m) => m.who === 'agent');
+    if (lastUser && (!lastAgent || lastAgent.at < lastUser.at)) {
+      const s = lastUser.m?.status || '';
+      pending = s === 'processing'
+        ? `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> ${esc(r.name)} đang xử lý…</div></div>`
+        : `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> Đã nhận. ${esc(r.name)} trả lời lúc khoảng <b>${this._nextRun()}</b>${lastUser.m ? '' : ' (đang chờ vào Inbox)'}.</div></div>`;
+    }
+    // mục "Cần bạn" chỉ còn hiệu lực ở câu trả lời mới nhất, khi bạn chưa nhắn lại
+    const liveNeeds = lastAgent?.needs?.length && (!lastUser || lastUser.at < lastAgent.at) ? lastAgent : null;
+    const html = view.map((m) => {
+      if (m.who === 'step') return `<div class="msg step"><span>${esc(m.text)}</span><time>${timeStr(m.at)}</time></div>`;
+      if (m.who === 'agent' && m.md != null) {
+        const needs = m.needs?.length ? `<div class="needs${m === liveNeeds ? ' live' : ''}"><b>Cần bạn</b><ul>${m.needs.map((n) =>
+          `<li><span>${esc(n)}</span>${m === liveNeeds ? `<button type="button" class="btn btn-ghost need-reply" data-need="${esc(n)}">Trả lời</button>` : ''}</li>`).join('')}</ul></div>` : '';
+        return `<div class="msg agent${m.err ? ' err' : ''}"><div class="who"><span class="pn-dot" style="background:${r.accent}"></span>${esc(r.name)}</div><div class="md">${this._md(m.md)}</div>${needs}<time>${timeStr(m.at)}</time></div>`;
+      }
+      return `<div class="msg ${m.who}"><div>${esc(m.text)}</div><time>${timeStr(m.at)}</time></div>`;
+    }).join('');
+    this.panel.classList.toggle('has-chat', view.some((m) => m.who === 'user' || m.who === 'agent'));
     const box = this.$('.pn-msgs');
-    const atBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 40;
-    box.innerHTML = compact.slice(-30).map((m) => `<div class="msg ${m.who}"><div>${esc(m.text)}</div><time>${timeStr(m.at)}</time></div>`).join('')
-      || `<div class="msg sys"><div>Xin chào! Mình là agent phòng ${esc(r.name)}. Bạn cần gì?</div></div>`;
-    if (atBottom) box.scrollTop = box.scrollHeight;
+    const atBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 60;
+    box.innerHTML = (html + pending) || `<div class="msg sys"><div>Xin chào! Mình là agent phòng ${esc(r.name)}. Bạn cần gì?</div></div>`;
+    if (atBottom || this._jump) { box.scrollTop = box.scrollHeight; this._jump = false; }
+    if (!box._needs) {
+      box._needs = true;
+      box.addEventListener('click', (e) => {
+        const b = e.target.closest('.need-reply'); if (!b) return;
+        const ta = this.$('.pn-form textarea');
+        ta.value = `Về "${b.dataset.need}": `; ta.focus();
+      });
+    }
   }
 
   // ---------- nhật ký sự kiện ----------
