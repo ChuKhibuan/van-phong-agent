@@ -10,11 +10,17 @@ if ($Go) {
   'Đã gỡ máy trực.'
   return
 }
+# Lối tắt Windows không giữ được chữ có dấu (vd "Tổng") trong tham số, nên dùng một tệp khởi động
+# ở thư mục không dấu, tệp này (UTF-8 có BOM) mới gọi tới script thật.
+$dir = Join-Path $env:LOCALAPPDATA 'van-phong-agent'
+New-Item -ItemType Directory -Force $dir | Out-Null
+$launcher = Join-Path $dir 'khoi-dong.ps1'
+[IO.File]::WriteAllText($launcher, "& '$($script -replace "'", "''")'`r`n", (New-Object Text.UTF8Encoding($true)))
 $sh = New-Object -ComObject WScript.Shell
 $s = $sh.CreateShortcut($lnk)
 $s.TargetPath = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
-$s.Arguments = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$script`""
-$s.WorkingDirectory = $PSScriptRoot
+$s.Arguments = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$launcher`""
+$s.WorkingDirectory = $dir
 $s.WindowStyle = 7
 $s.Save()
 Start-Process -FilePath $s.TargetPath -ArgumentList $s.Arguments -WindowStyle Hidden
