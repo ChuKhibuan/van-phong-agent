@@ -368,7 +368,7 @@ function frameBody(dt) {
 
   // vị trí nhãn HTML
   const W = innerWidth / 2, H = innerHeight / 2;
-  ui.overlay.classList.toggle('compact', innerHeight / (FRUSTUM / camera.zoom) < 15);
+  ui.overlay.classList.toggle('compact', innerHeight / (FRUSTUM / camera.zoom) < 15 || innerHeight < 520);
   const toScreen = (p) => { v.copy(p).project(camera); return [v.x * W + W, -v.y * H + H]; };
   for (const R of world.rooms.values()) {
     const [x, y] = toScreen(R.anchor);
