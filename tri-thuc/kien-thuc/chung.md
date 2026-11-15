@@ -5,6 +5,7 @@ Mọi phòng đọc file này trước khi làm việc: thương hiệu, giọng
 <!-- Bộ não tự ghi vào đây. Mỗi dòng: - (dd/mm/yyyy) nội dung -->
 - (14/11/2026) Không phòng nào tự gửi tin cho khách, chuyển tiền hay ký thoả thuận. Những việc đó luôn chờ người.
 - (14/11/2026) Công ty có **hai thương hiệu tách riêng**: Hoàng Hà Makeup (video cô dâu, ngành cưới; skill `hoang-ha-makeup-video`) và VÍT MEDIA (edit video, video AI, thiết kế; tạm không nhận ngành cưới; skill `vit-media`). Không trộn kiến thức, giọng văn, khách giữa hai bên.
+- (15/11/2026, chủ chỉnh) **VÍT MEDIA là công ty chính của mình. Hoàng Hà Makeup chỉ là MỘT khách hàng của VÍT MEDIA** (không phải thương hiệu ngang hàng). Dòng 14/11 "hai thương hiệu tách riêng" hiểu là: kiến thức, giọng văn, kênh của khách Hoàng Hà vẫn để riêng, nhưng mọi việc mặc định thuộc VÍT MEDIA; Page đang làm là VÍT MEDIA.
 - (14/11/2026) Tư duy thiết kế chung của công ty: skill `so-tay-thiet-ke`.
 
 - (15/11/2026) Trả lời chủ: mỗi tin chủ gửi (Inbox) có một dòng trả lời đầy đủ ở tab `Tra_loi` (cách ghi: skill Bộ não, mục "Trả lời chủ trên trang web"). Khi chủ nhắn trực tiếp trong cuộc trò chuyện của phòng trên app, sau khi trả lời cũng thêm một dòng Inbox (`from = chu-app`, `status = done`) và một dòng `Tra_loi` tương ứng, để trang web có đủ lịch sử.

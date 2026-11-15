@@ -15,3 +15,4 @@
 | 15/11/2026 | Quy trình tự động tính giá VÍT MEDIA (7 bước, công thức giá vốn, dự phòng 5–25%); bản dán bị cắt sau mục dự phòng, đã gộp vào vit-media/dinh-gia.md mục XII | tiep-nhan, thiet-ke, qa |
 | 15/11/2026 | Kịch bản: 2 việc (xử lý kịch bản + ra ý tưởng/viết kịch bản Page), Page là VÍT MEDIA; chờ chủ dạy cách đăng Page | kich-ban, dang-bai |
 | 15/11/2026 | Chủ cấp quyền thường trực ghi kien-thuc/; chuyển kiến thức giữa phòng liên quan; Kịch bản 2 việc cho Page VÍT MEDIA (CHƯA ghi được vào kich-ban, chung, thiet-ke: máy chủ vẫn từ chối quyền ghi file) | chung, kich-ban, thiet-ke |
+| 15/11/2026 | Đã ghi được (thư mục nay là tri-thuc/kien-thuc/): Kịch bản 2 việc cho Page VÍT MEDIA; chủ chỉnh: VÍT MEDIA là công ty chính, Hoàng Hà Makeup chỉ là một khách hàng | chung, kich-ban, cot-loi |
