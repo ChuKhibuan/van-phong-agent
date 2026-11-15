@@ -8,7 +8,7 @@ Phòng: `dang-bai` (Kịch bản viết nội dung nếu cần) · Subagent: kh�
 Các bước:
 1. Notion `Lịch đăng`: tìm dòng bài; chưa có thì tạo (Kênh `Page Vít media`, Nội dung nguyên văn, Ngày đăng, Trạng thái `Đã duyệt`, Ghi chú "chủ giao <ngày>").
 2. Chrome (`tabs_context_mcp` createIfEmpty) → tab mới `https://business.facebook.com/latest/composer` (hoặc Lịch nội dung → "Tạo bài viết"). Kiểm tra đang chọn đúng Page **Vít media** (không phải Hoàng Hà).
-3. Dán nội dung nguyên văn vào ô bài viết, đọc lại bằng `get_page_text` / `find` cho khớp.
+3. Nhập nội dung nguyên văn: `find` ô "Hãy viết vào ô hộp thoại…" → `computer left_click` bằng ref → `computer type` cả bài (xuống dòng bằng Enter). **Không dùng** `execCommand insertText` bằng JS (ô soạn lỗi, đảo / trùng dòng, lại còn treo hộp "Rời khỏi trang?" không đóng được tab). Đọc lại bằng JS `document.querySelector('[contenteditable=true]').innerText` cho khớp từng dòng. Làm bước 3 trước hay sau bước 4 đều được, nhưng sau khi đính ảnh trang cuộn: chụp màn hình rồi mới click theo toạ độ.
 4. Đính ảnh (đã chạy đúng 15/11/2026). Nút "Thêm ảnh/video" **không** phải ô file; trang chỉ tạo `input[type=file]` lúc bấm nút rồi mở hộp chọn file của Windows (agent không thấy được). Làm đúng thứ tự:
    a. `javascript_tool` chạy đoạn chặn hộp chọn file (giữ input lại trong trang):
       `window.__fi=[];const oc=HTMLInputElement.prototype.click;HTMLInputElement.prototype.click=function(){if(this.type==='file'){window.__fi.push(this);if(!this.isConnected){this.style.display='none';document.body.appendChild(this)}return}return oc.call(this)};'ok'`
@@ -16,7 +16,7 @@ Các bước:
    c. `find` "file input" → lấy ref `file-input (hidden)` → `file_upload` với `paths` = đường dẫn ảnh trên máy (ví dụ `D:\2.Vid media\Bài đăng\1.png`; phải nằm trong thư mục được phép).
    d. Chờ ~3 giây, kiểm tra mục "File phương tiện" hiện kích thước ảnh (ví dụ `1254 x 1254`) và bản xem trước có ảnh.
    Muốn bỏ bài thử: "Gỡ ảnh" → "Hủy" → hộp "Rời khỏi trang?" bấm "Bỏ thay đổi". Tránh bấm "Đăng" khi chưa chắc.
-5. Lên lịch: trong trình soạn có mục **"Lên lịch · Đặt ngày và giờ"** (cuộn xuống dưới "Chi tiết bài viết"); bật nó, đặt ngày giờ (giờ Việt Nam) → nút cuối đổi thành "Lên lịch" → bấm. Không bật "Quảng bá", không bật "Tạo bài viết quảng cáo". Kiểm tra bài xuất hiện đúng ngày giờ trong Lịch nội dung.
+5. Lên lịch: trong trình soạn có mục **"Lên lịch · Đặt ngày và giờ"** (cuộn xuống dưới "Chi tiết bài viết"); bật nó, chọn ngày trên lịch nhỏ; ô giờ (mặc định giờ hiện tại) không nhận gõ số: bấm vào phần giờ, phím `Up`/`Down` đổi giờ, `Right` sang phút (giờ Việt Nam) → nút cuối đổi thành "Lên lịch" → bấm. Không bật "Quảng bá", không bật "Tạo bài viết quảng cáo". Kiểm tra bài xuất hiện đúng ngày giờ trong Lịch nội dung.
 6. Notion: Trạng thái `Đã lên lịch` (đăng ngay thì `Đã đăng`), ghi giờ vào Ngày đăng, link nếu đọc được. Board `dang-bai | done | Đã lên lịch Page: <tên bài> · <dd/mm hh:mm> | 100` (đây là nguồn cho báo cáo QA cuối ngày). Đóng tab mình mở.
 7. `Tra_loi`: một câu ngắn "Đã lên lịch <tên bài> lúc <giờ> trên Page Vít media" + link Notion. Không hỏi duyệt.
 Gặp lỗi (không thấy nút, Facebook đổi giao diện, ảnh không lên): thử lại tối đa 2 lần, đọc trang bằng chữ; vẫn lỗi thì để Notion `Đã duyệt` + Ghi chú lỗi, Board `dang-bai | waiting | Hỏi chủ: <lỗi>`, báo trong `Tra_loi`.
