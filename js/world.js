@@ -358,18 +358,19 @@ export class World {
     B.box(0.7, 0.07, 0.03, p.x + 0.05, R.y + 1.66, p.z + 0.04, '#dbe7f3');
   }
 
-  // Giường chung cho nhân sự của phòng: rảnh thì lên nằm. Gối ở phía -z của giường.
-  // R.beds: mỗi chỗ nằm { pos (chân người, trên đệm), rotY, side (chỗ đứng cạnh giường) }
+  // Giường tầng cho nhân sự của phòng: rảnh thì lên nằm (tầng dưới trước, rồi tầng trên). Gối ở phía -z.
+  // R.beds: mỗi chỗ nằm { pos (chân người, trên đệm), rotY, climb (điểm leo lên/xuống), foot (chỗ đứng cuối giường) }
   _bed(R, L) {
     const { w, d } = R, c = R.cfg, B = this.bag, accent = c.accent || '#888';
     R.beds = [];
-    const LEN = 2.1;
-    for (let n = Math.max(1, R.seats.length); n >= 1; n--) {
-      const W = 0.78 * n + 0.32;
+    const LEN = 2.1, BW = 1.0, GAP = 0.12, H1 = 0.5, H2 = 1.5; // mặt đệm tầng dưới / tầng trên
+    const need = Math.max(1, R.seats.length);
+    for (let k = Math.ceil(need / 2); k >= 1; k--) {
+      const W = k * BW + (k - 1) * GAP;
       const cands = [
         [w / 2 - W / 2 - 0.35, -d / 2 + LEN / 2 + 0.2, 0],           // tường sau, bên phải
-        [w / 2 - LEN / 2 - 0.25, d / 2 - W / 2 - 0.35, -Math.PI / 2],  // góc trước phải, gối về +x
-        [-w / 2 + W / 2 + 0.35, d / 2 - LEN / 2 - 0.25, Math.PI],      // góc trước trái, gối về +z
+        [w / 2 - LEN / 2 - 0.25, d / 2 - W / 2 - 0.35, -Math.PI / 2],  // góc trước phải
+        [-w / 2 + W / 2 + 0.35, d / 2 - LEN / 2 - 0.25, Math.PI],      // góc trước trái
         [w / 2 - LEN / 2 - 0.25, 0, -Math.PI / 2],
         [w * 0.18, d * 0.22, 0],
         [-w * 0.1, d * 0.25, Math.PI / 2],
@@ -377,26 +378,35 @@ export class World {
       for (const [cx, cz, ry] of cands) {
         const along = Math.abs(Math.sin(ry)) > 0.5;
         const hx = (along ? LEN : W) / 2 + 0.1, hz = (along ? W : LEN) / 2 + 0.1;
-        // chừa 0.5 phía chân giường để đi lên
         if (!this._take(R, [cx - hx, cx + hx, cz - hz, cz + hz])) continue;
         const P = (ox, oy, oz) => { const [a, b] = rot(ox, oz, ry); return L(cx + a, oy, cz + b); };
         const add = (bw, bh, bd, ox, oy, oz, color) => { const p = P(ox, oy, oz); B.box(bw, bh, bd, p.x, p.y, p.z, color, ry); };
-        const wood = '#c9a27a';
-        add(W, 0.28, LEN, 0, 0.2, 0, wood);                                // khung
-        add(W - 0.08, 0.16, LEN - 0.1, 0, 0.42, 0.02, '#f7f5f0');          // đệm
-        add(W + 0.06, 0.75, 0.1, 0, 0.42, -LEN / 2 - 0.02, shade(wood, -0.08)); // đầu giường
-        add(W + 0.06, 0.4, 0.08, 0, 0.26, LEN / 2 + 0.01, shade(wood, -0.08));  // chân giường
-        add(W - 0.06, 0.06, LEN * 0.55, 0, 0.53, 0.38, shade(accent, 0.3));   // chăn
-        add(W - 0.06, 0.07, 0.16, 0, 0.535, 0.38 - LEN * 0.275, shade(accent, 0.38)); // mép chăn gấp
-        for (let i = 0; i < n; i++) {
-          const sx = (i - (n - 1) / 2) * 0.78;
-          add(0.52, 0.12, 0.3, sx, 0.56, -LEN / 2 + 0.3, '#ffffff');      // gối
-          const side = (n === 1 || i < n / 2) ? -1 : 1;
-          R.beds.push({
-            pos: P(sx, 0.68, 0.42), rotY: ry,
-            side: P(side * (W / 2 + 0.45), 0, 0.3),
-            foot: P(sx, 0, LEN / 2 + 0.55),
-          });
+        const wood = '#c9a27a', dark = shade(wood, -0.1), metal = '#8d95a3';
+        const blanket = [shade(accent, 0.3), shade(accent, 0.18)];
+        for (let b = 0; b < k; b++) {
+          const sx = -W / 2 + BW / 2 + b * (BW + GAP);
+          // 4 cột
+          for (const [px, pz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) add(0.08, H2 + 0.55, 0.08, sx + px * (BW / 2 - 0.04), (H2 + 0.55) / 2, pz * (LEN / 2 - 0.04), dark);
+          for (const [lvl, H] of [[0, H1], [1, H2]]) {
+            add(BW, 0.16, LEN, sx, H - 0.2, 0, wood);                                  // khung
+            add(BW - 0.1, 0.14, LEN - 0.12, sx, H - 0.06, 0.01, '#f7f5f0');             // đệm
+            add(BW - 0.12, 0.05, LEN * 0.55, sx, H + 0.03, 0.38, blanket[lvl]);         // chăn
+            add(BW - 0.12, 0.06, 0.15, sx, H + 0.035, 0.38 - LEN * 0.275, shade(blanket[lvl], 0.08));
+            add(0.56, 0.12, 0.3, sx, H + 0.06, -LEN / 2 + 0.3, '#ffffff');              // gối
+            add(BW, 0.3, 0.06, sx, H + 0.1, -LEN / 2 + 0.01, dark);                     // đầu giường
+          }
+          // lan can tầng trên (hai bên) + thang ở cuối giường
+          for (const s of [-1, 1]) add(0.05, 0.06, LEN - 0.1, sx + s * (BW / 2 - 0.04), H2 + 0.32, 0, dark);
+          for (const s of [-0.22, 0.22]) add(0.05, H2 + 0.35, 0.05, sx + s, (H2 + 0.35) / 2, LEN / 2 + 0.06, metal);
+          for (let y = 0.35; y < H2 + 0.2; y += 0.32) add(0.44, 0.04, 0.05, sx, y, LEN / 2 + 0.06, metal);
+          for (const [lvl, H] of [[0, H1], [1, H2]]) {
+            if (R.beds.length >= need) break;
+            R.beds.push({
+              pos: P(sx, H + 0.18, 0.42), rotY: ry,
+              climb: P(sx, lvl ? H + 0.18 : 0, LEN / 2 + 0.2),
+              foot: P(sx, 0, LEN / 2 + 0.6),
+            });
+          }
         }
         return;
       }

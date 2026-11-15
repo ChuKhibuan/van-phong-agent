@@ -124,7 +124,7 @@ export class People {
 
   _walk(p, pts, onArrive) {
     // đang nằm thì bước xuống cạnh giường trước
-    if (p.mode === 'sleeping' && p.bed) pts = [p.bed.foot.clone(), ...pts];
+    if (p.mode === 'sleeping' && p.bed) pts = [p.bed.climb.clone(), p.bed.foot.clone(), ...pts];
     p.path = pts; p.seg = 0; p.mode = 'walking'; p.onArrive = onArrive;
   }
 
@@ -139,8 +139,7 @@ export class People {
   _toBed(p) {
     const b = p.bed;
     p.busy = true;
-    const up = b.pos.clone().setY(b.foot.y);
-    this._walk(p, [this._standPoint(p), b.foot.clone(), up, b.pos.clone()], () => {
+    this._walk(p, [this._standPoint(p), b.foot.clone(), b.climb.clone(), b.pos.clone()], () => {
       p.mode = 'sleeping'; p.pos.copy(b.pos); p.rotY = b.rotY; p.busy = false;
     });
   }
