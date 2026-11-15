@@ -120,7 +120,17 @@ while ($true) {
       $out = Join-Path $dir 'lan-cuoi.json'
       $bd = Get-Date
       $args2 = @('-p', '--model', $model, '--output-format', 'json', '--allowedTools', $tools)
-      if (-not $nhanh) { $args2 += '--chrome' }
+      if (-not $nhanh) {
+        $args2 += '--chrome'
+        # Thư mục trên máy chủ cho phép agent mở (ảnh, video gốc): mỗi dòng một thư mục trong thu-muc.txt
+        $tm = Join-Path $dir 'thu-muc.txt'
+        if (Test-Path $tm) {
+          foreach ($d in (Get-Content $tm -Encoding UTF8)) {
+            $d = $d.Trim().TrimEnd('\')
+            if ($d -and -not $d.StartsWith('#') -and (Test-Path -LiteralPath $d)) { $args2 += @('--add-dir', "`"$d`"") }
+          }
+        }
+      }
       $p = Start-Process -FilePath $claude -ArgumentList $args2 -WorkingDirectory $repo -NoNewWindow -PassThru `
         -RedirectStandardInput $vao -RedirectStandardOutput $out -RedirectStandardError "$out.loi"
       if (-not $p.WaitForExit($PhutToiDa * 60000)) { $p.Kill(); Ghi "Quá $PhutToiDa phút, đã dừng lượt này." }
