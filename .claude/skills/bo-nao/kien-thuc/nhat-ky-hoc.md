@@ -10,3 +10,5 @@
 | 14/11/2026 | Sổ tay tư duy thiết kế (93 bài học) thành skill so-tay-thiet-ke | thiet-ke, qa |
 | 14/11/2026 | Việc soạn báo giá chuyển từ Bán hàng sang phòng Báo giá | tiep-nhan, sales |
 | 15/11/2026 | Lưu tài liệu lên Drive "1.1 AI bộ nhớ" theo kho/drive.md; thêm vòng nâng cấp skill hằng ngày (brain/NANG-CAP.md) | mọi phòng |
+| 15/11/2026 | Quy chuẩn định giá và thiết kế bảng giá VÍT MEDIA v1.0 (bản dán bị cắt, thiếu phần gói giá; đã hỏi chủ gửi phần còn lại) | tiep-nhan, thiet-ke, qa |
+| 14/11/2026 | Nâng cấp hằng ngày (chạy bù ngày 14/11): bài dạy bị cắt, chưa chốt nơi đăng, teach không phải đơn dựng | chung, dang-bai, dung, qa |

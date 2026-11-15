@@ -9,3 +9,4 @@ Các kênh, lịch đăng, mẫu caption, hashtag, cách đo bài nào kéo khá
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (14/11/2026 · QA tạm dừng) Chưa chốt nơi đăng (Page hay nhóm) và số lượng thì chỉ soạn vào Nhap_tin, ghi rõ "chờ chủ chốt", không lên lịch hay hứa đăng.

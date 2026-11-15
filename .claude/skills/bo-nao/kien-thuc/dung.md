@@ -8,3 +8,4 @@ Phong cách dựng, nhạc, nhịp cắt, định dạng xuất (vd 1080x1920), 
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (14/11/2026 · chủ sửa) Nhận nội dung teach không phải đơn dựng: không đòi footage, voice, nhạc outro; chỉ hỏi các thứ đó khi có đơn sản xuất thật.

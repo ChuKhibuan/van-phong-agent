@@ -10,3 +10,4 @@ Checklist kiểm tra trước khi giao: đúng brief, chính tả phụ đề, �
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (14/11/2026 · việc thật) Bản nháp thiếu thông tin chủ phải chốt (nơi đăng, giá) thì ghi `waiting` kèm câu `Hỏi chủ:` cụ thể, đối chiếu mẫu skill (độ dài, số liên hệ, không giá/cam kết) trước khi chuyển chủ.

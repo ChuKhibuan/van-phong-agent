@@ -9,3 +9,4 @@ Mọi phòng đọc file này trước khi làm việc: thương hiệu, giọng
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (14/11/2026 · việc thật) Bài dạy dán qua ô chat bị cắt ở ~4000 ký tự (Hoàng Hà, giá VÍT MEDIA): chỉ học phần chắc chắn, ghi rõ thiếu phần nào và hỏi chủ gửi bằng file tải lên Drive; không suy đoán phần cắt.
