@@ -110,8 +110,13 @@ Việc của văn phòng lặp lại hằng ngày, nên mỗi lần lặp phải
 - Đọc web bằng chữ (`get_page_text`, `find`), hạn chế chụp màn hình.
 - Làm xong một kiểu việc mới mà sẽ lặp lại → viết công thức. Vòng nâng cấp cuối ngày gộp câu hỏi lặp vào `tri-thuc/hoi-dap.md`.
 
+## Ngày làm việc: tổng kết và việc dở
+- Đầu ngày / khi chủ hỏi "còn gì dở": đọc `tri-thuc/viec-do.md`; làm xong việc nào thì xoá dòng đó.
+- Cuối ngày (vòng nâng cấp 18:30, hoặc khi chủ bảo "tổng kết ngày"): viết `tri-thuc/tong-ket/<yyyy-mm-dd>.md` theo mẫu ngày 15/11 (hệ thống thay đổi gì · các phòng học gì · lỗi gặp → cách tránh · mang sang hôm sau) và cập nhật `tri-thuc/viec-do.md`.
+- Bản tổng kết đầu tiên, mô tả đầy đủ cách văn phòng đang chạy: `tri-thuc/tong-ket/2026-11-15.md`.
+
 ## Tài liệu tham khảo
-- `tri-thuc/hoi-dap.md` — câu chủ hay hỏi. `tri-thuc/cong-thuc/` — cách làm sẵn cho việc lặp lại.
+- `tri-thuc/hoi-dap.md` — câu chủ hay hỏi. `tri-thuc/cong-thuc/` — cách làm sẵn cho việc lặp lại. `tri-thuc/tong-ket/` — tổng kết từng ngày. `tri-thuc/viec-do.md` — việc dở mang sang.
 - `tri-thuc/kien-thuc/chung.md` — mọi phòng đọc trước khi làm.
 - `tri-thuc/kien-thuc/<id-phòng>.md` — kiến thức riêng từng phòng.
 - `tri-thuc/kien-thuc/nhat-ky-hoc.md` — lịch sử học.

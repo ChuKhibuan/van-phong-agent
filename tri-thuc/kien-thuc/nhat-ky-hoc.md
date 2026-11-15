@@ -19,3 +19,4 @@
 - (15/11/2026) kich-ban: học xong tài liệu VÍT MEDIA CONTENT TEACH v1.0 (đọc đúng tab 2 của Google Doc), tóm tắt trong kien-thuc/kich-ban.md.
 - (15/11/2026) dang-bai: chủ tự lên lịch bài Page 9.png 9h 16/11 và dặn từ nay tự đính ảnh + lên lịch bài đã duyệt không cần xin; giới hạn kỹ thuật đính file vẫn còn (xem kien-thuc/dang-bai.md).
 | 15/11/2026 | Quy chuẩn tư vấn khách và chăm sóc VÍT MEDIA v1.0 (Google Doc CUSTOMER SERVICE & SALES TEACH, 15 phần, đọc đủ): lưu tri-thuc/tu-van-khach-vit-media.md; kien-thuc sales, giao-hang, tiep-nhan, kich-ban, chung đều trỏ tới (thư mục .claude/skills bị chặn ghi nên không đặt vào skill vit-media) | sales, giao-hang, tiep-nhan, kich-ban, chung |
+| 15/11/2026 | Tổng kết ngày: máy trực Haiku/Sonnet, tri-thuc/ tự ghi, công thức + hỏi đáp, phiếu bàn giao, Lịch đăng Notion, Đăng bài thường trực + QA báo cáo 22h, đính ảnh Business Suite qua Chrome, TV Bảng phòng ban; 2 việc mang sang 16/11 (tri-thuc/viec-do.md) | mọi phòng |

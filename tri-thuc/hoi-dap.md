@@ -27,3 +27,6 @@ Lịch nội dung ở Notion "Lịch đăng · Văn phòng agent" (nút 📅 L�
 
 ### Hôm nay Đăng bài đã đăng / lên lịch gì? Báo cáo đăng bài?
 Đọc phần "Việc các phòng hôm nay" máy trực gửi kèm (dòng `dang-bai`): liệt kê từng bài, kênh, đã đăng hay lên lịch mấy giờ. Đủ nội dung, ảnh: nút 📅 Lịch đăng (Notion). QA tự gửi báo cáo lúc 22:00 mỗi ngày có đăng bài. · nguồn: brain/BAO-CAO-CUOI-NGAY.md
+
+### Còn việc gì dở? Hôm qua làm tới đâu? Tổng kết ngày?
+Việc dở: `tri-thuc/viec-do.md`. Tổng kết từng ngày: `tri-thuc/tong-ket/<yyyy-mm-dd>.md`. · nguồn: tri-thuc/tong-ket/

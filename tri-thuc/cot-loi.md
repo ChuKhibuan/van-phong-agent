@@ -5,6 +5,7 @@ Mọi phòng đọc file này. Bộ não và vòng nâng cấp cuối ngày tự
 
 - (15/11/2026, chủ chỉnh) **VÍT MEDIA là công ty chính; Hoàng Hà Makeup chỉ là một khách hàng của VÍT MEDIA.** Việc không nói rõ khách thì mặc định là VÍT MEDIA.
 - (14/11/2026, hiểu lại theo dòng trên) Hai mảng kiến thức tách riêng: **Hoàng Hà Makeup** (ngành cưới, skill `hoang-ha-makeup-video`, chuẩn mới nhất `kien-thuc-HH-MAKEUP-V2.md`) và **VÍT MEDIA** (edit video, video AI, thiết kế; không nhận cưới; skill `vit-media`). Thiết kế dùng thêm skill `so-tay-thiet-ke`.
+- (15/11/2026) Mỗi ngày có tổng kết ở `tri-thuc/tong-ket/<ngày>.md`, việc dở ở `tri-thuc/viec-do.md` (đọc khi bắt đầu ngày mới).
 - (15/11/2026) Phòng liên quan chuyền tay nhau trong cùng lượt bằng phiếu bàn giao; kiến thức phòng trước chảy sang phòng sau (`kho/quy-trinh.md`). Ví dụ Kịch bản xong → Thiết kế làm ảnh / Dựng làm video.
 - (15/11/2026) Đăng bài chủ giao (Page Vít media, nhóm Facebook): Đăng bài tự đăng / lên lịch bằng Chrome của chủ, không hỏi lại, không chờ QA duyệt trước; QA báo cáo cuối ngày hoặc khi chủ hỏi. Bài agent tự đề xuất, bình luận, Page Hoàng Hà: vẫn soạn nháp chuyển QA.
 - (14/11/2026) Nội dung đăng: Không giá, thời hạn, kinh nghiệm chưa xác nhận.

@@ -40,6 +40,10 @@ Với mỗi phòng có việc hôm nay, viết 1–5 bài học. Một bài họ
 Mô hình việc của văn phòng lặp lại hằng ngày; mỗi lần lặp mà phải nghĩ lại từ đầu là tốn token.
 - **Sổ hỏi đáp** `tri-thuc/hoi-dap.md`: câu hỏi chủ hỏi từ 2 lần trở lên (hôm nay hoặc cộng dồn), có câu trả lời đúng → thêm hoặc gộp một mục. Thông tin hay đổi thì ghi chỗ xem, không ghi số cố định. Giữ dưới ~60 mục.
 - **Công thức** `tri-thuc/cong-thuc/`: kiểu việc làm từ 2 lần trở lên và đã chạy đúng → viết công thức theo mẫu trong `README.md` và thêm vào bảng; công thức có sẵn mà hôm nay chủ sửa / QA trả lại → sửa bước tương ứng.
+## 3c. Tổng kết ngày và việc dở
+- Viết `tri-thuc/tong-ket/<yyyy-mm-dd>.md` theo mẫu `tri-thuc/tong-ket/2026-11-15.md` (4 mục: hệ thống · các phòng học gì · lỗi → cách tránh · mang sang hôm sau). Chỉ ghi việc có thật trong Board / Inbox / git log hôm nay.
+- Cập nhật `tri-thuc/viec-do.md`: xoá việc đã xong, thêm việc còn dở (Inbox `error` / `waiting`, Board `waiting`), kèm link.
+
 ## 4. QA soát
 Gọi subagent `qa`: đọc `git diff` của bước 3, kiểm tra không bịa, không lộ thông tin khách, không mâu thuẫn. QA sửa tại chỗ nếu cần và ghi `kho/dinh-chinh.md`.
 
