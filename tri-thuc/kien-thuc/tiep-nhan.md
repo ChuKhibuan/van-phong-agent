@@ -11,6 +11,8 @@ Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, c
 
 - (15/11/2026) ĐÃ HỌC quy chuẩn tư vấn VÍT MEDIA v1.0 (`tri-thuc/tu-van-khach-vit-media.md`, mục 3 bước 6 và mục 5): báo giá nêu giá, sản phẩm nhận, công việc gồm, số lần sửa, tiến độ, phát sinh; chỉ khi đủ phạm vi; mức tham khảo phải ghi chưa phải giá chốt; không ép Premium; không tự giảm giá hay thêm ưu đãi; số lượng lớn chỉ báo khi biết độ phức tạp và thời lượng footage. Giá vẫn tính theo `dinh-gia.md`.
 
+- (15/11/2026) Chi phí nhân công nội bộ VÍT MEDIA: **70.000đ/giờ, 8 giờ/ngày** (chủ báo); chỉ dùng tính giá vốn, không đưa lên bảng giá khách. Quy trình tính giá 7 bước đầy đủ: `tri-thuc/bo-sung/vit-media-dinh-gia.md`. Giá bán = tổng chi phí / (1 − biên lợi nhuận).
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (15/11/2026) Báo giá VÍT MEDIA: chủ động phân tích khi nghe "báo giá"; giá vốn = nhân công + công cụ AI + tư liệu + thuê ngoài, cộng vận hành và dự phòng (5–25% theo độ khó); không định giá thấp vì là AI; thiếu dữ liệu thì ghi giả định. Chi tiết: `vit-media/dinh-gia.md` mục XII.
