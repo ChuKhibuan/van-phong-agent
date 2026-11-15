@@ -346,7 +346,9 @@ html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; text-size-adjus
   .tv-screen { border-width: 6px; padding: 12px; border-radius: 14px; }
   .tv-sum { grid-template-columns: 1fr; }
   .tv-hrow { display: none; }
-  .tv-row { grid-template-columns: 1fr 1fr; gap: 4px 10px; padding: 9px 2px; }
+  .tv-row { grid-template-columns: 1fr; gap: 2px; padding: 9px 2px; }
+  .tv-cell { padding: 2px 0; }
+  .tv-val { min-width: 104px; }
   .tv-name { grid-column: 1 / -1; }
   .tv-lbl { display: inline !important; }
   .tv-tags { grid-column: 1 / -1; }

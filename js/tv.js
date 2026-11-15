@@ -4,6 +4,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const H = 3600e3;
 const GIO_LAM = [8, 22];          // khung giờ làm việc dùng để tính % rảnh (giờ VN)
 const TRAN_MOT_VIEC = 3 * H;      // một dòng "working" không ghi dòng kết thúc thì tính tối đa 3 giờ
+const VIEC_KHONG_GHI_GIO = H / 3; // việc ghi thẳng "done" không có giờ bắt đầu: ước 20 phút
 
 function vnParts(t) { const d = new Date(t + 7 * H); return { y: d.getUTCFullYear(), m: d.getUTCMonth(), d: d.getUTCDate(), h: d.getUTCHours() + d.getUTCMinutes() / 60 }; }
 function vnMidnight(t) { const p = vnParts(t); return Date.UTC(p.y, p.m, p.d) - 7 * H; }
@@ -48,7 +49,7 @@ export class TV {
           </div>
           <div class="tv-sum"></div>
           <div class="tv-grid" role="table" aria-label="So sánh các phòng"></div>
-          <p class="tv-note">Giờ bận ước tính từ Board: từ lúc phòng ghi <b>đang làm</b> tới dòng kế tiếp của phòng đó (tối đa 3 giờ/việc), trong khung ${GIO_LAM[0]}h–${GIO_LAM[1]}h.
+          <p class="tv-note">Giờ bận ước tính từ Board: từ lúc phòng ghi <b>đang làm</b> tới dòng kế tiếp (tối đa 3 giờ/việc); việc ghi thẳng <b>xong</b> tính khoảng 20 phút; % rảnh tính trong khung ${GIO_LAM[0]}h–${GIO_LAM[1]}h.
           Kiến thức = số điều đã ghi trong <code>tri-thuc/kien-thuc/&lt;phòng&gt;.md</code>.</p>
         </div>
         <div class="tv-stand" aria-hidden="true"></div>
@@ -91,9 +92,14 @@ export class TV {
     const ids = this.office.rooms.map((r) => r.id).filter((id) => !(id in this.know));
     await Promise.all(ids.map(async (id) => {
       try {
-        const res = await fetch(`tri-thuc/kien-thuc/${id}.md?_=${Date.now()}`, { cache: 'no-store' });
-        if (!res.ok) throw 0;
-        const md = (await res.text()).replace(/<!--[\s\S]*?-->/g, '');
+        // Bộ não: kiến thức nằm cả ở file cốt lõi chung
+        const files = [`tri-thuc/kien-thuc/${id}.md`, ...(this.office.rooms.find((r) => r.id === id)?.brain ? ['tri-thuc/cot-loi.md'] : [])];
+        const texts = await Promise.all(files.map(async (f) => {
+          const res = await fetch(`${f}?_=${Date.now()}`, { cache: 'no-store' });
+          if (!res.ok) throw 0;
+          return res.text();
+        }));
+        const md = texts.join('\n').replace(/<!--[\s\S]*?-->/g, '');
         let sec = '', all = 0, lessons = 0, recv = 0;
         for (const l of md.split(/\r?\n/)) {
           if (/^## /.test(l)) sec = l;
@@ -110,8 +116,10 @@ export class TV {
   _stats() {
     const now = Date.now();
     const from = this.range === 'today' ? vnMidnight(now) : vnMidnight(now) - 6 * 24 * H;
-    const span = Math.max(0.5, workHours(from, now));
     const rows = this.getRows().slice().sort((a, b) => +a.timestamp - +b.timestamp);
+    // chỉ tính từ ngày hệ thống bắt đầu có dữ liệu, không tính những ngày chưa có văn phòng
+    const first = rows.length ? vnMidnight(+rows[0].timestamp) : from;
+    const span = Math.max(0.5, workHours(Math.max(from, first), now));
     const byAgent = {};
     for (const r of rows) (byAgent[r.agent] ||= []).push(r);
     return this.office.rooms.map((room) => {
@@ -124,7 +132,12 @@ export class TV {
           const a = Math.max(t, from);
           if (end > a) busy += workHours(a, end);
         }
-        if (t >= from && r.status === 'done') done++;
+        if (t >= from && r.status === 'done') {
+          done++;
+          // việc ghi thẳng "done" (không có dòng "đang làm" ngay trước): tính khoảng 20 phút
+          const prev = list[i - 1];
+          if (!prev || prev.status !== 'working') busy += VIEC_KHONG_GHI_GIO / H;
+        }
       });
       const last = list[list.length - 1];
       if (last?.status === 'waiting') waiting = 1;
@@ -145,7 +158,8 @@ export class TV {
       s.tags = [];
       if (s.now === 'working') s.tags.push(['busy', '⚙', 'Đang làm']);
       if (s.waiting) s.tags.push(['wait', '⏳', 'Chờ duyệt']);
-      if (s.free >= 0.9 && s.now !== 'working') s.tags.push(['free', '☕', 'Rảnh nhiều']);
+      // rảnh nhiều = khối việc dưới 1/4 phòng bận nhất (so tương đối giữa các phòng)
+      if (s.busy < maxBusy / 4 && s.now !== 'working') s.tags.push(['free', '☕', 'Rảnh nhiều']);
       if (s.k && (s.k.all < 4 || (s.k.all <= lowKnow && s.done >= 2))) s.tags.push(['learn', '📚', 'Nên dạy thêm']);
     }
     const order = {
