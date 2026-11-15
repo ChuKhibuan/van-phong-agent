@@ -10,6 +10,7 @@ Việc nào chủ giao lặp đi lặp lại thì có **một công thức**: đ
 |---|---|---|---|
 | [dang-bai-nhom.md](dang-bai-nhom.md) | "đăng N nhóm", "đăng bài lên nhóm" | Đăng bài | Sonnet (máy trực, có Chrome) |
 | [nhac-khach.md](nhac-khach.md) | "nhắc khách", "khách chưa chốt / chưa trả tiền" | Bán hàng, Giao hàng & CSKH → QA | Sonnet |
+| [viet-bai-page-theo-anh.md](viet-bai-page-theo-anh.md) | "viết bài theo ảnh này" cho Page VÍT MEDIA | Kịch bản | Sonnet |
 
 ## Mẫu một công thức
 
