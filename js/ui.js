@@ -535,7 +535,9 @@ export class UI {
       const s = lastUser.m?.status || '';
       pending = s === 'processing'
         ? `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> ${esc(r.name)} đang xử lý…</div></div>`
-        : `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> Đã nhận. ${esc(r.name)} trả lời lúc khoảng <b>${this._nextRun()}</b>${lastUser.m ? '' : ' (đang chờ vào Inbox)'}.</div></div>`;
+        : lastUser.m
+          ? `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> Đã nhận. Máy trực sẽ trả lời trong 1–2 phút (nếu máy tính tắt: khoảng <b>${this._nextRun()}</b>).</div></div>`
+          : `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> Đang chờ tin vào Inbox… Cửa sổ nhỏ chưa hiện ✅ thì bấm Gửi lại.</div></div>`;
     }
     // mục "Cần bạn" chỉ còn hiệu lực ở câu trả lời mới nhất, khi bạn chưa nhắn lại
     const liveNeeds = lastAgent?.needs?.length && (!lastUser || lastUser.at < lastAgent.at) ? lastAgent : null;
