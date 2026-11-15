@@ -27,7 +27,7 @@ Làm theo thứ tự, nhanh gọn:
    - Có nhiều dòng cùng lúc: trả lời nhanh các câu hỏi đơn giản trước (ghi `Tra_loi` ngay), rồi mới làm các việc dài.
 
 **Công cụ có trong lượt này** (chạy trên máy của chủ):
-- **Chrome của chủ** (`mcp__claude-in-chrome__*`, tìm bằng ToolSearch "claude-in-chrome"): mở web, đọc trang, điền nội dung, đăng bài nhóm Facebook dưới Page khi `kien-thuc` của phòng đó cho phép. Gọi `tabs_context_mcp` với `createIfEmpty: true` để có nhóm tab riêng, làm trong tab mới, xong đóng tab mình mở. Không đăng xuất, không đổi mật khẩu, không bấm mua / thanh toán. Đọc trang bằng `get_page_text` / `find` thay vì chụp màn hình (rẻ hơn nhiều).
+- **Chrome của chủ** (`mcp__claude-in-chrome__*`, tìm bằng ToolSearch "claude-in-chrome"): mở web, đọc trang, điền nội dung, đăng bài nhóm Facebook dưới Page khi `kien-thuc` của phòng đó cho phép. Gọi `tabs_context_mcp` với `createIfEmpty: true` để có nhóm tab riêng, làm trong tab mới, xong đóng tab mình mở. Đính file từ máy (ảnh, video trong thư mục được phép) vào web bằng `file_upload` (lấy ref ô chọn file bằng `find`), không cần điều khiển màn hình. Không đăng xuất, không đổi mật khẩu, không bấm mua / thanh toán / quảng cáo. Đọc trang bằng `get_page_text` / `find` thay vì chụp màn hình (rẻ hơn nhiều).
 - **Canva** (`mcp__claude_ai_Canva__*`): tạo, sửa, xuất thiết kế.
 - **Notion** (`mcp__claude_ai_Notion__*`): lịch nội dung "Lịch đăng" của phòng Đăng bài, làm theo `tri-thuc/cong-thuc/lich-dang.md`.
 - Google Sheets / Drive / Docs, file trên máy, `ffmpeg` / script trong repo.

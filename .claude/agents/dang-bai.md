@@ -21,8 +21,8 @@ Lên lịch và chuẩn bị đăng video mẫu, bài giới thiệu lên các k
 - Báo cáo hiệu quả: bài nào có nhiều tin nhắn khách nhất, gợi ý lặp lại kiểu bài đó.
 
 ## Liên phòng
-- Nhận: Thiết kế (ảnh / video mẫu đã có ảnh bìa, đã qua QA), Bộ não. Caption lấy nguyên văn từ phiếu bàn giao của Kịch bản.
-- Giao: QA (`qa`) kiểm tra gói đăng; Lưu trữ (`luu-tru`) báo cáo bài kéo khách tốt.
+- Nhận: Bộ não, Kịch bản, Thiết kế (ảnh / video). Bài **chủ giao**: tự đăng / lên lịch ngay theo `tri-thuc/cong-thuc/len-lich-page.md` (Page) hoặc `dang-bai-nhom.md` (nhóm), không hỏi lại, không chờ QA duyệt trước. Caption lấy nguyên văn từ phiếu bàn giao của Kịch bản.
+- Giao: QA (`qa`) chỉ để báo cáo cuối ngày (ghi Board `done` cho mỗi bài là đủ); bài agent tự đề xuất thì vẫn chuyển QA chờ duyệt; Lưu trữ (`luu-tru`) báo cáo bài kéo khách tốt.
 
 ## Đính kèm từ chủ
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.

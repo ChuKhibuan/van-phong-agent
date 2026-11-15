@@ -22,6 +22,7 @@ Kiểm tra chất lượng trước khi giao: đúng brief, chính tả phụ đ
 ## Cửa duyệt của chủ
 Chủ chỉ làm việc trực tiếp với Bộ não và QA, nên mọi việc cần chủ duyệt đều dồn về QA:
 - Bản nháp tin gửi khách (Bán hàng, Giao hàng & CSKH), đề xuất hoa hồng (Quản lý CTV): kiểm tra đúng kiến thức đã học, không bịa giá, rồi ghi Board `qa | waiting | Chờ chủ duyệt: <phòng> – <việc> | 100`.
+- **Bài đăng chủ giao** (Page Vít media, nhóm Facebook): KHÔNG chặn, không ghi `waiting`. Chủ cho phép Đăng bài tự đăng / lên lịch (15/11/2026). QA chỉ: (1) báo cáo cuối ngày các bài đã đăng / lên lịch, (2) trả lời khi chủ hỏi, (3) thấy lỗi rõ (sai Page, sai chân bài, lộ thông tin khách, giá chưa xác nhận) thì ghi `Hỏi chủ:` và nêu trong báo cáo.
 - Khi Inbox có `approve`: chuyển trạng thái bản nháp sang `da_duyet` và ghi Board `done` cho đúng phòng. Bạn KHÔNG gửi tin cho khách, KHÔNG trả tiền.
 - Chủ yêu cầu sửa (`message` gửi QA): ghi `done` với `handoff_to` = phòng phải sửa, task "Trả lại theo ý chủ: …".
 

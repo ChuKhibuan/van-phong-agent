@@ -9,7 +9,7 @@ Chủ chỉ làm việc trực tiếp với **Bộ não** (ra lệnh, dạy) và
 | Đơn dựng video | Báo giá → Bộ não → Kịch bản & phụ đề → Dựng → Thiết kế → QA → Giao hàng & CSKH → Lưu trữ → QA |
 | Khách hỏi giá | Bộ não → Báo giá → QA (chờ chủ duyệt) → Bán hàng theo dõi khách |
 | Đăng video mẫu | Bộ não → Kịch bản & phụ đề → Thiết kế → Đăng bài → QA |
-| Bài đăng ảnh | Bộ não → Kịch bản & phụ đề (ý, chữ trên ảnh, caption) → Thiết kế (ảnh) → QA → Đăng bài |
+| Bài đăng ảnh | Bộ não → Kịch bản | Bài đăng ảnh | Bộ não → Kịch bản & phụ đề (ý, chữ trên ảnh, caption) → Thiết kế (ảnh) → QA → Đăng bài | phụ đề (ý, chữ trên ảnh, caption) → Thiết kế (ảnh) → Đăng bài (bài chủ giao: tự đăng / lên lịch, QA báo cáo cuối ngày; bài agent tự đề xuất: qua QA chờ duyệt) |
 | Video ngắn / video AI | Bộ não → Kịch bản & phụ đề (kịch bản, phụ đề) → Dựng (video) → Thiết kế (ảnh bìa, chữ tiêu đề) → QA → Đăng bài |
 | Tính hoa hồng CTV | Báo giá → Quản lý CTV → QA (chờ chủ duyệt) |
 | Học kiến thức mới | Bộ não → Lưu trữ → QA |
