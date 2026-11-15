@@ -17,3 +17,4 @@
 | 15/11/2026 | Chủ cấp quyền thường trực ghi kien-thuc/; chuyển kiến thức giữa phòng liên quan; Kịch bản 2 việc cho Page VÍT MEDIA (CHƯA ghi được vào kich-ban, chung, thiet-ke: máy chủ vẫn từ chối quyền ghi file) | chung, kich-ban, thiet-ke |
 | 15/11/2026 | Đã ghi được (thư mục nay là tri-thuc/kien-thuc/): Kịch bản 2 việc cho Page VÍT MEDIA; chủ chỉnh: VÍT MEDIA là công ty chính, Hoàng Hà Makeup chỉ là một khách hàng | chung, kich-ban, cot-loi |
 - (15/11/2026) kich-ban: học xong tài liệu VÍT MEDIA CONTENT TEACH v1.0 (đọc đúng tab 2 của Google Doc), tóm tắt trong kien-thuc/kich-ban.md.
+- (15/11/2026) dang-bai: chủ tự lên lịch bài Page 9.png 9h 16/11 và dặn từ nay tự đính ảnh + lên lịch bài đã duyệt không cần xin; giới hạn kỹ thuật đính file vẫn còn (xem kien-thuc/dang-bai.md).
