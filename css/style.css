@@ -216,7 +216,9 @@ body:has(.panel.open) .hint { display: none; }
 .kho-body a { color: var(--working); }
 
 /* ---------- đính kèm ---------- */
-.pn-attach { display: flex; gap: 6px; }
+.pn-attach, .pn-tools { display: flex; gap: 6px; flex-wrap: wrap; }
+.pn-tools[hidden] { display: none; }
+.pn-tools .tool-link { padding: 6px 10px; font-size: 12.5px; font-weight: 600; text-decoration: none; color: var(--accent, #555); border-color: color-mix(in srgb, var(--accent, #888) 45%, transparent); }
 .pn-attach .btn { padding: 6px 10px; font-size: 12.5px; font-weight: 500; }
 .btn-file { cursor: pointer; }
 .pn-paths { resize: vertical; border: 1px solid var(--line); border-radius: 10px; padding: 7px 9px; font: inherit; font-size: 12.5px; background: var(--surface-solid); color: var(--text); touch-action: auto; }

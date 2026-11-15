@@ -7,6 +7,8 @@ Các kênh, lịch đăng, mẫu caption, hashtag, cách đo bài nào kéo khá
 - (14/11/2026) Hoàng Hà Makeup (ngành cưới) và VÍT MEDIA (không nhận cưới) đăng tách kênh, tách nội dung.
 - (14/11/2026) Chủ sẽ hướng dẫn lại chính xác cách làm của phòng Đăng bài. Trước khi có hướng dẫn mới: chỉ soạn nháp khi được giao rõ, không tự mở rộng phạm vi, không tự lên lịch đăng; mọi bài vẫn qua QA chờ chủ duyệt.
 
+- (15/11/2026 · chủ yêu cầu) Mọi bài sắp đăng ghi vào Notion "Lịch đăng · Văn phòng agent" theo `tri-thuc/cong-thuc/lich-dang.md`; trang web có nút 📅 Lịch đăng và 📘 Lịch Page (Meta Business Suite).
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (15/11/2026 · tổng kết phiên) Chủ cho phép đăng nhóm trực tiếp bằng Chrome của chủ (Claude in Chrome), danh tính Page "Vít media"; mỗi lượt đăng cần chủ giao rõ số nhóm. Cách đăng chắc ăn: mở nhóm → bấm ô "Bạn viết gì đi..." → focus textbox trong hộp thoại → gõ bằng `computer type` → đọc lại bằng JS (nội dung khớp, hộp thoại có "Vít media") → mới bấm "Đăng". Không tìm thấy ô đăng thì dừng, không gõ. JS chỉ trả true/false, trả dữ liệu cookie/query sẽ bị chặn. Mỗi bài trong một nhóm chỉ đăng một lần/ngày; đăng xong ghi Board (giờ VN = UTC+7). Việc còn dở: 7 bài chờ duyệt ngày 15/11 (xem danh sách nhóm dòng dưới) cần kiểm tra lại ở `my_pending_content`/`my_posted_content`, nhóm nào bị từ chối thì chuyển sang danh sách bỏ. Facebook không cho đọc link bài nên báo cáo theo tên nhóm.

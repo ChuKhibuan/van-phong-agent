@@ -36,7 +36,7 @@ if (-not $claude) {
 }
 if (-not $claude) { Ghi 'Không tìm thấy claude.exe. Cài Claude Code rồi chạy lại.'; exit 1 }
 
-$toolsLon = 'Read,Write,Edit,Glob,Grep,Bash,Agent,Skill,ToolSearch,mcp__claude_ai_Google_Sheets,mcp__claude_ai_Google_Drive,mcp__claude_ai_Google_Docs,mcp__claude_ai_Canva,mcp__claude-in-chrome'
+$toolsLon = 'Read,Write,Edit,Glob,Grep,Bash,Agent,Skill,ToolSearch,mcp__claude_ai_Google_Sheets,mcp__claude_ai_Google_Drive,mcp__claude_ai_Google_Docs,mcp__claude_ai_Canva,mcp__claude_ai_Notion,mcp__claude-in-chrome'
 $toolsNhanh = 'Read,Glob,Grep,Bash,ToolSearch,mcp__claude_ai_Google_Sheets'
 # Từ cho thấy đây là giao việc (cần Sonnet + đủ công cụ), không chỉ hỏi.
 $tuGiaoViec = '(?i)\b(làm|soạn|viết|đăng|thiết kế|dựng|tạo|gửi|sửa|chỉnh|xuất|lên lịch|báo giá|kịch bản|video|ảnh|banner|logo|poster|chạy|mở|học|ghi nhớ|nhớ|lưu|xoá|xóa|duyệt|đồng ý|ok|chốt|giao|nhắn|tìm|nghiên cứu|phân tích|tổng hợp|lập|kế hoạch|cập nhật|thêm|bỏ|đổi|dạy)\b'

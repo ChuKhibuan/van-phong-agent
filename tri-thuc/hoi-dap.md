@@ -21,3 +21,6 @@ Tóm tắt từ dòng `description` trong `.claude/agents/<id>.md` và mục đ�
 
 ### Agent có dùng được máy tính (computer use) không?
 Máy trực có Chrome của chủ, Canva, Google Sheets/Drive/Docs, file trên máy. Không điều khiển được app desktop (CapCut, Zalo…): việc đó cần mở phòng trong app Claude. · nguồn: brain/TRA-LOI-NGAY.md
+
+### Lịch đăng ở đâu? Tuần này đăng gì? Bài nào chờ duyệt?
+Lịch nội dung ở Notion "Lịch đăng · Văn phòng agent" (nút 📅 Lịch đăng trên trang, hoặc https://www.notion.so/4195833762e181a5b828cfd174f61193): xem theo Lịch, Theo trạng thái, Ảnh & nội dung. Bài Page đã đặt giờ xem ở nút 📘 Lịch Page (Meta Business Suite). Đường nhanh không đọc được Notion: muốn liệt kê chi tiết thì ghi note `chuyen_lon`. · nguồn: tri-thuc/cong-thuc/lich-dang.md

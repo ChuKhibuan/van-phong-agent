@@ -143,6 +143,24 @@ export const OFFICE = {
     },
   ],
 
+  // ---------------- Nút mở nhanh trong khung phòng ----------------
+  // Hiện phía trên ô nhắn ở các phòng liệt kê trong `rooms`. Notion là trang riêng tư:
+  // chỉ ai đăng nhập đúng tài khoản Notion của chủ mới xem được.
+  shortcuts: [
+    {
+      icon: '📅', label: 'Lịch đăng',
+      title: 'Lịch nội dung trên Notion: ngày đăng, nội dung, ảnh, trạng thái từng bài',
+      url: 'https://www.notion.so/4195833762e181a5b828cfd174f61193',
+      rooms: ['bo-nao', 'dang-bai', 'kich-ban', 'thiet-ke', 'qa'],
+    },
+    {
+      icon: '📘', label: 'Lịch Page',
+      title: 'Lịch bài đã lên lịch trên Page (Meta Business Suite)',
+      url: 'https://business.facebook.com/latest/content_calendar',
+      rooms: ['bo-nao', 'dang-bai', 'qa'],
+    },
+  ],
+
   // ---------------- Lối đi nối các phòng ----------------
   // [phòngA, phòngB, kiểu, dời cửa (mét, tuỳ chọn)]
   // kiểu: 'stairs' (cầu thang) | 'escalator' (thang cuốn). Cùng tầng = hành lang phẳng.

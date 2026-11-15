@@ -122,6 +122,7 @@ export class UI {
       </div>
       <div class="pn-msgs" aria-live="polite"></div>
       <div class="pn-sugs"></div>
+      <div class="pn-tools" hidden></div>
       <div class="pn-attach">
         <label class="btn btn-ghost btn-file" title="Tải file lên Google Drive và gửi link kèm lệnh">📎 Gửi file<input type="file" multiple hidden></label>
         <button type="button" class="btn btn-ghost btn-path" title="Ghi đường dẫn file/thư mục trên máy bạn">🗂 Đường dẫn trên máy</button>
@@ -318,6 +319,11 @@ export class UI {
     this.$('.pn-queue').hidden = !r.gatekeeper;
     this.$('.pn-kho').hidden = !r.archive;
     if (r.archive) this._loadKho();
+    const tools = this.$('.pn-tools');
+    const sc = (this.office.shortcuts || []).filter((s) => s.url && (!s.rooms || s.rooms.includes(id)));
+    tools.innerHTML = sc.map((s) =>
+      `<a class="btn btn-ghost tool-link" href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title || '')}">${esc(s.icon || '')} ${esc(s.label)} ↗</a>`).join('');
+    tools.hidden = !sc.length;
     this.pending = []; this._renderFiles();
     this.$('.pn-paths').value = ''; this.$('.pn-paths').hidden = true;
     this._setMode('message');
