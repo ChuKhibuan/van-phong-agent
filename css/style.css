@@ -277,3 +277,9 @@ body.demo::after {
 body.reduce-motion .dots i { animation: none; opacity: .6; }
 .has-chat .pn-role, .has-chat .pn-sugs { display: none; }
 .has-chat .pn-queue, .has-chat .pn-kho { max-height: 20vh; }
+
+/* iPhone tự phóng to trang khi chạm vào ô nhập có chữ < 16px và không thu lại: giữ 16px trên máy cảm ứng */
+@media (max-width: 640px), (pointer: coarse) {
+  input, textarea, select { font-size: 16px !important; }
+}
+html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
