@@ -6,7 +6,11 @@ Phòng: kich-ban · Subagent: không
 Các bước:
 1. Đọc ảnh bằng Read: lấy chữ trên ảnh, ẩn dụ hình ảnh, nhóm nội dung (A–F).
 2. Viết theo HOOK → VẤN ĐỀ → GÓC NHÌN → GIẢI PHÁP/liên hệ nhẹ → CTA; hook lấy từ chữ trên ảnh; câu ngắn, không lời tuyệt đối, không giá/khách/số liệu bịa.
-3. Chân bài: "VÍT MEDIA | VIDEO • AI • DESIGN" + "📞 Hotline/Zalo: 0945 115 516".
+3. Chân bài CỐ ĐỊNH cho mọi bài Page (chủ chốt 15/11/2026, chép nguyên, không viết lại hotline/sđt kiểu khác):
+   VÍT MEDIA | VIDEO • AI • DESIGN
+   ──────────
+   📩 Inbox ngay để được tư vấn hoặc ZAL: 0945 115 516
+   #VideoAI  #MarketingAI #GiaiPhapTruyenThong
 4. Tự chấm 100 điểm; <90 thì sửa. Soạn nháp, chuyển QA chờ chủ duyệt, không tự đăng.
 Kết quả: bài đầy đủ trong Tra_loi.noi_dung; Board kich-ban.
 Không được: đổi tên/số, hứa quá mức, đăng khi chưa được giao.
