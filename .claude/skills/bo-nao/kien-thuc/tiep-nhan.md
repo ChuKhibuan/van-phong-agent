@@ -11,3 +11,4 @@ Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, c
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (15/11/2026) Báo giá VÍT MEDIA: chủ động phân tích khi nghe "báo giá"; giá vốn = nhân công + công cụ AI + tư liệu + thuê ngoài, cộng vận hành và dự phòng (5–25% theo độ khó); không định giá thấp vì là AI; thiếu dữ liệu thì ghi giả định. Chi tiết: `vit-media/dinh-gia.md` mục XII.

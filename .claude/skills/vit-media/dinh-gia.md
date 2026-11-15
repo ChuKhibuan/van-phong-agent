@@ -90,3 +90,11 @@ Giá **tham chiếu** đã dùng cho 60 clip talking head/tháng, 45–80 giây/
 ## XI. Nguyên tắc cuối
 Báo giá đúng việc · khách dễ chọn · VÍT MEDIA có lãi (đủ nhân công, phần mềm, hậu kỳ, rủi ro) · minh bạch (không hứa miễn phí vô hạn, không để phạm vi sửa mơ hồ) · thiết kế ít chữ, phân cấp mạnh, đúng nhận diện · ưu tiên chất lượng hơn giá thấp nhất · tuỳ biến theo từng dự án nhưng giữ hệ thống thiết kế và logic chia gói.
 Mỗi bảng giá VÍT MEDIA là một tài liệu bán hàng chuyên nghiệp, không chỉ là bảng liệt kê giá.
+
+## XII. Quy trình tính giá tự động (chủ dạy 15/11/2026, bản dán bị cắt sau mục "Gợi ý dự phòng")
+- Khi chủ/khách nói "Báo giá", "Tính giá", "làm video này bao nhiêu tiền?": chủ động phân tích và đề xuất giá, không chờ hỏi từng bước. Giá cân bằng 4 yếu tố: khách (cạnh tranh, hợp ngân sách), VÍT MEDIA (có lãi sau mọi chi phí), khối lượng/độ khó, khả năng thực hiện (không cam kết quá năng lực). Không định giá thấp chỉ vì làm bằng AI.
+- Bước 1: đọc toàn bộ tài liệu (kịch bản Word/PDF/Excel, video mẫu, ảnh, storyboard, tin nhắn khách) và trích: loại dịch vụ, số lượng, thời lượng, số cảnh, tư liệu khách có, việc VÍT MEDIA phải làm, độ khó, deadline, ngân sách, phạm vi sửa. Thiếu thông tin: đưa giả định hợp lý và ghi rõ; chỉ hỏi lại khi thiếu dữ liệu thiết yếu. Không xem được video mẫu thì không khẳng định đã xem hay mô tả kỹ thuật.
+- Bước 2: độ khó 3 cấp (đơn giản / trung bình / phức tạp) như mục III. Cùng 30 giây, 3 cảnh đơn giản khác hẳn 15 cảnh AI phức tạp.
+- Giá vốn trực tiếp = nhân công (số giờ × chi phí giờ nội bộ: phân tích, storyboard/prompt, tạo hình, tạo video, dựng, chỉnh màu, hiệu ứng, âm thanh, kiểm tra, duyệt/bàn giao) + công cụ AI (ảnh, video, voice, lip-sync, nâng chất lượng, tạo lại khi lỗi) + tư liệu (stock, nhạc bản quyền, font/hiệu ứng trả phí) + thuê ngoài.
+- Cộng thêm: vận hành phân bổ, quản lý/QC, dự phòng lỗi, phát sinh trong phạm vi. Dự phòng gợi ý: dựng đơn giản 5–10%; nhiều hiệu ứng 10–15%; nhiều cảnh AI 15–25%.
+- Chi phí giờ nội bộ và các bước 3–7 chưa nhận được (bản dán dừng ở đây): không bịa; thiếu số thì ghi `Hỏi chủ: …`.
