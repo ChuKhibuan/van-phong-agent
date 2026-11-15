@@ -16,3 +16,5 @@ Checklist kiểm tra trước khi giao: đúng brief, chính tả phụ đề, �
 - (15/11/2026 · việc thật) Chủ duyệt nơi đăng chung chung ("đăng vào nhóm", không tên nhóm): đổi Nhap_tin `da_duyet`, ghi rõ cột kênh (hội nhóm đúng chủ đề, cho phép quảng bá, dưới tên Page Vít media), Board `done` cho Đăng bài; người đăng chọn nhóm theo `dang-bai-facebook.md`, không bắt chủ kể tên nhóm.
 - (15/11/2026 · máy chủ) Máy chủ Windows không có Python/Node: sửa file bằng công cụ Edit, không dùng script. `TZ=Asia/Ho_Chi_Minh date` trong Git Bash trả giờ UTC; lấy giờ VN bằng `date -u -d '+7 hours' +%Y-%m-%dT%H:%M:%S+07:00`. Thư mục Drive `00 · Chờ QA duyệt` có thể trống; vẫn kiểm mỗi lượt.
 - (14/11/2026 · việc thật) Bản nháp thiếu thông tin chủ phải chốt (nơi đăng, giá) thì ghi `waiting` kèm câu `Hỏi chủ:` cụ thể, đối chiếu mẫu skill (độ dài, số liên hệ, không giá/cam kết) trước khi chuyển chủ.
+
+- (15/11/2026 · chủ chốt) Bài Page 9h 16/11 "Thiết kế thế nào mới là ĐẸP?": giữ bản đã lên lịch (chân trang cũ), không sửa; rút kinh nghiệm cho bài sau dùng chân trang mẫu mới. QA chỉ báo chủ kết quả lên lịch vào cuối phiên trong ngày, không chặn Đăng bài lên lịch sẵn bài chủ đã giao.

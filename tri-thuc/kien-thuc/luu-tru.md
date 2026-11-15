@@ -9,3 +9,5 @@ Cách đặt tên bản ghi, cấu trúc kho, những gì được và không đ
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+
+- (15/11/2026 · chủ dặn) Drive: mỗi lĩnh vực một bản ghi chép duy nhất, các skill cùng lĩnh vực làm giống nhau, càng ít bản/link càng tốt. Doc "Mục lục skill và công thức các phòng" (00 · Chờ QA duyệt) là bản chung: cập nhật thêm vào chính Doc, không tạo Doc mới cho từng skill. Bản quyền và việc các phòng (`kho/cho-duyet/2026-11-15-quyen-va-viec-cac-phong.md`) đã tóm vào mục 5 của Doc đó.
