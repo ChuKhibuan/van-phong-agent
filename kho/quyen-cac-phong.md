@@ -1,5 +1,5 @@
-# Quyền và việc đã làm của các phòng (tính đến 15/11/2026 22:40)
-Bản chờ QA duyệt. Nguồn: Board, Tra_loi, kiến thức các phòng. Bộ não tổng hợp, Lưu trữ soạn vào kho.
+# Quyền và việc đã làm của các phòng (tính đến 15/11/2026 22:40, QA duyệt 16/11)
+Nguồn: Board, Tra_loi, kiến thức các phòng. Bộ não tổng hợp, Lưu trữ soạn, QA duyệt.
 
 ## Quyền chung của máy trực (chạy trên máy chủ)
 - Có: Chrome của chủ (đăng nhóm Facebook dưới Page Vít media khi chủ giao rõ số nhóm), Canva, Notion (Lịch đăng), Google Sheets/Drive/Docs, file trên máy, ffmpeg/script trong repo, ghi `tri-thuc/kien-thuc/` (chủ cấp thường trực), git commit/push.

@@ -10,3 +10,4 @@ Chỉ QA ghi vào đây. Mỗi lần sửa hoặc đính chính thông tin trong
 | 14/11/2026 | `config.js`, subagent, skill Bộ não, `kho/quy-trinh.md` | Đổi tên phòng "Tiếp nhận" thành "Báo giá" (mã phòng vẫn là `tiep-nhan`) | Chủ yêu cầu |
 | 14/11/2026 | subagent `tiep-nhan`, `sales`, `config.js`, `kho/quy-trinh.md` | Việc soạn báo giá chuyển từ Bán hàng sang Báo giá; quy trình Khách hỏi giá: Bộ não → Báo giá → QA → Bán hàng theo dõi | Chủ yêu cầu |
 | 15/11/2026 | `vit-media/dinh-gia.md` (mới), `vit-media/SKILL.md`, `tri-thuc/kien-thuc/tiep-nhan.md`, `thiet-ke.md`, `qa.md` | Bổ sung phần quy chuẩn định giá bị cắt (mục III bước 3 đến XI) | Chủ gửi phần còn lại qua phòng QA |
+| 16/11/2026 | `kho/cho-duyet/2026-11-15-quyen-va-viec-cac-phong.md` → `kho/quyen-cac-phong.md` | Duyệt chuyển vào kho chính, không sửa nội dung (chỉ thêm tiêu đề ghi ngày duyệt); đã kiểm không có SĐT, số tài khoản, thông tin khách | Bản Lưu trữ soạn chờ duyệt |
