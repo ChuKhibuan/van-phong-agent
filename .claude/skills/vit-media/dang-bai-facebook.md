@@ -69,5 +69,5 @@ Gửi nguyên file kèm yêu cầu cụ thể, ví dụ “Hôm nay dùng Page V
 
 Nếu dùng với hệ thống truy xuất kiến thức, chia theo các mục 01–06 và giữ tiêu đề mục cùng nội dung. Hệ thống nhận có thể tạo embedding cho từng mục.
 
-## Chọn nhóm (cập nhật 19/11/2026)
+## Chọn nhóm (cập nhật 18/11/2026)
 Danh bạ 395 nhóm, chia theo nội dung và có cờ đăng được/chờ duyệt/bỏ: `tri-thuc/danh-ba-nhom.md`. Việc thường trực 30 bài/ngày (8h + 15h): `tri-thuc/cong-thuc/dang-bai-nhom.md`.

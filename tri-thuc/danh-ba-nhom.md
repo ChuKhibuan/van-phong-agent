@@ -1,6 +1,6 @@
 # Danh bạ nhóm Facebook theo nội dung (Page Vít media)
 
-Đã quét 1 lần toàn bộ 395 nhóm đang tham gia ngày 19/11/2026: tên nhóm, số thành viên, số bài mới trong ngày, luật về quảng cáo/SĐT/link, và nhóm nào đang có bài chờ duyệt.
+Đã quét 1 lần toàn bộ 395 nhóm đang tham gia ngày 18/11/2026: tên nhóm, số thành viên, số bài mới trong ngày, luật về quảng cáo/SĐT/link, và nhóm nào đang có bài chờ duyệt.
 **Cách dùng:**
 - Phòng Đăng bài đọc file này để chọn nhóm theo chủ đề bài. KHÔNG mở `/about` nữa.
 - Chỉ trước khi đăng vào nhóm ⏳ mới mở `/groups/<id>/my_pending_content` để xem bài cũ đã được duyệt chưa.

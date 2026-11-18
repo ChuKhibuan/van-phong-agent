@@ -14,10 +14,10 @@ Kết quả: `Tra_loi` liệt kê theo tên nhóm: lên thẳng / chờ admin du
 Không được: đăng khi chủ chưa giao rõ; đăng lại cùng nhóm trong ngày; bình luận / nhắn tin cho ai.
 Nguồn: 15/11/2026 · chủ cho phép đăng nhóm trực tiếp, cách đăng đã chạy đúng.
 
-## Việc thường trực mỗi ngày: 30 bài nhóm (chủ giao 19/11/2026)
+## Việc thường trực mỗi ngày: 30 bài nhóm (chủ giao 18/11/2026)
 Chạy tự động bằng lịch `dang-nhom-hang-ngay` (8:00 và 15:00, máy phải bật, app Claude và Chrome mở). Mỗi khung **15 bài = 15 nhóm khác nhau**. Đây là việc chủ đã giao rõ, nên không cần hỏi lại số nhóm.
 - **Mỗi nhóm tối đa 1 bài/ngày.** Khung chiều không đăng lại nhóm khung sáng đã đăng. Muốn biết sáng đã đăng nhóm nào thì xem Board hôm nay hoặc mục "Nhật ký ngày" cuối sổ `nhom-facebook.md`.
-- **Nguồn nhóm: đọc `tri-thuc/danh-ba-nhom.md` (danh bạ 395 nhóm đã quét 19/11, chia theo nội dung, cờ ✅/⚠️/⏳/⛔); KHÔNG mở /about nữa.** Chọn nhóm theo chủ đề bài, ưu tiên ✅ đông và nhiều bài/ngày, rồi ⚠️; ⏳ chỉ khi kiểm my_pending_content thấy đã duyệt. Thứ tự cũ:
+- **Nguồn nhóm: đọc `tri-thuc/danh-ba-nhom.md` (danh bạ 395 nhóm đã quét 18/11, chia theo nội dung, cờ ✅/⚠️/⏳/⛔); KHÔNG mở /about nữa.** Chọn nhóm theo chủ đề bài, ưu tiên ✅ đông và nhiều bài/ngày, rồi ⚠️; ⏳ chỉ khi kiểm my_pending_content thấy đã duyệt. Thứ tự cũ:
   1. Nhóm "đăng được" trong sổ.
   2. Nhóm "chờ duyệt lâu": chỉ kiểm `my_pending_content`, hết bài chờ thì đăng được.
   3. Nhóm mới trong `/groups/joins/`, có tên liên quan marketing, kinh doanh, doanh nghiệp, freelancer, AI, video, thiết kế, giáo viên/slide. Kiểm `/about` nhanh rồi ghi vào sổ.
@@ -40,6 +40,6 @@ Chạy tự động bằng lịch `dang-nhom-hang-ngay` (8:00 và 15:00, máy ph
   - Facebook cảnh báo spam, hoặc chặn tính năng đăng;
   - đăng nhập bị đăng xuất;
   - quá 3 nhóm liên tiếp báo lỗi.
-- **Mở máy trễ (chị dặn 19/11/2026):** lịch lỡ giờ sẽ tự chạy ngay khi mở app. Trước 15h: đăng bù phần sáng còn thiếu. Từ 15h: đăng đủ 30 bài trừ số đã đăng hôm nay, mỗi đợt tối đa 15 bài, hai đợt cách nhau ~30 phút. Sau 21h không đăng, để sáng mai. Mỗi bài cách nhau ít nhất 1 phút. Không đăng lại nhóm đã đăng trong 3 ngày gần nhất, trừ khi đã hết nhóm.
-- **Đo hiệu quả (chị chốt 19/11/2026):** có lịch `theo-doi-hieu-qua-nhom` chạy 20h mỗi tối, chỉ đọc. Nhóm có khách hỏi thì đánh ⭐ trong danh bạ để ưu tiên lần sau. Bài bị gỡ thì đổi cờ thành ⛔. Khách hỏi thì giao Sales trả lời qua Board.
-- **Bài chờ duyệt quá 7 ngày (chị chốt 19/11/2026):** được rút bài cũ ở các nhóm ⏳ để đăng bài mới, nhưng **hỏi chị trước mỗi lần xoá** (liệt kê nhóm, ngày đăng). Chị đồng ý mới xoá. Không tự xoá trong lịch tự chạy.
+- **Mở máy trễ (chị dặn 18/11/2026):** lịch lỡ giờ sẽ tự chạy ngay khi mở app. Trước 15h: đăng bù phần sáng còn thiếu. Từ 15h: đăng đủ 30 bài trừ số đã đăng hôm nay, mỗi đợt tối đa 15 bài, hai đợt cách nhau ~30 phút. Sau 21h không đăng, để sáng mai. Mỗi bài cách nhau ít nhất 1 phút. Không đăng lại nhóm đã đăng trong 3 ngày gần nhất, trừ khi đã hết nhóm.
+- **Đo hiệu quả (chị chốt 18/11/2026):** có lịch `theo-doi-hieu-qua-nhom` chạy 20h mỗi tối, chỉ đọc. Nhóm có khách hỏi thì đánh ⭐ trong danh bạ để ưu tiên lần sau. Bài bị gỡ thì đổi cờ thành ⛔. Khách hỏi thì giao Sales trả lời qua Board.
+- **Bài chờ duyệt quá 7 ngày (chị chốt 18/11/2026):** được rút bài cũ ở các nhóm ⏳ để đăng bài mới, nhưng **hỏi chị trước mỗi lần xoá** (liệt kê nhóm, ngày đăng). Chị đồng ý mới xoá. Không tự xoá trong lịch tự chạy.
