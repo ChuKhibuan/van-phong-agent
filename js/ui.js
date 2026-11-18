@@ -539,8 +539,12 @@ export class UI {
     const lastAgent = [...view].reverse().find((m) => m.who === 'agent');
     if (lastUser && (!lastAgent || lastAgent.at < lastUser.at)) {
       const s = lastUser.m?.status || '';
+      // tin vẫn "new" quá 5 phút: máy trực có thể đang tắt (máy khởi động lại, mất lối tắt Startup…)
+      const stale = lastUser.m && s === 'new' && Date.now() - +lastUser.at > 5 * 60e3;
       pending = s === 'processing'
         ? `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> ${esc(r.name)} đang xử lý…</div></div>`
+        : stale
+          ? `<div class="msg agent err"><div>⚠ Tin này đã chờ hơn 5 phút mà máy trực chưa nhận. Có thể <b>máy trực đang tắt</b> (máy tính vừa khởi động lại?). Trên máy tính, bấm đúp <code>may-truc\\cai-dat.ps1</code> (chạy bằng PowerShell) để bật lại; nếu máy tính tắt, Routine trên cloud sẽ trả lời khoảng <b>${this._nextRun()}</b>.</div></div>`
         : lastUser.m
           ? `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> Đã nhận. Máy trực sẽ trả lời trong 1–2 phút (nếu máy tính tắt: khoảng <b>${this._nextRun()}</b>).</div></div>`
           : `<div class="msg agent typing"><div><span class="dots"><i></i><i></i><i></i></span> Đang chờ tin vào Inbox… Cửa sổ nhỏ chưa hiện ✅ thì bấm Gửi lại.</div></div>`;

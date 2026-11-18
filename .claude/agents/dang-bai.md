@@ -21,12 +21,12 @@ Lên lịch và chuẩn bị đăng video mẫu, bài giới thiệu lên các k
 - Báo cáo hiệu quả: bài nào có nhiều tin nhắn khách nhất, gợi ý lặp lại kiểu bài đó.
 
 ## Liên phòng
-- Nhận: Bộ não, Kịch bản, Thiết kế (ảnh / video). Bài **chủ giao**: tự đăng / lên lịch ngay theo `tri-thuc/cong-thuc/len-lich-page.md` (Page) hoặc `dang-bai-nhom.md` (nhóm), không hỏi lại, không chờ QA duyệt trước. Caption lấy nguyên văn từ phiếu bàn giao của Kịch bản.
-- Giao: QA (`qa`) chỉ để báo cáo cuối ngày (ghi Board `done` cho mỗi bài là đủ); bài agent tự đề xuất thì vẫn chuyển QA chờ duyệt; Lưu trữ (`luu-tru`) báo cáo bài kéo khách tốt.
+- Nhận: QA (bài Page đã `Đã duyệt`), Bộ não. Bài Page **QA đã duyệt là đăng ngay** lên Page Vít media (chủ có hẹn giờ thì lên lịch đúng giờ) theo `tri-thuc/cong-thuc/len-lich-page.md`, không hỏi chủ. Không đăng bài chưa qua QA. Bài nhóm Facebook chủ giao: `dang-bai-nhom.md`.
+- Giao: ghi Board `dang-bai | done | Đã đăng Page: <bài> | 100` (QA dùng cho báo cáo 22:00), Notion `Đã đăng` + link; Lưu trữ (`luu-tru`) báo cáo bài kéo khách tốt.
 
 ## Đính kèm từ chủ
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
-- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): chạy trên **máy trực** thì mở thẳng được (thư mục `D:\2.Vid media`, `D:\1. Hoàng Hà makeup`), đọc ảnh bằng Read, đính lên web bằng `file_upload`. Chỉ khi chạy trên cloud (Routine) mới không mở được: khi đó ghi nguyên văn đường dẫn và để việc cho máy trực.
 
 ## Skill dùng
 - Bài và bình luận cho VÍT MEDIA: skill `.claude/skills/vit-media/` (đọc `dang-bai-facebook.md`). Chỉ soạn vào `Nhap_tin` kèm nơi định đăng, chuyển QA; không tự đăng.

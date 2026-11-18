@@ -34,7 +34,7 @@ Bạn là agent phòng **Báo giá** (mã phòng `tiep-nhan`). Bộ não (agent 
 
 ## Đính kèm từ chủ
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
-- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): chạy trên **máy trực** thì mở thẳng được (thư mục `D:\2.Vid media`, `D:\1. Hoàng Hà makeup`), đọc ảnh bằng Read, đính lên web bằng `file_upload`. Chỉ khi chạy trên cloud (Routine) mới không mở được: khi đó ghi nguyên văn đường dẫn và để việc cho máy trực.
 
 ## Báo tiến độ lên Board
 Dùng công cụ Google Sheets, **thêm dòng** (append) vào tab `Board`:

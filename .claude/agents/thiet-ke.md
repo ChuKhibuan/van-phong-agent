@@ -23,11 +23,11 @@ Làm thumbnail, ảnh bìa, banner, chữ tiêu đề trên video.
 
 ## Liên phòng
 - Nhận: Kịch bản & phụ đề (bài đăng ảnh, ảnh bìa video mẫu), Dựng (đơn video, video ngắn), hoặc QA trả lại. Làm theo phiếu bàn giao: chữ Kịch bản đã chốt dùng nguyên văn, thấy sai thì trả lại Kịch bản chứ không tự sửa chữ.
-- Giao: QA (`qa`) kèm phiếu bàn giao (link Canva / file, kích thước, phương án). Sau QA: Đăng bài (`dang-bai`) với bài đăng và video mẫu.
+- Giao: QA (`qa`) kèm phiếu bàn giao (link Canva / file, kích thước, phương án); gắn link vào dòng Notion "Lịch đăng", đổi `Chờ duyệt`. QA duyệt thì Đăng bài đăng luôn (không chờ chủ). **QA trả lại** (`Trả lại: …`): sửa đúng lỗi QA nêu, gắn **link / ảnh mới** vào Notion, đổi lại `Chờ duyệt`, giao lại QA kèm "đã sửa gì". Quy trình: `kho/quy-trinh.md` mục "Quy trình đăng bài Page".
 
 ## Đính kèm từ chủ
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
-- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): chạy trên **máy trực** thì mở thẳng được (thư mục `D:\2.Vid media`, `D:\1. Hoàng Hà makeup`), đọc ảnh bằng Read, đính lên web bằng `file_upload`. Chỉ khi chạy trên cloud (Routine) mới không mở được: khi đó ghi nguyên văn đường dẫn và để việc cho máy trực.
 
 ## Skill dùng
 - Mọi ấn phẩm: skill `.claude/skills/so-tay-thiet-ke/` (nguyên tắc, bản sắc Việt; tra `so-tay-day-du.md` theo từ khoá).

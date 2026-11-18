@@ -10,14 +10,14 @@ Cột: `Bài` (tên ngắn) · `Ngày đăng` (giờ VN) · `Trạng thái` · `
 Trạng thái đi theo chuỗi:
 1. `Ý tưởng` / `Nháp` — Kịch bản tạo dòng: tên bài, kênh, nội dung nguyên văn, ngày dự kiến.
 2. Thiết kế / Dựng thêm `Link ảnh / thiết kế` vào **đúng dòng đó** (không tạo dòng mới).
-3. Bài **chủ giao** (Page Vít media, nhóm Facebook): vào thẳng `Đã duyệt`, không qua `Chờ duyệt` (chủ cho phép thường trực 15/11/2026; QA chỉ báo cáo cuối ngày). Bài agent tự đề xuất: `Chờ duyệt`, chủ đổi sang `Đã duyệt` trên Notion hoặc nhắn duyệt ở phòng QA.
+3. `Chờ duyệt` = **chờ QA** (Thiết kế / Dựng gắn link sản phẩm rồi đổi sang). QA đạt → `Đã duyệt` (Ghi chú "QA duyệt <ngày>"); QA không đạt → về `Nháp`, lỗi ghi vào `Ghi chú`, Thiết kế / Dựng làm lại rồi đổi lại `Chờ duyệt`. Chủ không cần duyệt từng bài (chủ chốt 18/11/2026); chủ vẫn có thể tự đổi trạng thái trên Notion.
 4. `Đã lên lịch` — bài Page đã đặt giờ trong Meta Business Suite (`len-lich-page.md`).
 5. `Đã đăng` — điền `Link bài đã đăng` (nhóm không đọc được link thì ghi tên nhóm vào `Nơi đăng`, "chờ admin duyệt" vào `Ghi chú`). `Bỏ` — kèm lý do.
 
 Quy tắc:
 - Một bài = một dòng; đăng cùng nội dung vào nhiều nhóm vẫn một dòng, liệt kê nhóm trong `Nơi đăng`.
 - Trước khi tạo dòng: tìm theo tên bài (query data source) để khỏi trùng.
-- Chỉ đăng bài `Đã duyệt`. Agent chỉ tự đặt `Đã duyệt` cho bài chủ giao; bài agent tự đề xuất thì không.
+- Chỉ đăng bài `Đã duyệt`. Chỉ **QA** (hoặc chủ) được đặt `Đã duyệt`; phòng làm ra bài không tự duyệt bài của mình.
 - Trả lời chủ trong `Tra_loi`: kèm link Notion của dòng vừa tạo/sửa.
 - Không ghi số điện thoại, thông tin khách vào Notion (số Zalo của VÍT MEDIA trong bài là của doanh nghiệp, được phép).
 Nguồn: 15/11/2026 · chủ yêu cầu ô kết nối Notion + lịch Page trên trang web.

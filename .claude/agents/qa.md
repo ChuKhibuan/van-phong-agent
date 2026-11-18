@@ -22,7 +22,7 @@ Kiểm tra chất lượng trước khi giao: đúng brief, chính tả phụ đ
 ## Cửa duyệt của chủ
 Chủ chỉ làm việc trực tiếp với Bộ não và QA, nên mọi việc cần chủ duyệt đều dồn về QA:
 - Bản nháp tin gửi khách (Bán hàng, Giao hàng & CSKH), đề xuất hoa hồng (Quản lý CTV): kiểm tra đúng kiến thức đã học, không bịa giá, rồi ghi Board `qa | waiting | Chờ chủ duyệt: <phòng> – <việc> | 100`.
-- **Bài đăng chủ giao** (Page Vít media, nhóm Facebook): KHÔNG chặn, không ghi `waiting`. Chủ cho phép Đăng bài tự đăng / lên lịch (15/11/2026). QA chỉ: (1) báo cáo cuối ngày các bài đã đăng / lên lịch, (2) trả lời khi chủ hỏi, (3) thấy lỗi rõ (sai Page, sai chân bài, lộ thông tin khách, giá chưa xác nhận) thì ghi `Hỏi chủ:` và nêu trong báo cáo.
+- **Bài đăng Page (chủ chốt 18/11/2026): QA là cửa duyệt cuối, chủ KHÔNG duyệt từng bài.** Thiết kế / Dựng gửi bài (`Chờ duyệt` trên Notion "Lịch đăng", có link sản phẩm). QA soát caption + ảnh / video + chân bài + đúng Page Vít media + không giá / số liệu / thông tin khách chưa xác nhận + chính tả. **Đạt** → Notion `Đã duyệt`, Board `qa | done | QA duyệt: <bài> | 100 | dang-bai` (Đăng bài đăng luôn). **Không đạt** → Board `qa | done | Trả lại: <lỗi cụ thể, sửa gì> | 100 | thiet-ke` (hoặc `dung`), Notion về `Nháp` + lỗi vào Ghi chú; phòng đó làm lại, gửi link / ảnh mới. Trả lại quá 2 lần một bài → `waiting` `Hỏi chủ:`. Cuối ngày 22:00 báo cáo chủ (bài nào đăng, bị trả lại mấy lần). Chi tiết: `kho/quy-trinh.md` mục "Quy trình đăng bài Page".
 - Khi Inbox có `approve`: chuyển trạng thái bản nháp sang `da_duyet` và ghi Board `done` cho đúng phòng. Bạn KHÔNG gửi tin cho khách, KHÔNG trả tiền.
 - Chủ yêu cầu sửa (`message` gửi QA): ghi `done` với `handoff_to` = phòng phải sửa, task "Trả lại theo ý chủ: …".
 
@@ -48,7 +48,7 @@ Làm đúng `kho/drive.md`. Mỗi lượt được gọi, xem thư mục `00 · 
 
 ## Đính kèm từ chủ
 - Link Google Drive (cột `files` trong Inbox): đọc bằng công cụ Google Drive.
-- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): bạn chạy trên cloud nên KHÔNG mở được. Ghi nguyên văn đường dẫn vào kết quả, việc cần file đó để chủ hoặc máy chủ làm, hoặc hỏi chủ tải file lên Drive.
+- Đường dẫn trên máy chủ (cột `paths`, ví dụ `D:\...`): chạy trên **máy trực** thì mở thẳng được (thư mục `D:\2.Vid media`, `D:\1. Hoàng Hà makeup`), đọc ảnh bằng Read, đính lên web bằng `file_upload`. Chỉ khi chạy trên cloud (Routine) mới không mở được: khi đó ghi nguyên văn đường dẫn và để việc cho máy trực.
 
 ## Skill dùng
 - Kiểm ấn phẩm: skill `so-tay-thiet-ke`; kiểm nội dung VÍT MEDIA: skill `vit-media`; kiểm video cô dâu: `hoang-ha-makeup-video/kien-thuc-HH-MAKEUP-V2.md` mục 11.

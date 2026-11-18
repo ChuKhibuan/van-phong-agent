@@ -1,7 +1,7 @@
 # Lên lịch / đăng bài Page (Meta Business Suite)
 
-Khi nào dùng: chủ giao một bài cho Page VÍT MEDIA (ảnh trong `D:\2.Vid media\...` hoặc link, kèm giờ đăng; hoặc nội dung Kịch bản đã viết). **Không hỏi lại chủ**: chủ đã cho phép thường trực (15/11/2026). Chỉ máy trực làm được (cần Chrome của chủ).
-Cần có: ảnh (đường dẫn trong thư mục được phép, xem `%LOCALAPPDATA%\van-phong-agent\thu-muc.txt`), nội dung bài, ngày giờ đăng. Thiếu giờ → mặc định 9:00 sáng ngày làm việc kế tiếp chưa có bài Page (xem Notion). Thiếu nội dung → Kịch bản viết theo `viet-bai-page-theo-anh.md` rồi làm tiếp, không dừng hỏi. Chỉ hỏi chủ khi thiếu ảnh mà chủ nói có ảnh.
+Khi nào dùng: bài Page VÍT MEDIA đã được **QA duyệt** (Notion `Đã duyệt`, Board `qa | done | QA duyệt: … | dang-bai`). **Đăng ngay, không hỏi chủ** (chủ chốt 18/11/2026). Bài chưa qua QA thì không đăng: giao QA trước (quy trình `kho/quy-trinh.md` mục "Quy trình đăng bài Page"). Chỉ máy trực làm được (cần Chrome của chủ).
+Cần có: ảnh / video đã QA duyệt (link Canva / Drive hoặc đường dẫn trong thư mục được phép, xem `%LOCALAPPDATA%\van-phong-agent\thu-muc.txt`), caption nguyên văn trong Notion. Giờ đăng: chủ có hẹn giờ thì lên lịch đúng giờ đó; không hẹn thì **đăng ngay** khi QA duyệt.
 Phòng: `dang-bai` (Kịch bản viết nội dung nếu cần) · Subagent: không.
 Đọc: chân bài cố định trong `viet-bai-page-theo-anh.md`; mục "Bài học từ việc thật" của `tri-thuc/kien-thuc/dang-bai.md`.
 
