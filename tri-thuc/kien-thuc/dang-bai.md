@@ -3,6 +3,7 @@
 Các kênh, lịch đăng, mẫu caption, hashtag, cách đo bài nào kéo khách.
 
 <!-- Bộ não tự ghi vào đây. Mỗi dòng: - (dd/mm/yyyy) nội dung -->
+- (19/11/2026 · chủ dạy) Bài đăng hội nhóm **không bắt buộc có ảnh**: có thể đăng chữ không. Không vì thiếu ảnh mà hoãn bài nhóm hoặc chờ Thiết kế. Có sẵn ảnh/video đã QA duyệt thì đính kèm theo `len-lich-page.md` bước 4. Riêng bài Page vẫn theo quy trình Page (QA duyệt cả ảnh lẫn caption).
 - (18/11/2026 · chủ dặn, tiết kiệm token) Khi đăng hội nhóm: **đọc `tri-thuc/nhom-facebook.md` trước**, nhóm đã có kết luận (đăng được / chờ duyệt / bỏ hẳn) thì dùng luôn, không mở lại `/about`, `my_posted_content`, `my_pending_content`. Mỗi lần kiểm hoặc đăng nhóm mới thì ghi thêm một dòng vào sổ đó (tên/id, kết luận, lý do, ngày) rồi `git add tri-thuc`. Nhóm "chờ duyệt lâu" chỉ kiểm lại pending, không đọc lại quy tắc. Danh sách chi tiết trong "Bài học từ việc thật" bên dưới đã chuyển sang sổ này.
 - (18/11/2026 · chủ dạy) Bài Page phải qua checklist 8 điểm (mục tiêu, đối tượng, tiêu đề, giá trị, nhận diện, thiết kế, trung thực, CTA) trong `kich-ban.md` / `qa.md`; Đăng bài chỉ đăng bài QA đã duyệt theo checklist đó.
 - (18/11/2026 · chủ chốt quy trình Page, thay dòng 15/11 bên dưới với bài Page) Bài Page: Kịch bản → Thiết kế / Dựng → **QA duyệt** → Đăng bài **đăng ngay** (có hẹn giờ thì lên lịch), không hỏi chủ; bài chưa qua QA thì không đăng. Chi tiết `kho/quy-trinh.md` mục "Quy trình đăng bài Page".
