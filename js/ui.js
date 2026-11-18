@@ -521,7 +521,15 @@ export class UI {
       // tin cũ chưa có câu trả lời riêng: dùng cột note của Inbox
       if (m.note && !answered.has(m.key) && /done|error/.test(m.status)) items.push({ at: +m.at + 1, who: 'agent', md: m.note, err: m.status === 'error' });
     }
-    for (const m of replies) items.push({ at: +m.at, who: 'agent', md: m.text, needs: m.needs });
+    // Câu trả lời xếp ngay dưới tin nó trả lời (agent đôi khi ghi giờ không chuẩn → không được nhảy lên/xuống sai chỗ)
+    const askAt = new Map(mine.map((m) => [m.key, +m.at]));
+    const perAsk = new Map();
+    for (const m of replies) {
+      const q = askAt.get(m.replyTo);
+      let at = +m.at;
+      if (q !== undefined) { const k = (perAsk.get(m.replyTo) || 0) + 1; perAsk.set(m.replyTo, k); at = q + k * 10; }
+      items.push({ at, who: 'agent', md: m.text, needs: m.needs, shownAt: +m.at });
+    }
     // tin bạn vừa gửi mà Inbox chưa kịp hiện
     const lastIn = mine.length ? Math.max(...mine.map((m) => +m.at)) : 0;
     for (const m of (this.localMsgs[id] || [])) if (m.at > lastIn + 60e3 || !this.chat) items.push({ ...m });
@@ -556,7 +564,7 @@ export class UI {
       if (m.who === 'agent' && m.md != null) {
         const needs = m.needs?.length ? `<div class="needs${m === liveNeeds ? ' live' : ''}"><b>Cần bạn</b><ul>${m.needs.map((n) =>
           `<li><span>${esc(n)}</span>${m === liveNeeds ? `<button type="button" class="btn btn-ghost need-reply" data-need="${esc(n)}">Trả lời</button>` : ''}</li>`).join('')}</ul></div>` : '';
-        return `<div class="msg agent${m.err ? ' err' : ''}"><div class="who"><span class="pn-dot" style="background:${r.accent}"></span>${esc(r.name)}</div><div class="md">${this._md(m.md)}</div>${needs}<time>${timeStr(m.at)}</time></div>`;
+        return `<div class="msg agent${m.err ? ' err' : ''}"><div class="who"><span class="pn-dot" style="background:${r.accent}"></span>${esc(r.name)}</div><div class="md">${this._md(m.md)}</div>${needs}<time>${timeStr(Math.min(m.shownAt ?? m.at, Date.now()))}</time></div>`;
       }
       return `<div class="msg ${m.who}"><div>${esc(m.text)}</div><time>${timeStr(m.at)}</time></div>`;
     }).join('');

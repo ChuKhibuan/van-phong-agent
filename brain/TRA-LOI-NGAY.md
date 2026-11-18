@@ -37,7 +37,7 @@ Làm theo thứ tự, nhanh gọn:
    Việc vừa làm là **kiểu việc sẽ lặp lại** mà chưa có công thức (hoặc công thức thiếu bước): viết / sửa `tri-thuc/cong-thuc/<ten>.md` theo mẫu trong README đó, chỉ ghi cách làm đã chạy đúng.
 5. Có sửa `tri-thuc/` / `kho/`: `git pull --rebase -q`, rồi **chỉ** `git add tri-thuc kho` (không bao giờ `git add -A` hay `git add .`: trên máy có thể có file người khác đang sửa dở), commit, `git push origin HEAD:main`. Thư mục `.claude/` (skill, subagent, kể cả skill chuyên môn `vit-media`…) không ghi được khi chạy tự động: phần bổ sung cho skill chuyên môn ghi vào `tri-thuc/bo-sung/<tên-skill>-<chủ-đề>.md`, chủ / Claude phiên chính sẽ gộp sau.
 
-Giờ thật: lấy ở phần dữ liệu gửi kèm; việc kéo dài thì `powershell -NoProfile -Command "Get-Date -Format o"` (máy đặt giờ Việt Nam; lệnh `date` của Git Bash trả giờ UTC).
+Giờ thật: **ngay trước mỗi lần ghi** `Tra_loi` / Board, chạy `powershell -NoProfile -Command "Get-Date -Format o"` và dùng đúng giờ đó (máy đặt giờ Việt Nam; lệnh `date` của Git Bash trả giờ UTC). **Không bao giờ tự đặt giờ** (giờ tròn, giờ ước đoán, giờ tương lai): trang web xếp tin theo giờ, ghi sai thì câu trả lời nhảy lệch chỗ trong khung chat.
 
 Phiên này chạy trên máy chủ nên mở được đường dẫn trên máy (cột `paths`) khi việc cần. Thư mục được phép: các thư mục trong `%LOCALAPPDATA%\van-phong-agent\thu-muc.txt` (hiện có `D:\2.Vid media`, `D:\1. Hoàng Hà makeup`). Đường dẫn ngoài các thư mục đó bị chặn: đừng xin chủ "/add-dir", hãy nói "anh/chị nhờ Claude thêm thư mục <đường dẫn> vào danh sách thư mục của máy trực". Chỉ đọc / đính kèm file ở đó; không xoá, không sửa file gốc của chủ.
 

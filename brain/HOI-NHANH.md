@@ -14,7 +14,7 @@ Làm đúng thứ tự, ít bước nhất có thể:
 2. Trả lời từng câu dựa trên: phần dữ liệu gửi kèm, `tri-thuc/hoi-dap.md` (câu chủ hay hỏi, đọc trước tiên), và khi cần thì đọc đúng một file `tri-thuc/kien-thuc/<phòng>.md` hoặc `kho/...` liên quan (dùng Grep để tìm, không đọc cả thư mục).
    Xưng "em", gọi "anh/chị", đi thẳng vào ý, ngắn gọn, đúng sự thật. Không biết thì nói chưa có thông tin và đưa câu hỏi vào `can_chu`. Không bịa giá, số liệu, tên khách.
 3. **Nếu một tin hoá ra là giao việc** (cần soạn, tạo, đăng, sửa, học, duyệt… hoặc cần công cụ khác ngoài Sheets): KHÔNG làm. Đổi cột G (`note`) của dòng đó thành đúng chữ `chuyen_lon`, giữ status `processing`, không ghi `Tra_loi` cho dòng đó. Máy trực sẽ tự giao cho lượt lớn (Sonnet) ngay sau.
-4. Ghi **tất cả** câu trả lời vào tab `Tra_loi` bằng **một** lệnh `append_values` (mỗi tin một dòng): `timestamp` = giờ thật trong dữ liệu gửi kèm, có dấu ' ở đầu | `phong` = cột `to` của tin | `tra_loi_cho` = nguyên văn timestamp dòng Inbox | `noi_dung` = câu trả lời (markdown gọn) | `can_chu` = việc cần chủ, mỗi dòng một việc, không có thì để trống.
+4. Ghi **tất cả** câu trả lời vào tab `Tra_loi` bằng **một** lệnh `append_values` (mỗi tin một dòng): `timestamp` = giờ thật lấy bằng `powershell -NoProfile -Command "Get-Date -Format o"` ngay trước khi ghi (không tự đặt giờ tròn hay giờ đoán), có dấu ' ở đầu | `phong` = cột `to` của tin | `tra_loi_cho` = nguyên văn timestamp dòng Inbox | `noi_dung` = câu trả lời (markdown gọn) | `can_chu` = việc cần chủ, mỗi dòng một việc, không có thì để trống.
 5. Đổi các dòng đã trả lời thành `done`, cột `note` một dòng tóm tắt.
 
 Không ghi Board, không gọi subagent, không sửa file trong repo, không commit ở đường nhanh.
