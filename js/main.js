@@ -46,6 +46,41 @@ controls.enableDamping = !prefs.reduced; controls.dampingFactor = 0.08;
 controls.screenSpacePanning = true;
 controls.touches = { ONE: THREE.TOUCH.ROTATE, TWO: THREE.TOUCH.DOLLY_PAN };
 controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.PAN };
+controls.rotateSpeed = 0.6; controls.panSpeed = 0.8;
+
+// ---------- con lăn chuột: phóng to / thu nhỏ mượt, hướng theo con trỏ, dùng được trên toàn trang ----------
+// OrbitControls mặc định nhảy một bước cố định mỗi sự kiện → chuột / touchpad bắn nhiều sự kiện là giật.
+// Ở đây gom độ lăn thành "đích zoom", rồi mỗi khung hình tiến dần tới đích (xem frameBody).
+const wheel = { goal: null, nx: 0, ny: 0 };
+const SCROLLABLE = '.panel, .tv-wrap, .feed, .pn-msgs, .pn-menu, textarea, select, input, .modal, dialog';
+addEventListener('wheel', (e) => {
+  if (e.target.closest?.(SCROLLABLE)) return;          // khung chat, TV, nhật ký: để chúng tự cuộn
+  e.preventDefault(); e.stopPropagation();             // chặn trang cuộn + chặn bước zoom giật của OrbitControls
+  let dy = e.deltaY;
+  if (e.deltaMode === 1) dy *= 16; else if (e.deltaMode === 2) dy *= innerHeight;
+  if (e.ctrlKey) dy *= 3;                              // chụm 2 ngón trên touchpad gửi ctrl+wheel, độ lớn nhỏ
+  const step = THREE.MathUtils.clamp(-dy * 0.0016, -0.3, 0.3);
+  const base = wheel.goal ?? camera.zoom;
+  wheel.goal = THREE.MathUtils.clamp(base * Math.exp(step), controls.minZoom, controls.maxZoom);
+  wheel.nx = (e.clientX / innerWidth) * 2 - 1;
+  wheel.ny = -(e.clientY / innerHeight) * 2 + 1;
+}, { passive: false, capture: true });
+
+const _wx = new THREE.Vector3(), _wy = new THREE.Vector3();
+function wheelStep(dt) {
+  if (wheel.goal === null) return;
+  const z0 = camera.zoom;
+  let z1 = z0 + (wheel.goal - z0) * (1 - Math.exp(-dt * (prefs.reduced ? 40 : 11)));
+  if (Math.abs(wheel.goal - z1) / wheel.goal < 0.002) { z1 = wheel.goal; wheel.goal = null; }
+  // giữ điểm dưới con trỏ đứng yên: dịch camera + tâm theo phần chênh lệch
+  const hw = (camera.right - camera.left) / 2, hh = (camera.top - camera.bottom) / 2;
+  const kx = wheel.nx * hw * (1 / z0 - 1 / z1), ky = wheel.ny * hh * (1 / z0 - 1 / z1);
+  _wx.set(1, 0, 0).applyQuaternion(camera.quaternion).multiplyScalar(kx);
+  _wy.set(0, 1, 0).applyQuaternion(camera.quaternion).multiplyScalar(ky);
+  camera.position.add(_wx).add(_wy); controls.target.add(_wx).add(_wy);
+  camera.zoom = z1; camera.updateProjectionMatrix();
+  controls.dispatchEvent({ type: 'change' });          // áp giới hạn không kéo lệch khỏi toà nhà
+}
 const B = world.bounds;
 controls.addEventListener('change', () => {
   // không cho kéo lệch khỏi toà nhà
@@ -336,6 +371,7 @@ function frame() {
 function frameBody(dt) {
   simT += dt;
   const t = simT;
+  wheelStep(dt);
   controls.update();
   people.update(dt, t, roomStatus);
   pets.update(dt, t);
