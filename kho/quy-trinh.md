@@ -19,7 +19,7 @@ Chủ chỉ làm việc trực tiếp với **Bộ não** (ra lệnh, dạy) và
 1. **Chủ đưa nội dung** cho Bộ não hoặc phòng Kịch bản & phụ đề (ý bài, ảnh / clip gốc, giờ đăng nếu có).
 2. **Kịch bản & phụ đề** viết caption, chữ trên ảnh / phụ đề (theo `tri-thuc/cong-thuc/viet-bai-page-theo-anh.md`, chân bài cố định), tạo dòng Notion "Lịch đăng" (Trạng thái `Nháp`), gửi phiếu bàn giao.
 3. **Thiết kế** (bài ảnh) hoặc **Dựng** (bài video) làm theo phiếu, gắn **link sản phẩm** (Canva / Drive / file xuất) vào đúng dòng Notion, đổi Trạng thái `Chờ duyệt`, giao QA (Board `done` → `qa`).
-4. **QA soát**: caption + ảnh / video + chân bài + đúng Page + không giá / số liệu / thông tin khách chưa xác nhận + chính tả.
+4. **QA soát**: caption + ảnh / video + chân bài + đúng Page + không giá / số liệu / thông tin khách chưa xác nhận + chính tả + **ảnh có ý tưởng hình mới, khớp kịch bản** (so với 3 ảnh Page gần nhất: cùng bố cục / cùng hình chính mà chỉ đổi chữ → trả lại Thiết kế).
    - **Không đạt** → Board `done` với `handoff_to` = `thiet-ke` hoặc `dung`, task `Trả lại: <lỗi cụ thể, sửa gì>`; Notion về `Nháp`, ghi lỗi vào `Ghi chú`. Thiết kế / Dựng **làm lại**, gắn **link mới / ảnh mới** vào Notion, đổi lại `Chờ duyệt`, gửi lại QA. Lặp tới khi đạt.
    - Trả lại quá 2 lần cùng một bài → QA ghi `waiting` `Hỏi chủ: <bài> – <vướng gì>` và dừng.
    - **Đạt** → Notion `Đã duyệt` (Ghi chú "QA duyệt <ngày>"), Board `qa | done | QA duyệt: <bài> | 100 | dang-bai`.
