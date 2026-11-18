@@ -40,3 +40,4 @@ Chạy tự động bằng lịch `dang-nhom-hang-ngay` (8:00 và 15:00, máy ph
   - Facebook cảnh báo spam, hoặc chặn tính năng đăng;
   - đăng nhập bị đăng xuất;
   - quá 3 nhóm liên tiếp báo lỗi.
+- **Mở máy trễ (chị dặn 19/11/2026):** lịch lỡ giờ sẽ tự chạy ngay khi mở app. Trước 15h: đăng bù phần sáng còn thiếu. Từ 15h: đăng đủ 30 bài trừ số đã đăng hôm nay, mỗi đợt tối đa 15 bài, hai đợt cách nhau ~30 phút. Sau 21h không đăng, để sáng mai. Mỗi bài cách nhau ít nhất 1 phút. Không đăng lại nhóm đã đăng trong 3 ngày gần nhất, trừ khi đã hết nhóm.
