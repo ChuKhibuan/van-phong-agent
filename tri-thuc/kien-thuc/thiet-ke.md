@@ -22,3 +22,4 @@ Bảng màu, font, mẫu thumbnail/ảnh bìa, logo.
 ## Nhận từ phòng khác
 <!-- Điều phòng trước trong chuỗi đã học mà phòng này cần. Mỗi dòng: - (dd/mm/yyyy · từ <phòng>) nội dung -->
 - (15/11/2026 · chủ dặn) Kịch bản làm xong thì chuyển thẳng sang phòng này kèm phiếu bàn giao (`kho/quy-trinh.md`); chữ Kịch bản đã chốt (hook, tiêu đề, chữ trên ảnh, caption) dùng nguyên văn.
+- (18/11/2026 · bài đăng video AI) Bài đăng tĩnh làm bằng code (HTML → PNG qua Chrome headless) rẻ token, đúng logo/màu; phong cách kính trong + mảng xanh chéo + thanh liên hệ kính. Sổ tay đầy đủ: `C:\AI-Tổng\thiet-ke-bai-dang\SO-TAY-thiet-ke-bai-dang-bang-code.md`, mẫu `video-ai.html`.
