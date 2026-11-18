@@ -28,3 +28,6 @@ Cột: nhóm (id/slug) · kết luận · lý do · ngày kiểm
 
 ## Mẹo kiểm nhanh
 Trang `/about` có dòng "Đang chờ quản trị viên phê duyệt N bài viết" thì bỏ nhóm đó.
+
+## Nhật ký ngày (nhóm đã đăng, để khung sau không đăng trùng)
+<!-- - dd/mm sáng|chiều: nhóm A (lên thẳng), nhóm B (chờ duyệt), ... -->
