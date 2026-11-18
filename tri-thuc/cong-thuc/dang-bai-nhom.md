@@ -17,7 +17,7 @@ Nguồn: 15/11/2026 · chủ cho phép đăng nhóm trực tiếp, cách đăng 
 ## Việc thường trực mỗi ngày: 30 bài nhóm (chủ giao 19/11/2026)
 Chạy tự động bằng lịch `dang-nhom-hang-ngay` (8:00 và 15:00, máy phải bật, app Claude và Chrome mở). Mỗi khung **15 bài = 15 nhóm khác nhau**. Đây là việc chủ đã giao rõ, nên không cần hỏi lại số nhóm.
 - **Mỗi nhóm tối đa 1 bài/ngày.** Khung chiều không đăng lại nhóm khung sáng đã đăng. Muốn biết sáng đã đăng nhóm nào thì xem Board hôm nay hoặc mục "Nhật ký ngày" cuối sổ `nhom-facebook.md`.
-- **Nguồn nhóm**, theo thứ tự ưu tiên:
+- **Nguồn nhóm: đọc `tri-thuc/danh-ba-nhom.md` (danh bạ 395 nhóm đã quét 19/11, chia theo nội dung, cờ ✅/⚠️/⏳/⛔); KHÔNG mở /about nữa.** Chọn nhóm theo chủ đề bài, ưu tiên ✅ đông và nhiều bài/ngày, rồi ⚠️; ⏳ chỉ khi kiểm my_pending_content thấy đã duyệt. Thứ tự cũ:
   1. Nhóm "đăng được" trong sổ.
   2. Nhóm "chờ duyệt lâu": chỉ kiểm `my_pending_content`, hết bài chờ thì đăng được.
   3. Nhóm mới trong `/groups/joins/`, có tên liên quan marketing, kinh doanh, doanh nghiệp, freelancer, AI, video, thiết kế, giáo viên/slide. Kiểm `/about` nhanh rồi ghi vào sổ.

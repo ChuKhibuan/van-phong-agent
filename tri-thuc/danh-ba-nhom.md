@@ -1,0 +1,324 @@
+# Danh bạ nhóm Facebook theo nội dung (Page Vít media)
+
+Đã quét 1 lần toàn bộ 395 nhóm đang tham gia ngày 19/11/2026: tên nhóm, số thành viên, số bài mới trong ngày, luật về quảng cáo/SĐT/link, và nhóm nào đang có bài chờ duyệt.
+**Cách dùng:**
+- Phòng Đăng bài đọc file này để chọn nhóm theo chủ đề bài. KHÔNG mở `/about` nữa.
+- Chỉ trước khi đăng vào nhóm ⏳ mới mở `/groups/<id>/my_pending_content` để xem bài cũ đã được duyệt chưa.
+- Đăng xong thì cập nhật cờ trong file này nếu cờ thay đổi (ví dụ ✅ → ⏳, ✅ → ⛔).
+- Quét lại toàn bộ khoảng 1 tháng/lần, hoặc khi chị tham gia thêm nhóm mới.
+
+**Cờ:**
+- ✅ Đăng được: không có bài chờ duyệt, luật không cấm.
+- ⚠️ Luật mặc định "Không quảng cáo hoặc spam". Đăng dạng chia sẻ giá trị/ví dụ thực tế, CTA nhẹ, không dồn dập. Nếu bị gỡ thì chuyển ⛔.
+- ⏳ Đang có bài chờ quản trị viên duyệt. Nhóm duyệt tay, bài cũ chưa duyệt thì không đăng thêm.
+- ⛔ Bỏ: cấm quảng cáo/bán hàng rõ ràng, nhóm tạm dừng, admin gỡ bài, hoặc lệch chủ đề.
+
+**Số liệu sau tên nhóm:** số thành viên (đơn vị nghìn) · số bài mới hôm quét.
+**Ưu tiên** nhóm ✅ đông người và nhiều bài mỗi ngày.
+
+## 1. Video AI & cộng đồng AI → bài "làm video bằng AI", "video AI cho doanh nghiệp"
+- ✅ 987672918471443 · Cộng đồng Claude AI & AI Agents · 229K · 7
+- ✅ 1385451906420187 · Vibe Code kiếm cơm · 238K · 210 (dân code, chỉ bài AI tự động hoá)
+- ✅ 1359330548727601 · Học AI cùng Thầy Quân · 44K · 2
+- ✅ chillcungai · Chill Cùng AI · 39K · 0
+- ✅ 810258490950782 · AI Chất – Tự học & Ứng dụng AI · 106K · 0
+- ✅ 3712664498898927 · Làm Video AI - Ảnh AI · 10K · 22
+- ✅ 1433716684430309 · Cộng đồng AI Video Affiliate · 14K · 0
+- ✅ 1401089638227050 · Học AI thật dễ · 10K · 52
+- ✅ 808459113862196 · Ứng dụng AI trong Doanh nghiệp Một Người · 30K · 22
+- ✅ 1533526524905524 · AE SUNO - AI music · 14K · 27
+- ✅ editvideobatdongsan · Edit video bất động sản – AI · 4K · 5
+- ✅ 883633534000509 · Cộng đồng NotebookLM VN · 267K · 2
+- ✅ 1613552523431575 · Grok Việt Nam · 17K · 13
+- ✅ 2171395259866737 · Đế Chế AI | Cinematic AI · 28K · 24
+- ✅ vieclamitcnttvietnam · Việc Làm AI · 109K · 23
+- ✅ 2700193050346256 · Claude - Codex - Grok - AI Agent VN · 56K · 23
+- ✅ groupaivietnam · Cộng đồng AI Việt Nam (Grok, ChatGPT, Gemini…) · 315K · 17
+- ✅ 808925604828645 · KOL AI GO GLOBAL · 30K · 37
+- ✅ vinhomesoceanparkofficialhdmb · Tự Học AI - Chia sẻ kiến thức · 26K · 35
+- ⚠️ 1342038416404962 · Chưa Biết AI Nhưng Thích Kinh Doanh Online · 346K · 21
+- ⚠️ aithatdecongdongaivietnam · AI THẬT DỄ · 60K · 31
+- ⚠️ 2371265913321399 · Cộng đồng YuKi Art · 26K · 91
+- ⚠️ 30899055246406204 · AI GenArt Hub VN · 6K · 101
+- ⚠️ 844059378165127 · Học Viện Kiếm Tiền Với Video AI · 32K · 28
+- ⚠️ canva.tkdnc · CẦN VẢ AI · 813K · 4
+- ⚠️ aiartworksvn · Nghiên AI (bản mới Nghiện AI) · 787K · 56
+- ⚠️ videocreativestationwithai · Trạm sáng tạo AI · 142K · 4 (có luật riêng về tự quảng cáo, đọc trước khi đăng lần đầu)
+- ⚠️ phocapaivn · PHỔ CẬP AI · 691K · 26 (cấm inbox riêng: CTA để "comment/ib Page")
+- ⚠️ nacongdonghocai · AI VN - AI trong Kinh doanh & Bán hàng · 127K · 1
+- ⏳ 1287185438037498 · Làm Video Bằng AI - Miễn Phí · 21K · 1 (luật: không bán hàng bừa bãi)
+- ⏳ hocvienaittm · HỌC VIỆN AI · 256K · 0
+- ⏳ hocvienaivn · Sống Cùng AI · 315K · 0
+- ⏳ 1704075763583730 · AI LÀ TƯƠNG LAI · 36K · 2
+- ⏳ 1276401474622686 · Học Làm Video AI · 20K · 32
+- ⏳ 1493313742292753 · Cộng đồng MUSE.AI VN · 27K · 67
+- ⏳ 1010141106940460 · Cộng Đồng Ứng Dụng AI VN · 103K · 164
+- ⏳ n8nautomationvn · NGHIỆN AI Tạo Ảnh, Video & Automation · 59K · 0
+- ⏳ 900006462311466 · Học AI - Cộng Đồng AI VN · 50K · 26
+- ⏳ topai.vn · Top AI Community · 110K · 0 (không chèn link)
+- ⏳ videochuyennghiep · Làm Hình Ảnh - Video Bằng AI · 160K · 61
+- ⏳ ctv.content.online · Nghiện Prompt · 624K · 19
+- ⏳ beautifulsexygroups · Học Viện AI - Ứng Dụng AI Vào Công Việc · 157K · 31
+- ⏳ muagmail.giare · NGHIỆN PROMPT · 484K · 26
+- ⏳ comailo · Cơm AI lo · 224K · 21
+- ⏳ 1127845912808592 · Làm Video Bằng AI (VEO 3, Sora) · 42K · 47
+- ⏳ 1478292556999858 · Nhóm Làm Video AI - Học AI · 8K · 0
+- ⏳ vutruai · Vũ Trụ AI · 163K · 0
+- ⏳ nghienaivietnam · Nghiện AI · 320K · 0
+- ⏳ 1528037455054605 · Làm Video Bằng AI (VEO 3, Gemini…) · 18K · 3
+- ⏳ 1171036454939059 · Hướng Dẫn Làm Video Bằng AI · 68K · 61
+- ⏳ 982246469671771 · Nhận Thiết Kế Video Hoạt Hình AI · 3K · 0
+- ⏳ hocvienaiungdung · Học Viện AI - Ứng Dụng AI · 147K · 0
+- ⏳ congdongaitaivietnam · Nghiện AI - Học Và Làm AI · 391K · 62
+- ⏳ aivietnam.edu.vn · AI VIET NAM · 107K · 2
+- ⏳ 3840153032883675 · Làm Video Bằng AI Chuyên Nghiệp · 310K · 28
+- ⏳ 249668435913050 · Làm Video Bằng AI ✅ · 153K · 4
+- ⏳ 2890521791200984 · làm video bằng AI · 84K · 8
+- ⏳ pasdosinhvienhanoi · Làm Hình Ảnh / Video Bằng AI · 115K · 14
+- ⛔ sacmaucuocsongxaque · CỘNG ĐỒNG CLAUDE AI VN · 678K (cấm QC, seeding bán hàng)
+- ⛔ 1946075922887000 · Yêu ChatGPT & AI Chất (cấm QC)
+- ⛔ stablediffusion.vn · SDVN AI Art (QC là ban vĩnh viễn)
+- ⛔ VAF.model · LÀM VIDEO BẰNG AI (QC + spam = block)
+- ⛔ Phununews · LÀM VIDEO BẰNG AI (cấm QC, bán hàng)
+- ⛔ condongthietkecanva · Cộng đồng Claude AI & AI Agents VN (cấm QC)
+- ⛔ đã bỏ từ trước: 362039643961239, 861108920047086, nghienaiviet.official, 191674195436205, 933483946694711, 221163343067169, 1335150193545289
+
+## 2. Edit video, quay dựng, YouTube/TikTok → bài "nhận edit video", "dựng video TikTok/Reels"
+- ✅ 1015618225564308 · ❤️ Học Hỏi Edit Video ❤️ · 49K · 4
+- ✅ hocvalamyoutuber · Học và Làm Youtuber · 104K · 76
+- ⚠️ 1585053268324151 · Tìm Biên Kịch - Diễn Viên - Ekip · 22K · 3
+- ⚠️ 2454178958083954 · Quay Dựng Phim & Chụp Ảnh Freelancer HCM · 30K · 24
+- ⚠️ hocvienyoutubee · Dạy làm Youtube · 31K · 8
+- ⚠️ 1057951338160045 · Nhóm Quay Dựng Video - Editor - build TikTok · 151K · 170
+- ⚠️ bienkichtrekhongchuyenvachuyennghiep · Nhóm biên kịch trẻ · 59K · 0 (không chèn link YouTube)
+- ⏳ 641995207825133 · Học Và Làm YOUTUBE · 53K · 0
+- ⏳ hoixaykenhfanpagetiktokyoutube · Hội Xây Kênh Fanpage TikTok YouTube · 75K · 24
+- ⏳ 342399511872150 · Xây Kênh TikTok Thương Hiệu - Quay Dựng · 41K · 26
+- ⏳ 1166454660883635 · Quay Dựng – Xây Kênh TikTok · 106K · 29
+- ⏳ 1117921515462016 · Cộng Đồng Quay Dựng Video - Editor · 41K · 38
+- ⏳ 1122559666202072 · Editor nghiệp dư 2.0 · 60K · 0
+- ⏳ 212165367075171 · Cộng đồng học edit video VN · 50K · 29
+- ⏳ 2117280905303633 · Chụp Ảnh, Quay TVC, Retouch · 80K · 24
+- ⏳ 853834814691609 · Tìm Thợ Chụp Ảnh & Quay Phim · 52K · 4
+- ⏳ rcmediavieclam · Freelancer - Quay dựng - build TikTok · 27K · 22
+- ⏳ 1683912872025826 · Freelancer - Build kênh TikTok · 29K · 6
+- ⏳ 1844236326102013 · Video Editor Bất Động Sản VN · 13K · 1
+- ⏳ 446190071327057 · Phố Cú Đêm Editor Freelance · 53K · 2
+- ⛔ đã bỏ từ trước: videodoanhnghiep, 664559530398590 (CapCut VN), congdongdesigner.ibac
+
+## 3. Doanh nghiệp, SME, khởi nghiệp → bài "video quảng cáo / video AI cho doanh nghiệp", hồ sơ năng lực
+- ✅ 547405345895931 · CỘNG ĐỒNG DOANH NHÂN KHỞI NGHIỆP · 11K · 25 (đã lên thẳng)
+- ✅ chuyendoisodoanhnghiepai · Chuyển đổi số doanh nghiệp SME · 1K · 9 (đã lên thẳng)
+- ✅ 1520701439751936 · Chủ Doanh Nghiệp VN | AI & Tự Động Hoá · 2K · 31
+- ✅ clbdoanhnghieptre · Hợp Tác & Nhượng Quyền - Hội DN Trẻ · 126K · 60
+- ✅ 2080844132495123 · Hỗ Trợ Thành Lập Doanh Nghiệp · 41K · 79
+- ✅ 507198864403865 · NHÓM BÍNH DẦN 1986 KINH DOANH · 58K · 77
+- ✅ 301418383296490 · CỘNG ĐỒNG DOANH NGHIỆP · 24K · 89
+- ✅ 1577172422889600 · Hiệp hội doanh nghiệp vừa và nhỏ · 79K · 294
+- ✅ 314520652889581 · HCM - SME · 29K · 15
+- ✅ 1747827395441261 · Quà tặng doanh nghiệp - Giỏ Quà Tết · 302K · 555
+- ✅ 1123827865589021 · Quà tặng 20/10, 8/3, 20/11 · 25K · 391
+- ⚠️ 304899715525052 · Giúp Nhau Khởi Nghiệp & Hợp Tác · 16K · 122
+- ⚠️ 141688767751097 · Khởi Nghiệp & Nhượng quyền F&B · 83K · 63
+- ⚠️ congdongdoanhnghiephanoi · CĐ DOANH NGHIỆP HÀ NỘI · 44K · 1 ("quảng cáo đúng nơi")
+- ⏳ nhomkhoinghiepkinhdoanh · Khởi Nghiệp Kinh Doanh · 335K · 7
+- ⏳ doitackd · TÌM ĐỐI TÁC KINH DOANH · 308K · 82
+- ⏳ 443371188535005 · Hợp tác & KD - Hội DN Trẻ · 33K · 86
+- ⏳ 239140135173082 · GIÚP NHAU KHỞI NGHIỆP · 154K · 76
+- ⏳ 4476405002469664 · Hiệp hội DN Vừa Và Nhỏ · 127K · 238
+- ⏳ HT3118 · HỘI DOANH NGHIỆP SME VN · 33K · 44
+- ⏳ 839227264330231 · HỘI DN VỪA VÀ NHỎ SME HÀ NỘI · 16K · 37
+- ⏳ qtdnsme · Quản trị Doanh nghiệp SME · 2K · 0
+- ⏳ 3091199584357800 · Cộng đồng doanh nghiệp SME · 5K · 19
+- ⛔ 771779662967885 (cấm QC, đã bỏ)
+
+## 4. Bán hàng online, TMĐT, F&B, spa, homestay → bài "video bán hàng, poster sản phẩm, video AI review"
+- ✅ ecomboss.vn · Shopee, Lazada, TikTok bán hàng · 20K · 5
+- ✅ 4277590642470737 · Shopee Người Bán - nghìn đơn · 284K · 67
+- ✅ Foodnbeveragevietnam · Cộng đồng F&B VN · 54K · 55
+- ✅ 189909794893850 · Kinh nghiệm vận hành quán F&B · 26K · 1
+- ✅ fnbsupply · F&B Founders x Nhà Cung Cấp · 2K · 5
+- ✅ httpschuquancaphe.vn · CHỦ QUÁN CÀ PHÊ · 834K · 7
+- ✅ congdongbanhangtiktokshopads · Cộng đồng TikTok Shop · 258K · 84
+- ⚠️ 480023959958761 · TikTok Shop - Kinh nghiệm bán hàng · 102K · 5
+- ⚠️ banhangshopee.lazada · Bán hàng Shopee/Lazada/TikTok · 4K · 4
+- ⚠️ tiktoknghindon · TikTok Shop nghìn đơn · 139K · 45
+- ⚠️ groupnguoibanshopee · Shopee người bán · 118K · 67
+- ⚠️ shopeenguoiban.chiasekinhnghiem · Shopee người bán nghìn đơn · 579K · 51 (QC phải liên hệ admin; chỉ bài chia sẻ kinh nghiệm video bán hàng)
+- ⚠️ 497067335075156 · TikTok bán hàng nghìn đơn · 463K · 5
+- ⚠️ hiephoispachuyennghiep2020 · Hiệp Hội SPA Chuyên Nghiệp · 42K · 27
+- ⏳ 778741857402856 · TikTok Shop, Ads, KOL, KOC · 238K · 35
+- ⏳ 803667821707675 · TikTok bán hàng nghìn đơn · 493K · 18
+- ⏳ 1806737649546041 · Hội Kinh doanh online TP.HCM · 21K · 26
+- ⏳ 1007816240048486 · HỘI CHỦ SPA THẨM MỸ VN · 200K · 133
+- ⏳ hoichuspavietnam · HỘI CHỦ SPA VN · 54K · 0
+- ⏳ hiephoifnbvietnam · CĐ CHỦ QUÁN CAFE VN · 45K · 10
+- ⏳ chuquancapheekhach · CHỦ QUÁN CÀ PHÊ Ế KHÁCH · 114K · 10
+- ⏳ congdonghomestayvn · Cộng đồng Homestay VN · 90K · 77
+- ⛔ chuyennhaban · Chuyện Nhà Bán (chỉ chủ đề Shopee/TikTok, cấm QC)
+
+## 5. Thiết kế, logo, in ấn → bài "thiết kế poster, banner, nhận diện; poster bằng AI"
+- ✅ hoithietkelogobanner · THIẾT KẾ LOGO MIỄN PHÍ · 60K · 37
+- ✅ 735049655642303 · Thiết Kế Logo & Thương Hiệu – Job Design · 13K · 25
+- ✅ tida2 · Hội Thiết kế Thực chiến · 71K · 22
+- ✅ vechibilogocute · THIẾT KẾ LOGO GIÁ RẺ, MASCOT · 85K · 111
+- ✅ 1258164625142094 · Hội Thiết Kế Logo, Bao Bì, Ấn Phẩm Marketing · 71K · 55
+- ✅ 3721617964552611 · Thiết kế Logo, Catalog, Poster, Standee · 37K · 14
+- ✅ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35
+- ✅ 462692699570416 · Hội Thiết Kế Có Tâm (nhóm 2) · 202K · 26
+- ✅ cuocsongdesigner · "Cột sống" Designer · 581K · 23
+- ✅ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0
+- ✅ 607237284822637 · Việc Làm Designer HCM · 33K · 25
+- ⚠️ 874442287713688 · Thiết Kế Logo (Freelancer) · 26K · 24
+- ⚠️ 3298527986939333 · THIẾT KẾ LOGO THƯƠNG HIỆU · 53K · 39
+- ⚠️ 300511119676770 · Hội Thiết Kế Logo (Freelancer) · 27K · 25
+- ⚠️ quangart · Thiết kế logo, Đồ họa · 18K · 44
+- ⚠️ 241637907698474 · CĐ Thiết Kế Đồ Họa · 50K · 15
+- ⚠️ designer.congdongdesign · Cộng Đồng Thiết Kế · 350K · 34
+- ⚠️ hosonanglucchuyennghiep · Thiết Kế Hồ Sơ Năng Lực · 43K · 10 (có luật riêng cho đơn vị dịch vụ)
+- ⚠️ inphuduong · Hội In Ấn Quảng Cáo Hải Phòng · 7K · 37
+- ⚠️ fbhocvalamdesigner · Học và Làm Designer · 127K · 2 (cấm QC khoá học, dịch vụ thì được)
+- ⚠️ 1878147789180050 · CỘNG ĐỒNG IN ẤN VN · 539K · 177 (KHÔNG chèn link zalo/tiktok/page/nhóm)
+- ⏳ tuyendungdesignvietnam · Hội thiết kế dạo · 32K · 20
+- ⏳ 1082813642243730 · THIẾT KẾ LOGO POSTER BANNER VIDEO · 13K · 33
+- ⏳ thietkelogothuonghieugiare · THIẾT KẾ LOGO THƯƠNG HIỆU · 4K · 21
+- ⏳ hoithietkechuyennghiep · HỘI THIẾT KẾ CHUYÊN NGHIỆP · 15K · 34
+- ⏳ hoithietketheoyeucau · Hội Thiết Kế Dạo theo yêu cầu · 13K · 38
+- ⏳ 697960865985335 · Thiết Kế Poster, Menu, Logo, Slide · 60K · 33
+- ⏳ dichvuthietkelogo · CĐ Thiết Kế Logo, Banner · 16K · 27
+- ⏳ hoiinan.thietkebaobi.temnhan.tui.hop.thiep.catalog · Hội In Ấn - Bao Bì · 179K · 148
+- ⏳ 152512665465526 · Thiết Kế - In Ấn · 252K · 29
+- ⏳ 2335217736683108 · Thiết Kế Logo Uy Tín · 490K · 32
+- ⏳ cdtdgame · Hội Thiết Kế Dạo · 388K · 33
+- ⏳ 895817462339648 · Thiết Kế Logo - Đồ Họa · 22K · 37
+- ⏳ Hoithietkelogo · CĐ Thiết kế logo - Nhận diện · 126K · 43
+- ⏳ freelancerdesignervietnam · Thiết Kế Theo Yêu Cầu · 34K · 56
+- ⏳ 1358822088036369 · Cộng Đồng Thiết Kế - Designer · 120K · 62
+- ⏳ 7819439408123006 · Hội Thiết Kế Dạo - Kết nối khách · 130K · 16
+- ⏳ congdongthietkelogo.nhandien.dohoa.banner.baobi.4u · Thiết Kế Logo, Đồ Họa (CĐ) · 504K · 79
+- ⏳ freelancevnn · CĐ Freelancer - Graphic Designer · 145K · 2
+- ⛔ 1065806853551236 · Thiết kế banner Cầu Giấy (tạm dừng)
+- ⛔ Thietkelogovietnam · CĐ Thiết Kế VN (cấm PR bản thân)
+- ⛔ đã bỏ từ trước: thietke.cotam.4u, thietkelogo500k.lda, timthietke
+
+## 6. Slide, PowerPoint, Canva, văn bản → bài "nhận làm slide, slide bằng AI"
+- ✅ 9122497834509646 · Nhận Làm Slide Thuyết Trình · 23K · 4
+- ✅ cungnhauhocpowerpoint · CÙNG NHAU HỌC POWERPOINT · 850K · 0
+- ⚠️ 4155720068032203 · NHẬN LÀM SLIDE, CANVA, PHOTOSHOP · 11K · 0
+- ⚠️ 1815173195819041 · NHẬN LÀM SLIDE THUYẾT TRÌNH THUÊ · 17K · 32
+- ⚠️ nguyensang.excelonline · Thủ thuật Word, Excel, PowerPoint · 355K · 4
+- ✅ otips · Thủ thuật Excel, Word, PowerPoint - lisp.vn · 887K · 20
+- ⏳ 943798678140373 · Nhận làm Slide, Canva, Elearning · 11K · 5
+- ⏳ 690961186617861 · Làm Thuê PowerPoint-Canva (giá HSSV) · 3K · 6
+- ⏳ 1475628089726640 · Nhận làm Slide, Canva, Photoshop · 3K · 11
+- ⏳ lamslideppt · NHẬN LÀM SLIDE THUÊ · 4K · 1
+- ⏳ 526254143818129 · LÀM POWERPOINT THUÊ GIÁ RẺ ✅ · 11K · 6
+- ⏳ 652249277477764 · SLIDE POWERPOINT CANVA CHUYÊN NGHIỆP · 7K · 7
+- ⏳ 1351816825819569 · NHẬN LÀM SLIDE THUÊ · 90K · 24
+- ⏳ 539808922430242 · NHẬN LÀM SLIDE - CANVA THUÊ · 11K · 2
+- ⏳ 1353468326812810 · NHẬN LÀM SLIDE - CANVA THUÊ · 20K · 0
+- ⏳ 2089388538187585 · NHẬN LÀM SLIDE THUÊ · 22K · 3
+- ⏳ 2115996635510792 · SLIDE - CANVA - POSTER GIÁ RẺ · 18K · 4
+- ⏳ 536612302767855 · Làm Thuê Slide Thuyết Trình · 61K · 7
+- ⏳ 1182791416801753 · NHẬN LÀM SLIDE - CANVA · 112K · 27
+- ⏳ 1161414085381293 · LÀM THUÊ SLIDE - CANVA · 86K · 8
+- ⏳ 591527830367323 · NHẬN LÀM THUÊ SLIDE · 92K · 18
+- ⏳ 633223456121639 · Nhận Làm Slide Thuyết Trình · 160K · 88
+- ⏳ 448297211234955 · NHẬN LÀM SLIDE THUÊ · 29K · 2
+- ⏳ khoinguyenmobile · SLIDE_CANVA_CV_POSTER GIÁ RẺ · 4K · 4
+- ⏳ 906609291218652 · làm thuyết trình thuê · 2K · 0
+- ⏳ 1171556814561185 · THIẾT KẾ SLIDE - CANVA - KLTN · 69K · 4
+- ⏳ 1066136865526257 · NHẬN THIẾT KẾ SLIDE MIỄN PHÍ · 91K · 19
+- ⏳ bladeofgodxvietnam · SLIDE - CANVA PRO - KLTN · 31K · 11
+- ⏳ 656001123609539 · CĐ SLIDE POWERPOINT & CANVA VN · 29K · 3
+- ⏳ 2012006952607658 · THIẾT KẾ SLIDE GIÁ RẺ · 90K · 8
+- ⏳ 1708524026675623 · Làm Thuê SLIDE - Thiết Kế Slide PPT · 213K · 83
+- ⏳ 2079296672491723 · Làm THUÊ Slide - Logo, Đồ Họa · 109K · 35
+- ⏳ 1122123852986992 · THIẾT KẾ SLIDE GIÁ RẺ · 175K · 51
+- ⏳ 317898037802959 · Chỉnh sửa văn bản, tiểu luận · 6K · 0
+- ⏳ 858913972917153 · Hỗ trợ viết Báo cáo, Tiểu luận · 163K · 0
+- ⛔ đã bỏ từ trước: 434252495806890 (cấm SĐT), 910693050643055 (tạm dừng)
+
+## 7. Giáo dục, giáo viên, sinh viên → bài "slide bài giảng, video bài giảng AI"; dịp 20/11 thì bài tri ân
+- ✅ 1235206590862636 · Giáo Viên 4.0 - AI vào Dạy Học · 29K · 38 (đã lên thẳng)
+- ✅ 1011713702919105 · ĐỔI MỚI DẠY HỌC BẰNG CNTT · 115K · 0
+- ✅ 236937142536372 · Giáo dục STEM - AI · 78K · 0
+- ✅ 24037123512640076 · CĐ Giáo Viên Học AI Miễn Phí · 29K · 1
+- ✅ ungdungaitronggiaoduc · Ứng dụng AI trong Giáo dục · 78K · 37
+- ✅ sinhvien.dhhp · Trường Đại học Hải Phòng · 48K · 50 (chỉ bài slide cho sinh viên)
+- ✅ quatangthaycogiao · Quà tặng thầy cô · 1K · 51
+- ✅ 1351316929850950 · Quà tặng 20/11 · 22K · 149
+- ✅ 567782317796036 · Quà Tặng 20/11 Cho Thầy Cô · 10K · 142
+- ⚠️ thiepngan · GIÁO DỤC VIỆT NAM · 161K · 86
+- ⚠️ caodangthuchanhfpt · Cao Đẳng FPT Polytechnic · 94K · 4
+- ⏳ 244907813273785 · Công Tác Chủ Nhiệm Lớp Học · 387K · 288
+- ⏳ ungdungaigiangday · AI trong giáo dục, giảng dạy · 34K · 3
+- ⏳ 1105325611538070 · AI DÀNH CHO GIÁO VIÊN · 48K · 4
+- ⏳ 1051161456447326 · ỨNG DỤNG AI THIẾT KẾ VIDEO BÀI GIẢNG · 57K · 1
+- ⏳ 3996855860540324 · QUÀ TẶNG 20/11 TRI ÂN THẦY CÔ · 23K · 15
+
+## 8. Marketing, agency, freelancer → bài "thuê ngoài video/thiết kế cho chiến dịch"
+- ✅ 410604021779590 · Việc Làm Marketing & Truyền Thông · 75K · 89
+- ✅ 293234120544192 · Tuyển dụng Marketing · 158K · 66
+- ✅ 1677886959355972 · Việc làm Marketing Online · 17K · 62
+- ✅ 257312137406422 · Tuyển Dụng Digital Marketing HN · 176K · 34
+- ✅ ViecLamMarketing.ViecLamVui · Việc Làm Marketing · 42K · 21
+- ✅ 2448917765429233 · CĐ Marketing & Advertising - Agency · 77K · 115
+- ✅ 955990820634495 · TUYỂN DỤNG MEDIA: QUAY, DỰNG, CONTENT · 12K · 119
+- ✅ 3105314469798239 · Tuyển Dụng Content Marketing - Media · 130K · 139
+- ⚠️ topcv · CĐ Marketing – IT – Design – Freelancer · 37K · 7 (QC & bán dịch vụ cần admin chấp thuận)
+- ⚠️ vieclamdigital · Việc làm digital marketing · 111K · 68
+- ⏳ 253796501153947 · Việc làm MARKETING HN · 191K · 77
+- ⏳ 653257616287859 · Gen Z - Việc làm Marketing · 60K · 148
+- ⏳ 770908207532649 · Việc Làm Marketing Media HP · 26K · 1
+- ⏳ 636840228888029 · THUÊ CHẠY ADS FB, TIKTOK · 58K · 11
+- ⏳ 4586347044752261 · Việc làm Copywriter-Content · 101K · 141
+- ⏳ 1458593681430186 · Tuyển dụng Content - Chợ Viết · 37K · 42
+- ⛔ freelancer.vietnam.group · CĐ Freelancer VN (cấm QC mọi hình thức)
+- ⛔ 1487524929758551 · Làng Truyền Thông (tạm dừng)
+
+## 9. Tuyển dụng editor, designer, media → chỉ bài "doanh nghiệp cần editor/designer? thuê ngoài Vít media theo dự án" (khách ở đây là bên tuyển). Ưu tiên thấp
+- ✅ 244752543100383 · TUYỂN DỤNG THIẾT KẾ 2D · 26K · 19
+- ✅ tuyendungthietkeinan · TUYỂN DỤNG THIẾT KẾ ĐỒ HỌA · 108K · 54
+- ✅ TuyenDungThietKeDoHoaGraphicDesigner · Tuyển Dụng Thiết Kế Đồ Hoạ · 209K · 40
+- ✅ 685635334200287 · Việc Làm Edit Video – Chỉnh Ảnh · 12K · 23
+- ✅ 411832618327399 · Tuyển Dụng Video Editor - Content · 60K · 17
+- ✅ VyhuuCTV · Tuyển dụng Quay, Dựng, DESIGNER · 57K · 15
+- ✅ 1115087076365662 · Tuyển Dụng Thiết Kế Đồ Hoạ · 76K · 8
+- ✅ 2103578010106751 · VIỆC LÀM MARKETING, DESIGN, EDITOR · 67K · 11
+- ✅ 409749175307662 · Tuyển dụng MEDIA · 96K · 48
+- ✅ 672456788367853 · Tuyển dụng Designer - Job Xịn · 39K · 26
+- ✅ 324594693833754 · TUYỂN DỤNG QUAY DỰNG, THIẾT KẾ · 31K · 17
+- ✅ 693694919276238 · TUYỂN DỤNG VIDEO EDITOR TIKTOK · 15K · 74
+- ✅ 413731458140965 · Tuyển dụng MEDIA · 70K · 22
+- ✅ 409631138611816 · Tuyển dụng MEDIA · 84K · 48
+- ✅ 410034718617787 · Tuyển Dụng MEDIA (Editor, Cameraman) · 91K · 33
+- ✅ 619211998270062 · Chợ Jobs Editor · 119K · 77
+- ✅ 1464077797002969 · Tuyển dụng Quay - Dựng - Design · 95K · 26
+- ✅ vieclam.chupanh.quayphim · Photographer/Cameraman/Editor · 98K · 8
+- ⚠️ 2452930614860706 · Việc làm Thiết kế - Freelancer · 14K · 12
+- ⚠️ 1571445866449596 · VIỆC LÀM VIDEO EDITOR · 13K · 24 (có mục "Bán hàng" trong luật)
+- ⚠️ vieclam.editor · CĐ Việc Làm Video Editor VN · 82K · 7
+- ⚠️ 544173220483939 · Tuyển dụng Designer - Job Xịn · 106K · 5
+- ⚠️ 1018921688571995 · TUYỂN DỤNG THIẾT KẾ - GRAPHIC · 161K · 14
+- ⏳ 50 nhóm còn lại có bài chờ duyệt: 337714630912377, 767407213000845, 285057733369168, 1244637671017291, tuyendungmedia2021, tuyendungquaydung, tdmediamienbac, 494303839593699, 2847847115366628, 446554894842983, 1393107561214610, adtuyendungnhanhhanoi, 1587371231806001, 494071600339125, 1590378575136017, 413542771609699, 1229655141751128, 1147832799874488, 1025158138940817, 979760529887802, 757717889079175, 1955993478182537, tuyendungquaydungvideoeditor, 235760107990724, vieclameditcapcut, 217635643470300, 766045418466128, 1430892137536534, tuyendungvideoeditoryoutubetiktok, 293527507158045, tuyendung.marketing.hcns.editor.content, 1622593835253446, 5975218022592107, 429430099711153, 413318464991815, 412734048332550, 1443723696513209, 1661935357667105, 670340944738270, 439348914099653, vieclamvideoeditortiktok, 1181391356304247, videoeditortuyendung, 319527373086304, 512875332079400, 1198963258133884, 1341300853178730, hiring.designer.videoeditor.flc, 202434407297421
+- ⛔ 3021399158156008 (cấm SĐT, đã bỏ)
+
+## 10. Sự kiện, MC, nhiếp ảnh → bài "video recap sự kiện, poster sự kiện"
+- ✅ mcvanminh · MC GROUP Toàn Quốc · 75K · 19
+- ✅ 1144852381187193 · TOUR DN - EVENT & TEAMBUILDING · 12K · 27
+- ✅ muahangicamera · Chợ thiết bị STUDIO · 51K · 296
+- ✅ tochucsukienchuyennghiep · Tổ Chức Sự Kiện · 11K · 44
+- ✅ 1427505152334332 · CĐ TỔ CHỨC SỰ KIỆN - MC & Event · 11K · 64
+- ✅ event.agency.group · Event Agency · 49K · 87
+- ✅ 725325461810068 · CĐ TỔ CHỨC SỰ KIỆN · 91K · 1
+- ⚠️ reviewkyyeutimstudiothochupanh · Review Kỷ Yếu - Tìm Studio · 144K · 14
+- ⚠️ 2696383343824497 · HỘI TỔ CHỨC SỰ KIỆN MIỀN BẮC · 24K · 266
+- ⚠️ 157536305338377 · Hội Nhiếp Ảnh VN · 644K · 44 (quảng cáo có phí, không share link ngoài: chỉ đăng bài trực tiếp không QC)
+- ⏳ 264290841063083 · EVENT GROUP VN · 57K · 123
+- ⏳ 3293497610791180 · CĐ TỔ CHỨC SỰ KIỆN - EVENT · 118K · 23
+
+## Không đăng (không quét)
+- Ngành cưới, cô dâu, phóng sự cưới: thuộc **Hoàng Hà Makeup**, Vít media không nhận cưới. Gồm congdong.cuoihoi, 350885370830288, hiephoicuoihoi, codausapcuoichiasekinhnghiem, cudanhanoi.fb, 131167553719168, 3723744707839887, hoicodausapcuoichiasekinhnghiemcuoisaigon, 1917275441938362, 755843242505987, 411936808391124, HoiCoDauSapCuoi, 186690114797505, 807666833075358, 500501932547697, hoisapcuoihaiphong, hoicodausapcuoi.vietnamese, congdongcuoihoi.vn, 705581082594915, 158262300494812.
+- Nhóm nước ngoài (tiếng Anh): 147032671260514, 294830932856749, 1126963997314568, 1155257268851946, 1173532240001355, 1535727757545719, 6100423586635776, 1319176705676218, freevideoeditorgroup, videoeditors25, ProfessionalVideoEditors, 1012045722764857, editingvideofilms.
+- Không liên quan: ltdsoftware, các nhóm FU Hòa Lạc (966715394202687, fptuhoalac, 1440203522931298, hoalacfu, fuhoalacc, 1301677703935713), 1606891834133651, discordvietnamcommunity, 1841265619827038, nghiencongviet2, 707587578483411, 784750357131816, 422810380451521, tuyendungdesignerhcm, 958351529677722, 374082719342208, 177918569257492, congdongsinhviekientruc, congdongcuoi, voz.congnghe (cấm bán hàng).

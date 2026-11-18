@@ -1,6 +1,6 @@
 # Sổ nhóm Facebook (Page Vít media)
 
-Phòng Đăng bài đọc file này TRƯỚC khi chọn nhóm: nhóm đã có kết luận thì không phải mở `/about`, `my_posted_content`, `my_pending_content` kiểm lại (tiết kiệm token, chủ dặn 18/11/2026). Chỉ kiểm lại nhóm đã đánh dấu "kiểm lại" hoặc nhóm chưa có trong sổ. Đăng xong / kiểm xong nhóm mới thì ghi thêm một dòng vào đây (một nhóm một dòng), ghi ngày.
+Danh bạ đầy đủ theo nội dung: `tri-thuc/danh-ba-nhom.md`. Phòng Đăng bài đọc file này TRƯỚC khi chọn nhóm: nhóm đã có kết luận thì không phải mở `/about`, `my_posted_content`, `my_pending_content` kiểm lại (tiết kiệm token, chủ dặn 18/11/2026). Chỉ kiểm lại nhóm đã đánh dấu "kiểm lại" hoặc nhóm chưa có trong sổ. Đăng xong / kiểm xong nhóm mới thì ghi thêm một dòng vào đây (một nhóm một dòng), ghi ngày.
 
 Cột: nhóm (id/slug) · kết luận · lý do · ngày kiểm
 
