@@ -1,10 +1,10 @@
 // "Đường công việc": dải đường 3D uốn lượn đặt sát phòng Lưu trữ, có dốc nối từ sàn Lưu trữ xuống cuối đường.
-// Mỗi trạm trên đường là một việc gần đây của một phòng: cờ xanh = đã xong,
-// bóng đèn sáng = đang làm, đồng hồ cát = chờ duyệt. Việc mới nhất ở cuối đường (gần người xem).
+// Mỗi trạm là một phòng đang làm hoặc đã xong (phòng rảnh / chờ duyệt không hiện): cờ xanh = đã xong,
+// bóng đèn sáng = đang làm. Phòng cập nhật mới nhất ở cuối đường (gần người xem).
 // Chỉ để hình dung và trang trí: dữ liệu lấy từ các dòng Board mà main.js đã đọc.
 import * as THREE from 'three';
 
-const N = 5;                 // số trạm
+const N = 11;                // số trạm tối đa (mỗi phòng một trạm)
 const U0 = 28.7, V0 = 9;     // tâm đảo theo trục màn hình (u: ngang, v: dọc)
 const ISLAND_W = 12, ISLAND_L = 30;
 const TOP = -0.95;           // mặt đảo
@@ -262,7 +262,7 @@ export class Road {
   _labels(overlay) {
     this.title = document.createElement('div');
     this.title.className = 'road-title';
-    this.title.innerHTML = '<small>VĂN PHÒNG AGENT</small><b>Đường công việc</b><span>việc mới nhất ở cuối đường</span>';
+    this.title.innerHTML = '<small>VĂN PHÒNG AGENT</small><b>Đường công việc</b><span>mới nhất ở cuối đường</span>';
     overlay.append(this.title);
     for (const st of this.stations) {
       const card = document.createElement('button');
@@ -280,16 +280,21 @@ export class Road {
   // ---------- dữ liệu ----------
   refresh(rows) {
     const ord = (r) => (r.seq ?? +r.timestamp);
+    // mỗi phòng một trạm, theo dòng Board mới nhất của phòng; chỉ phòng đang làm hoặc đã xong
     const latest = new Map();
     for (const r of [...rows].sort((a, b) => ord(a) - ord(b))) {
-      if (r.status === 'idle' || !r.task || !this.byId[r.agent]) continue;
-      const k = r.agent + '|' + r.task;
-      latest.delete(k); latest.set(k, r);
+      if (this.byId[r.agent]) { latest.delete(r.agent); latest.set(r.agent, r); }
     }
-    const list = [...latest.values()].slice(-N);
-    const off = N - list.length;
+    const list = [...latest.values()].filter((r) => r.status === 'working' || r.status === 'done').slice(-N);
+    const k = list.length;
+    this.title.querySelector('span').textContent = k ? `${k} phòng đang làm / đã xong · mới nhất ở cuối đường` : 'chưa có phòng nào đang làm';
     this.stations.forEach((st, i) => {
-      const r = i >= off ? list[i - off] : null;
+      const r = list[i] || null;
+      // rải đều các trạm trên cả con đường; ít trạm thì dồn về cuối đường
+      st.v = k <= 1 ? 11.5 : 11.5 - ((k - 1 - i) * 23) / Math.max(k - 1, 4);
+      st.g.position.set(roadU(st.v), TOP + ROAD_H, st.v);
+      st.card.classList.toggle('dense', k > 6);
+      st.card.classList.toggle('tiny', k > 8);
       const key = r ? `${r.agent}|${r.task}|${r.status}|${+r.timestamp}` : '';
       if (st.key === key) return;
       st.key = key; st.row = r;

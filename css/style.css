@@ -390,3 +390,6 @@ html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; text-size-adjus
 #overlay.compact .road-card time, #overlay.compact .road-title span, #overlay.compact .road-title small { display: none; }
 #overlay.compact .road-title b { font-size: 12px; }
 @media (max-width: 640px) { .road-card { width: 132px; } .road-card time { display: none; } }
+.road-card.dense time { display: none; }
+.road-card.dense { padding-top: 3px; padding-bottom: 3px; }
+.road-card.tiny .rc-task { display: none; }
