@@ -528,7 +528,7 @@ export class UI {
       const q = askAt.get(m.replyTo);
       let at = +m.at;
       if (q !== undefined) { const k = (perAsk.get(m.replyTo) || 0) + 1; perAsk.set(m.replyTo, k); at = q + k * 10; }
-      items.push({ at, who: 'agent', md: m.text, needs: m.needs, shownAt: +m.at });
+      items.push({ at, who: 'agent', md: m.text, needs: m.needs, shownAt: q !== undefined ? Math.max(+m.at, q) : +m.at });   // không sớm hơn giờ hỏi, không muộn hơn hiện tại (xem chỗ hiển thị)
     }
     // tin bạn vừa gửi mà Inbox chưa kịp hiện
     const lastIn = mine.length ? Math.max(...mine.map((m) => +m.at)) : 0;
