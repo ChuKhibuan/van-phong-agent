@@ -8,6 +8,7 @@ import { Pets } from './pets.js';
 import { UI, ls, STATUS_LABEL } from './ui.js';
 import { createSource } from './data.js';
 import { TV } from './tv.js';
+import { Road } from './road.js';
 
 // ---------------- cài đặt người dùng ----------------
 const prefs = {
@@ -29,6 +30,9 @@ const people = new People(world, { reduced: prefs.reduced });
 scene.add(people.group);
 const pets = new Pets(world, { reduced: prefs.reduced });
 scene.add(pets.group);
+// đường công việc 3D cạnh phòng Lưu trữ (trang trí: việc đang làm / đã làm)
+const road = new Road(world, OFFICE, { overlay: document.getElementById('overlay'), onSelect: (id) => select(id) });
+scene.add(road.root);
 
 const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 400);
 const controls = new OrbitControls(camera, canvas);
@@ -97,6 +101,7 @@ function applyTheme() {
   hemi.color.set(T.hemiSky); hemi.groundColor.set(T.hemiGround); hemi.intensity = T.hemi;
   sun.color.set(T.sun); sun.intensity = T.sunI;
   for (const c of cores) c.mat.emissiveIntensity = themeNow === 'dark' ? 0.8 : 0.35;
+  road.setTheme(themeNow === 'dark');
   // cột đèn: tối thì sáng rõ, sáng thì dịu
   if (world.haloMesh) {
     world.haloMesh.material.opacity = themeNow === 'dark' ? 0.42 : 0.16;
@@ -142,6 +147,7 @@ function resize() {
     camera.lookAt(controls.target); camera.updateMatrixWorld();
     const pts = [];
     for (const R of world.rooms.values()) for (const sx of [-1, 1]) for (const sz of [-1, 1]) for (const yy of [-0.8, 2.6]) pts.push(new THREE.Vector3(R.x + sx * R.w / 2, R.y + yy, R.z + sz * R.d / 2));
+    if (a >= 1.05) pts.push(...road.fitPoints()); // màn hình ngang: ôm cả đường công việc
     let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
     for (const p of pts) { p.applyMatrix4(camera.matrixWorldInverse); x0 = Math.min(x0, p.x); x1 = Math.max(x1, p.x); y0 = Math.min(y0, p.y); y1 = Math.max(y1, p.y); }
     const topPad = 120 / h * FRUSTUM, botPad = 70 / h * FRUSTUM; // chừa chỗ thanh trên + nhãn phòng, nhật ký dưới
@@ -225,6 +231,7 @@ function applyRows(rows) {
   }
   firstBatch = false;
   tv?.refresh();
+  road.refresh(allRows);
 }
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -332,6 +339,7 @@ function frameBody(dt) {
   controls.update();
   people.update(dt, t, roomStatus);
   pets.update(dt, t);
+  road.update(dt, t, prefs.reduced);
 
   // cây đung đưa
   world.plants.forEach((p, i) => {
@@ -400,6 +408,7 @@ function frameBody(dt) {
     ui.placeBubble(R.id, bx, by);
   }
   for (const zc of zoneCenters) { const [x, y] = toScreen(zc.pos); ui.placeZone(zc.z, x, y); }
+  road.place(toScreen);
 }
 requestAnimationFrame(frame);
 

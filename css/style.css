@@ -354,3 +354,39 @@ html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; text-size-adjus
   .tv-tags { grid-column: 1 / -1; }
   .tv-stand { display: none; }
 }
+
+/* ---------- đường công việc (cạnh phòng Lưu trữ) ---------- */
+.road-title {
+  position: absolute; left: 0; top: 0; text-align: center; pointer-events: none; white-space: nowrap;
+  display: flex; flex-direction: column; align-items: center; gap: 1px; will-change: transform;
+  text-shadow: 0 1px 0 var(--surface-solid), 0 0 8px var(--surface-solid);
+}
+.road-title small { font-size: 9.5px; font-weight: 600; letter-spacing: .22em; color: var(--muted); }
+.road-title b { font-size: 17px; font-weight: 700; line-height: 1.1; color: var(--text); }
+.road-title span { font-size: 10.5px; color: var(--muted); }
+.road-lead {
+  position: absolute; left: 0; top: 0; height: 0; pointer-events: none; will-change: transform;
+  border-top: 2px dotted color-mix(in srgb, var(--accent) 70%, #2a9aa0);
+}
+.road-lead::before, .road-lead::after { content: ''; position: absolute; top: -4px; width: 6px; height: 6px; border-radius: 50%; background: color-mix(in srgb, var(--accent) 70%, #2a9aa0); }
+.road-lead::before { left: -3px; }
+.road-lead::after { right: -3px; }
+.road-card {
+  position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; text-align: left;
+  display: flex; flex-direction: column; gap: 1px; width: 160px; padding: 5px 8px 5px 9px;
+  border: 0; border-left: 4px solid var(--accent); border-radius: 10px;
+  background: var(--surface); box-shadow: var(--shadow); backdrop-filter: blur(8px); will-change: transform;
+}
+.road-card:hover { background: var(--surface-solid); }
+.road-card:focus-visible { outline: 2px solid var(--working); outline-offset: 2px; }
+.road-card .rc-head { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.road-card .rc-head b { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.road-card .chip { font-size: 10px; padding: 1px 7px; flex: none; }
+.road-card[data-s="waiting"] .chip { animation: pulse 1.4s ease-in-out infinite; }
+.road-card .rc-task { font-size: 11.5px; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; }
+.road-card time { font-size: 10px; color: var(--muted); }
+#overlay.compact .road-card { width: 118px; padding: 3px 6px 3px 7px; border-left-width: 3px; }
+#overlay.compact .road-card .rc-task { -webkit-line-clamp: 1; font-size: 10px; }
+#overlay.compact .road-card time, #overlay.compact .road-title span, #overlay.compact .road-title small { display: none; }
+#overlay.compact .road-title b { font-size: 12px; }
+@media (max-width: 640px) { .road-card { width: 132px; } .road-card time { display: none; } }
