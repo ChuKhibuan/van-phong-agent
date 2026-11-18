@@ -41,3 +41,5 @@ Chạy tự động bằng lịch `dang-nhom-hang-ngay` (8:00 và 15:00, máy ph
   - đăng nhập bị đăng xuất;
   - quá 3 nhóm liên tiếp báo lỗi.
 - **Mở máy trễ (chị dặn 19/11/2026):** lịch lỡ giờ sẽ tự chạy ngay khi mở app. Trước 15h: đăng bù phần sáng còn thiếu. Từ 15h: đăng đủ 30 bài trừ số đã đăng hôm nay, mỗi đợt tối đa 15 bài, hai đợt cách nhau ~30 phút. Sau 21h không đăng, để sáng mai. Mỗi bài cách nhau ít nhất 1 phút. Không đăng lại nhóm đã đăng trong 3 ngày gần nhất, trừ khi đã hết nhóm.
+- **Đo hiệu quả (chị chốt 19/11/2026):** có lịch `theo-doi-hieu-qua-nhom` chạy 20h mỗi tối, chỉ đọc. Nhóm có khách hỏi thì đánh ⭐ trong danh bạ để ưu tiên lần sau. Bài bị gỡ thì đổi cờ thành ⛔. Khách hỏi thì giao Sales trả lời qua Board.
+- **Bài chờ duyệt quá 7 ngày (chị chốt 19/11/2026):** được rút bài cũ ở các nhóm ⏳ để đăng bài mới, nhưng **hỏi chị trước mỗi lần xoá** (liệt kê nhóm, ngày đăng). Chị đồng ý mới xoá. Không tự xoá trong lịch tự chạy.
