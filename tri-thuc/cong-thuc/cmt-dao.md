@@ -1,6 +1,6 @@
 # Bình luận dạo bằng Page VÍT MEDIA
 
-Khi nào dùng: chị bảo "cmt dạo", "bình luận dạo", "đi cmt nhóm". Nhịp: mỗi tiếng 3–5 bài.
+Khi nào dùng: chị bảo "cmt dạo", "bình luận dạo", "đi cmt nhóm". Việc thường trực từ 20/11/2026: lịch "cmt-dao-moi-gio" chạy mỗi giờ (phút 30) từ lúc máy bật đến 20h, mỗi lượt 3–5 bình luận.
 Cần có: Chrome máy trực đã đăng nhập Facebook có quyền Page "Vít media". Thiếu thì dừng, báo chị.
 Phòng: `sales` · Subagent: không.
 Đọc: file này + mục VÍT MEDIA trong `tri-thuc/kien-thuc/sales.md`. Không đọc thêm.
@@ -13,7 +13,7 @@ Phòng: `sales` · Subagent: không.
 ## Các bước
 1. Board `sales | working | Cmt dạo <giờ> | 0`.
 2. **Tìm bài:** tìm các cụm "cần edit", "cần dựng video", "cần video AI", "cần làm slide", "cần thiết kế poster". Bật lọc bài mới nếu có. Ưu tiên các nhóm đã tham gia: Học Hỏi Edit Video; Freelance Video Editor; I Need Video Editor; AI Video Editing Jobs & Services Online; Video Editing Jobs & video Editors (USA/UK/Canada, worldwide); VIDEO EDITORS for TIKTOK YOUTUBE & INSTAGRAM; LÀM POWERPOINT THUÊ GIÁ RẺ.
-3. **Lọc bài.** Chỉ lấy bài đăng trong **60 phút** gần nhất. Facebook ghi "1 giờ" thì rê chuột xem giờ chính xác; không chắc thì bỏ.
+3. **Lọc bài.** Chỉ lấy bài đăng trong **2 giờ** gần nhất (chị nới từ 60 phút ngày 19/11). Facebook ghi "2 giờ" thì xem giờ chính xác (get_page_text có dòng "Thứ …, lúc HH:MM"); không chắc thì bỏ.
    - Nhận: dựng video, video AI, đồ họa, PowerPoint/Canva theo dự án. Bài tìm người edit theo dự án vẫn được bình luận.
    - Bỏ: bài tuyển nhân viên, bài cưới (thuộc Hoàng Hà), bài người bán tự quảng cáo.
 4. **Đọc nội quy nhóm** và đọc đủ bài. Bỏ nhóm cấm bình luận dịch vụ hoặc cấm để số điện thoại.
@@ -37,7 +37,7 @@ Cột: `gio_dia_phuong | page | nhom | tuoi_bai | link_bai | noi_dung | trang_th
 ## Mẹo từ lần chạy đầu (19/11, 20:45)
 - Tìm kiếm bài viết của Facebook, kể cả khi bật lọc "bài mới", không xếp theo giờ. Cách nhanh hơn: mở thẳng từng nhóm với đuôi `?sorting_setting=CHRONOLOGICAL`. ID nhóm: EDIT VIDEO – TUYỂN DỤNG EDITOR 767407213000845; làm video bằng AI 2890521791200984; THIẾT KẾ SLIDE POWERPOINT – CANVA 1171556814561185; LÀM POWERPOINT THUÊ GIÁ RẺ 434252495806890; Video Editing Jobs (USA/UK/Canada) 147032671260514; video editing groups 294830932856749; Hội Thiết Kế Có Tâm thietke.cotam.4u.
 - Nhóm 4155720068032203 (NHẬN LÀM SLIDE…) không có bài nào trong tháng, bỏ qua. Nhóm này cũng cấm tự quảng bá.
-- Buổi tối gần như toàn bài tuyển dụng và người bán tự quảng cáo. 20:45 không có bài nào đạt chuẩn thì ghi `bo_qua`, không nới quy tắc 60 phút.
+- Buổi tối gần như toàn bài tuyển dụng và người bán tự quảng cáo. Lượt nào không có bài đạt chuẩn thì ghi `bo_qua`, không tự nới thêm cửa sổ thời gian.
 - Giờ VN: trên Windows, Git Bash bỏ qua `TZ=`. Lấy giờ bằng PowerShell `ConvertTimeBySystemTimeZoneId(..., 'SE Asia Standard Time')`.
 
 Không được: nhắn riêng khách, báo giá, bình luận bằng tài khoản cá nhân, gửi lại khi chưa rõ trạng thái, vượt 5 bài/tiếng.
