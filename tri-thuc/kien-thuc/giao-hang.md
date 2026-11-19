@@ -12,6 +12,7 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 - (19/11/2026) Zalo VÍT MEDIA: chủ gắn **nhãn đỏ "Khách hàng"** khi khách đã bắt đầu cọc (đôi khi quên gắn, nên vẫn đọc cả khách chưa có nhãn). Hội thoại có tên chứa **"CTV"** (kể cả biệt danh như "…_CTV") thì bỏ qua, không đọc.
 - (19/11/2026) Đọc Zalo web: chỉ giữ tin từ khoảng 2 tuần trước (cũ hơn phải dùng Zalo PC); không đọc được ảnh bill, nên "đã thanh toán" chỉ suy ra từ lời nhắn ("em nhận được rồi", cảm ơn sau ảnh) và phải ghi rõ là suy đoán. Mở Zalo web ở tab mới làm tab Zalo của chủ ngừng hoạt động (chủ bấm "Kích hoạt" lại).
 - (19/11/2026) Bảng doanh thu "DS video -t11", tab **Khách lẻ** (Sheet ID `1n9BrIQCk3eOhheCot6yCcRIQ55Or3YioSGP7fE_1ZNE`): cột C khách, D tiến độ (DONE / Đang làm / Chờ duyệt / Hủy), F giá, G "cọc X" (nghìn đồng). Thanh toán đủ → đổi D thành DONE. Chỉ xem khách gần nhất; chỗ nào không khớp thì báo chị, không tự sửa giá hay cọc.
+- (19/11/2026 · QA báo, chị xác nhận) Quy trình CSKH Zalo đã được duyệt (Drive 03). Ngoại lệ "tự nhắn khách lạ tới bước báo giá" đã có trong `chung.md`. Khi cần chị (báo giá, STK/QR, khách cũ, khiếu nại, đơn trên 1,5 triệu): ghi Board status `waiting`, task bắt đầu bằng "Cần chị: …", handoff_to `qa`, rồi vẫn báo chị trong phiên.
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
