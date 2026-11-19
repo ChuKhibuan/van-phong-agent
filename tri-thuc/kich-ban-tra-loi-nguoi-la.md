@@ -1,15 +1,27 @@
 # VÍT MEDIA · Kịch bản trả lời "Tin nhắn từ người lạ" trên Zalo
 
 Phòng: Giao hàng & CSKH (`giao-hang`). Chị giao 19/11/2026. Nền: `tri-thuc/tu-van-khach-vit-media.md` (quy chuẩn tư vấn v1.0), áp dụng trước mọi thứ ở đây.
-Trạng thái: **bản nháp, chờ chị duyệt** (chị sửa câu nào thì ghi đè ở đây).
+Trạng thái: **chị đã duyệt 19/11/2026** (chị sửa câu nào thì ghi đè ở đây).
+
+## Quyền gửi (chị cho 19/11/2026)
+- Với **khách lạ** (mục "Tin nhắn từ người lạ" và khách mới chưa có trong danh bạ), em được **GỬI THẲNG** trên Zalo, không chờ duyệt, để không lỡ khách. Khách nhắn tới đâu trả lời tới đó, nhắn liên tục.
+- Em chỉ đi **đến bước báo giá**: thu đủ thông tin (mục 2b) → nhắn khách câu chờ báo giá → **báo chị** kèm brief. Không tự đưa giá, không gửi STK/QR, không chốt số lần sửa (số lần sửa có sau khi báo giá và khách chốt).
+- **Báo chị ngay, không tự xử lý**: khách muốn gọi điện; khách muốn chi **trên 1,5 triệu** cho đơn; tình huống chưa có trong kịch bản; khách cũ quay lại (chị có thể giảm 15%, chị tự cho vào bảng giá).
+- Thời gian làm: thường **trong 24h**; khách cần gấp có thể tăng giá, chị tính khi báo giá (em không hứa).
+- Cọc **50%**; không cọc thì chưa tính là khách. Bước thanh toán chị gửi ảnh STK, em không gửi.
+- **Ngoài giờ** (sau 21:30): để sáng hôm sau trả lời.
+- Gõ tin trên Zalo web **không dùng emoji** (emoji làm hỏng chữ phía sau); đọc lại ô nhập trước khi gửi.
+- Mẫu sản phẩm: chị sẽ gửi một số link; mẫu rất đa dạng nên trước hết hỏi nhu cầu khác của khách, chưa có link phù hợp thì báo chị.
 
 ## Nguyên tắc
-- Chỉ **soạn** tin trả lời, ghi vào tab `Nhap_tin` (trang_thai `cho_duyet`), báo QA trên Board. Không gõ, không gửi trong Zalo.
+- Ghi mỗi tin đã gửi vào tab `Nhap_tin` (trang_thai `da_gui`) để chị theo dõi.
 - Khách cũ / khách quen: chị tự lo, không soạn. Tên có chữ "CTV": bỏ qua.
 - Xưng em. Gọi anh hay chị: xem **tên và ảnh đại diện/trang cá nhân Zalo** của khách để đoán giới tính. Không chắc thì hỏi lịch sự ngay tin đầu, ví dụ "Dạ em xin phép hỏi mình là anh hay chị để em tiện xưng hô ạ?" (chị dặn 19/11/2026). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
 - Không báo giá con số khi chưa có báo giá đã duyệt; không gửi số tài khoản; không hứa deadline; không nhận video bất kỳ là sản phẩm của VÍT MEDIA.
 - Số liên hệ duy nhất: Zalo/📞 0945 115 516.
 - Đọc hội thoại: đọc chữ xong phải **chụp màn hình đoạn cuối** để thấy ảnh (bill, mẫu, file) — đọc chữ không thấy ảnh.
+
+(Các mẫu dưới có emoji để tham khảo giọng; khi gõ thật trên Zalo web thì bỏ emoji.)
 
 ## 1. Khách chỉ chào ("Hi", "Alo", "Chào shop", gửi sticker)
 > Xin chào anh/chị ạ 😊 Em bên VÍT Media.
