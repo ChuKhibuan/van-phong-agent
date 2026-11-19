@@ -9,6 +9,7 @@ Trạng thái: **bản nháp, chờ chị duyệt** (chị sửa câu nào thì 
 - Xưng em, gọi anh/chị (chưa rõ thì "anh/chị"). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
 - Không báo giá con số khi chưa có báo giá đã duyệt; không gửi số tài khoản; không hứa deadline; không nhận video bất kỳ là sản phẩm của VÍT MEDIA.
 - Số liên hệ duy nhất: Zalo/📞 0945 115 516.
+- Đọc hội thoại: đọc chữ xong phải **chụp màn hình đoạn cuối** để thấy ảnh (bill, mẫu, file) — đọc chữ không thấy ảnh.
 
 ## 1. Khách chỉ chào ("Hi", "Alo", "Chào shop", gửi sticker)
 > Xin chào anh/chị ạ 😊 Em bên VÍT Media.
