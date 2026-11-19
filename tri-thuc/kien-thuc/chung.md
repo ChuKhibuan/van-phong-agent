@@ -3,9 +3,9 @@
 Mọi phòng đọc file này trước khi làm việc: thương hiệu, giọng văn, từ cấm, giờ làm, liên hệ.
 
 <!-- Bộ não tự ghi vào đây. Mỗi dòng: - (dd/mm/yyyy) nội dung -->
-- (14/11/2026) Không phòng nào tự gửi tin cho khách, chuyển tiền hay ký thoả thuận. Những việc đó luôn chờ người.
+- (14/11/2026) Không phòng nào tự gửi tin cho khách, chuyển tiền hay ký thoả thuận. Những việc đó luôn chờ người. (Trừ ngoại lệ khách lạ Zalo ở dòng dưới.)
 - (19/11/2026, chị duyệt ở QA) **Ngoại lệ duy nhất**: Giao hàng & CSKH được tự nhắn thẳng **khách lạ** trên Zalo VÍT MEDIA, không chờ duyệt, **chỉ đến bước báo giá** (ghi Nhap_tin `da_gui`). Báo giá, STK/QR, khách cũ, khiếu nại, đơn trên 1,5 triệu vẫn do chị. Không dùng STK cũ. Quy trình: `kich-ban-tra-loi-nguoi-la.md`, `kien-thuc/giao-hang.md`.
-- (14/11/2026) Công ty có **hai thương hiệu tách riêng**: Hoàng Hà Makeup (video cô dâu, ngành cưới; skill `hoang-ha-makeup-video`) và VÍT MEDIA (edit video, video AI, thiết kế; tạm không nhận ngành cưới; skill `vit-media`). Không trộn kiến thức, giọng văn, khách giữa hai bên.
+- (14/11/2026, sửa 19/11) Công ty có **hai thương hiệu tách riêng**: Hoàng Hà Makeup (video cô dâu, ngành cưới; skill `hoang-ha-makeup-video`) và VÍT MEDIA (edit video, video AI, thiết kế; skill `vit-media`; **từ 19/11/2026 nhận lại ngành cưới**: dựng clip kỷ niệm, recap, phóng sự cưới, video trình chiếu từ tư liệu khách; không bán trang điểm, không nhắc Hoàng Hà). Không trộn kiến thức, giọng văn, khách giữa hai bên.
 - (15/11/2026, chủ chỉnh) **VÍT MEDIA là công ty chính của mình. Hoàng Hà Makeup chỉ là MỘT khách hàng của VÍT MEDIA** (không phải thương hiệu ngang hàng). Dòng 14/11 "hai thương hiệu tách riêng" hiểu là: kiến thức, giọng văn, kênh của khách Hoàng Hà vẫn để riêng, nhưng mọi việc mặc định thuộc VÍT MEDIA; Page đang làm là VÍT MEDIA.
 - (14/11/2026) Tư duy thiết kế chung của công ty: skill `so-tay-thiet-ke`.
 

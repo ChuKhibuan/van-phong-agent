@@ -11,6 +11,6 @@ Mọi phòng đọc file này. Bộ não và vòng nâng cấp cuối ngày tự
 - (18/11/2026, thay dòng 15/11) Bài Page: chủ đưa nội dung → Kịch bản → Thiết kế / Dựng → **QA duyệt** → Đăng bài **đăng luôn**, chủ không duyệt từng bài. QA trả lại thì Thiết kế / Dựng làm lại, gửi link / ảnh mới cho QA. QA báo cáo chủ 22:00. Chi tiết `kho/quy-trinh.md` mục "Quy trình đăng bài Page". Nhóm Facebook chủ giao: Đăng bài tự đăng. Bình luận, Page Hoàng Hà: soạn nháp chuyển QA.
 - (14/11/2026) Nội dung đăng: Không giá, thời hạn, kinh nghiệm chưa xác nhận.
 - (14/11/2026) Video cô dâu / makeup làm theo skill `hoang-ha-makeup-video` (Dựng, Kịch bản, Thiết kế, QA cùng dùng). Mỗi clip một bài nhạc outro riêng; thiếu thì hỏi chủ.
-- (14/11/2026) Tin gửi khách (báo giá, nhắc khách, gửi file, nhắc thanh toán) do Bán hàng hoặc Giao hàng & CSKH soạn, chủ duyệt rồi mới gửi.
+- (14/11/2026, ngoại lệ 19/11 chị xác nhận) Tin gửi khách (báo giá, nhắc khách, gửi file, nhắc thanh toán) do Bán hàng hoặc Giao hàng & CSKH soạn, chủ duyệt rồi mới gửi. Ngoại lệ duy nhất: Giao hàng & CSKH gửi thẳng cho khách lạ Zalo VÍT MEDIA, chỉ tới bước báo giá.
 - (14/11/2026) Quản lý CTV chỉ tính công và đề xuất hoa hồng; trả tiền và ký thoả thuận với CTV luôn do người làm.
 
