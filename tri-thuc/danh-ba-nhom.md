@@ -319,6 +319,7 @@
 - ⏳ 3293497610791180 · CĐ TỔ CHỨC SỰ KIỆN - EVENT · 118K · 23
 
 ## Không đăng (không quét)
+- ⭐ Ghi chú 19/11/2026: nhóm "Hội Cô Dâu Sắp Cưới - Chia Sẻ Kinh Nghiệm Cưới" (412K, duyệt tự động) đã mang về **2 khách chất lượng** từ bài Vít media "Dựng clip kỷ niệm & recap ngày cưới" (7/11). Mảng cưới vẫn để "không đăng" cho đến khi chị chốt mở lại.
 - Ngành cưới, cô dâu, phóng sự cưới: thuộc **Hoàng Hà Makeup**, Vít media không nhận cưới. Gồm congdong.cuoihoi, 350885370830288, hiephoicuoihoi, codausapcuoichiasekinhnghiem, cudanhanoi.fb, 131167553719168, 3723744707839887, hoicodausapcuoichiasekinhnghiemcuoisaigon, 1917275441938362, 755843242505987, 411936808391124, HoiCoDauSapCuoi, 186690114797505, 807666833075358, 500501932547697, hoisapcuoihaiphong, hoicodausapcuoi.vietnamese, congdongcuoihoi.vn, 705581082594915, 158262300494812.
 - Nhóm nước ngoài (tiếng Anh): 147032671260514, 294830932856749, 1126963997314568, 1155257268851946, 1173532240001355, 1535727757545719, 6100423586635776, 1319176705676218, freevideoeditorgroup, videoeditors25, ProfessionalVideoEditors, 1012045722764857, editingvideofilms.
 - Không liên quan: ltdsoftware, các nhóm FU Hòa Lạc (966715394202687, fptuhoalac, 1440203522931298, hoalacfu, fuhoalacc, 1301677703935713), 1606891834133651, discordvietnamcommunity, 1841265619827038, nghiencongviet2, 707587578483411, 784750357131816, 422810380451521, tuyendungdesignerhcm, 958351529677722, 374082719342208, 177918569257492, congdongsinhviekientruc, congdongcuoi, voz.congnghe (cấm bán hàng).

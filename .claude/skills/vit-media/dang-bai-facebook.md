@@ -34,6 +34,43 @@ Tài liệu dành cho AI agent hỗ trợ VÍT MEDIA. Dùng yêu cầu mới nh�
 
 **Nhóm slide:** VÍT MEDIA nhận thiết kế PowerPoint, Canva từ nội dung có sẵn cho bài giảng, báo cáo và thuyết trình. Có thể bổ sung hình minh họa hoặc video AI khi phù hợp. Inbox hoặc nhắn em ZAL: 0945115516.
 
+### Mẫu bài ĐÃ RA KHÁCH (chuẩn để học, chị gửi 19/11/2026)
+
+Bài Page Vít media đăng ngày 7/11/2026 vào nhóm "Hội Cô Dâu Sắp Cưới - Chia Sẻ Kinh Nghiệm Cưới" (412K thành viên). Bài này mang về **2 khách chất lượng**. Nguyên văn:
+
+> 🎞️ VÍT MEDIA – DỰNG CLIP KỶ NIỆM & RECAP NGÀY CƯỚI
+>
+> Có nhiều ảnh đẹp và clip ngắn nhưng chưa biết chọn, sắp xếp thế nào cho video kỷ niệm của hai bạn?
+>
+> VÍT MEDIA hỗ trợ:
+> ✔️ Chọn và sắp xếp khoảnh khắc từ tư liệu bạn cung cấp.
+> ✔️ Dựng clip kỷ niệm, highlight, video ảnh trình chiếu.
+> ✔️ Thêm tiêu đề, phụ đề, nhạc nền và chuyển cảnh phù hợp.
+> ✔️ Thiết kế slide hoặc hình ảnh giới thiệu theo yêu cầu.
+> ✨ Giữ mạch câu chuyện rõ ràng và cảm xúc từ những hình ảnh thật.
+> 💰 Báo giá theo khối lượng tư liệu và thời lượng clip, thống nhất trước khi làm.
+> 📩 Gửi ảnh/clip, mẫu mong muốn và ngày cần nhận để được tư vấn.
+>
+> Zalo VÍT MEDIA: 0945 115 516.
+
+**Vì sao bài này ra khách (đánh giá):**
+1. **Tiêu đề gọi đúng tên dịch vụ và đúng ngách của nhóm** ("dựng clip kỷ niệm & recap ngày cưới"). Không viết chung chung kiểu "nhận edit video". Người đọc thấy ngay bài này dành cho mình.
+2. **Câu mở là nỗi đau có thật của người đọc:** họ đã có sẵn ảnh, clip nhưng không biết chọn, xếp. Câu hỏi bằng giọng "hai bạn" nên nghe gần gũi.
+3. **Làm từ tư liệu khách có sẵn:** không cần quay, rào cản thấp, không giẫm chân thợ quay/chụp hay studio trong nhóm.
+4. **Liệt kê 4 đầu việc cụ thể (✔️)** để khách hình dung ra sản phẩm. Thêm slide/hình ảnh để bán kèm thiết kế.
+5. **Một dòng giá trị cảm xúc (✨)** đúng tâm lý ngách cưới: câu chuyện, hình ảnh thật.
+6. **Nói về giá mà không bịa số (💰):** báo giá theo khối lượng, thống nhất trước khi làm. Khách thấy minh bạch, an tâm.
+7. **CTA nói rõ cần gửi gì (📩):** tư liệu, mẫu, hạn nhận. Khách nhắn đến là đã có đủ thông tin, lọc được khách thật, Sales báo giá nhanh.
+8. **Trình bày dễ đọc:** mỗi ý một dòng, có khoảng trắng, icon đầu dòng. Bài dài khoảng 600 ký tự vẫn hiệu quả vì có cấu trúc.
+
+**Đánh giá nhóm:** nhóm công khai, đông (412K), bài mới liên tục (bài ẩn danh đăng 1 phút trước). Ảnh bìa ghi "duyệt tự động" nên bài lên ngay. Người trong nhóm là cặp đôi sắp cưới: có nhu cầu thật, có hạn chót (ngày cưới, tiệc), có sẵn tư liệu. Đối thủ trong nhóm chủ yếu là studio quảng cáo gói chụp, ít ai bán dịch vụ dựng từ tư liệu có sẵn, nên Vít media nổi bật.
+
+**Công thức rút ra (dùng cho bài dài mọi ngách):**
+`[icon] VÍT MEDIA – <dịch vụ cụ thể> & <ngách của nhóm>` → câu hỏi nỗi đau của đúng người trong nhóm → "VÍT MEDIA hỗ trợ:" + 3–4 dòng ✔️ (việc cụ thể, ưu tiên "từ tư liệu bạn có") → 1 dòng ✨ giá trị/cảm xúc → 💰 "Báo giá theo khối lượng…, thống nhất trước khi làm" → 📩 "Gửi <tư liệu>, mẫu mong muốn và ngày cần nhận để được tư vấn" → Zalo VÍT MEDIA: 0945 115 516.
+Áp sang các ngách khác, ví dụ: recap sự kiện, year-end party (nhóm event); video tổng kết năm (nhóm doanh nghiệp); video bài giảng từ slide có sẵn (nhóm giáo viên); video sản phẩm từ ảnh (nhóm bán hàng).
+Mẫu ngắn dưới 300 ký tự vẫn dùng cho nhóm quy định chặt. Với nhóm cho đăng quảng bá và đúng ngách, ưu tiên mẫu dài theo công thức trên.
+⚠️ Ngành cưới: luật hiện tại vẫn là Vít media KHÔNG đăng nhóm cưới (để tách với Hoàng Hà Makeup). Chỉ mở lại khi chị chốt.
+
 ## 04 · Tìm bài khách và bình luận
 
 1. Tìm trên Facebook bằng các cụm như “cần tìm editor”, “cần dựng video”, “cần làm video AI”, “cần làm slide”, “cần thiết kế poster”. Dùng bộ lọc bài mới nếu có. Kết quả có thể vẫn gồm bài cũ, nên kiểm tra thời điểm từng bài.
