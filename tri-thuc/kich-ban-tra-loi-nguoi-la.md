@@ -1,0 +1,49 @@
+# VÍT MEDIA · Kịch bản trả lời "Tin nhắn từ người lạ" trên Zalo
+
+Phòng: Giao hàng & CSKH (`giao-hang`). Chị giao 19/11/2026. Nền: `tri-thuc/tu-van-khach-vit-media.md` (quy chuẩn tư vấn v1.0), áp dụng trước mọi thứ ở đây.
+Trạng thái: **bản nháp, chờ chị duyệt** (chị sửa câu nào thì ghi đè ở đây).
+
+## Nguyên tắc
+- Chỉ **soạn** tin trả lời, ghi vào tab `Nhap_tin` (trang_thai `cho_duyet`), báo QA trên Board. Không gõ, không gửi trong Zalo.
+- Khách cũ / khách quen: chị tự lo, không soạn. Tên có chữ "CTV": bỏ qua.
+- Xưng em, gọi anh/chị (chưa rõ thì "anh/chị"). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
+- Không báo giá con số khi chưa có báo giá đã duyệt; không gửi số tài khoản; không hứa deadline; không nhận video bất kỳ là sản phẩm của VÍT MEDIA.
+- Số liên hệ duy nhất: Zalo/📞 0945 115 516.
+
+## 1. Khách chỉ chào ("Hi", "Alo", "Chào shop", gửi sticker)
+> Xin chào anh/chị ạ 😊 Em bên VÍT Media.
+> Hiện bên em cung cấp các dịch vụ:
+> 🎬 Edit video TikTok, YouTube, vlog, video doanh nghiệp
+> 🤖 Sản xuất video AI theo yêu cầu
+> 📊 Thiết kế slide thuyết trình, bài tập, hồ sơ năng lực
+> 🎨 Thiết kế ấn phẩm truyền thông (poster, banner…)
+> Bên em hỗ trợ chỉnh sửa theo đúng nhu cầu và ngân sách của khách, giá linh hoạt cho cả học sinh – sinh viên ạ.
+> Anh/chị đang cần hỗ trợ về nội dung gì để em tư vấn chi tiết hơn nhé? 😊
+> Nếu em chưa trả lời hãy nhắn nhanh qua zalo/📞: 0945 115 516
+
+## 2. Khách đã nói rõ dịch vụ (bỏ phần liệt kê, vào thẳng việc)
+- **Edit video**: "Dạ bên em có nhận edit video [TikTok/YouTube…] ạ 😊 Anh/chị cho em xin thời lượng dự kiến mỗi video và một video mẫu mình thích để em tư vấn sát hơn nhé."
+  - Lượt sau (đã có mẫu): "Dạ em xem mẫu rồi ạ. Mình đã có sẵn footage quay chưa ạ, và mình cần phụ đề, chèn nhạc/hiệu ứng ở mức nào ạ?"
+- **Video AI**: "Dạ bên em có nhận làm video AI ạ 🤖 Anh/chị cho em xin chủ đề và thời lượng dự kiến nhé. Nếu mình có sẵn kịch bản hoặc hình ảnh tham khảo thì gửi em luôn ạ."
+  - Đã có kịch bản: "Dạ mình muốn phong cách chân thực, hoạt hình hay đồ họa ạ? Video có cần nhân vật cố định hay giọng đọc AI không ạ?"
+- **Talking head**: "Dạ bên em có nhận dựng talking head ạ 😊 Mình dự kiến bao nhiêu clip, mỗi clip khoảng bao lâu ạ? Mình đã quay sẵn footage chưa ạ?"
+- **Slide**: "Dạ bên em có nhận thiết kế slide ạ 📊 Mình cần khoảng bao nhiêu slide, chủ đề gì, và đã có sẵn nội dung chưa ạ? Mình cần file PowerPoint hay Canva ạ?"
+- **Poster / banner**: "Dạ bên em có nhận thiết kế poster/banner ạ 🎨 Mình cần mấy mẫu, dùng để đăng Facebook, chạy quảng cáo hay in ạ? Nếu có mẫu tham khảo và logo thì mình gửi em luôn nhé."
+- **Recap / TVC / video doanh nghiệp**: "Dạ bên em có nhận ạ 🎬 Video dùng cho mục đích gì và dài khoảng bao lâu ạ? Mình đã có kịch bản hoặc footage sẵn chưa ạ?"
+
+## 3. Tình huống hay gặp
+- **"Bao nhiêu tiền / giá sao?"** (chưa đủ thông tin): "Dạ giá bên em tính theo thời lượng, số lượng và mức độ dựng/hiệu ứng ạ. Anh/chị gửi em video mẫu và thời lượng mình cần, em báo giá chính xác cho mình nhé 😊"
+  - Đủ thông tin: ghi "Cần báo giá" vào kết quả, chuyển phòng Báo giá; **không tự đưa con số**.
+- **"Đắt quá"**: "Dạ em hiểu ạ. Mức giá phụ thuộc phạm vi và hiệu ứng, nếu mình muốn tối ưu chi phí thì bên em có thể giảm bớt hiệu ứng hoặc điều chỉnh phạm vi cho vừa ngân sách ạ. Mình dự trù khoảng bao nhiêu để em đề xuất phương án phù hợp nhé?"
+- **Học sinh, sinh viên**: "Dạ bên em có phương án hợp ngân sách cho học sinh – sinh viên ạ 😊 Mình gửi em nội dung và mẫu mình cần để em tư vấn nhé."
+- **Cần gấp**: "Dạ mình cần hoàn thành trước ngày/giờ nào ạ? Em kiểm tra lịch bên em rồi xác nhận lại với mình ngay nhé." (không hứa trước)
+- **Muốn xem sản phẩm mẫu**: "Dạ mình muốn xem mẫu video AI hay mẫu edit từ footage ạ? Em gửi mình mẫu phù hợp nhé." → ghi "Cần chị chọn mẫu gửi khách".
+- **Xin số Zalo / số điện thoại**: "Dạ anh/chị liên hệ Zalo bên em qua số 0945 115 516 nhé ạ 😊"
+- **Khách gửi file/mẫu không kèm lời**: "Dạ em nhận được rồi ạ. Mình muốn bên em làm theo mẫu này đúng không ạ? Mình cho em xin thêm thời lượng/số lượng mình cần nhé."
+- **Khách hỏi đặt cọc, thanh toán**: không soạn số tài khoản → ghi "Cần chị xác nhận phạm vi và gửi thông tin thanh toán".
+
+## 4. Không soạn, chỉ báo chị
+- Quảng cáo, rao bán, mời hợp tác lạ, tin rác, link lạ → ghi "Bỏ qua: spam/quảng cáo".
+- Khiếu nại, đòi hoàn tiền, tranh chấp, hỏi pháp lý → ghi "Cần chị xử lý".
+- Ngành cưới (phóng sự cưới, lễ cưới): vẫn là khách VÍT MEDIA (chị xác nhận 19/11/2026), soạn bình thường.
+- Tin có thông tin nhạy cảm (tài khoản, mật khẩu, giấy tờ): không chép vào Sheet.
