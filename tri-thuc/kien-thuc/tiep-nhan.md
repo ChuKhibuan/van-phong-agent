@@ -13,6 +13,8 @@ Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, c
 
 - (15/11/2026) Chi phí nhân công nội bộ VÍT MEDIA: **70.000đ/giờ, 8 giờ/ngày** (chủ báo); chỉ dùng tính giá vốn, không đưa lên bảng giá khách. Quy trình tính giá 7 bước đầy đủ: `tri-thuc/bo-sung/vit-media-dinh-gia.md`. Giá bán = tổng chi phí / (1 − biên lợi nhuận).
 
+- (19/11/2026) Từ 20/11, CSKH (Giao hàng) trả lời khách lạ trên Zalo VÍT MEDIA, thu đủ thông tin rồi chuyển brief sang Báo giá. Brief đủ gồm: sản phẩm, mẫu, source (đã đủ chưa), kịch bản (chưa có thì bên mình làm), hạn, loại khách (HS-SV/doanh nghiệp/cá nhân), ngân sách nếu khách nói, mức yêu cầu. Số lần sửa hỏi SAU khi báo giá. Chi tiết ở `tri-thuc/kich-ban-tra-loi-nguoi-la.md` mục 2b. Brief thiếu thì trả CSKH hỏi tiếp, chưa làm bảng giá. Người duyệt báo giá: trước mắt chị duyệt trực tiếp, sau này QA. Thời gian làm thường 24h; khách gấp có thể tăng giá, mức tăng do chị quyết. Khách cũ có thể giảm 15% nhưng chị tự quyết, phòng không tự áp. Khách không nói ngân sách: 3 gói theo hướng đơn giản / chuyên nghiệp / nhiều hiệu ứng. Cọc 50%. Không ghi STK trong báo giá (chị đổi liên tục, không dùng STK cũ).
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (15/11/2026) Báo giá VÍT MEDIA: chủ động phân tích khi nghe "báo giá"; giá vốn = nhân công + công cụ AI + tư liệu + thuê ngoài, cộng vận hành và dự phòng (5–25% theo độ khó); không định giá thấp vì là AI; thiếu dữ liệu thì ghi giả định. Chi tiết: `vit-media/dinh-gia.md` mục XII.
