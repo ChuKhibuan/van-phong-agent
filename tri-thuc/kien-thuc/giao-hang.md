@@ -14,4 +14,5 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (19/11/2026 · chị sửa) Đọc Zalo bằng chữ (innerText) **không thấy ảnh** → bỏ sót bill chuyển khoản của Np Group. Trước khi kết luận hay soạn trả lời, luôn chụp màn hình đoạn cuối hội thoại để xem ảnh. Khách gửi bill thì trả lời "em nhận được bill rồi", không nói "đã nhận tiền" khi chưa kiểm tra tài khoản.
 - (19/11/2026 · việc thật) Gõ tin vào Zalo web qua Chrome: **emoji làm phần chữ phía sau mất dấu cách**. Gõ tin không emoji, và đọc lại nội dung ô nhập trước khi bấm gửi. Chỉ gửi khi chị bảo gửi đúng câu đó.
