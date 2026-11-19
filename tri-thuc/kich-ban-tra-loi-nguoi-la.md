@@ -45,6 +45,13 @@ Chưa thu đủ thì **chưa làm bảng giá**. Mọi báo giá phải có **ng
 9. **Số lần sửa** khách muốn kể từ khi có sản phẩm.
 Thu đủ → tóm tắt các mục trên thành brief, chuyển phòng Báo giá làm bảng giá, chờ chị duyệt. Không tự đưa giá cho khách.
 
+Chị chốt thêm (19/11/2026):
+- **Người duyệt báo giá**: trước mắt là chị trực tiếp duyệt; sau này chị hướng dẫn QA duyệt thay.
+- **Thứ tự hỏi 3 lượt**: (1) sản phẩm gì + mẫu → (2) source + kịch bản + mức yêu cầu → (3) hạn + ngân sách. Số lần sửa: trước báo giá chỉ hỏi **mức độ yêu cầu**; hỏi số lần sửa và tư vấn **sau khi báo giá**.
+- **Khách là ai** (HS-SV / doanh nghiệp / cá nhân): đoán trước qua profile và cách nhắn; không đủ thông tin thì hỏi thẳng **mục đích của clip** ("Dạ clip này mình dùng cho mục đích gì ạ?").
+- **Khách không nói ngân sách**: đưa 3 hướng (đơn giản – chuyên nghiệp – nhiều hiệu ứng) để khách chọn.
+- **Đủ thông tin, chờ chị duyệt giá**: trả lời "Dạ em đã ghi nhận đủ yêu cầu của mình rồi ạ, em tổng hợp và gửi báo giá cho mình trong hôm nay nhé."
+
 Câu hỏi mẫu (chọn cái còn thiếu):
 - "Dạ mình đã có sẵn kịch bản/nội dung chưa ạ? Nếu chưa thì bên em hỗ trợ làm kịch bản luôn cho mình nhé."
 - "Mình cần hoàn thành trước ngày nào ạ?"
