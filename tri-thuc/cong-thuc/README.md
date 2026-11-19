@@ -8,6 +8,7 @@ Việc nào chủ giao lặp đi lặp lại thì có **một công thức**: đ
 
 | Công thức | Chủ hay nói | Phòng | Model nên dùng |
 |---|---|---|---|
+| [cmt-dao.md](cmt-dao.md) | "cmt dạo", "bình luận dạo" bằng Page VÍT MEDIA | Bán hàng (gửi thẳng, ngoại lệ chị cho) | Sonnet (máy trực, có Chrome) |
 | [dang-bai-nhom.md](dang-bai-nhom.md) | "đăng N nhóm", "đăng bài lên nhóm" | Đăng bài | Sonnet (máy trực, có Chrome) |
 | [lich-dang.md](lich-dang.md) | "lịch đăng", "bài nào chờ duyệt", mọi bài sắp đăng | Kịch bản, Thiết kế, Dựng, Đăng bài, QA | Haiku (hỏi) / Sonnet (ghi) |
 | [len-lich-page.md](len-lich-page.md) | "đăng/lên lịch bài này lên Page", ảnh + giờ đăng | Đăng bài (Kịch bản viết nếu thiếu) | Sonnet (máy trực, có Chrome) |
