@@ -11,6 +11,7 @@
 - ✅ Đăng được: không có bài chờ duyệt, luật không cấm.
 - ⚠️ Luật mặc định "Không quảng cáo hoặc spam". Đăng dạng chia sẻ giá trị/ví dụ thực tế, CTA nhẹ, không dồn dập. Nếu bị gỡ thì chuyển ⛔.
 - ⏳ Đang có bài chờ quản trị viên duyệt. Nhóm duyệt tay, bài cũ chưa duyệt thì không đăng thêm.
+- 🔻 Ít đăng (chị chốt 19/11/2026): admin đã TỪ CHỐI bài của Page. Cứ 5 đợt đăng (khung sáng / chiều / bù) thì chỉ đăng nhóm này 1 đợt: sau mỗi lần đăng phải bỏ qua 4 đợt kế tiếp. Ghi ngày, khung lần đăng cuối sau cờ, ví dụ `🔻 (đăng cuối 19/11 sáng)`. Nếu lại bị từ chối thì vẫn giữ 🔻. Nếu bị từ chối 3 lần liền thì chuyển ⛔.
 - ⛔ Bỏ: cấm quảng cáo/bán hàng rõ ràng, nhóm tạm dừng, admin gỡ bài, hoặc lệch chủ đề.
 
 **Số liệu sau tên nhóm:** số thành viên (đơn vị nghìn) · số bài mới hôm quét.
@@ -85,7 +86,7 @@
 
 ## 2. Edit video, quay dựng, YouTube/TikTok → bài "nhận edit video", "dựng video TikTok/Reels"
 - ✅ 1015618225564308 · ❤️ Học Hỏi Edit Video ❤️ · 49K · 4
-- ⛔ hocvalamyoutuber · Học và Làm Youtuber · 104K · 76 (19/11 admin từ chối bài chia sẻ Page)
+- 🔻 hocvalamyoutuber · Học và Làm Youtuber · 104K · 76 (từ chối 1 lần: 19/11 bài chia sẻ Page; đăng cuối 19/11 sáng)
 - ⚠️ 1585053268324151 · Tìm Biên Kịch - Diễn Viên - Ekip · 22K · 3
 - ⚠️ 2454178958083954 · Quay Dựng Phim & Chụp Ảnh Freelancer HCM · 30K · 24
 - ⚠️ hocvienyoutubee · Dạy làm Youtube · 31K · 8
