@@ -34,5 +34,11 @@ Cột: `gio_dia_phuong | page | nhom | tuoi_bai | link_bai | noi_dung | trang_th
 - Slide: "Bên em nhận thiết kế slide hội thảo từ nội dung có sẵn ạ. Bạn ib bên em hoặc nhắn em ZAL: 0945115516 để trao đổi nhé."
 - Video AI: "Bên em nhận làm video AI từ kịch bản hoặc hình ảnh cho bài giảng ạ. Bạn ib bên em hoặc nhắn em ZAL: 0945115516 để trao đổi nhé."
 
+## Mẹo từ lần chạy đầu (19/11, 20:45)
+- Tìm kiếm bài viết của Facebook, kể cả khi bật lọc "bài mới", không xếp theo giờ. Cách nhanh hơn: mở thẳng từng nhóm với đuôi `?sorting_setting=CHRONOLOGICAL`. ID nhóm: EDIT VIDEO – TUYỂN DỤNG EDITOR 767407213000845; làm video bằng AI 2890521791200984; THIẾT KẾ SLIDE POWERPOINT – CANVA 1171556814561185; LÀM POWERPOINT THUÊ GIÁ RẺ 434252495806890; Video Editing Jobs (USA/UK/Canada) 147032671260514; video editing groups 294830932856749; Hội Thiết Kế Có Tâm thietke.cotam.4u.
+- Nhóm 4155720068032203 (NHẬN LÀM SLIDE…) không có bài nào trong tháng, bỏ qua. Nhóm này cũng cấm tự quảng bá.
+- Buổi tối gần như toàn bài tuyển dụng và người bán tự quảng cáo. 20:45 không có bài nào đạt chuẩn thì ghi `bo_qua`, không nới quy tắc 60 phút.
+- Giờ VN: trên Windows, Git Bash bỏ qua `TZ=`. Lấy giờ bằng PowerShell `ConvertTimeBySystemTimeZoneId(..., 'SE Asia Standard Time')`.
+
 Không được: nhắn riêng khách, báo giá, bình luận bằng tài khoản cá nhân, gửi lại khi chưa rõ trạng thái, vượt 5 bài/tiếng.
 Nguồn: 19/11/2026 · chị dạy (file VIT_MEDIA_HUONG_DAN_CMT_BANG_PAGE_RAG.json, bản 11/11) + câu trả lời thêm qua phòng Giao hàng.
