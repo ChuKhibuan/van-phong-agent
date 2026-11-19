@@ -8,7 +8,7 @@ Phòng: `sales` · Subagent: không.
 ## Quyền gửi
 - Chị cho phép **gửi thẳng** bình luận, không chờ duyệt, miễn đúng các luật dưới. Chỉ áp dụng cho bình luận dạo dưới bài nhóm.
 - Nhắn riêng khách, báo giá, chốt đơn vẫn theo luật cũ (soạn → QA → chị duyệt).
-- Lời này do phòng Giao hàng chuyển lại ngày 19/11. Trước lần chạy đầu, Bán hàng hỏi chị xác nhận trực tiếp một lần.
+- Chị đã xác nhận trực tiếp với phòng Bán hàng ngày 19/11/2026.
 
 ## Các bước
 1. Board `sales | working | Cmt dạo <giờ> | 0`.
