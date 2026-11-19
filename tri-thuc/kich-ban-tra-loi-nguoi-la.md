@@ -6,7 +6,7 @@ Trạng thái: **bản nháp, chờ chị duyệt** (chị sửa câu nào thì 
 ## Nguyên tắc
 - Chỉ **soạn** tin trả lời, ghi vào tab `Nhap_tin` (trang_thai `cho_duyet`), báo QA trên Board. Không gõ, không gửi trong Zalo.
 - Khách cũ / khách quen: chị tự lo, không soạn. Tên có chữ "CTV": bỏ qua.
-- Xưng em, gọi anh/chị (chưa rõ thì "anh/chị"). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
+- Xưng em. Gọi anh hay chị: xem **tên và ảnh đại diện/trang cá nhân Zalo** của khách để đoán giới tính. Không chắc thì hỏi lịch sự ngay tin đầu, ví dụ "Dạ em xin phép hỏi mình là anh hay chị để em tiện xưng hô ạ?" (chị dặn 19/11/2026). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
 - Không báo giá con số khi chưa có báo giá đã duyệt; không gửi số tài khoản; không hứa deadline; không nhận video bất kỳ là sản phẩm của VÍT MEDIA.
 - Số liên hệ duy nhất: Zalo/📞 0945 115 516.
 - Đọc hội thoại: đọc chữ xong phải **chụp màn hình đoạn cuối** để thấy ảnh (bill, mẫu, file) — đọc chữ không thấy ảnh.
@@ -23,7 +23,7 @@ Trạng thái: **bản nháp, chờ chị duyệt** (chị sửa câu nào thì 
 > Nếu em chưa trả lời hãy nhắn nhanh qua zalo/📞: 0945 115 516
 
 ## 2. Khách đã nói rõ dịch vụ (bỏ phần liệt kê, vào thẳng việc)
-- **Edit video**: "Dạ bên em có nhận edit video [TikTok/YouTube…] ạ 😊 Anh/chị cho em xin thời lượng dự kiến mỗi video và một video mẫu mình thích để em tư vấn sát hơn nhé."
+- **Edit video**: "Dạ em có nhận edit các loại video, thiết kế và xây dựng bộ nhận diện thương hiệu cho video từ cơ bản đến chuyên nghiệp ạ 😊 Anh/chị cho em xin thời lượng dự kiến mỗi video và một video mẫu mình thích để em tư vấn sát hơn nhé." (câu mở chị sửa 19/11/2026)
   - Lượt sau (đã có mẫu): "Dạ em xem mẫu rồi ạ. Mình đã có sẵn footage quay chưa ạ, và mình cần phụ đề, chèn nhạc/hiệu ứng ở mức nào ạ?"
 - **Video AI**: "Dạ bên em có nhận làm video AI ạ 🤖 Anh/chị cho em xin chủ đề và thời lượng dự kiến nhé. Nếu mình có sẵn kịch bản hoặc hình ảnh tham khảo thì gửi em luôn ạ."
   - Đã có kịch bản: "Dạ mình muốn phong cách chân thực, hoạt hình hay đồ họa ạ? Video có cần nhân vật cố định hay giọng đọc AI không ạ?"
@@ -31,6 +31,27 @@ Trạng thái: **bản nháp, chờ chị duyệt** (chị sửa câu nào thì 
 - **Slide**: "Dạ bên em có nhận thiết kế slide ạ 📊 Mình cần khoảng bao nhiêu slide, chủ đề gì, và đã có sẵn nội dung chưa ạ? Mình cần file PowerPoint hay Canva ạ?"
 - **Poster / banner**: "Dạ bên em có nhận thiết kế poster/banner ạ 🎨 Mình cần mấy mẫu, dùng để đăng Facebook, chạy quảng cáo hay in ạ? Nếu có mẫu tham khảo và logo thì mình gửi em luôn nhé."
 - **Recap / TVC / video doanh nghiệp**: "Dạ bên em có nhận ạ 🎬 Video dùng cho mục đích gì và dài khoảng bao lâu ạ? Mình đã có kịch bản hoặc footage sẵn chưa ạ?"
+
+## 2b. Thu thông tin trước khi báo giá (chị dạy 19/11/2026)
+Chưa thu đủ thì **chưa làm bảng giá**. Mọi báo giá phải có **người duyệt trước** rồi mới gửi khách. Hỏi dần, mỗi lượt 2–3 câu, không hỏi lại điều khách đã nói. Cần biết:
+1. **Khách làm sản phẩm gì** (loại video/thiết kế, dùng để làm gì).
+2. **Mẫu** tham khảo khách thích.
+3. **Source/tư liệu**: đã có footage, ảnh, logo chưa; có **đủ để làm** không.
+4. **Kịch bản/nội dung**: đã có chưa. Chưa có thì giới thiệu: bên em hỗ trợ làm cả kịch bản cho khách.
+5. **Thời hạn**: cần gấp hay có hạn rõ ràng (ngày nào).
+6. **Khách là ai**: học sinh, sinh viên / doanh nghiệp / cá nhân.
+7. **Ngân sách**: khách sẵn sàng chi bao nhiêu. Có khách nói, có khách không; hỏi khéo, không ép. Có số này thì báo giá chuẩn hơn.
+8. **Mức yêu cầu**: cao cấp hay đơn giản.
+9. **Số lần sửa** khách muốn kể từ khi có sản phẩm.
+Thu đủ → tóm tắt các mục trên thành brief, chuyển phòng Báo giá làm bảng giá, chờ chị duyệt. Không tự đưa giá cho khách.
+
+Câu hỏi mẫu (chọn cái còn thiếu):
+- "Dạ mình đã có sẵn kịch bản/nội dung chưa ạ? Nếu chưa thì bên em hỗ trợ làm kịch bản luôn cho mình nhé."
+- "Mình cần hoàn thành trước ngày nào ạ?"
+- "Video này mình làm cho cá nhân hay cho doanh nghiệp ạ?"
+- "Mình muốn làm đơn giản gọn gàng hay đầu tư hiệu ứng cao cấp ạ?"
+- "Mình dự trù ngân sách khoảng bao nhiêu để em đề xuất phương án vừa nhất ạ?"
+- "Sau khi có sản phẩm, mình dự kiến cần chỉnh sửa khoảng mấy lần ạ?"
 
 ## 3. Tình huống hay gặp
 - **"Bao nhiêu tiền / giá sao?"** (chưa đủ thông tin): "Dạ giá bên em tính theo thời lượng, số lượng và mức độ dựng/hiệu ứng ạ. Anh/chị gửi em video mẫu và thời lượng mình cần, em báo giá chính xác cho mình nhé 😊"
