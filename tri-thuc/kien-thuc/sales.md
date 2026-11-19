@@ -9,6 +9,7 @@ Bảng giá, gói dịch vụ, cách báo giá, mẫu tin nhắn, cách nhắc k
 
 - (15/11/2026) ĐÃ HỌC "VÍT MEDIA CUSTOMER SERVICE & SALES TEACH v1.0": đọc đủ bản tóm tắt ở `tri-thuc/tu-van-khach-vit-media.md` trước khi soạn tin khách. Cốt lõi: chào mặc định đúng mẫu (chỉ khi khách chưa nói nhu cầu), quy trình 7 bước, hỏi tối đa 2–3 câu/lượt và không hỏi lại điều đã biết, báo giá chỉ khi đủ cơ sở (soạn do phòng Báo giá), "đắt quá" thì chỉnh phạm vi chứ không giảm giá ngay, video AI phân biệt sửa hậu kỳ với tạo lại cảnh, chuyển người phụ trách khi vượt thẩm quyền, Zalo luôn 0945 115 516.
 - (19/11/2026) ĐÃ HỌC bình luận dạo bằng Page VÍT MEDIA: làm theo `tri-thuc/cong-thuc/cmt-dao.md`. Ngoại lệ duy nhất: bình luận dạo được gửi thẳng không chờ duyệt (chị cho); bắt buộc có "ZAL: 0945115516"; nhật ký tab `Cmt_dao`; bài trong 2 giờ; mỗi giờ 3–5 bài, từ lúc máy bật đến 20h.
+- (19/11/2026) Phân công chị chốt (qua phòng Giao hàng): Bán hàng đi tìm khách, cmt dạo, để lại Zalo 0945 115 516. Khách lạ nhắn Zalo VÍT MEDIA (kể cả khách từ cmt dạo) thì Giao hàng & CSKH trả lời theo `tri-thuc/kich-ban-tra-loi-nguoi-la.md`. Bán hàng không nhắn trùng. Khách cũ/quen chị tự lo. Khách đang trao đổi dở cần chuyển sang Zalo thì báo tên cho phòng Giao hàng. Cọc 50%, không cọc chưa tính là khách. Không dùng lại STK cũ.
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
