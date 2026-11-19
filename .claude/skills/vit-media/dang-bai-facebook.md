@@ -9,7 +9,7 @@ Tài liệu dành cho AI agent hỗ trợ VÍT MEDIA. Dùng yêu cầu mới nh�
 - **Edit video** gồm TikTok, Reels, Shorts, quảng cáo, giới thiệu sản phẩm, video doanh nghiệp, recap và sự kiện. Có cắt ghép, phụ đề, chỉnh màu, xử lý âm thanh và hiệu ứng.
 - **Video AI** gồm video từ ảnh, ý tưởng hoặc kịch bản, nhân vật nói, đồng bộ khẩu hình, giọng đọc AI tiếng Việt và phối hợp với tư liệu thật. Có lên kịch bản, phân cảnh và lời dẫn.
 - **Thiết kế** gồm poster, banner, thumbnail, infographic, PowerPoint và Canva. Có chỉnh bố cục file sẵn, thiết kế slide giảng dạy, hội thảo, báo cáo và thuyết trình doanh nghiệp.
-- Nhận khách lẻ và dự án lớn trong giáo dục, doanh nghiệp và các lĩnh vực phù hợp. Tạm bỏ nhóm và nhu cầu ngành cưới. Không tự đưa giá, kinh nghiệm, thời hạn, thiết bị, mẫu đã làm hoặc điều khoản thanh toán chưa được xác nhận.
+- Nhận khách lẻ và dự án lớn trong giáo dục, doanh nghiệp và các lĩnh vực phù hợp. Ngành cưới: từ 19/11/2026 nhận dựng clip kỷ niệm, recap từ tư liệu khách (bài cưới đã ra 2 khách). Không tự đưa giá, kinh nghiệm, thời hạn, thiết bị, mẫu đã làm hoặc điều khoản thanh toán chưa được xác nhận.
 
 ## 02 · Xác định việc cần làm
 
@@ -69,7 +69,7 @@ Bài Page Vít media đăng ngày 7/11/2026 vào nhóm "Hội Cô Dâu Sắp Cư
 `[icon] VÍT MEDIA – <dịch vụ cụ thể> & <ngách của nhóm>` → câu hỏi nỗi đau của đúng người trong nhóm → "VÍT MEDIA hỗ trợ:" + 3–4 dòng ✔️ (việc cụ thể, ưu tiên "từ tư liệu bạn có") → 1 dòng ✨ giá trị/cảm xúc → 💰 "Báo giá theo khối lượng…, thống nhất trước khi làm" → 📩 "Gửi <tư liệu>, mẫu mong muốn và ngày cần nhận để được tư vấn" → Zalo VÍT MEDIA: 0945 115 516.
 Áp sang các ngách khác, ví dụ: recap sự kiện, year-end party (nhóm event); video tổng kết năm (nhóm doanh nghiệp); video bài giảng từ slide có sẵn (nhóm giáo viên); video sản phẩm từ ảnh (nhóm bán hàng).
 Mẫu ngắn dưới 300 ký tự vẫn dùng cho nhóm quy định chặt. Với nhóm cho đăng quảng bá và đúng ngách, ưu tiên mẫu dài theo công thức trên.
-⚠️ Ngành cưới: luật hiện tại vẫn là Vít media KHÔNG đăng nhóm cưới (để tách với Hoàng Hà Makeup). Chỉ mở lại khi chị chốt.
+✅ Ngành cưới: chị đã mở lại cho Vít media từ 19/11/2026. Chỉ bán dựng clip kỷ niệm, recap, video trình chiếu từ tư liệu khách có sẵn, không bán trang điểm và không nhắc tới Hoàng Hà. Bài gốc để chia sẻ: nhóm 755843242505987, `/groups/755843242505987/?multi_permalinks=1610246847065618`.
 
 ## 04 · Tìm bài khách và bình luận
 

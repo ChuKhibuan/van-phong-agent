@@ -29,7 +29,7 @@ Chạy tự động bằng lịch `dang-nhom-hang-ngay` (8:00 và 15:00, máy ph
   - (c) Chia sẻ lại bài đã đăng trên Page vào nhóm.
   - (d) Dùng lại ảnh đã thiết kế và đã đăng Page, trong `C:\AI-Tổng\thiet-ke-bai-dang\*.png`.
   
-  Bài có ảnh hay không đều được. Mọi bài phải có lời kêu gọi liên hệ: inbox Page hoặc ZAL 0945 115 516. Không bịa giá, số liệu, tên khách. Không đăng bài ngành cưới hay Hoàng Hà.
+  Bài có ảnh hay không đều được. Mọi bài phải có lời kêu gọi liên hệ: inbox Page hoặc ZAL 0945 115 516. Không bịa giá, số liệu, tên khách. Không nhắc tới Hoàng Hà. **Mảng cưới đã mở lại cho Vít media (chị chốt 19/11/2026)**: chỉ bán dịch vụ dựng clip kỷ niệm/recap/video trình chiếu từ tư liệu khách có sẵn, không bán trang điểm. Bài mẫu đã ra khách: mục "Mẫu bài ĐÃ RA KHÁCH" trong `.claude/skills/vit-media/dang-bai-facebook.md`.
 - **Mục tiêu:** khách liên hệ. Nhóm nào có người hỏi hoặc bình luận thì ghi vào sổ là "hiệu quả" để ưu tiên lần sau.
 - **Xong mỗi khung:**
   - Board: `dang-bai | done | Đăng nhóm <sáng/chiều> dd/mm: X lên thẳng, Y chờ duyệt, Z bỏ | 100`.
