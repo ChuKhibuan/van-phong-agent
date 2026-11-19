@@ -25,15 +25,15 @@
 - ✅ 3712664498898927 · Làm Video AI - Ảnh AI · 10K · 22
 - ✅ 1433716684430309 · Cộng đồng AI Video Affiliate · 14K · 0
 - ✅ 1401089638227050 · Học AI thật dễ · 10K · 52
-- ✅ 808459113862196 · Ứng dụng AI trong Doanh nghiệp Một Người · 30K · 22
+- ⏳ 808459113862196 · Ứng dụng AI trong Doanh nghiệp Một Người · 30K · 22 (19/11 bài vào chờ duyệt)
 - ✅ 1533526524905524 · AE SUNO - AI music · 14K · 27
 - ✅ editvideobatdongsan · Edit video bất động sản – AI · 4K · 5
 - ✅ 883633534000509 · Cộng đồng NotebookLM VN · 267K · 2
 - ✅ 1613552523431575 · Grok Việt Nam · 17K · 13
-- ✅ 2171395259866737 · Đế Chế AI | Cinematic AI · 28K · 24
+- ⏳ 2171395259866737 · Đế Chế AI | Cinematic AI · 28K · 24 (19/11 chờ duyệt)
 - ✅ vieclamitcnttvietnam · Việc Làm AI · 109K · 23
 - ✅ 2700193050346256 · Claude - Codex - Grok - AI Agent VN · 56K · 23
-- ✅ groupaivietnam · Cộng đồng AI Việt Nam (Grok, ChatGPT, Gemini…) · 315K · 17
+- ⏳ groupaivietnam · Cộng đồng AI Việt Nam (Grok, ChatGPT, Gemini…) · 315K · 17 (19/11 chờ duyệt)
 - ✅ 808925604828645 · KOL AI GO GLOBAL · 30K · 37
 - ✅ vinhomesoceanparkofficialhdmb · Tự Học AI - Chia sẻ kiến thức · 26K · 35
 - ⚠️ 1342038416404962 · Chưa Biết AI Nhưng Thích Kinh Doanh Online · 346K · 21
@@ -85,7 +85,7 @@
 
 ## 2. Edit video, quay dựng, YouTube/TikTok → bài "nhận edit video", "dựng video TikTok/Reels"
 - ✅ 1015618225564308 · ❤️ Học Hỏi Edit Video ❤️ · 49K · 4
-- ✅ hocvalamyoutuber · Học và Làm Youtuber · 104K · 76
+- ⛔ hocvalamyoutuber · Học và Làm Youtuber · 104K · 76 (19/11 admin từ chối bài chia sẻ Page)
 - ⚠️ 1585053268324151 · Tìm Biên Kịch - Diễn Viên - Ekip · 22K · 3
 - ⚠️ 2454178958083954 · Quay Dựng Phim & Chụp Ảnh Freelancer HCM · 30K · 24
 - ⚠️ hocvienyoutubee · Dạy làm Youtube · 31K · 8
@@ -115,7 +115,7 @@
 - ✅ 507198864403865 · NHÓM BÍNH DẦN 1986 KINH DOANH · 58K · 77
 - ✅ 301418383296490 · CỘNG ĐỒNG DOANH NGHIỆP · 24K · 89
 - ✅ 1577172422889600 · Hiệp hội doanh nghiệp vừa và nhỏ · 79K · 294
-- ✅ 314520652889581 · HCM - SME · 29K · 15
+- ⏳ 314520652889581 · HCM - SME · 29K · 15 (19/11 chờ duyệt)
 - ✅ 1747827395441261 · Quà tặng doanh nghiệp - Giỏ Quà Tết · 302K · 555
 - ✅ 1123827865589021 · Quà tặng 20/10, 8/3, 20/11 · 25K · 391
 - ⚠️ 304899715525052 · Giúp Nhau Khởi Nghiệp & Hợp Tác · 16K · 122
@@ -134,12 +134,12 @@
 
 ## 4. Bán hàng online, TMĐT, F&B, spa, homestay → bài "video bán hàng, poster sản phẩm, video AI review"
 - ✅ ecomboss.vn · Shopee, Lazada, TikTok bán hàng · 20K · 5
-- ✅ 4277590642470737 · Shopee Người Bán - nghìn đơn · 284K · 67
-- ✅ Foodnbeveragevietnam · Cộng đồng F&B VN · 54K · 55
+- ⏳ 4277590642470737 · Shopee Người Bán - nghìn đơn · 284K · 67 (19/11 chờ duyệt)
+- ⛔ Foodnbeveragevietnam · Cộng đồng F&B VN · 54K · 55 (19/11 Page không có ô đăng)
 - ✅ 189909794893850 · Kinh nghiệm vận hành quán F&B · 26K · 1
 - ✅ fnbsupply · F&B Founders x Nhà Cung Cấp · 2K · 5
 - ✅ httpschuquancaphe.vn · CHỦ QUÁN CÀ PHÊ · 834K · 7
-- ✅ congdongbanhangtiktokshopads · Cộng đồng TikTok Shop · 258K · 84
+- ⏳ congdongbanhangtiktokshopads · Cộng đồng TikTok Shop · 258K · 84 (19/11 chờ duyệt)
 - ⚠️ 480023959958761 · TikTok Shop - Kinh nghiệm bán hàng · 102K · 5
 - ⚠️ banhangshopee.lazada · Bán hàng Shopee/Lazada/TikTok · 4K · 4
 - ⚠️ tiktoknghindon · TikTok Shop nghìn đơn · 139K · 45
@@ -164,7 +164,7 @@
 - ✅ vechibilogocute · THIẾT KẾ LOGO GIÁ RẺ, MASCOT · 85K · 111
 - ✅ 1258164625142094 · Hội Thiết Kế Logo, Bao Bì, Ấn Phẩm Marketing · 71K · 55
 - ✅ 3721617964552611 · Thiết kế Logo, Catalog, Poster, Standee · 37K · 14
-- ✅ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35
+- ⏳ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35 (19/11 chờ duyệt)
 - ✅ 462692699570416 · Hội Thiết Kế Có Tâm (nhóm 2) · 202K · 26
 - ✅ cuocsongdesigner · "Cột sống" Designer · 581K · 23
 - ✅ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0
@@ -177,7 +177,7 @@
 - ⚠️ designer.congdongdesign · Cộng Đồng Thiết Kế · 350K · 34
 - ⚠️ hosonanglucchuyennghiep · Thiết Kế Hồ Sơ Năng Lực · 43K · 10 (có luật riêng cho đơn vị dịch vụ)
 - ⚠️ inphuduong · Hội In Ấn Quảng Cáo Hải Phòng · 7K · 37
-- ⚠️ fbhocvalamdesigner · Học và Làm Designer · 127K · 2 (cấm QC khoá học, dịch vụ thì được)
+- ⏳ fbhocvalamdesigner · Học và Làm Designer · 127K · 2 (cấm QC khoá học, dịch vụ thì được; 19/11 chờ duyệt, nhóm duyệt người mới)
 - ⚠️ 1878147789180050 · CỘNG ĐỒNG IN ẤN VN · 539K · 177 (KHÔNG chèn link zalo/tiktok/page/nhóm)
 - ⏳ tuyendungdesignvietnam · Hội thiết kế dạo · 32K · 20
 - ⏳ 1082813642243730 · THIẾT KẾ LOGO POSTER BANNER VIDEO · 13K · 33
@@ -203,7 +203,7 @@
 
 ## 6. Slide, PowerPoint, Canva, văn bản → bài "nhận làm slide, slide bằng AI"
 - ✅ 9122497834509646 · Nhận Làm Slide Thuyết Trình · 23K · 4
-- ✅ cungnhauhocpowerpoint · CÙNG NHAU HỌC POWERPOINT · 850K · 0
+- ⏳ cungnhauhocpowerpoint · CÙNG NHAU HỌC POWERPOINT · 850K · 0 (19/11 chờ duyệt)
 - ⚠️ 4155720068032203 · NHẬN LÀM SLIDE, CANVA, PHOTOSHOP · 11K · 0
 - ⚠️ 1815173195819041 · NHẬN LÀM SLIDE THUYẾT TRÌNH THUÊ · 17K · 32
 - ⚠️ nguyensang.excelonline · Thủ thuật Word, Excel, PowerPoint · 355K · 4
@@ -241,9 +241,9 @@
 
 ## 7. Giáo dục, giáo viên, sinh viên → bài "slide bài giảng, video bài giảng AI"; dịp 20/11 thì bài tri ân
 - ✅ 1235206590862636 · Giáo Viên 4.0 - AI vào Dạy Học · 29K · 38 (đã lên thẳng)
-- ✅ 1011713702919105 · ĐỔI MỚI DẠY HỌC BẰNG CNTT · 115K · 0
-- ✅ 236937142536372 · Giáo dục STEM - AI · 78K · 0
-- ✅ 24037123512640076 · CĐ Giáo Viên Học AI Miễn Phí · 29K · 1
+- ⛔ 1011713702919105 · ĐỔI MỚI DẠY HỌC BẰNG CNTT · 115K · 0 (19/11 không có ô đăng)
+- ⏳ 236937142536372 · Giáo dục STEM - AI · 78K · 0 (19/11 chờ duyệt)
+- ⏳ 24037123512640076 · CĐ Giáo Viên Học AI Miễn Phí · 29K · 1 (19/11 chờ duyệt)
 - ✅ ungdungaitronggiaoduc · Ứng dụng AI trong Giáo dục · 78K · 37
 - ✅ sinhvien.dhhp · Trường Đại học Hải Phòng · 48K · 50 (chỉ bài slide cho sinh viên)
 - ✅ quatangthaycogiao · Quà tặng thầy cô · 1K · 51
@@ -305,7 +305,7 @@
 - ⛔ 3021399158156008 (cấm SĐT, đã bỏ)
 
 ## 10. Sự kiện, MC, nhiếp ảnh → bài "video recap sự kiện, poster sự kiện"
-- ✅ mcvanminh · MC GROUP Toàn Quốc · 75K · 19
+- ⛔ mcvanminh · MC GROUP Toàn Quốc · 75K · 19 (19/11 không có ô đăng)
 - ✅ 1144852381187193 · TOUR DN - EVENT & TEAMBUILDING · 12K · 27
 - ✅ muahangicamera · Chợ thiết bị STUDIO · 51K · 296
 - ✅ tochucsukienchuyennghiep · Tổ Chức Sự Kiện · 11K · 44
