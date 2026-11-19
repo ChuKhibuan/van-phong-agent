@@ -21,6 +21,7 @@ Nơi lưu mọi skill, quy trình và hồ sơ công việc của Văn phòng ag
 ## Mới cập nhật
 <!-- QA cập nhật mục này mỗi khi đưa bản ghi vào kho. Mới nhất ở trên, tối đa 15 dòng. -->
 
+- (19/11/2026) Duyệt Quy trình CSKH Zalo VÍT MEDIA + kịch bản khách lạ (Drive 03); ngoại lệ CSKH tự nhắn khách lạ ghi ở `tri-thuc/kien-thuc/chung.md`.
 - (16/11/2026) Duyệt bản tổng hợp quyền và việc đã làm của các phòng: `kho/quyen-cac-phong.md`.
 - (15/11/2026) Bổ sung phần còn thiếu của Quy chuẩn định giá VÍT MEDIA v1.0 (3 gói, video AI, số lượng lớn, mẫu bảng giá): `.claude/skills/vit-media/dinh-gia.md`.
 - (14/11/2026) Học 3 tài liệu chủ gửi: Hoàng Hà V2 bản đầy đủ, VÍT MEDIA, Sổ tay tư duy thiết kế (thêm 2 skill).
