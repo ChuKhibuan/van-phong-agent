@@ -14,3 +14,4 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (19/11/2026 · việc thật) Gõ tin vào Zalo web qua Chrome: **emoji làm phần chữ phía sau mất dấu cách**. Gõ tin không emoji, và đọc lại nội dung ô nhập trước khi bấm gửi. Chỉ gửi khi chị bảo gửi đúng câu đó.
