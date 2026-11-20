@@ -13,7 +13,7 @@ Tuần tính từ thứ Hai 00:00 đến Chủ nhật 17:00 (giờ VN).
 
 ## Phân tích
 1. **Tỉ lệ chốt** = khách chốt / khách nhắn. Ví dụ chị đưa: 30 khách nhắn, 3 khách chốt (10%) là thấp, rất cần xem lại toàn bộ quy trình.
-   - Từ 20% trở lên: ổn, ghi điểm làm tốt.
+   - Ngưỡng 20% do chị chốt ngày 20/11/2026. Từ 20% trở lên: ổn, ghi điểm làm tốt.
    - Dưới 20%: **báo động**. Xem lại quy trình từ nội dung đến báo giá, và nghi vấn chất lượng sản phẩm.
 2. **Khách rơi ở bước nào:** với từng khách chưa chốt, đọc các tin trong `Nhap_tin` và xếp vào một bước:
    - (a) chỉ chào hoặc hỏi rồi im: nội dung, kênh kéo sai khách, hoặc trả lời chậm;
