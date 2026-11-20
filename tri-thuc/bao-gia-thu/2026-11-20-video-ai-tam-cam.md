@@ -111,6 +111,26 @@ Mẫu thiết kế: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết k
 
 ---
 
+## Phần 4 · Phương án HỌC SINH NHỎ (cấp 2), giảm ~50% (chị yêu cầu 20/11)
+
+Chị dặn: học sinh làm chuyện Tấm Cám thường là cấp 2, ít tiền, cần giảm giá. Nếu khách yêu cầu cao thì vẫn báo giá chuẩn (Phần 2–3).
+
+**Giảm 50% mà giữ nguyên phạm vi thì lỗ**, ví dụ B Basic: 800.000đ < chi phí 1.188.000đ. Vì vậy em giảm ~50% giá **kèm thu gọn phạm vi**: ít cảnh hơn, phong cách hoạt hình đơn giản (ít phải tạo lại), chuyển động nhẹ, vẫn giữ lãi khoảng 25%.
+
+| Gói HS | Cảnh | Giờ (B) | Công cụ AI (giả định) | Chi phí (B) | **Giá B** | **Giá A** (+ kịch bản ngắn) | So với giá chuẩn |
+|---|---|---|---|---|---|---|---|
+| Basic | 6 | 6 | 80.000 | 600.000 | **800.000đ** (~133.000đ/cảnh) | **900.000đ** (+0,5h) | −50% |
+| Standard | 8 | 9,5 | 130.000 | 993.750 | **1.350.000đ** (~169.000đ/cảnh) | **1.450.000đ** (+1h) | −50% / −52% |
+| Premium | 10 | 15 | 220.000 | 1.587.500 | **2.100.000đ** (210.000đ/cảnh) | **2.300.000đ** (+1,5h) | −50% |
+
+Biên thực: B 25,0% / 26,4% / 24,4%; A 28,7% / 25,4% / 25,3%.
+
+Khác với giá chuẩn: Basic 6 cảnh, không làm nhân vật đồng nhất; Standard 8 cảnh, có nhân vật Tấm, Cám đồng nhất; Premium 10 cảnh, giọng đọc theo vai, mở/kết có tiêu đề. Phong cách hoạt hình cổ tích, phụ đề, nhạc nền; số lần sửa giữ 1/2/3. Ô thông tin và Lưu ý giữ như Phần 2–3, thêm một dòng: "Giá ưu đãi học sinh, áp dụng cho video bài tập / thuyết trình."
+
+Cách dùng: HS nhỏ + yêu cầu đơn giản → bảng HS này. Yêu cầu cao (nhiều cảnh, chân thực, nhiều nhân vật) → giá chuẩn Phần 2–3.
+
+---
+
 ## Tự kiểm (dinh-gia.md mục IX)
 - [x] Đúng video AI 100%, không ghi quay phim / diễn viên.
 - [x] Đủ 3 gói, sửa 1/2/3 lần; Standard là gói đề xuất, khác Basic rõ (nhân vật đồng nhất, SFX, phân cảnh lại).

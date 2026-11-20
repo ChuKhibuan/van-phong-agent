@@ -19,4 +19,5 @@ Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, c
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (20/11/2026 · chị dạy) Khách học sinh nhỏ (vd video Tấm Cám thường là HS cấp 2) ít tiền: báo giá giảm khoảng 50% so với giá chuẩn, nhưng giảm KÈM thu gọn phạm vi (ít cảnh, hoạt hình đơn giản, chuyển động nhẹ) để vẫn lãi khoảng 25%; giảm giá mà giữ nguyên phạm vi sẽ lỗ. Học sinh mà yêu cầu cao thì báo giá chuẩn. Ví dụ: `tri-thuc/bao-gia-thu/2026-11-20-video-ai-tam-cam.md` Phần 4.
 - (15/11/2026) Báo giá VÍT MEDIA: chủ động phân tích khi nghe "báo giá"; giá vốn = nhân công + công cụ AI + tư liệu + thuê ngoài, cộng vận hành và dự phòng (5–25% theo độ khó); không định giá thấp vì là AI; thiếu dữ liệu thì ghi giả định. Chi tiết: `vit-media/dinh-gia.md` mục XII.
