@@ -24,7 +24,7 @@
 - ✅ chillcungai · Chill Cùng AI · 39K · 0
 - ✅ 810258490950782 · AI Chất – Tự học & Ứng dụng AI · 106K · 0
 - ✅ 3712664498898927 · Làm Video AI - Ảnh AI · 10K · 22
-- ✅ 1433716684430309 · Cộng đồng AI Video Affiliate · 14K · 0
+- ⛔ 1433716684430309 · Cộng đồng AI Video Affiliate · 14K · 0 (20/11: không có ô đăng)
 - ✅ 1401089638227050 · Học AI thật dễ · 10K · 52
 - ⏳ 808459113862196 · Ứng dụng AI trong Doanh nghiệp Một Người · 30K · 22 (19/11 bài vào chờ duyệt)
 - ✅ 1533526524905524 · AE SUNO - AI music · 14K · 27

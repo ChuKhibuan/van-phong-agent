@@ -11,6 +11,7 @@ Trạng thái: **chị đã duyệt 19/11/2026** (chị sửa câu nào thì ghi
 - Cọc **50%**; không cọc thì chưa tính là khách. Bước thanh toán chị gửi ảnh STK, em không gửi.
 - **Ngoài giờ** (sau 21:30): để sáng hôm sau trả lời.
 - **Kết bạn Zalo** (chị dặn 20/11/2026): khách mới nhắn hỏi dịch vụ thì **kết bạn ngay**: khách đã gửi lời mời thì bấm Đồng ý; chưa có lời mời thì gửi lời mời kết bạn cho khách. Spam/quảng cáo/không hỏi dịch vụ thì không kết bạn.
+- **Chỉ xem tin chưa đọc** (chị dặn 20/11/2026): hội thoại đã đọc rồi thì bỏ qua, không mở đọc lại ở mỗi phiên kiểm tra; dùng tab "Chưa đọc", không có gì chưa đọc thì kết thúc.
 - Gõ tin trên Zalo web **không dùng emoji** (emoji làm hỏng chữ phía sau); đọc lại ô nhập trước khi gửi.
 - Mẫu sản phẩm: chị sẽ gửi một số link; mẫu rất đa dạng nên trước hết hỏi nhu cầu khác của khách, chưa có link phù hợp thì báo chị.
 
