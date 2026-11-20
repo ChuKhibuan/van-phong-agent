@@ -17,6 +17,8 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 
 - (20/11/2026 · chị dặn) Khách mới nhắn hỏi dịch vụ trên Zalo: kết bạn ngay (đồng ý lời mời của khách, hoặc gửi lời mời nếu khách chưa gửi). Không kết bạn với tin spam/quảng cáo.
 
+- (20/11/2026, chị dạy) Khách lạ đã có người bên mình (chị/nhân viên) nhắn trực tiếp thì agent dừng, không nhắn chồng. Khách có nhắn trong ngày nhưng không chốt đơn nào: sau 20–30 ngày không có đơn, Bán hàng (hoặc Giao hàng khi khách đang ở Zalo) soạn tin hỏi thăm tặng voucher giảm 15% cho mọi dịch vụ VÍT MEDIA, chuyển QA chờ chị duyệt rồi người mới gửi (theo `cong-thuc/nhac-khach.md`). Voucher 15% chỉ dùng cho tình huống này; chưa có hạn dùng/mã thì ghi `Hỏi chủ:` chứ không tự đặt.
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (20/11/2026 · chị sửa) Khách Trúc Lam: tên nữ, ảnh đại diện nữ mà vẫn hỏi "anh hay chị" → thừa, khách thấy máy móc. Nhìn tên + ảnh đại diện rõ giới tính thì gọi luôn, chỉ hỏi khi thật sự không đoán được.
