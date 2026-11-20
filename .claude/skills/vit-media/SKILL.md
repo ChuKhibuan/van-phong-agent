@@ -13,7 +13,7 @@ Thương hiệu thứ hai của công ty, **tách riêng với Hoàng Hà Makeup
 - **Thiết kế**: poster, banner, thumbnail, infographic, PowerPoint, Canva; chỉnh bố cục file sẵn; slide giảng dạy, hội thảo, báo cáo, thuyết trình doanh nghiệp.
 - Nhận khách lẻ và dự án lớn (giáo dục, doanh nghiệp…). **Tạm bỏ nhóm và nhu cầu ngành cưới** (ngành cưới thuộc Hoàng Hà Makeup).
 - **Không tự đưa** giá, kinh nghiệm, thời hạn, thiết bị, mẫu đã làm hay điều khoản thanh toán chưa được chủ xác nhận. Khách hỏi giá mà chưa có căn cứ → mời gửi brief để báo giá.
-- **Báo giá**: làm theo **`dinh-gia.md`** (quy chuẩn định giá v1.0: 3 gói Basic/Standard/Premium, sửa 1/2/3 lần, quy tắc video AI, số lượng lớn, mẫu bảng giá). Giá tính theo khối lượng từng dự án, không có bảng giá cố định; mọi báo giá chuyển QA để chủ duyệt.
+- **Báo giá**: làm theo **`dinh-gia.md`** (quy chuẩn định giá v1.0: 3 gói Basic/Standard/Premium, sửa 1/2/3 lần, quy tắc video AI, số lượng lớn, mẫu bảng giá; mục XIII: xin đủ thông tin qua CSKH, xác định đúng đối tượng khách, ảnh chỉ ghi giá tổng, chưa chắc hỏi chị). Giá tính theo khối lượng từng dự án, không có bảng giá cố định; mọi báo giá chuyển QA để chủ duyệt.
 - Liên hệ công khai: **ZAL 0945 115 516** (Zalo). Luôn kiểm tra đúng số.
 
 ## Nhận diện (cho Thiết kế)

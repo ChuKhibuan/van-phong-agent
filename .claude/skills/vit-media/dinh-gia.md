@@ -59,7 +59,7 @@ Giá **tham chiếu** đã dùng cho 60 clip talking head/tháng, 45–80 giây/
 
 **Ba cột**: cao bằng nhau, căn lề đồng nhất, nền trắng hoặc xanh rất nhạt, bo góc nhẹ; nội dung căn trái, tên gói và giá căn giữa.
 **Standard**: viền xanh sáng; ô giá nền xanh đậm hoặc xanh sáng, giá chữ trắng; nhãn "GÓI ĐỀ XUẤT" hoặc "PHÙ HỢP NHẤT". Không ghi "ĐƯỢC LỰA CHỌN NHIỀU NHẤT" khi chưa có dữ liệu.
-**Mỗi cột có**: tên gói, một dòng định vị, giá tổng, đơn giá tham chiếu nếu hợp, 4–6 quyền lợi chính, số lần sửa, giới hạn quan trọng (nếu không nằm ở phần lưu ý).
+**Mỗi cột có**: tên gói, một dòng định vị, **giá tổng** (không ghi đơn giá quy đổi đ/cảnh, đ/clip trên ảnh — chị dặn 20/11/2026), 4–6 quyền lợi chính, số lần sửa, giới hạn quan trọng (nếu không nằm ở phần lưu ý).
 **Viết quyền lợi** ngắn, cụ thể: "Phụ đề động, nhấn từ khoá", "B-roll minh hoạ tối đa 3 đoạn/clip", "Thiết kế visual theo concept", "Tạo chuyển động AI cho các cảnh đã duyệt", "Chỉnh màu, âm thanh và hiệu ứng phù hợp". Tránh câu chung chung kiểu "vô cùng chuyên nghiệp", "cực kỳ chất lượng", "siêu đẹp, đẳng cấp".
 **Biểu tượng**: chỉ dấu check tròn xanh nhỏ; không icon riêng từng dòng, không hình minh hoạ hay trang trí lấp chỗ; ưu tiên khoảng trắng, dễ đọc.
 
@@ -75,7 +75,7 @@ Giá **tham chiếu** đã dùng cho 60 clip talking head/tháng, 45–80 giây/
 - Đọc đủ tài liệu/kịch bản chưa? Xác định đúng video AI, edit hay quay thực tế?
 - Đúng 3 gói Basic – Standard – Premium? Giá tính theo công việc và ngân sách?
 - Standard đủ thuyết phục? Ba gói khác nhau cụ thể?
-- Giá tổng và đơn giá khớp phép tính?
+- Giá tổng khớp phép tính? Ảnh chỉ ghi giá tổng, không ghi đơn giá quy đổi?
 - Ghi rõ số lần sửa? Có giới hạn tạo lại cảnh AI?
 - Bỏ các hạng mục không thuộc dự án?
 - Đúng logo, màu, font, số liên hệ?
@@ -100,3 +100,12 @@ Mỗi bảng giá VÍT MEDIA là một tài liệu bán hàng chuyên nghiệp, 
 - Giá vốn trực tiếp = nhân công (số giờ × chi phí giờ nội bộ: phân tích, storyboard/prompt, tạo hình, tạo video, dựng, chỉnh màu, hiệu ứng, âm thanh, kiểm tra, duyệt/bàn giao) + công cụ AI (ảnh, video, voice, lip-sync, nâng chất lượng, tạo lại khi lỗi) + tư liệu (stock, nhạc bản quyền, font/hiệu ứng trả phí) + thuê ngoài.
 - Cộng thêm: vận hành phân bổ, quản lý/QC, dự phòng lỗi, phát sinh trong phạm vi. Dự phòng gợi ý: dựng đơn giản 5–10%; nhiều hiệu ứng 10–15%; nhiều cảnh AI 15–25%.
 - Chi phí giờ nội bộ và các bước 3–7 chưa nhận được (bản dán dừng ở đây): không bịa; thiếu số thì ghi `Hỏi chủ: …`.
+
+## XIII. Trước khi báo giá: đủ thông tin và đúng đối tượng (chị dạy 20/11/2026, sau báo giá thử Tấm Cám)
+1. **Xin đủ thông tin trước.** Phòng Báo giá hỏi CSKH đủ các mục brief (`tri-thuc/kich-ban-tra-loi-nguoi-la.md` mục 2b). Chỉ khi khách không cung cấp thêm mới tiến hành báo giá, và ghi rõ giả định.
+2. **Luôn xác định khách là ai**: học sinh / sinh viên / giáo viên / công nhân viên / doanh nghiệp / giám đốc, chủ tịch / người đi khảo giá / TikToker / … Mỗi đối tượng sẵn sàng chi trả một mức và có yêu cầu riêng; mỗi sản phẩm cũng có yêu cầu riêng. Phạm vi 3 gói và giá phải theo đúng **đối tượng + sản phẩm**.
+3. **Khách ngân sách thấp** (vd học sinh nhỏ): giữ giá theo khối lượng, **giảm phạm vi** (ít cảnh, ảnh AI tĩnh + zoom/pan, vài cảnh chuyển động), không giảm giá trên cùng phạm vi; ghi đúng tên sản phẩm (vd "video kể chuyện từ ảnh AI") để khách không so với gói video AI đầy đủ. Không ghi "ưu đãi" khi giá không thật sự giảm. Học sinh mà yêu cầu cao thì báo giá chuẩn.
+4. **Đếm cảnh thống nhất** giữa 3 gói (tổng số cảnh, cảnh chuyển động AI nằm trong tổng).
+5. **Ảnh báo giá chỉ ghi giá tổng** mỗi gói.
+6. **Chưa chắc thì hỏi chị trước** rồi mới làm bảng giá.
+7. Ví dụ đã được chị khen thiết kế: báo giá Tấm Cám ngân sách 500k (`tri-thuc/bao-gia-thu/2026-11-20-video-tu-anh-ai-tam-cam-500k.md`, ảnh `thiet-ke-bai-dang/bao-gia-tam-cam/bao-gia-tam-cam-500k.png`): Basic 350.000đ / Standard 500.000đ / Premium 800.000đ.
