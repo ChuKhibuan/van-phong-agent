@@ -34,7 +34,7 @@
 - ⏳ 2171395259866737 · Đế Chế AI | Cinematic AI · 28K · 24 (19/11 chờ duyệt)
 - ⛔ vieclamitcnttvietnam · Việc Làm AI · 109K · 23 (20/11: không có ô đăng)
 - ✅ 2700193050346256 · Claude - Codex - Grok - AI Agent VN · 56K · 23
-- ⏳ groupaivietnam · Cộng đồng AI Việt Nam (Grok, ChatGPT, Gemini…) · 315K · 17 (19/11 chờ duyệt)
+- 🔻 groupaivietnam · Cộng đồng AI Việt Nam (Grok, ChatGPT, Gemini…) · 315K · 17 (từ chối 1 lần: bài 19/11 bù; đăng cuối 19/11 bù)
 - ✅ 808925604828645 · KOL AI GO GLOBAL · 30K · 37
 - ✅ vinhomesoceanparkofficialhdmb · Tự Học AI - Chia sẻ kiến thức · 26K · 35
 - ⏳ 1342038416404962 · Chưa Biết AI Nhưng Thích Kinh Doanh Online · 346K · 21 (20/11 chờ duyệt)
@@ -113,10 +113,10 @@
 - ✅ 1520701439751936 · Chủ Doanh Nghiệp VN | AI & Tự Động Hoá · 2K · 31
 - ✅ clbdoanhnghieptre · Hợp Tác & Nhượng Quyền - Hội DN Trẻ · 126K · 60
 - ✅ 2080844132495123 · Hỗ Trợ Thành Lập Doanh Nghiệp · 41K · 79
-- 🔻 507198864403865 · NHÓM BÍNH DẦN 1986 KINH DOANH · 58K · 77 (admin gỡ bài 20/11; đăng cuối 20/11 bù sáng)
+- ⛔ 507198864403865 · NHÓM BÍNH DẦN 1986 KINH DOANH · 58K · 77 (bị gỡ 20/11)
 - ✅ 301418383296490 · CỘNG ĐỒNG DOANH NGHIỆP · 24K · 89
 - ✅ 1577172422889600 · Hiệp hội doanh nghiệp vừa và nhỏ · 79K · 294
-- ⏳ 314520652889581 · HCM - SME · 29K · 15 (19/11 chờ duyệt)
+- ✅ 314520652889581 · HCM - SME · 29K · 15 (bài 19/11 đã duyệt)
 - ✅ 1747827395441261 · Quà tặng doanh nghiệp - Giỏ Quà Tết · 302K · 555
 - ✅ 1123827865589021 · Quà tặng 20/10, 8/3, 20/11 · 25K · 391
 - ⚠️ 304899715525052 · Giúp Nhau Khởi Nghiệp & Hợp Tác · 16K · 122
@@ -139,7 +139,7 @@
 - ⛔ Foodnbeveragevietnam · Cộng đồng F&B VN · 54K · 55 (19/11 Page không có ô đăng)
 - ⛔ 189909794893850 · Kinh nghiệm vận hành quán F&B · 26K · 1 (20/11: không còn ô đăng, chỉ admin)
 - ✅ fnbsupply · F&B Founders x Nhà Cung Cấp · 2K · 5
-- ✅ httpschuquancaphe.vn · CHỦ QUÁN CÀ PHÊ · 834K · 7
+- 🔻 httpschuquancaphe.vn · CHỦ QUÁN CÀ PHÊ · 834K · 7 (từ chối 1 lần: bài 20/11 bù sáng; đăng cuối 20/11 bù sáng)
 - ⏳ congdongbanhangtiktokshopads · Cộng đồng TikTok Shop · 258K · 84 (19/11 chờ duyệt)
 - ⏳ 480023959958761 · TikTok Shop - Kinh nghiệm bán hàng · 102K · 5 (20/11 chờ duyệt)
 - ⚠️ banhangshopee.lazada · Bán hàng Shopee/Lazada/TikTok · 4K · 4
@@ -165,7 +165,7 @@
 - ✅ vechibilogocute · THIẾT KẾ LOGO GIÁ RẺ, MASCOT · 85K · 111
 - ✅ 1258164625142094 · Hội Thiết Kế Logo, Bao Bì, Ấn Phẩm Marketing · 71K · 55
 - ⛔ 3721617964552611 · Thiết kế Logo, Catalog, Poster, Standee · 37K · 14 (20/11: không còn ô đăng)
-- ⏳ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35 (19/11 chờ duyệt)
+- ✅ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35 (bài 19/11 đã duyệt)
 - ✅ 462692699570416 · Hội Thiết Kế Có Tâm (nhóm 2) · 202K · 26
 - ⏳ cuocsongdesigner · "Cột sống" Designer · 581K · 23 (20/11 chờ duyệt)
 - ✅ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0
@@ -248,7 +248,8 @@
 - ✅ ungdungaitronggiaoduc · Ứng dụng AI trong Giáo dục · 78K · 37
 - ✅ sinhvien.dhhp · Trường Đại học Hải Phòng · 48K · 50 (chỉ bài slide cho sinh viên)
 - ✅ quatangthaycogiao · Quà tặng thầy cô · 1K · 51
-- ⏳ 1351316929850950 · Quà tặng 20/11 · 22K · 149 (20/11 chờ duyệt)
+- ✅ 1351316929850950 · Quà tặng 20/11 · 22K · 149 (bài 20/11 đã duyệt)
+- ⛔ Cộng Đồng Giáo Viên Tiểu Học (chưa có mã, nhóm mới tham gia 20/11) · bị gỡ 20/11
 - ✅ 567782317796036 · Quà Tặng 20/11 Cho Thầy Cô · 10K · 142
 - ⚠️ thiepngan · GIÁO DỤC VIỆT NAM · 161K · 86
 - ⚠️ caodangthuchanhfpt · Cao Đẳng FPT Polytechnic · 94K · 4
@@ -260,7 +261,7 @@
 
 ## 8. Marketing, agency, freelancer → bài "thuê ngoài video/thiết kế cho chiến dịch"
 - ✅ 410604021779590 · Việc Làm Marketing & Truyền Thông · 75K · 89
-- 🔻 293234120544192 · Tuyển dụng Marketing · 158K · 66 (admin gỡ bài 20/11; đăng cuối 20/11 bù sáng)
+- ⛔ 293234120544192 · Tuyển dụng Marketing · 158K · 66 (bị gỡ 20/11)
 - ✅ 1677886959355972 · Việc làm Marketing Online · 17K · 62
 - ✅ 257312137406422 · Tuyển Dụng Digital Marketing HN · 176K · 34
 - ✅ ViecLamMarketing.ViecLamVui · Việc Làm Marketing · 42K · 21
@@ -323,6 +324,7 @@
 - ⭐ 755843242505987 · Hội Cô Dâu Sắp Cưới - Chia Sẻ Kinh Nghiệm Cưới · 412K · duyệt tự động · bài gốc 7/11 ra 2 khách chất lượng.
 - Hộp "Chia sẻ lên nhóm" của Page chỉ thấy 14 nhóm cưới. Vì nhiều nhóm trùng tên, chọn nhóm theo mã ảnh đại diện (đầu tên file ảnh): 756342003, 592379663, 765050970, 779755639, 860425154 (các nhóm "Hội Cô Dâu Sắp Cưới…"), 897549452 (Hải Phòng), 629269627 (Sài Gòn = hoicodausapcuoichiasekinhnghiemcuoisaigon), 515061476 (Tây Ninh), 865974194 (Hành Trình Cưới = codausapcuoichiasekinhnghiem), 560095851 (CĐ Cưới Hỏi VN), 863519894 (CĐ Phóng Sự Cưới VN), 700070191 (Tìm Thợ Chụp Phóng Sự Cưới HN), 584515903 (HoiCoDauSapCuoi, đã có bài cưới bản khác 7/11), 756779539 (= 755843242505987, nhóm gốc).
 - 19/11 đã chia sẻ bài gốc vào 12 nhóm (trừ nhóm gốc và 584515903): chờ duyệt 756342003, 592379663, 765050970, 779755639, 560095851, 863519894, 700070191; lên thẳng 897549452, 860425154, 629269627, 515061476, 865974194.
+- Đo 20/11: 560095851 (CĐ Cưới Hỏi VN) ⏳ → ✅ đã duyệt; ⛔ 865974194 (Hành Trình Cưới) bị gỡ 20/11.
 - ⛔ 1917275441938362 · Hiệp Hội Ngành Cưới & Sự Kiện: không có trong hộp chia sẻ của Page.
 
 ## Không đăng (không quét)
