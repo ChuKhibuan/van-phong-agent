@@ -20,7 +20,7 @@
 ## 1. Video AI & cộng đồng AI → bài "làm video bằng AI", "video AI cho doanh nghiệp"
 - ✅ 987672918471443 · Cộng đồng Claude AI & AI Agents · 229K · 7
 - ✅ 1385451906420187 · Vibe Code kiếm cơm · 238K · 210 (dân code, chỉ bài AI tự động hoá)
-- ✅ 1359330548727601 · Học AI cùng Thầy Quân · 44K · 2
+- ⏳ 1359330548727601 · Học AI cùng Thầy Quân · 44K · 2 (20/11 chờ duyệt)
 - ✅ chillcungai · Chill Cùng AI · 39K · 0
 - ✅ 810258490950782 · AI Chất – Tự học & Ứng dụng AI · 106K · 0
 - ✅ 3712664498898927 · Làm Video AI - Ảnh AI · 10K · 22
@@ -167,7 +167,7 @@
 - ⛔ 3721617964552611 · Thiết kế Logo, Catalog, Poster, Standee · 37K · 14 (20/11: không còn ô đăng)
 - ⏳ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35 (19/11 chờ duyệt)
 - ✅ 462692699570416 · Hội Thiết Kế Có Tâm (nhóm 2) · 202K · 26
-- ✅ cuocsongdesigner · "Cột sống" Designer · 581K · 23
+- ⏳ cuocsongdesigner · "Cột sống" Designer · 581K · 23 (20/11 chờ duyệt)
 - ✅ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0
 - ✅ 607237284822637 · Việc Làm Designer HCM · 33K · 25
 - ⚠️ 874442287713688 · Thiết Kế Logo (Freelancer) · 26K · 24
@@ -248,7 +248,7 @@
 - ✅ ungdungaitronggiaoduc · Ứng dụng AI trong Giáo dục · 78K · 37
 - ✅ sinhvien.dhhp · Trường Đại học Hải Phòng · 48K · 50 (chỉ bài slide cho sinh viên)
 - ✅ quatangthaycogiao · Quà tặng thầy cô · 1K · 51
-- ✅ 1351316929850950 · Quà tặng 20/11 · 22K · 149
+- ⏳ 1351316929850950 · Quà tặng 20/11 · 22K · 149 (20/11 chờ duyệt)
 - ✅ 567782317796036 · Quà Tặng 20/11 Cho Thầy Cô · 10K · 142
 - ⚠️ thiepngan · GIÁO DỤC VIỆT NAM · 161K · 86
 - ⚠️ caodangthuchanhfpt · Cao Đẳng FPT Polytechnic · 94K · 4
