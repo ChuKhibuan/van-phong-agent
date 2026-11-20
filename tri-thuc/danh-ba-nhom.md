@@ -21,7 +21,7 @@
 - ✅ 987672918471443 · Cộng đồng Claude AI & AI Agents · 229K · 7
 - ✅ 1385451906420187 · Vibe Code kiếm cơm · 238K · 210 (dân code, chỉ bài AI tự động hoá)
 - ⏳ 1359330548727601 · Học AI cùng Thầy Quân · 44K · 2 (20/11 chờ duyệt)
-- ✅ chillcungai · Chill Cùng AI · 39K · 0
+- ⛔ chillcungai · Chill Cùng AI · 39K · 0 (20/11: không có ô đăng)
 - ✅ 810258490950782 · AI Chất – Tự học & Ứng dụng AI · 106K · 0
 - ✅ 3712664498898927 · Làm Video AI - Ảnh AI · 10K · 22
 - ⛔ 1433716684430309 · Cộng đồng AI Video Affiliate · 14K · 0 (20/11: không có ô đăng)
@@ -32,12 +32,12 @@
 - ✅ 883633534000509 · Cộng đồng NotebookLM VN · 267K · 2
 - ✅ 1613552523431575 · Grok Việt Nam · 17K · 13
 - ⏳ 2171395259866737 · Đế Chế AI | Cinematic AI · 28K · 24 (19/11 chờ duyệt)
-- ✅ vieclamitcnttvietnam · Việc Làm AI · 109K · 23
+- ⛔ vieclamitcnttvietnam · Việc Làm AI · 109K · 23 (20/11: không có ô đăng)
 - ✅ 2700193050346256 · Claude - Codex - Grok - AI Agent VN · 56K · 23
 - ⏳ groupaivietnam · Cộng đồng AI Việt Nam (Grok, ChatGPT, Gemini…) · 315K · 17 (19/11 chờ duyệt)
 - ✅ 808925604828645 · KOL AI GO GLOBAL · 30K · 37
 - ✅ vinhomesoceanparkofficialhdmb · Tự Học AI - Chia sẻ kiến thức · 26K · 35
-- ⚠️ 1342038416404962 · Chưa Biết AI Nhưng Thích Kinh Doanh Online · 346K · 21
+- ⏳ 1342038416404962 · Chưa Biết AI Nhưng Thích Kinh Doanh Online · 346K · 21 (20/11 chờ duyệt)
 - ⚠️ aithatdecongdongaivietnam · AI THẬT DỄ · 60K · 31
 - ⚠️ 2371265913321399 · Cộng đồng YuKi Art · 26K · 91
 - ⚠️ 30899055246406204 · AI GenArt Hub VN · 6K · 101
@@ -46,7 +46,7 @@
 - ⚠️ aiartworksvn · Nghiên AI (bản mới Nghiện AI) · 787K · 56
 - ⚠️ videocreativestationwithai · Trạm sáng tạo AI · 142K · 4 (có luật riêng về tự quảng cáo, đọc trước khi đăng lần đầu)
 - ⚠️ phocapaivn · PHỔ CẬP AI · 691K · 26 (cấm inbox riêng: CTA để "comment/ib Page")
-- ⚠️ nacongdonghocai · AI VN - AI trong Kinh doanh & Bán hàng · 127K · 1
+- ⏳ nacongdonghocai · AI VN - AI trong Kinh doanh & Bán hàng · 127K · 1 (20/11 chờ duyệt)
 - ⏳ 1287185438037498 · Làm Video Bằng AI - Miễn Phí · 21K · 1 (luật: không bán hàng bừa bãi)
 - ⏳ hocvienaittm · HỌC VIỆN AI · 256K · 0
 - ⏳ hocvienaivn · Sống Cùng AI · 315K · 0
@@ -141,13 +141,13 @@
 - ✅ fnbsupply · F&B Founders x Nhà Cung Cấp · 2K · 5
 - ✅ httpschuquancaphe.vn · CHỦ QUÁN CÀ PHÊ · 834K · 7
 - ⏳ congdongbanhangtiktokshopads · Cộng đồng TikTok Shop · 258K · 84 (19/11 chờ duyệt)
-- ⚠️ 480023959958761 · TikTok Shop - Kinh nghiệm bán hàng · 102K · 5
+- ⏳ 480023959958761 · TikTok Shop - Kinh nghiệm bán hàng · 102K · 5 (20/11 chờ duyệt)
 - ⚠️ banhangshopee.lazada · Bán hàng Shopee/Lazada/TikTok · 4K · 4
-- ⚠️ tiktoknghindon · TikTok Shop nghìn đơn · 139K · 45
+- ⏳ tiktoknghindon · TikTok Shop nghìn đơn · 139K · 45 (20/11 chờ duyệt)
 - ⚠️ groupnguoibanshopee · Shopee người bán · 118K · 67
 - ⚠️ shopeenguoiban.chiasekinhnghiem · Shopee người bán nghìn đơn · 579K · 51 (QC phải liên hệ admin; chỉ bài chia sẻ kinh nghiệm video bán hàng)
 - ⚠️ 497067335075156 · TikTok bán hàng nghìn đơn · 463K · 5
-- ⚠️ hiephoispachuyennghiep2020 · Hiệp Hội SPA Chuyên Nghiệp · 42K · 27
+- ⏳ hiephoispachuyennghiep2020 · Hiệp Hội SPA Chuyên Nghiệp · 42K · 27 (20/11 chờ duyệt)
 - ⏳ 778741857402856 · TikTok Shop, Ads, KOL, KOC · 238K · 35
 - ⏳ 803667821707675 · TikTok bán hàng nghìn đơn · 493K · 18
 - ⏳ 1806737649546041 · Hội Kinh doanh online TP.HCM · 21K · 26
