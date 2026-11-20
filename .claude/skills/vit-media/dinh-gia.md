@@ -108,4 +108,5 @@ Mỗi bảng giá VÍT MEDIA là một tài liệu bán hàng chuyên nghiệp, 
 4. **Đếm cảnh thống nhất** giữa 3 gói (tổng số cảnh, cảnh chuyển động AI nằm trong tổng).
 5. **Ảnh báo giá chỉ ghi giá tổng** mỗi gói.
 6. **Chưa chắc thì hỏi chị trước** rồi mới làm bảng giá.
+6b. **Mã giảm giá** (chị dạy 20/11/2026): khi cần (khách lưỡng lự, chê đắt, khách cũ, khách tiềm năng lớn), Báo giá phối hợp phòng Bán hàng (`sales`) **đề xuất** tặng mã giảm giá kèm báo giá. Đề xuất ghi rõ mức giảm, điều kiện, hạn dùng và lý do; giá sau giảm không được dưới giá vốn. Mã và mức giảm luôn chờ chị duyệt, không tự hứa với khách.
 7. Ví dụ đã được chị khen thiết kế: báo giá Tấm Cám ngân sách 500k (`tri-thuc/bao-gia-thu/2026-11-20-video-tu-anh-ai-tam-cam-500k.md`, ảnh `thiet-ke-bai-dang/bao-gia-tam-cam/bao-gia-tam-cam-500k.png`): Basic 350.000đ / Standard 500.000đ / Premium 800.000đ.
