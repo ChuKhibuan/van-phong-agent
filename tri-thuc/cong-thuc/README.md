@@ -12,6 +12,7 @@ Việc nào chủ giao lặp đi lặp lại thì có **một công thức**: đ
 | [dang-bai-nhom.md](dang-bai-nhom.md) | "đăng N nhóm", "đăng bài lên nhóm" | Đăng bài | Sonnet (máy trực, có Chrome) |
 | [lich-dang.md](lich-dang.md) | "lịch đăng", "bài nào chờ duyệt", mọi bài sắp đăng | Kịch bản, Thiết kế, Dựng, Đăng bài, QA | Haiku (hỏi) / Sonnet (ghi) |
 | [len-lich-page.md](len-lich-page.md) | "đăng/lên lịch bài này lên Page", ảnh + giờ đăng | Đăng bài (Kịch bản viết nếu thiếu) | Sonnet (máy trực, có Chrome) |
+| [tong-ket-khach-tuan.md](tong-ket-khach-tuan.md) | "tổng kết khách tuần", "tỉ lệ chốt" (17h Chủ nhật) | Bán hàng + CSKH → Bộ não | Sonnet |
 | [nhac-khach.md](nhac-khach.md) | "nhắc khách", "khách chưa chốt / chưa trả tiền" | Bán hàng, Giao hàng & CSKH → QA | Sonnet |
 | [viet-bai-nhom-hang-ngay.md](viet-bai-nhom-hang-ngay.md) | "mỗi ngày soạn 10 bài đăng hội nhóm" | Kịch bản → Đăng bài | Sonnet |
 | [viet-bai-page-theo-anh.md](viet-bai-page-theo-anh.md) | "viết bài theo ảnh này" cho Page VÍT MEDIA | Kịch bản | Sonnet |
