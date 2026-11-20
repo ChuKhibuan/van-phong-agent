@@ -22,6 +22,7 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 - (20/11/2026 · Báo giá báo, chị dạy) Brief gửi Báo giá phải ghi rõ **khách là ai** (HS / SV / giáo viên / công nhân viên / doanh nghiệp / giám đốc, chủ tịch / người khảo giá / TikToker …). Báo giá có thể hỏi lại để bổ sung, CSKH hỏi tiếp khách; khách không cho thêm thì báo giá với thông tin đang có. Ảnh báo giá chỉ ghi giá tổng.
 
 ## Bài học từ việc thật
+- (20/11/2026 · Inbox trùng tin) Cùng một tin "Cần chị" bị đẩy vào Inbox hai lần (Trang Lê 07:56 và 08:11): đối chiếu theo nội dung, ghi `done` "trùng, đã ghi nhận", không soạn lại hay nhắn khách lần hai.
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (20/11/2026 · chị sửa) Khách Trúc Lam: tên nữ, ảnh đại diện nữ mà vẫn hỏi "anh hay chị" → thừa, khách thấy máy móc. Nhìn tên + ảnh đại diện rõ giới tính thì gọi luôn, chỉ hỏi khi thật sự không đoán được.
 - (19/11/2026 · chị sửa) Đọc Zalo bằng chữ (innerText) **không thấy ảnh** → bỏ sót bill chuyển khoản của Np Group. Trước khi kết luận hay soạn trả lời, luôn chụp màn hình đoạn cuối hội thoại để xem ảnh. Khách gửi bill thì trả lời "em nhận được bill rồi", không nói "đã nhận tiền" khi chưa kiểm tra tài khoản.

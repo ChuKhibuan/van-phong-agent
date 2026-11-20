@@ -25,3 +25,4 @@
 | 20/11/2026 | Chị dạy chăm khách VÍT MEDIA (qua Giao hàng, ghi ở chung.md): xưng hô theo tên + ảnh, kết bạn Zalo khách mới, "em nhận được bill rồi", không dùng/lưu STK cũ, khách cũ 30 ngày hỏi thăm chờ duyệt, "Cần chị" ghi Board handoff qa | chung, sales, tiep-nhan, kich-ban |
 | 20/11/2026 | Chị dạy: khách không chốt sau 20–30 ngày → soạn tin tặng voucher giảm 15% (chờ duyệt); có người bên mình đang nhắn thì agent không nhắn chồng | sales, giao-hang |
 | 20/11/2026 | Quy trình báo giá có thiết kế: Báo giá → Thiết kế → QA → CSKH, làm y hệt mẫu D:\2.Vid media\...\Thiết kế file báo giá (tri-thuc/cong-thuc/bao-gia-thiet-ke.md) | tiep-nhan, thiet-ke, qa, giao-hang |
+| 20/11/2026 | Nâng cấp hằng ngày: QA soát báo giá phải thống nhất cách đếm cảnh, tính lại tổng sau khi sửa, bỏ chữ "ưu đãi" khi đã là giá riêng; nhóm hết ô/admin gỡ thì thay nhóm và ghi 🔻/⛔; Inbox trùng tin "Cần chị" thì ghi trùng, không soạn lại | qa, tiep-nhan, dang-bai, giao-hang |

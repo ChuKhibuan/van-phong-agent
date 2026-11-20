@@ -11,6 +11,7 @@ Checklist kiểm tra trước khi giao: đúng brief, chính tả phụ đề, �
 - (15/11/2026) Báo giá/bảng giá VÍT MEDIA: kiểm theo mục IX của `vit-media/dinh-gia.md` (đủ 3 gói, phép tính khớp, ghi số lần sửa, giới hạn tạo lại cảnh AI, đúng hình thức sản xuất, không hứa quá, chữ đọc được trên điện thoại).
 
 ## Bài học từ việc thật
+- (20/11/2026 · QA trả lại báo giá thử Tấm Cám) Soát báo giá có số: (1) **cách đếm cảnh/ảnh phải thống nhất giữa các gói** (cảnh chuyển động nằm trong tổng, không cộng thêm) và đơn giá ra khớp tổng; (2) **không dùng chữ "ưu đãi"** khi gói đã là giá riêng cho đối tượng (HS-SV) vì tự mâu thuẫn; (3) đổi số cảnh thì tính lại tổng giờ, giá vốn và % lãi rồi mới duyệt. Chủ chốt "chỉ làm thử, không gửi ai" → ghi Nhap_tin `thu_xong`, không để `cho_duyet`.
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (19/11/2026 · chủ sửa sau khi duyệt) QA đã duyệt caption thiếu nhãn `THÔNG BÁO NGHỈ –` ở dòng đầu và chủ phải tự sửa: khi soát bài thông báo/sự kiện, kiểm dòng đầu có nhãn đúng loại bài chưa (điểm 3 tiêu đề trong checklist 8 điểm) trước khi báo Đăng bài lên lịch.
 - (19/11/2026 · chủ duyệt – lặp lại cách này) Bài Page đạt QA: ghi `waiting` kèm đề xuất giờ (09:00) để chủ chốt một câu, chủ duyệt xong ghi `done` + handoff `dang-bai` với ngày giờ cụ thể.
