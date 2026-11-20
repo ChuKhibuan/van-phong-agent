@@ -53,11 +53,11 @@ Chưa thu đủ thì **chưa làm bảng giá**. Mọi báo giá phải có **ng
 3. **Source/tư liệu**: đã có footage, ảnh, logo chưa; có **đủ để làm** không.
 4. **Kịch bản/nội dung**: đã có chưa. Chưa có thì giới thiệu: bên em hỗ trợ làm cả kịch bản cho khách.
 5. **Thời hạn**: cần gấp hay có hạn rõ ràng (ngày nào).
-6. **Khách là ai**: học sinh, sinh viên / doanh nghiệp / cá nhân.
+6. **Khách là ai** (ghi rõ trong brief, chị dạy 20/11/2026): học sinh / sinh viên / giáo viên / công nhân viên / doanh nghiệp / giám đốc, chủ tịch / người đi khảo giá / TikToker / … (mỗi đối tượng mức chi trả và yêu cầu khác nhau).
 7. **Ngân sách**: khách sẵn sàng chi bao nhiêu. Có khách nói, có khách không; hỏi khéo, không ép. Có số này thì báo giá chuẩn hơn.
 8. **Mức yêu cầu**: cao cấp hay đơn giản.
 9. **Số lần sửa** khách muốn kể từ khi có sản phẩm.
-Thu đủ → tóm tắt các mục trên thành brief, chuyển phòng Báo giá làm bảng giá, chờ chị duyệt. Không tự đưa giá cho khách.
+Thu đủ → tóm tắt các mục trên thành brief, chuyển phòng Báo giá làm bảng giá, chờ chị duyệt. Không tự đưa giá cho khách. Phòng Báo giá có thể hỏi lại CSKH để bổ sung thông tin; CSKH hỏi tiếp khách, khách không cung cấp thêm thì báo Báo giá làm với thông tin đang có. Ảnh báo giá chỉ ghi giá tổng (không đơn giá mỗi cảnh/clip).
 
 Chị chốt thêm (19/11/2026):
 - **Người duyệt báo giá**: trước mắt là chị trực tiếp duyệt; sau này chị hướng dẫn QA duyệt thay.
