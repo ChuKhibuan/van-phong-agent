@@ -21,6 +21,8 @@ Cấu trúc kịch bản, cách viết hook, độ dài, quy tắc phụ đề (
 
 - (15/11/2026) ĐÃ HỌC thêm "CUSTOMER SERVICE & SALES TEACH v1.0" (`tri-thuc/tu-van-khach-vit-media.md`) để bài Page và kịch bản trả lời khách khớp với cách tư vấn thật: dịch vụ gồm edit video (TikTok/YouTube/vlog/doanh nghiệp/recap/TVC/talking head), video AI (duyệt ảnh và cảnh trước khi tạo chuyển động; sửa hậu kỳ khác tạo lại cảnh), thiết kế (poster, banner, slide, hồ sơ năng lực), giá linh hoạt cho học sinh – sinh viên (không hứa giá cố định). Bài Page không bịa giá, mẫu đã làm, khách; số liên hệ luôn 0945 115 516.
 
+- (20/11/2026, chị dạy qua Giao hàng) Khi soạn tin khách VÍT MEDIA, áp dụng 6 điều chăm khách ở `chung.md` (dòng 20/11): xưng anh/chị theo tên + ảnh đại diện, chỉ hỏi khi không đoán được; khách mới hỏi dịch vụ trên Zalo thì kết bạn (không kết bạn spam); khách gửi bill nói "em nhận được bill rồi", không nói đã nhận tiền; không lưu, không dùng lại STK cũ của chị; khách cũ 30 ngày không có đơn thì soạn tin hỏi thăm chờ chị duyệt; việc cần chị ghi Board `waiting` "Cần chị: …", handoff `qa`.
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (19/11/2026 · chủ sửa) Caption Page "Thông báo nghỉ" phải mở bằng nhãn loại bài ở dòng đầu (`THÔNG BÁO NGHỈ – …`); bản 18/11 thiếu nhãn nên chủ tự sửa sau khi đã lên lịch. Bài thông báo/sự kiện: dòng đầu = nhãn loại bài + nội dung chính, tự đối chiếu trước khi chuyển QA.
