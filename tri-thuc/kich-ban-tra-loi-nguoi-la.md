@@ -16,7 +16,7 @@ Trạng thái: **chị đã duyệt 19/11/2026** (chị sửa câu nào thì ghi
 ## Nguyên tắc
 - Ghi mỗi tin đã gửi vào tab `Nhap_tin` (trang_thai `da_gui`) để chị theo dõi.
 - Khách cũ / khách quen: chị tự lo, không soạn. Tên có chữ "CTV": bỏ qua.
-- Xưng em. Gọi anh hay chị: xem **tên và ảnh đại diện/trang cá nhân Zalo** của khách để đoán giới tính. Không chắc thì hỏi lịch sự ngay tin đầu, ví dụ "Dạ em xin phép hỏi mình là anh hay chị để em tiện xưng hô ạ?" (chị dặn 19/11/2026). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
+- Xưng em. Gọi anh hay chị: xem **tên và ảnh đại diện/trang cá nhân Zalo** của khách để đoán giới tính. **Tên và ảnh đại diện đã rõ là nữ (hoặc nam) thì gọi luôn chị (anh), KHÔNG hỏi lại** (chị dặn 20/11/2026, khách Trúc Lam). Chỉ khi thật sự không đoán được (tên trung tính, không có ảnh mặt) mới hỏi lịch sự ngay tin đầu, ví dụ "Dạ em xin phép hỏi mình là anh hay chị để em tiện xưng hô ạ?" (chị dặn 19/11/2026). Ngắn, 0–2 emoji, một tin một mục đích, hỏi tối đa 2–3 câu một lượt, không hỏi lại điều khách đã nói.
 - Không báo giá con số khi chưa có báo giá đã duyệt; không gửi số tài khoản; không hứa deadline; không nhận video bất kỳ là sản phẩm của VÍT MEDIA.
 - Số liên hệ duy nhất: Zalo/📞 0945 115 516.
 - Đọc hội thoại: đọc chữ xong phải **chụp màn hình đoạn cuối** để thấy ảnh (bill, mẫu, file) — đọc chữ không thấy ảnh.
