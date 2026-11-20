@@ -12,3 +12,5 @@ Các bước:
 Kết quả: `Tra_loi` nói đã soạn, nằm ở `Nhap_tin` dòng nào, chờ chủ duyệt ở QA.
 Không được: tự gửi cho khách; ghi số điện thoại, số tài khoản khách vào Sheet / repo.
 Nguồn: brain/ROUTINE.md bước 4 (quy định sẵn của văn phòng).
+
+Biến thể (20/11/2026, chị dạy): khách có nhắn nhưng không chốt, sau 20–30 ngày không có đơn → soạn tin hỏi thăm kèm voucher giảm 15% mọi dịch vụ VÍT MEDIA, vào `Nhap_tin` `cho_duyet`, chuyển QA. Khách đang có người bên mình nhắn trực tiếp thì agent không nhắn chồng. Chưa có mã/hạn voucher → `Hỏi chủ:`.

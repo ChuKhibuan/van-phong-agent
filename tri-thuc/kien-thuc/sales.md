@@ -14,5 +14,7 @@ Bảng giá, gói dịch vụ, cách báo giá, mẫu tin nhắn, cách nhắc k
 
 - (20/11/2026, chị dạy qua Giao hàng) Khi soạn tin khách VÍT MEDIA, áp dụng 6 điều chăm khách ở `chung.md` (dòng 20/11): xưng anh/chị theo tên + ảnh đại diện, chỉ hỏi khi không đoán được; khách mới hỏi dịch vụ trên Zalo thì kết bạn (không kết bạn spam); khách gửi bill nói "em nhận được bill rồi", không nói đã nhận tiền; không lưu, không dùng lại STK cũ của chị; khách cũ 30 ngày không có đơn thì soạn tin hỏi thăm chờ chị duyệt; việc cần chị ghi Board `waiting` "Cần chị: …", handoff `qa`.
 
+- (20/11/2026, chị dạy) Khách lạ đã có người bên mình (chị/nhân viên) nhắn trực tiếp thì agent dừng, không nhắn chồng. Khách có nhắn trong ngày nhưng không chốt đơn nào: sau 20–30 ngày không có đơn, Bán hàng soạn tin hỏi thăm tặng voucher giảm 15% cho mọi dịch vụ VÍT MEDIA, chuyển QA chờ chị duyệt rồi người mới gửi (theo `cong-thuc/nhac-khach.md`). Voucher 15% chỉ dùng cho tình huống này; chưa có hạn dùng/mã thì ghi `Hỏi chủ:` chứ không tự đặt.
+
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
