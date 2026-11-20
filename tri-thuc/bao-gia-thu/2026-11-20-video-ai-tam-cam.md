@@ -1,5 +1,7 @@
 # Báo giá THỬ · Video AI kể chuyện Tấm Cám 1 phút (khách HS-SV giả định)
 
+> **ĐÃ THAY (20/11/2026):** chị yêu cầu sửa theo ngân sách 500.000đ. Dùng `2026-11-20-video-tu-anh-ai-tam-cam-500k.md`. Bản này chỉ để tham khảo, không gửi khách.
+
 Phòng Báo giá (`tiep-nhan`) soạn ngày 20/11/2026 theo lệnh Bộ não. Khách giả định, không nhắn ai.
 Chuỗi: Báo giá → Thiết kế → QA → Giao hàng & CSKH. **Giá là đề xuất, chị duyệt.** Không ghi STK.
 Mẫu thiết kế: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo giá\mẫu.jpg` (+ `logo.png` cùng thư mục). Công thức: `tri-thuc/cong-thuc/bao-gia-thiet-ke.md`.
