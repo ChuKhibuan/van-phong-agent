@@ -113,7 +113,7 @@
 - ✅ 1520701439751936 · Chủ Doanh Nghiệp VN | AI & Tự Động Hoá · 2K · 31
 - ✅ clbdoanhnghieptre · Hợp Tác & Nhượng Quyền - Hội DN Trẻ · 126K · 60
 - ✅ 2080844132495123 · Hỗ Trợ Thành Lập Doanh Nghiệp · 41K · 79
-- ✅ 507198864403865 · NHÓM BÍNH DẦN 1986 KINH DOANH · 58K · 77
+- 🔻 507198864403865 · NHÓM BÍNH DẦN 1986 KINH DOANH · 58K · 77 (admin gỡ bài 20/11; đăng cuối 20/11 bù sáng)
 - ✅ 301418383296490 · CỘNG ĐỒNG DOANH NGHIỆP · 24K · 89
 - ✅ 1577172422889600 · Hiệp hội doanh nghiệp vừa và nhỏ · 79K · 294
 - ⏳ 314520652889581 · HCM - SME · 29K · 15 (19/11 chờ duyệt)
@@ -137,7 +137,7 @@
 - ✅ ecomboss.vn · Shopee, Lazada, TikTok bán hàng · 20K · 5
 - ⏳ 4277590642470737 · Shopee Người Bán - nghìn đơn · 284K · 67 (19/11 chờ duyệt)
 - ⛔ Foodnbeveragevietnam · Cộng đồng F&B VN · 54K · 55 (19/11 Page không có ô đăng)
-- ✅ 189909794893850 · Kinh nghiệm vận hành quán F&B · 26K · 1
+- ⛔ 189909794893850 · Kinh nghiệm vận hành quán F&B · 26K · 1 (20/11: không còn ô đăng, chỉ admin)
 - ✅ fnbsupply · F&B Founders x Nhà Cung Cấp · 2K · 5
 - ✅ httpschuquancaphe.vn · CHỦ QUÁN CÀ PHÊ · 834K · 7
 - ⏳ congdongbanhangtiktokshopads · Cộng đồng TikTok Shop · 258K · 84 (19/11 chờ duyệt)
@@ -161,10 +161,10 @@
 ## 5. Thiết kế, logo, in ấn → bài "thiết kế poster, banner, nhận diện; poster bằng AI"
 - ✅ hoithietkelogobanner · THIẾT KẾ LOGO MIỄN PHÍ · 60K · 37
 - ✅ 735049655642303 · Thiết Kế Logo & Thương Hiệu – Job Design · 13K · 25
-- ✅ tida2 · Hội Thiết kế Thực chiến · 71K · 22
+- ⛔ tida2 · Hội Thiết kế Thực chiến · 71K · 22 (20/11: không còn ô đăng)
 - ✅ vechibilogocute · THIẾT KẾ LOGO GIÁ RẺ, MASCOT · 85K · 111
 - ✅ 1258164625142094 · Hội Thiết Kế Logo, Bao Bì, Ấn Phẩm Marketing · 71K · 55
-- ✅ 3721617964552611 · Thiết kế Logo, Catalog, Poster, Standee · 37K · 14
+- ⛔ 3721617964552611 · Thiết kế Logo, Catalog, Poster, Standee · 37K · 14 (20/11: không còn ô đăng)
 - ⏳ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35 (19/11 chờ duyệt)
 - ✅ 462692699570416 · Hội Thiết Kế Có Tâm (nhóm 2) · 202K · 26
 - ✅ cuocsongdesigner · "Cột sống" Designer · 581K · 23
@@ -260,7 +260,7 @@
 
 ## 8. Marketing, agency, freelancer → bài "thuê ngoài video/thiết kế cho chiến dịch"
 - ✅ 410604021779590 · Việc Làm Marketing & Truyền Thông · 75K · 89
-- ✅ 293234120544192 · Tuyển dụng Marketing · 158K · 66
+- 🔻 293234120544192 · Tuyển dụng Marketing · 158K · 66 (admin gỡ bài 20/11; đăng cuối 20/11 bù sáng)
 - ✅ 1677886959355972 · Việc làm Marketing Online · 17K · 62
 - ✅ 257312137406422 · Tuyển Dụng Digital Marketing HN · 176K · 34
 - ✅ ViecLamMarketing.ViecLamVui · Việc Làm Marketing · 42K · 21
