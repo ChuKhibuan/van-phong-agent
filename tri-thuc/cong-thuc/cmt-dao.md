@@ -25,6 +25,21 @@ Phòng: `sales` · Subagent: không.
 9. **Dừng ngay** khi Facebook báo spam, hạn chế hoặc CAPTCHA. Nhóm báo giới hạn thì bỏ nhóm đó. Không đổi danh tính hay tài khoản để lách.
 10. Ghi mỗi bình luận một dòng vào tab `Cmt_dao`. Xong lượt: Board `sales | done | Cmt dạo <giờ>: N bài | 100`.
 
+## Cách 2 · bình luận vào bài của mình trong nhóm (chị dạy 20/11/2026)
+Mục đích: kéo tương tác cho bài Vít media đã đăng trong nhóm. Chị cho gửi thẳng như cmt dạo.
+1. **Chọn bài:** lấy nhóm có bài "lên" trong 3 ngày gần nhất ở mục Nhật ký ngày của `tri-thuc/nhom-facebook.md`. Mở `/groups/<id>/my_posted_content` để thấy bài của mình. Ưu tiên bài đang có nhiều cảm xúc hoặc bình luận.
+2. **Viết:**
+   - Có người bình luận hỏi thì trả lời đúng câu họ hỏi và xin brief, kèm "ib bên em hoặc nhắn em ZAL: 0945115516".
+   - Họ hỏi giá thì không đưa giá. Mời họ gửi brief để báo giá.
+   - Bình luận là người bán khác tự quảng cáo thì bỏ qua.
+   - Chưa ai hỏi thì thêm 1 bình luận có ích: một ý bổ sung cho bài (quy trình, loại video/slide nhận làm) và lời mời liên hệ. Không lặp lại nguyên câu trong bài.
+3. **Giới hạn:**
+   - Mỗi bài tối đa 1 bình luận thêm mỗi ngày. Trả lời người hỏi thì không tính vào giới hạn này.
+   - Mỗi lượt làm 1–2 bài, tính chung vào trần 5 bình luận/giờ.
+   - Không dùng tài khoản cá nhân giả làm khách để bình luận.
+4. Kiểm danh tính, xác minh và dừng khi bị cảnh báo giống các bước 7–9 ở trên.
+5. Ghi vào `Cmt_dao`, cột `nhom` mở đầu bằng "[bài mình]".
+
 ## Nhật ký · tab `Cmt_dao` (Sheet văn phòng)
 Cột: `gio_dia_phuong | page | nhom | tuoi_bai | link_bai | noi_dung | trang_thai | link_binh_luan`
 `trang_thai`: `da_hien` / `chua_xac_minh` / `bo_qua (lý do)`.
