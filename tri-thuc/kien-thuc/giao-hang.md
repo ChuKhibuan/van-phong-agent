@@ -21,7 +21,7 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 
 - (20/11/2026 · Báo giá báo, chị dạy) Brief gửi Báo giá phải ghi rõ **khách là ai** (HS / SV / giáo viên / công nhân viên / doanh nghiệp / giám đốc, chủ tịch / người khảo giá / TikToker …). Báo giá có thể hỏi lại để bổ sung, CSKH hỏi tiếp khách; khách không cho thêm thì báo giá với thông tin đang có. Ảnh báo giá chỉ ghi giá tổng.
 
-- (21/11/2026 · chị dặn) **Khung trực Zalo khách lạ: 8:00–10:30 và 16:00–18:00**, 30 phút/lần (thêm khung chiều ngoài khung sáng 20/11). Ngoài khung chỉ trực khi chị bảo.
+- (21/11/2026 · chị dặn) Khung trực Zalo khách lạ vẫn là 8:00–10:30. Chiều 21/11/2026 chị cho trực thêm 16:00–18:00, 30 phút/lần, **chỉ riêng hôm đó** (lịch một lần `zalo-check-chieu-21-11`). Các hôm khác chị cần trực thêm sẽ dặn riêng.
 
 ## Bài học từ việc thật
 - (20/11/2026 · Inbox trùng tin) Cùng một tin "Cần chị" bị đẩy vào Inbox hai lần (Trang Lê 07:56 và 08:11): đối chiếu theo nội dung, ghi `done` "trùng, đã ghi nhận", không soạn lại hay nhắn khách lần hai.
