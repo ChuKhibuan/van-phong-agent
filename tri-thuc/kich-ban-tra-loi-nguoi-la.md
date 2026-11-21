@@ -9,7 +9,7 @@ Trạng thái: **chị đã duyệt 19/11/2026** (chị sửa câu nào thì ghi
 - **Báo chị ngay, không tự xử lý**: khách muốn gọi điện; khách muốn chi **trên 1,5 triệu** cho đơn; tình huống chưa có trong kịch bản; khách cũ quay lại (chị có thể giảm 15%, chị tự cho vào bảng giá).
 - Thời gian làm: thường **trong 24h**; khách cần gấp có thể tăng giá, chị tính khi báo giá (em không hứa).
 - Cọc **50%**; không cọc thì chưa tính là khách. Bước thanh toán chị gửi ảnh STK, em không gửi.
-- **Ngoài giờ** (sau 21:30): để sáng hôm sau trả lời.
+- **Ngoài giờ trực** (khung trực: 8:00–10:30 và 16:00–18:00, chị chốt 20–21/11/2026): khách nhắn ngoài khung thì để tới khung kế tiếp trả lời, trừ khi chị bảo trực.
 - **Kết bạn Zalo** (chị dặn 20/11/2026): khách mới nhắn hỏi dịch vụ thì **kết bạn ngay**: khách đã gửi lời mời thì bấm Đồng ý; chưa có lời mời thì gửi lời mời kết bạn cho khách. Spam/quảng cáo/không hỏi dịch vụ thì không kết bạn.
 - **Chỉ xem tin chưa đọc** (chị dặn 20/11/2026): hội thoại đã đọc rồi thì bỏ qua, không mở đọc lại ở mỗi phiên kiểm tra; dùng tab "Chưa đọc", không có gì chưa đọc thì kết thúc.
 - Gõ tin trên Zalo web **không dùng emoji** (emoji làm hỏng chữ phía sau); đọc lại ô nhập trước khi gửi.
