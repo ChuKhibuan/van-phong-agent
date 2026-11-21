@@ -26,3 +26,4 @@
 | 20/11/2026 | Chị dạy: khách không chốt sau 20–30 ngày → soạn tin tặng voucher giảm 15% (chờ duyệt); có người bên mình đang nhắn thì agent không nhắn chồng | sales, giao-hang |
 | 20/11/2026 | Quy trình báo giá có thiết kế: Báo giá → Thiết kế → QA → CSKH, làm y hệt mẫu D:\2.Vid media\...\Thiết kế file báo giá (tri-thuc/cong-thuc/bao-gia-thiet-ke.md) | tiep-nhan, thiet-ke, qa, giao-hang |
 | 20/11/2026 | Nâng cấp hằng ngày: QA soát báo giá phải thống nhất cách đếm cảnh, tính lại tổng sau khi sửa, bỏ chữ "ưu đãi" khi đã là giá riêng; nhóm hết ô/admin gỡ thì thay nhóm và ghi 🔻/⛔; Inbox trùng tin "Cần chị" thì ghi trùng, không soạn lại | qa, tiep-nhan, dang-bai, giao-hang |
+| 21/11/2026 | Nâng cấp hằng ngày: khung sáng kẹt quyền Chrome → hỏi chị + bù chiều; Page Black Friday lên lịch theo phép riêng của chị; lịch chị dặn một ngày phải ghi "chỉ riêng ngày"; Board timestamp ISO; Chrome mất kết nối → Cần chị | dang-bai, giao-hang, chung (thiet-ke nhận) |

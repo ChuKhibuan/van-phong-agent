@@ -6,3 +6,6 @@ Bộ não đọc file này khi chủ hỏi "còn việc gì dở", "hôm qua là
 - (từ 15/11) **Ảnh người + robot cho bài edit video** · Thiết kế: ảnh đã tạo (https://www.canva.com/M/MAHbAGYn3Yo), chờ chủ xem và gửi file PA-C để ghép. Inbox dòng 36, 43, 44 đang error.
 - (từ 20/11) **Khách Trúc Lam** · Giao hàng: xin xem video mẫu đã dựng, chờ chị chọn link mẫu (Board `waiting`).
 - (từ 20/11) **Khách Trang Lê** · Giao hàng → Báo giá: video BĐS chạy FB ads, thiếu thời lượng, số video, hạn, ngân sách; có người bên mình đang nhắn trực tiếp, agent không nhắn chồng (Inbox 07:56, 08:11).
+- (từ 21/11) **Zalo khách lạ chiều 21/11** · Giao hàng: Chrome mất kết nối lúc 18:00, chưa xem tin chưa đọc; chờ chị đăng nhập lại Claude in Chrome (Board `waiting`).
+- (từ 21/11) **10 bài nhóm chờ duyệt** · Đăng bài: kiểm `my_pending_content` các nhóm đăng bù 21/11 (nhật ký `nhom-facebook.md`).
+- (từ 21/11) **Page Black Friday 23–29/11** · Đăng bài: 7 bài đã lên lịch, kiểm bài lên đúng giờ, ghi kết quả.
