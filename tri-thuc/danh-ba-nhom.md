@@ -19,7 +19,7 @@
 
 ## 1. Video AI & cộng đồng AI → bài "làm video bằng AI", "video AI cho doanh nghiệp"
 - ✅ 987672918471443 · Cộng đồng Claude AI & AI Agents · 229K · 7
-- ✅ 1385451906420187 · Vibe Code kiếm cơm · 238K · 210 (dân code, chỉ bài AI tự động hoá)
+- ⏳ 1385451906420187 · Vibe Code kiếm cơm · 238K · 210 (dân code, chỉ bài AI tự động hoá; 21/11 share bài Page vào chờ duyệt)
 - ⏳ 1359330548727601 · Học AI cùng Thầy Quân · 44K · 2 (20/11 chờ duyệt)
 - ⛔ chillcungai · Chill Cùng AI · 39K · 0 (20/11: không có ô đăng)
 - ✅ 810258490950782 · AI Chất – Tự học & Ứng dụng AI · 106K · 0
@@ -43,9 +43,9 @@
 - ⚠️ 30899055246406204 · AI GenArt Hub VN · 6K · 101
 - ⚠️ 844059378165127 · Học Viện Kiếm Tiền Với Video AI · 32K · 28
 - ⚠️ canva.tkdnc · CẦN VẢ AI · 813K · 4
-- ⚠️ aiartworksvn · Nghiên AI (bản mới Nghiện AI) · 787K · 56
+- ⛔ aiartworksvn · Nghiên AI (bản mới Nghiện AI) · 787K · 56 (21/11: không có ô đăng)
 - ⚠️ videocreativestationwithai · Trạm sáng tạo AI · 142K · 4 (có luật riêng về tự quảng cáo, đọc trước khi đăng lần đầu)
-- ⚠️ phocapaivn · PHỔ CẬP AI · 691K · 26 (cấm inbox riêng: CTA để "comment/ib Page")
+- ⏳ phocapaivn · PHỔ CẬP AI · 691K · 26 (cấm inbox riêng: CTA để "comment/ib Page"; 21/11 chờ duyệt)
 - ⏳ nacongdonghocai · AI VN - AI trong Kinh doanh & Bán hàng · 127K · 1 (20/11 chờ duyệt)
 - ⏳ 1287185438037498 · Làm Video Bằng AI - Miễn Phí · 21K · 1 (luật: không bán hàng bừa bãi)
 - ⏳ hocvienaittm · HỌC VIỆN AI · 256K · 0
@@ -87,9 +87,9 @@
 ## 2. Edit video, quay dựng, YouTube/TikTok → bài "nhận edit video", "dựng video TikTok/Reels"
 - ✅ 1015618225564308 · ❤️ Học Hỏi Edit Video ❤️ · 49K · 4
 - 🔻 hocvalamyoutuber · Học và Làm Youtuber · 104K · 76 (từ chối 1 lần: 19/11 bài chia sẻ Page; đăng cuối 19/11 sáng)
-- ⚠️ 1585053268324151 · Tìm Biên Kịch - Diễn Viên - Ekip · 22K · 3
+- ⛔ 1585053268324151 · Tìm Biên Kịch - Diễn Viên - Ekip · 22K · 3 (21/11: không có ô đăng)
 - ⚠️ 2454178958083954 · Quay Dựng Phim & Chụp Ảnh Freelancer HCM · 30K · 24
-- ⚠️ hocvienyoutubee · Dạy làm Youtube · 31K · 8
+- ⏳ hocvienyoutubee · Dạy làm Youtube · 31K · 8 (21/11 chờ duyệt)
 - ⚠️ 1057951338160045 · Nhóm Quay Dựng Video - Editor - build TikTok · 151K · 170
 - ⚠️ bienkichtrekhongchuyenvachuyennghiep · Nhóm biên kịch trẻ · 59K · 0 (không chèn link YouTube)
 - ⏳ 641995207825133 · Học Và Làm YOUTUBE · 53K · 0
@@ -144,7 +144,7 @@
 - ⏳ 480023959958761 · TikTok Shop - Kinh nghiệm bán hàng · 102K · 5 (20/11 chờ duyệt)
 - ⚠️ banhangshopee.lazada · Bán hàng Shopee/Lazada/TikTok · 4K · 4
 - ⏳ tiktoknghindon · TikTok Shop nghìn đơn · 139K · 45 (20/11 chờ duyệt)
-- ⚠️ groupnguoibanshopee · Shopee người bán · 118K · 67
+- ⏳ groupnguoibanshopee · Shopee người bán · 118K · 67 (21/11 chờ duyệt)
 - ⚠️ shopeenguoiban.chiasekinhnghiem · Shopee người bán nghìn đơn · 579K · 51 (QC phải liên hệ admin; chỉ bài chia sẻ kinh nghiệm video bán hàng)
 - ⚠️ 497067335075156 · TikTok bán hàng nghìn đơn · 463K · 5
 - ⏳ hiephoispachuyennghiep2020 · Hiệp Hội SPA Chuyên Nghiệp · 42K · 27 (20/11 chờ duyệt)
@@ -168,7 +168,7 @@
 - ✅ hoithietkelogodepre · Hội Thiết Kế Logo Đẹp · 45K · 35 (bài 19/11 đã duyệt)
 - ✅ 462692699570416 · Hội Thiết Kế Có Tâm (nhóm 2) · 202K · 26
 - ⏳ cuocsongdesigner · "Cột sống" Designer · 581K · 23 (20/11 chờ duyệt)
-- ✅ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0
+- ⛔ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0 (21/11: không có ô đăng)
 - ✅ 607237284822637 · Việc Làm Designer HCM · 33K · 25
 - ⚠️ 874442287713688 · Thiết Kế Logo (Freelancer) · 26K · 24
 - ⚠️ 3298527986939333 · THIẾT KẾ LOGO THƯƠNG HIỆU · 53K · 39
@@ -206,7 +206,7 @@
 - ✅ 9122497834509646 · Nhận Làm Slide Thuyết Trình · 23K · 4
 - ⏳ cungnhauhocpowerpoint · CÙNG NHAU HỌC POWERPOINT · 850K · 0 (19/11 chờ duyệt)
 - ⚠️ 4155720068032203 · NHẬN LÀM SLIDE, CANVA, PHOTOSHOP · 11K · 0
-- ⚠️ 1815173195819041 · NHẬN LÀM SLIDE THUYẾT TRÌNH THUÊ · 17K · 32
+- ⏳ 1815173195819041 · NHẬN LÀM SLIDE THUYẾT TRÌNH THUÊ · 17K · 32 (21/11 chờ duyệt)
 - ⚠️ nguyensang.excelonline · Thủ thuật Word, Excel, PowerPoint · 355K · 4
 - ✅ otips · Thủ thuật Excel, Word, PowerPoint - lisp.vn · 887K · 20
 - ⏳ 943798678140373 · Nhận làm Slide, Canva, Elearning · 11K · 5
@@ -251,8 +251,8 @@
 - ✅ 1351316929850950 · Quà tặng 20/11 · 22K · 149 (bài 20/11 đã duyệt)
 - ⛔ Cộng Đồng Giáo Viên Tiểu Học (chưa có mã, nhóm mới tham gia 20/11) · bị gỡ 20/11
 - ✅ 567782317796036 · Quà Tặng 20/11 Cho Thầy Cô · 10K · 142
-- ⚠️ thiepngan · GIÁO DỤC VIỆT NAM · 161K · 86
-- ⚠️ caodangthuchanhfpt · Cao Đẳng FPT Polytechnic · 94K · 4
+- ⏳ thiepngan · GIÁO DỤC VIỆT NAM · 161K · 86 (21/11 share bài Page chờ duyệt)
+- ⏳ caodangthuchanhfpt · Cao Đẳng FPT Polytechnic · 94K · 4 (21/11 share bài Page chờ duyệt)
 - ⏳ 244907813273785 · Công Tác Chủ Nhiệm Lớp Học · 387K · 288
 - ⏳ ungdungaigiangday · AI trong giáo dục, giảng dạy · 34K · 3
 - ⏳ 1105325611538070 · AI DÀNH CHO GIÁO VIÊN · 48K · 4
@@ -295,8 +295,8 @@
 - ✅ 413731458140965 · Tuyển dụng MEDIA · 70K · 22
 - ✅ 409631138611816 · Tuyển dụng MEDIA · 84K · 48
 - ✅ 410034718617787 · Tuyển Dụng MEDIA (Editor, Cameraman) · 91K · 33
-- ✅ 619211998270062 · Chợ Jobs Editor · 119K · 77
-- ✅ 1464077797002969 · Tuyển dụng Quay - Dựng - Design · 95K · 26
+- ⛔ 619211998270062 · Chợ Jobs Editor · 119K · 77 (21/11: không có ô đăng)
+- ⏳ 1464077797002969 · Tuyển dụng Quay - Dựng - Design · 95K · 26 (21/11 chờ duyệt)
 - ✅ vieclam.chupanh.quayphim · Photographer/Cameraman/Editor · 98K · 8
 - ⚠️ 2452930614860706 · Việc làm Thiết kế - Freelancer · 14K · 12
 - ⚠️ 1571445866449596 · VIỆC LÀM VIDEO EDITOR · 13K · 24 (có mục "Bán hàng" trong luật)
@@ -313,8 +313,9 @@
 - ✅ tochucsukienchuyennghiep · Tổ Chức Sự Kiện · 11K · 44
 - ✅ 1427505152334332 · CĐ TỔ CHỨC SỰ KIỆN - MC & Event · 11K · 64
 - ✅ event.agency.group · Event Agency · 49K · 87
-- ✅ 725325461810068 · CĐ TỔ CHỨC SỰ KIỆN · 91K · 1
-- ⚠️ reviewkyyeutimstudiothochupanh · Review Kỷ Yếu - Tìm Studio · 144K · 14
+- ⏳ 725325461810068 · CĐ TỔ CHỨC SỰ KIỆN · 91K · 1 (21/11 chờ duyệt)
+- ✅ Tổ Chức Sự Kiện Hà Nội (chưa có mã, thấy trong hộp "Chia sẻ lên nhóm" của Page) · 21/11 share bài Page lên thẳng
+- ⏳ reviewkyyeutimstudiothochupanh · Review Kỷ Yếu - Tìm Studio · 144K · 14 (21/11 chờ duyệt)
 - ⚠️ 2696383343824497 · HỘI TỔ CHỨC SỰ KIỆN MIỀN BẮC · 24K · 266
 - ⚠️ 157536305338377 · Hội Nhiếp Ảnh VN · 644K · 44 (quảng cáo có phí, không share link ngoài: chỉ đăng bài trực tiếp không QC)
 - ⏳ 264290841063083 · EVENT GROUP VN · 57K · 123
