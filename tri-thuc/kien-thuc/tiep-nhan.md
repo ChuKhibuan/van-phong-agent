@@ -18,6 +18,7 @@ Mẫu brief, thông tin bắt buộc khi nhận đơn, cách đặt mã đơn, c
 - (20/11/2026, chị dạy qua Giao hàng) Khi soạn tin khách VÍT MEDIA, áp dụng 6 điều chăm khách ở `chung.md` (dòng 20/11): xưng anh/chị theo tên + ảnh đại diện, chỉ hỏi khi không đoán được; khách mới hỏi dịch vụ trên Zalo thì kết bạn (không kết bạn spam); khách gửi bill nói "em nhận được bill rồi", không nói đã nhận tiền; không lưu, không dùng lại STK cũ của chị; khách cũ 30 ngày không có đơn thì soạn tin hỏi thăm chờ chị duyệt; việc cần chị ghi Board `waiting` "Cần chị: …", handoff `qa`.
 
 ## Bài học từ việc thật
+- (22/11/2026 · tổng kết khách tuần) Khách Trang Lê xin báo giá video BĐS rồi im khi chờ báo giá. Khách xin giá thì trong ngày có ít nhất giá khoảng theo bảng giá đã duyệt kèm 2–3 câu hỏi thông tin còn thiếu (chờ chị cho phép cách này).
 - (20/11/2026 · QA trả lại 2 lần) Sửa phạm vi/số cảnh một gói thì **rà lại toàn bảng**: tổng cảnh, tổng giờ, giá vốn, % lãi, câu mô tả trên ảnh phải khớp nhau; giữ cùng một cách đếm cho cả 3 gói. Chủ đã chốt ngân sách (vd 500k) thì làm lại theo ngân sách đó, không giữ bản giá cũ song song.
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
 - (20/11/2026 · chị dạy) Khi cần, phối hợp phòng Bán hàng đề xuất tặng mã giảm giá cho khách (mức, điều kiện, hạn, lý do; không dưới giá vốn); chị duyệt rồi mới báo khách. Chi tiết: skill vit-media `dinh-gia.md` mục XIII.6b.

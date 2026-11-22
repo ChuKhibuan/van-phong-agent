@@ -26,6 +26,7 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 - (22/11/2026 · chị dặn) Chiều 22/11/2026 chị cho trực thêm Zalo khách lạ 14:30–18:00 (chị kéo dài lúc chiều, đổi thành 10 phút/lần), chỉ riêng hôm đó (lịch một lần `zalo-check-chieu-22-11`). Khung thường vẫn 8:00–10:30; trực thêm hôm nào chị dặn riêng hôm đó.
 
 ## Bài học từ việc thật
+- (22/11/2026 · tổng kết khách tuần) Không đếm được khách lạ cả tuần vì chỉ ghi khi cần chị. Mỗi khách lạ (kể cả khách chị/nhân viên đang nhắn trực tiếp) ghi 1 dòng Nhap_tin kèm nguồn (Page, bài nhóm, cmt dạo…) và kết quả cuối ngày; lượt trực không có khách ghi Board "0 khách lạ".
 - (21/11/2026 · Chrome mất kết nối lúc check Zalo 18:00) Claude in Chrome không kết nối sau 3 lần thử → dừng, ghi Board `waiting` "Cần chị" (handoff qa) nhờ chị mở Chrome, bấm biểu tượng Claude đăng nhập lại rồi xem Zalo; không đoán nội dung tin chưa đọc, không thử lại vòng vòng.
 - (20/11/2026 · Inbox trùng tin) Cùng một tin "Cần chị" bị đẩy vào Inbox hai lần (Trang Lê 07:56 và 08:11): đối chiếu theo nội dung, ghi `done` "trùng, đã ghi nhận", không soạn lại hay nhắn khách lần hai.
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->

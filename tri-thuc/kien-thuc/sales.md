@@ -20,3 +20,4 @@ Bảng giá, gói dịch vụ, cách báo giá, mẫu tin nhắn, cách nhắc k
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (22/11/2026 · tổng kết khách tuần) Tuần 16–22/11: 2 khách lạ nhắn Zalo, 0 chốt (0%), cả 2 kẹt chờ nội bộ (mẫu, báo giá); 47 bình luận dạo chưa ghi nhận khách nào. Từ tuần sau đối chiếu tên khách lạ với người đăng bài đã cmt để đo cmt dạo có ra khách không.

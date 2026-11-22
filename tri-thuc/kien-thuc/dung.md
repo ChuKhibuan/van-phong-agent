@@ -8,6 +8,7 @@ Phong cách dựng, nhạc, nhịp cắt, định dạng xuất (vd 1080x1920), 
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (22/11/2026 · tổng kết khách tuần) Khách Trúc Lam xin xem mẫu rồi im vì phải chờ chị chọn link. Soạn bộ link video mẫu theo loại (video AI, edit TikTok/Reels, BĐS/talking head, recap sự kiện, cưới) để chị duyệt 1 lần, CSKH gửi ngay khi khách xin.
 - (14/11/2026 · chủ sửa) Nhận nội dung teach không phải đơn dựng: không đòi footage, voice, nhạc outro; chỉ hỏi các thứ đó khi có đơn sản xuất thật.
 
 ## Nhận từ phòng khác
