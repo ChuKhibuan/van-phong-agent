@@ -23,7 +23,7 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 
 - (21/11/2026 · chị dặn) Khung trực Zalo khách lạ vẫn là 8:00–10:30. Chiều 21/11/2026 chị cho trực thêm 16:00–18:00, 30 phút/lần, **chỉ riêng hôm đó** (lịch một lần `zalo-check-chieu-21-11`). Các hôm khác chị cần trực thêm sẽ dặn riêng.
 
-- (22/11/2026 · chị dặn) Chiều 22/11/2026 chị cho trực thêm Zalo khách lạ 14:30–16:00, 30 phút/lần, chỉ riêng hôm đó (lịch một lần `zalo-check-chieu-22-11`). Khung thường vẫn 8:00–10:30; trực thêm hôm nào chị dặn riêng hôm đó.
+- (22/11/2026 · chị dặn) Chiều 22/11/2026 chị cho trực thêm Zalo khách lạ 14:30–18:00 (chị kéo dài lúc chiều, đổi thành 10 phút/lần), chỉ riêng hôm đó (lịch một lần `zalo-check-chieu-22-11`). Khung thường vẫn 8:00–10:30; trực thêm hôm nào chị dặn riêng hôm đó.
 
 ## Bài học từ việc thật
 - (21/11/2026 · Chrome mất kết nối lúc check Zalo 18:00) Claude in Chrome không kết nối sau 3 lần thử → dừng, ghi Board `waiting` "Cần chị" (handoff qa) nhờ chị mở Chrome, bấm biểu tượng Claude đăng nhập lại rồi xem Zalo; không đoán nội dung tin chưa đọc, không thử lại vòng vòng.
