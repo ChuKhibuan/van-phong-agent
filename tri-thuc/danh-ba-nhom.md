@@ -205,7 +205,7 @@
 ## 6. Slide, PowerPoint, Canva, văn bản → bài "nhận làm slide, slide bằng AI"
 - ✅ 9122497834509646 · Nhận Làm Slide Thuyết Trình · 23K · 4
 - ⏳ cungnhauhocpowerpoint · CÙNG NHAU HỌC POWERPOINT · 850K · 0 (19/11 chờ duyệt)
-- ⚠️ 4155720068032203 · NHẬN LÀM SLIDE, CANVA, PHOTOSHOP · 11K · 0
+- ⛔ 4155720068032203 · NHẬN LÀM SLIDE, CANVA, PHOTOSHOP · 11K · 0 (22/11: không có ô đăng)
 - ⏳ 1815173195819041 · NHẬN LÀM SLIDE THUYẾT TRÌNH THUÊ · 17K · 32 (21/11 chờ duyệt)
 - ⚠️ nguyensang.excelonline · Thủ thuật Word, Excel, PowerPoint · 355K · 4
 - ✅ otips · Thủ thuật Excel, Word, PowerPoint - lisp.vn · 887K · 20
