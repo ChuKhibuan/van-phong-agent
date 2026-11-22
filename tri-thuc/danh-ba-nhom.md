@@ -42,7 +42,7 @@
 - ⚠️ 2371265913321399 · Cộng đồng YuKi Art · 26K · 91
 - ⚠️ 30899055246406204 · AI GenArt Hub VN · 6K · 101
 - ⚠️ 844059378165127 · Học Viện Kiếm Tiền Với Video AI · 32K · 28
-- ⚠️ canva.tkdnc · CẦN VẢ AI · 813K · 4
+- ⏳ canva.tkdnc · CẦN VẢ AI · 813K · 4 (22/11 chờ duyệt)
 - ⛔ aiartworksvn · Nghiên AI (bản mới Nghiện AI) · 787K · 56 (21/11: không có ô đăng)
 - ⚠️ videocreativestationwithai · Trạm sáng tạo AI · 142K · 4 (có luật riêng về tự quảng cáo, đọc trước khi đăng lần đầu)
 - ⏳ phocapaivn · PHỔ CẬP AI · 691K · 26 (cấm inbox riêng: CTA để "comment/ib Page"; 21/11 chờ duyệt)
@@ -121,7 +121,7 @@
 - ✅ 1123827865589021 · Quà tặng 20/10, 8/3, 20/11 · 25K · 391
 - ⚠️ 304899715525052 · Giúp Nhau Khởi Nghiệp & Hợp Tác · 16K · 122
 - ⚠️ 141688767751097 · Khởi Nghiệp & Nhượng quyền F&B · 83K · 63
-- ⚠️ congdongdoanhnghiephanoi · CĐ DOANH NGHIỆP HÀ NỘI · 44K · 1 ("quảng cáo đúng nơi")
+- ⛔ congdongdoanhnghiephanoi · CĐ DOANH NGHIỆP HÀ NỘI (22/11: không có ô đăng)
 - ⏳ nhomkhoinghiepkinhdoanh · Khởi Nghiệp Kinh Doanh · 335K · 7
 - ⏳ doitackd · TÌM ĐỐI TÁC KINH DOANH · 308K · 82
 - ⏳ 443371188535005 · Hợp tác & KD - Hội DN Trẻ · 33K · 86
@@ -145,8 +145,8 @@
 - ⚠️ banhangshopee.lazada · Bán hàng Shopee/Lazada/TikTok · 4K · 4
 - ⏳ tiktoknghindon · TikTok Shop nghìn đơn · 139K · 45 (20/11 chờ duyệt)
 - ⏳ groupnguoibanshopee · Shopee người bán · 118K · 67 (21/11 chờ duyệt)
-- ⚠️ shopeenguoiban.chiasekinhnghiem · Shopee người bán nghìn đơn · 579K · 51 (QC phải liên hệ admin; chỉ bài chia sẻ kinh nghiệm video bán hàng)
-- ⚠️ 497067335075156 · TikTok bán hàng nghìn đơn · 463K · 5
+- ⏳ shopeenguoiban.chiasekinhnghiem · Shopee người bán nghìn đơn · 579K · 51 (QC phải liên hệ admin; chỉ bài chia sẻ kinh nghiệm video bán hàng) (22/11 chờ duyệt)
+- ⏳ 497067335075156 · TikTok bán hàng nghìn đơn · 463K · 5 (22/11 chờ duyệt)
 - ⏳ hiephoispachuyennghiep2020 · Hiệp Hội SPA Chuyên Nghiệp · 42K · 27 (20/11 chờ duyệt)
 - ⏳ 778741857402856 · TikTok Shop, Ads, KOL, KOC · 238K · 35
 - ⏳ 803667821707675 · TikTok bán hàng nghìn đơn · 493K · 18
@@ -171,15 +171,15 @@
 - ⛔ thiet.ke.part.time.freelance.designer · Thiết kế part time · 151K · 0 (21/11: không có ô đăng)
 - ✅ 607237284822637 · Việc Làm Designer HCM · 33K · 25
 - ⚠️ 874442287713688 · Thiết Kế Logo (Freelancer) · 26K · 24
-- ⚠️ 3298527986939333 · THIẾT KẾ LOGO THƯƠNG HIỆU · 53K · 39
+- ⏳ 3298527986939333 · THIẾT KẾ LOGO THƯƠNG HIỆU · 53K · 39 (22/11 chờ duyệt)
 - ⚠️ 300511119676770 · Hội Thiết Kế Logo (Freelancer) · 27K · 25
 - ⚠️ quangart · Thiết kế logo, Đồ họa · 18K · 44
 - ⚠️ 241637907698474 · CĐ Thiết Kế Đồ Họa · 50K · 15
 - ⚠️ designer.congdongdesign · Cộng Đồng Thiết Kế · 350K · 34
-- ⚠️ hosonanglucchuyennghiep · Thiết Kế Hồ Sơ Năng Lực · 43K · 10 (có luật riêng cho đơn vị dịch vụ)
+- ⏳ hosonanglucchuyennghiep · Thiết Kế Hồ Sơ Năng Lực · 43K · 10 (có luật riêng cho đơn vị dịch vụ) (22/11 chờ duyệt)
 - ⚠️ inphuduong · Hội In Ấn Quảng Cáo Hải Phòng · 7K · 37
 - ⏳ fbhocvalamdesigner · Học và Làm Designer · 127K · 2 (cấm QC khoá học, dịch vụ thì được; 19/11 chờ duyệt, nhóm duyệt người mới)
-- ⚠️ 1878147789180050 · CỘNG ĐỒNG IN ẤN VN · 539K · 177 (KHÔNG chèn link zalo/tiktok/page/nhóm)
+- ⏳ 1878147789180050 · CỘNG ĐỒNG IN ẤN VN · 539K · 177 (KHÔNG chèn link zalo/tiktok/page/nhóm) (22/11 chờ duyệt)
 - ⏳ tuyendungdesignvietnam · Hội thiết kế dạo · 32K · 20
 - ⏳ 1082813642243730 · THIẾT KẾ LOGO POSTER BANNER VIDEO · 13K · 33
 - ⏳ thietkelogothuonghieugiare · THIẾT KẾ LOGO THƯƠNG HIỆU · 4K · 21
