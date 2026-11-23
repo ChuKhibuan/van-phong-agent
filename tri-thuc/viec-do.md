@@ -9,3 +9,4 @@ Bộ não đọc file này khi chủ hỏi "còn việc gì dở", "hôm qua là
 - (từ 21/11) **Zalo khách lạ chiều 21/11** · Giao hàng: Chrome mất kết nối lúc 18:00, chưa xem tin chưa đọc; chờ chị đăng nhập lại Claude in Chrome (Board `waiting`).
 - (từ 21/11) **10 bài nhóm chờ duyệt** · Đăng bài: kiểm `my_pending_content` các nhóm đăng bù 21/11 (nhật ký `nhom-facebook.md`).
 - (từ 21/11) **Page Black Friday 23–29/11** · Đăng bài: 7 bài đã lên lịch, kiểm bài lên đúng giờ, ghi kết quả.
+- (từ 23/11) **Báo giá Reel Instagram khách Phương Thảo** · Giao hàng: soạn tin nháp kèm ảnh, chờ chị duyệt rồi mới gửi (Board `waiting` 16:45, `tri-thuc/bao-gia-thu/2026-11-23-reel-instagram-sinh-vien-phuong-thao.md`).

@@ -11,10 +11,10 @@ Chuỗi: **Báo giá → Thiết kế → QA → Giao hàng & CSKH**. Mỗi phò
 2. Tiêu đề lớn: "BÁO GIÁ" xanh đậm + tên dịch vụ xanh sáng; dòng mô tả ngắn; gạch xanh ngắn.
 3. Ba cột gói: **BASIC** (tiết kiệm – nhanh gọn), **STANDARD** (nổi bật, nền xanh đậm cho ô giá, nhãn vương miện "ĐƯỢC LỰA CHỌN NHIỀU NHẤT"), **PREMIUM** (cao cấp – ấn tượng). Mỗi cột: **chỉ giá tổng** dạng 4.500.000đ (chị dặn 20/11: KHÔNG ghi đơn giá quy đổi đ/cảnh, đ/clip như ảnh mẫu), 4 dòng có dấu tích xanh, đáy "Số lần chỉnh sửa: 1 / 2 / 3 lần".
 4. Dải 3 ô thông tin có icon (đầu vào, chất lượng xuất file, thời gian thực hiện).
-5. Khung **LƯU Ý** 4 gạch đầu dòng: phạm vi giá áp dụng, khách cung cấp gì, chưa bao gồm gì, báo giá riêng khi nào.
+5. Khung **LƯU Ý** 4 gạch đầu dòng: phạm vi giá áp dụng, khách cung cấp gì, chưa bao gồm gì, báo giá riêng khi nào; thêm dòng "chỉnh sửa thêm chi tiết AI/ngoài phạm vi tính phí sau" (chị dặn 23/11).
 
 ## Từng phòng
 - **Báo giá**: tính 3 gói theo `vit-media/dinh-gia.md` + `kien-thuc/tiep-nhan.md`; viết đủ chữ cho mọi ô của mẫu. Trước đó xin đủ thông tin qua CSKH, xác định đúng đối tượng khách (HS-SV / cá nhân / doanh nghiệp), chưa chắc thì hỏi chị (`dinh-gia.md` mục XIII). Không ghi STK. Con số là đề xuất, chị duyệt.
-- **Thiết kế**: dựng đúng bố cục mẫu, đúng logo, màu, Zalo 0945 115 516 nếu có chỗ; xuất PNG.
-- **QA**: so với mẫu và `vit-media/dinh-gia.md` mục IX (đủ 3 gói, phép tính khớp, số lần sửa, chữ đọc được trên điện thoại); đạt thì ghi `waiting` chờ chị duyệt.
+- **Thiết kế**: trước khi dựng đọc bản chữ mới nhất của file Báo giá và ghi mã commit nguồn vào Board (23/11: ảnh làm từ chữ cũ bị QA trả); dựng đúng bố cục mẫu, đúng logo, màu, Zalo 0945 115 516 nếu có chỗ; xuất PNG.
+- **QA**: đối chiếu từng dòng với commit mới nhất của file Báo giá; so với mẫu và `vit-media/dinh-gia.md` mục IX (đủ 3 gói, phép tính khớp, số lần sửa, chữ đọc được trên điện thoại); đạt thì ghi `waiting` chờ chị duyệt.
 - **Giao hàng & CSKH**: soạn tin gửi khách kèm ảnh báo giá; chỉ gửi khi chị duyệt.
