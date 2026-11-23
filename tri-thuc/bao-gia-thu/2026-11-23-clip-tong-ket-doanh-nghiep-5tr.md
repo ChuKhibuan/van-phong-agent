@@ -29,7 +29,7 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
 1. Khách đưa **hình ảnh/video thực tế đã có** (không quay thêm); tổng footage thô không quá khoảng 30 phút. Nhiều hơn thì báo giá riêng.
 2. Nội dung/số liệu tổng kết do khách cung cấp; bên em không viết lại báo cáo. Cần viết kịch bản thì tính thêm.
 3. Cảnh AI khoảng 8–10 cảnh, chủ yếu minh hoạ và chuyển cảnh, không có nhân vật AI đồng nhất hay lip-sync.
-4. **Sửa 2 lần** (như gói Standard). Chị muốn 1 hoặc 3 lần thì giá/phạm vi đổi.
+4. **Sửa 1 lần** (chị đổi từ 2 lần ngày 23/11, Thiết kế báo lại).
 5. Thời gian **3–4 ngày** sau khi nhận đủ tư liệu (không phải 24h vì ~38 giờ công).
 6. Khách giả định ở cấp **doanh nghiệp nhỏ và vừa**. Nếu khách là tập đoàn / yêu cầu cao cấp hơn thì báo giá chuẩn khác.
 
@@ -58,7 +58,7 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
   3. Cảnh AI bổ sung cho mở đầu, chuyển cảnh và minh hoạ
   4. Chữ, số liệu, logo doanh nghiệp, nhạc nền và hiệu ứng
   5. Chỉnh màu, âm thanh, xuất Full HD
-- Đáy: Số lần chỉnh sửa: 2 lần
+- Đáy: Số lần chỉnh sửa: 1 lần
 
 **Dải 3 ô thông tin:**
 1. (icon ảnh/video) **Dựng từ tư liệu của khách** · Hình ảnh, video, logo, số liệu do khách cung cấp
@@ -70,6 +70,7 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
 - Khách gửi đủ hình ảnh, video, logo, nội dung và số liệu cần hiển thị trước khi bên em bắt đầu dựng.
 - Số lần sửa áp dụng cho hậu kỳ (chữ, nhạc, nhịp dựng, màu); đổi lớn nội dung hoặc tạo lại cảnh AI đã duyệt tính riêng.
 - Báo giá riêng nếu cần viết kịch bản, quay thêm, lồng tiếng người thật, thêm thời lượng hoặc xuất nhiều tỷ lệ khung hình.
+- Nếu phát sinh chỉnh sửa thêm chi tiết AI hoặc chi tiết ngoài sẽ tính thêm phí sau.
 
 ---
 
