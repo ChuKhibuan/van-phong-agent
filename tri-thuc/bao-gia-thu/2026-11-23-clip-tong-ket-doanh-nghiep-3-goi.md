@@ -23,17 +23,19 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
 | Chữ, số liệu, motion, logo | 3,5 | 5 | 8 |
 | Nhạc, SFX, chỉnh màu, giọng đọc AI | 2 | 3 | 5 |
 | Mở/kết có thiết kế | – | – | 2 |
-| Kiểm tra, bàn giao, công sửa theo gói | 2 | 3,5 | 5 |
-| **Tổng** | **26** | **38,5** | **58** |
+| Kiểm tra, bàn giao, công sửa theo gói | 2 | 2,5 | 5 |
+| **Tổng** | **26** | **37,5** | **58** |
 
 ### Bảng tính
 | Gói | Giờ | Nhân công | Công cụ AI | Trực tiếp | Vận hành/dự phòng | Chi phí | Giá | Lãi thực |
 |---|---|---|---|---|---|---|---|---|
 | Basic | 26 | 1.820.000 | 150.000 | 1.970.000 | 20% | 2.364.000 | **3.200.000đ** | 26,1% |
-| Standard | 38,5 | 2.695.000 | 300.000 | 2.995.000 | 25% | 3.743.750 | **5.000.000đ** | 25,1% |
+| Standard | 37,5 | 2.625.000 | 300.000 | 2.925.000 | 25% | 3.656.250 | **5.000.000đ** | 26,9% |
 | Premium | 58 | 4.060.000 | 450.000 | 4.510.000 | 25% | 5.637.500 | **7.500.000đ** | 24,8% |
 
 Kết luận: cả 3 gói **làm kịp nhưng sát**, đúng với điều kiện khách đưa tư liệu đã sắp xếp và nội dung/số liệu chốt trước khi dựng. Khoảng cách giá: Basic thấp hơn Standard 1.800.000đ; Premium cao hơn 2.500.000đ.
+
+**Cập nhật 23/11/2026 (chị đổi):** Standard sửa **1 lần** (còn Basic 1, Premium 3); công sửa Standard giảm 1 giờ nên 37,5 giờ, lãi 26,9%. Thêm Lưu ý phát sinh chỉnh sửa. Lưu ý: Basic và Standard cùng 1 lần sửa, Standard vẫn hơn Basic ở thời lượng, số cảnh AI, footage và hiệu ứng.
 
 ### Giả định và cần chị quyết
 1. Khách đưa hình ảnh/video có sẵn (không quay thêm); giới hạn footage thô 15 / 30 / 60 phút.
@@ -62,7 +64,7 @@ Kết luận: cả 3 gói **làm kịp nhưng sát**, đúng với điều kiệ
 | Tích 2 | 5 cảnh AI cho mở đầu và chuyển cảnh | 8 – 10 cảnh AI cho mở đầu, chuyển cảnh và minh hoạ | 15 cảnh AI, chuyển động đồng bộ phong cách doanh nghiệp |
 | Tích 3 | Chữ, logo doanh nghiệp, nhạc nền | Chữ, số liệu, logo, nhạc nền và hiệu ứng | Số liệu động, motion chữ, giọng đọc AI, sound design |
 | Tích 4 | Chỉnh màu cơ bản, xuất Full HD | Chỉnh màu, âm thanh, xuất Full HD | Mở / kết thiết kế riêng, hậu kỳ hình và âm chi tiết, xuất Full HD / 2K |
-| Đáy | Số lần chỉnh sửa: 1 lần | Số lần chỉnh sửa: 2 lần | Số lần chỉnh sửa: 3 lần |
+| Đáy | Số lần chỉnh sửa: 1 lần | Số lần chỉnh sửa: 1 lần | Số lần chỉnh sửa: 3 lần |
 
 **Dải 3 ô thông tin:**
 1. (icon ảnh/video) **Dựng từ tư liệu của khách** · Hình ảnh, video, logo, số liệu do khách cung cấp
@@ -74,11 +76,12 @@ Kết luận: cả 3 gói **làm kịp nhưng sát**, đúng với điều kiệ
 - Khách gửi đủ hình ảnh, video, logo, nội dung và số liệu cần hiển thị trước khi bên em bắt đầu dựng.
 - Số lần sửa áp dụng cho hậu kỳ (chữ, nhạc, nhịp dựng, màu); đổi lớn nội dung hoặc tạo lại cảnh AI đã duyệt tính riêng.
 - Báo giá riêng nếu cần viết kịch bản, quay thêm, lồng tiếng người thật, thêm thời lượng hoặc xuất nhiều tỷ lệ khung hình.
+- Nếu phát sinh chỉnh sửa thêm chi tiết AI hoặc chi tiết ngoài sẽ tính thêm phí sau.
 
 ---
 
 ## Tự kiểm (dinh-gia.md mục IX, XIII)
 - [x] Đúng hình thức: footage khách cung cấp + cảnh AI bổ sung; không ghi quay phim.
-- [x] Đủ 3 gói, sửa 1/2/3 lần; Standard 5tr, khác Basic và Premium rõ; chỉ giá tổng; không STK.
+- [x] Đủ 3 gói, sửa 1/1/3 lần (chị đổi Standard xuống 1 lần ngày 23/11); Standard 5tr, khác Basic và Premium rõ; chỉ giá tổng; không STK.
 - [x] Đối tượng doanh nghiệp; số giờ kiểm làm kịp; lãi ~25%.
 - [ ] Giả định và số: chờ chị duyệt. Logo, màu, chữ đọc trên điện thoại: Thiết kế làm, QA kiểm.
