@@ -11,8 +11,8 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
 
 - Loại: video **kết hợp**: dựng từ hình ảnh/footage thực tế của doanh nghiệp + cảnh AI bổ sung (mở đầu, chuyển cảnh, minh hoạ số liệu / thành tựu). Không ghi quay phim vì không có đội quay.
 - Độ khó: **trung bình** (cấp 2): nhiều tư liệu cần chọn lọc, motion chữ và số liệu, cảnh AI bổ sung.
-- Chi phí: 5.000.000đ × (1 − 25%) = 3.750.000đ tổng chi phí → trực tiếp 3.750.000 ÷ 1,25 (vận hành + dự phòng 25%) = **3.000.000đ**. Trừ công cụ AI giả định 300.000đ → nhân công **2.700.000đ ≈ 38,5 giờ** (70.000đ/giờ).
-- Kiểm khối lượng 38,5 giờ cho clip ~3 phút:
+- Chi phí (giá 5.000.000đ, sửa 1 lần): nhân công 37,5 giờ × 70.000đ = 2.625.000đ + công cụ AI giả định 300.000đ = 2.925.000đ trực tiếp; cộng vận hành + dự phòng 25% = **3.656.250đ**; lãi thực = 1 − 3.656.250 ÷ 5.000.000 = **26,9%** (mục tiêu 25%).
+- Kiểm khối lượng 37,5 giờ cho clip ~3 phút:
   | Đầu việc | Giờ |
   |---|---|
   | Đọc tư liệu, chọn lọc, dựng khung kịch bản/phân cảnh | 5 |
@@ -20,10 +20,10 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
   | Dựng hình thực tế + ghép cảnh AI | 12 |
   | Chữ, số liệu, motion, logo doanh nghiệp | 5 |
   | Nhạc, SFX, chỉnh màu, giọng đọc AI nếu cần | 3 |
-  | Kiểm tra, bàn giao, công sửa 2 lần | 3,5 |
-  | **Tổng** | **38,5** |
+  | Kiểm tra, bàn giao, công sửa 1 lần | 2,5 |
+  | **Tổng** | **37,5** |
   Kết luận: **làm kịp, vừa đủ**, với điều kiện khách đưa đủ tư liệu đã sắp xếp và nội dung/số liệu chốt trước khi dựng.
-- Lãi mục tiêu 25% (mức thấp của khoảng thông thường 25–35%): đạt nếu giữ phạm vi dưới đây.
+- Lãi 26,9%, cao hơn mục tiêu 25% vì sửa 1 lần; nếu thêm lần sửa thì tính phí thêm theo Lưu ý.
 
 ### Giả định (em tự đặt vì chưa có brief, cần chị xác nhận)
 1. Khách đưa **hình ảnh/video thực tế đã có** (không quay thêm); tổng footage thô không quá khoảng 30 phút. Nhiều hơn thì báo giá riêng.
