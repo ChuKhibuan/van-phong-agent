@@ -5,7 +5,7 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
 
 ## Phần 1 · Phân tích nội bộ (KHÔNG đưa lên ảnh)
 
-**Khách:** nhiều khả năng sinh viên, làm bài nhóm (chưa xác nhận). Không nêu ngân sách ("xem lấy bao nhiêu thì báo"). Sinh viên → giữ giá thấp bằng cách giảm phạm vi, không giảm giá trên cùng phạm vi.
+**Khách:** sinh viên, bài nhóm "Nhóm 8 | TKCĐ Instagram 30 day challenge" (CSKH xác nhận 23/11, đã đọc được sheet tab "Timeline post"). Không nêu ngân sách ("xem lấy bao nhiêu thì báo"). Sinh viên → giữ giá thấp bằng cách giảm phạm vi, không giảm giá trên cùng phạm vi.
 **Việc:** 1 reel Instagram dọc 9:16, ~45 giây, chủ đề "Tục cúng vía / đốt vía khi gặp điều xui xẻo", theo mốc Hook (0–3s) / 3–15s / 15–30s / 35–45s / CTA. Nội dung và yêu cầu khách đã viết sẵn trong sheet 2 (bên em chưa đọc được). Bắt buộc font CDA… và Lora, theo Canva chung của nhóm. Xem bản check trước 26/11, nộp 27/11.
 **Hình thức:** video kể chuyện / minh hoạ từ hình ảnh (ảnh AI + chữ động), không quay thực tế, không phải video AI chuyển động toàn bộ.
 **Độ khó:** thấp (Basic) → trung bình (Standard) → trung bình – cao (Premium).
@@ -30,29 +30,29 @@ Nhân công 70.000đ/giờ, vận hành + dự phòng 20% / 20% / 25%, lãi mụ
 Kết luận: cả 3 gói làm kịp trước 26/11 (hôm nay 23/11), vừa sát, với điều kiện nội dung và hình khách đã sẵn sàng.
 
 ### Giả định (CSKH đã hỏi khách 16:40, khách chưa trả lời; có trả lời thì chỉnh)
-1. 1 reel dọc 9:16, khoảng 45 giây.
-2. Nội dung chữ từng mốc khách đã viết sẵn trong sheet 2; bên em không viết lại kịch bản.
-3. Hình: Basic dùng ảnh và tư liệu khách/Canva nhóm đưa; Standard và Premium bên em tạo ảnh minh hoạ AI. Không quay, không diễn người.
-4. Giọng đọc AI và nhạc nền theo gói; khách không cần giọng người thật.
+1. 1 reel dọc 9:16, 30–45 giây (theo sheet khách).
+2. Kịch bản và chữ từng mốc khách đã viết sẵn; bên em không viết lại kịch bản.
+3. Hình: Basic dùng ảnh/clip khách hoặc Canva nhóm đưa và tư liệu miễn phí bản quyền; Standard và Premium bên em tạo ảnh minh hoạ AI cho các mốc. Hiệu ứng khói trầm/khói giấy làm bằng overlay có sẵn. Không quay, không diễn người.
+4. Sheet không ghi giọng đọc: Basic chỉ chữ chạy + nhạc; Standard và Premium có giọng đọc AI (khách có thể bỏ). Âm thanh nền nhịp đập thư thái theo yêu cầu khách.
 5. Font CDA… và Lora: khách gửi file font; Canva nhóm chỉ để tham khảo bố cục.
 6. Sửa 1 / 2 / 3 lần cho 3 gói; phát sinh thêm tính phí (theo quy định chị đã đặt).
 7. Công cụ AI 0 / 60.000 / 120.000đ là giả định.
-8. Khách sinh viên chưa xác nhận; nếu là khách khác (doanh nghiệp) thì báo giá lại.
+8. Khách sinh viên đã xác nhận qua sheet nhóm; ngân sách chưa nêu nên báo 3 hướng.
 
 ## Phần 2 · Chữ cho ảnh báo giá
 
 **Góc trái:** logo + VÍT MEDIA / VIDEO · AI · DESIGN
 **Nhãn góc phải:** REEL INSTAGRAM
 **Tiêu đề:** BÁO GIÁ (xanh đậm) + REEL INSTAGRAM (xanh sáng)
-**Mô tả:** Dựng reel dọc khoảng 45 giây theo nội dung và font nhóm bạn cung cấp, phù hợp bài tập nhóm
+**Mô tả:** Dựng reel dọc 30 – 45 giây theo kịch bản, font và tone màu nhóm bạn cung cấp, phù hợp bài tập nhóm
 **Nhãn trên Standard:** GÓI ĐỀ XUẤT
 
 | | GÓI BASIC | GÓI STANDARD | GÓI PREMIUM |
 |---|---|---|---|
 | Định vị | ĐƠN GIẢN – TIẾT KIỆM | CHUYÊN NGHIỆP – CÂN BẰNG | NHIỀU HIỆU ỨNG – ẤN TƯỢNG |
 | Giá | 500.000đ | 1.000.000đ | 1.800.000đ |
-| Tích 1 | Reel dọc khoảng 45 giây theo các mốc nội dung đã có | Reel dọc khoảng 45 giây, hook mở đầu cuốn hút | Reel dọc khoảng 45 giây, hook và CTA thiết kế nổi bật |
-| Tích 2 | Dựng từ hình ảnh và tư liệu bạn cung cấp | 8 ảnh minh hoạ AI, 2 cảnh chuyển động | 12 ảnh minh hoạ AI, 4 cảnh chuyển động AI |
+| Tích 1 | Reel dọc 30 – 45 giây theo kịch bản đã có, tone màu huyền bí nhẹ nhàng | Reel dọc 30 – 45 giây, hook mở đầu cuốn hút, hiệu ứng khói trầm | Reel dọc 30 – 45 giây, hook và CTA thiết kế nổi bật, hiệu ứng khói ấm |
+| Tích 2 | Dựng từ hình ảnh và tư liệu bạn cung cấp, thêm hiệu ứng khói | 8 ảnh minh hoạ AI, 2 cảnh chuyển động | 12 ảnh minh hoạ AI, 4 cảnh chuyển động AI |
 | Tích 3 | Chữ động đúng font yêu cầu (CDA, Lora) | Chữ động nhấn ý, đúng font yêu cầu, giọng đọc AI | Motion chữ nâng cao, giọng đọc AI, sound design |
 | Tích 4 | Nhạc nền, chỉnh màu cơ bản, xuất Full HD | Nhạc nền, SFX, chỉnh màu đồng bộ, xuất Full HD | Hiệu ứng chuyển cảnh riêng, hậu kỳ hình và âm chi tiết, xuất Full HD |
 | Đáy | Số lần chỉnh sửa: 1 lần | Số lần chỉnh sửa: 2 lần | Số lần chỉnh sửa: 3 lần |
@@ -63,7 +63,7 @@ Kết luận: cả 3 gói làm kịp trước 26/11 (hôm nay 23/11), vừa sát
 3. (icon lịch) **Thời gian thực hiện** · 2 – 4 ngày tuỳ gói, kịp bản check trước 26/11
 
 **LƯU Ý:**
-- Giá áp dụng cho 1 reel khoảng 45 giây, theo nội dung bạn đã cung cấp.
+- Giá áp dụng cho 1 reel 30 – 45 giây, theo kịch bản bạn đã cung cấp.
 - Bạn gửi đủ nội dung, hình ảnh (nếu có) và file font trước khi bên em bắt đầu dựng.
 - Số lần sửa áp dụng cho hậu kỳ (chữ, nhạc, nhịp dựng, màu); đổi lớn nội dung hoặc tạo lại ảnh AI đã duyệt tính riêng.
 - Nếu phát sinh chỉnh sửa thêm chi tiết AI hoặc chi tiết ngoài sẽ tính thêm phí sau.
