@@ -27,7 +27,7 @@ Nhân công 70.000đ/giờ, vận hành + dự phòng 20% / 20% / 25%, lãi mụ
 | Standard | 8 | 560.000 | 60.000 | 620.000 | 20% | 744.000 | **1.000.000đ** | 25,6% |
 | Premium | 13,5 | 945.000 | 120.000 | 1.065.000 | 25% | 1.331.250 | **1.800.000đ** | 26,0% |
 
-Kết luận: cả 3 gói làm kịp trước 26/11 (hôm nay 23/11), vừa sát, với điều kiện nội dung và hình khách đã sẵn sàng.
+Kết luận: số giờ 4,5 / 8 / 13,5 tương ứng khoảng 1 / 1–2 / 2–3 ngày làm; kịp bản check trước 26/11 (hôm nay 23/11) nếu khách chốt và gửi đủ tư liệu, font trong 23–24/11. Chị chốt muộn thì Premium có thể không kịp.
 
 ### Giả định (CSKH đã hỏi khách 16:40, khách chưa trả lời; có trả lời thì chỉnh)
 1. 1 reel dọc 9:16, 30–45 giây (theo sheet khách).
@@ -60,7 +60,7 @@ Kết luận: cả 3 gói làm kịp trước 26/11 (hôm nay 23/11), vừa sát
 **Dải 3 ô thông tin:**
 1. (icon ảnh/video) **Dựng theo nội dung của bạn** · Nội dung, font và tư liệu do bạn cung cấp
 2. (icon HD) **Chất lượng xuất file** · Full HD (1080p), dọc 9:16, đăng Instagram
-3. (icon lịch) **Thời gian thực hiện** · 2 – 4 ngày tuỳ gói, kịp bản check trước 26/11
+3. (icon lịch) **Thời gian thực hiện** · 1 – 3 ngày tuỳ gói, kịp bản check trước 26/11
 
 **LƯU Ý:**
 - Giá áp dụng cho 1 reel 30 – 45 giây, theo kịch bản bạn đã cung cấp.
