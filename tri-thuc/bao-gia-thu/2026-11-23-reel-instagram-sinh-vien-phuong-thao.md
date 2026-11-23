@@ -1,4 +1,4 @@
-# Báo giá · Reel Instagram ~45 giây · khách Lê Phương Thảo (Zalo VÍT MEDIA, 23/11/2026)
+# Báo giá · Reel Instagram 30–45 giây · khách Lê Phương Thảo (Zalo VÍT MEDIA, 23/11/2026)
 
 Phòng Báo giá (`tiep-nhan`) soạn theo brief CSKH. Chị chủ dặn **không chờ khách trả lời**, báo giá bằng thông tin đang có và ghi giả định; khách không nêu ngân sách nên đưa **3 hướng đơn giản / chuyên nghiệp / nhiều hiệu ứng**. **Giá chờ chị duyệt, CSKH chưa gửi khách.** Chỉ ghi giá tổng, không ghi STK.
 Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo giá\mẫu.jpg` (+ `logo.png`), đúng bố cục 3 cột.
@@ -6,7 +6,7 @@ Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo
 ## Phần 1 · Phân tích nội bộ (KHÔNG đưa lên ảnh)
 
 **Khách:** sinh viên, bài nhóm "Nhóm 8 | TKCĐ Instagram 30 day challenge" (CSKH xác nhận 23/11, đã đọc được sheet tab "Timeline post"). Không nêu ngân sách ("xem lấy bao nhiêu thì báo"). Sinh viên → giữ giá thấp bằng cách giảm phạm vi, không giảm giá trên cùng phạm vi.
-**Việc:** 1 reel Instagram dọc 9:16, ~45 giây, chủ đề "Tục cúng vía / đốt vía khi gặp điều xui xẻo", theo mốc Hook (0–3s) / 3–15s / 15–30s / 35–45s / CTA. Nội dung và yêu cầu khách đã viết sẵn trong sheet 2 (bên em chưa đọc được). Bắt buộc font CDA… và Lora, theo Canva chung của nhóm. Xem bản check trước 26/11, nộp 27/11.
+**Việc (theo sheet khách, tab "Timeline post"):** đúng 1 reel dọc 9:16, 30–45 giây, đăng IG 27/11: "Tục cúng vía / đốt vía khi gặp điều xui xẻo: mê tín hay liệu pháp tâm lý dân gian?". Kịch bản khách đã viết sẵn theo mốc: 0–3s Hook · 3–15s Hiện tượng · 15–30s Vì sao (quan niệm "khí", góc nhìn tâm lý) · 30–40s Gen Z xông trầm, đốt nến thơm, xô thơm · CTA "Bạn có tin vào vía không?". Yêu cầu thiết kế khách ghi: tone màu huyền bí nhẹ nhàng, hiệu ứng khói trầm / khói giấy ấm áp, âm thanh nhịp đập thư thái; font CDA… + Lora trên Canva chung của nhóm. Sheet không ghi giọng đọc hay hình quay sẵn. Xem bản check trước 26/11, nộp 27/11.
 **Hình thức:** video kể chuyện / minh hoạ từ hình ảnh (ảnh AI + chữ động), không quay thực tế, không phải video AI chuyển động toàn bộ.
 **Độ khó:** thấp (Basic) → trung bình (Standard) → trung bình – cao (Premium).
 Nhân công 70.000đ/giờ, vận hành + dự phòng 20% / 20% / 25%, lãi mục tiêu ~25%.
