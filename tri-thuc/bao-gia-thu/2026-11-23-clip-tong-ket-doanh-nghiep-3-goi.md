@@ -1,5 +1,7 @@
 # Báo giá · Clip tổng kết doanh nghiệp · 3 gói, Standard = 5.000.000đ
 
+> **CHỊ ĐÃ ĐỒNG Ý (23/11/2026):** giả định và giá trong file này. Chờ ảnh Thiết kế, QA kiểm, rồi chị duyệt gửi khách.
+
 Phòng Báo giá (`tiep-nhan`) soạn ngày 23/11/2026 theo lệnh chị: bảng thứ hai, 3 option, gói giữa (Standard) 5.000.000đ. Bảng 1 option nằm ở `2026-11-23-clip-tong-ket-doanh-nghiep-5tr.md`.
 Khách doanh nghiệp, clip tổng kết kết hợp hình ảnh thực tế + cảnh AI. Chưa có khách cụ thể. **Giá chờ chị duyệt.** Không ghi STK, chỉ ghi giá tổng.
 Mẫu: `D:\2.Vid media\Tư liệu thiết kế vít media\Thiết kế file báo giá\mẫu.jpg` (+ `logo.png`), dựng đúng bố cục 3 cột.
