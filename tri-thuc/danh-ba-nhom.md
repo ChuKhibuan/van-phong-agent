@@ -18,7 +18,7 @@
 **Ưu tiên** nhóm ✅ đông người và nhiều bài mỗi ngày.
 
 ## 1. Video AI & cộng đồng AI → bài "làm video bằng AI", "video AI cho doanh nghiệp"
-- ✅ 987672918471443 · Cộng đồng Claude AI & AI Agents · 229K · 7
+- ⛔ 987672918471443 · Cộng đồng Claude AI & AI Agents · 229K · 7 (24/11: đã đổi tên thành "Thanh Lý Pass Mỹ Phẩm Chính Hãng", lệch chủ đề)
 - ⏳ 1385451906420187 · Vibe Code kiếm cơm · 238K · 210 (dân code, chỉ bài AI tự động hoá; 21/11 share bài Page vào chờ duyệt)
 - ⏳ 1359330548727601 · Học AI cùng Thầy Quân · 44K · 2 (20/11 chờ duyệt)
 - ⛔ chillcungai · Chill Cùng AI · 39K · 0 (20/11: không có ô đăng)
@@ -28,7 +28,7 @@
 - ✅ 1401089638227050 · Học AI thật dễ · 10K · 52
 - ⏳ 808459113862196 · Ứng dụng AI trong Doanh nghiệp Một Người · 30K · 22 (19/11 bài vào chờ duyệt)
 - ✅ 1533526524905524 · AE SUNO - AI music · 14K · 27
-- ✅ editvideobatdongsan · Edit video bất động sản – AI · 4K · 5
+- ⏳ editvideobatdongsan · Edit video bất động sản – AI · 4K · 5 (24/11 share bài Page chờ duyệt)
 - ✅ 883633534000509 · Cộng đồng NotebookLM VN · 267K · 2
 - ✅ 1613552523431575 · Grok Việt Nam · 17K · 13
 - ⏳ 2171395259866737 · Đế Chế AI | Cinematic AI · 28K · 24 (19/11 chờ duyệt)
@@ -121,6 +121,7 @@
 - ✅ 1123827865589021 · Quà tặng 20/10, 8/3, 20/11 · 25K · 391
 - ⚠️ 304899715525052 · Giúp Nhau Khởi Nghiệp & Hợp Tác · 16K · 122
 - ⚠️ 141688767751097 · Khởi Nghiệp & Nhượng quyền F&B · 83K · 63
+- 🔻 393110223866580 · Tìm Bạn Khởi Nghiệp - Kết Nối Ý Tưởng - Hợp Tác KD (từ chối 1 lần, thấy ở thông báo 23/11)
 - ⛔ congdongdoanhnghiephanoi · CĐ DOANH NGHIỆP HÀ NỘI (22/11: không có ô đăng)
 - ⏳ nhomkhoinghiepkinhdoanh · Khởi Nghiệp Kinh Doanh · 335K · 7
 - ⏳ doitackd · TÌM ĐỐI TÁC KINH DOANH · 308K · 82
@@ -134,7 +135,7 @@
 - ⛔ 771779662967885 (cấm QC, đã bỏ)
 
 ## 4. Bán hàng online, TMĐT, F&B, spa, homestay → bài "video bán hàng, poster sản phẩm, video AI review"
-- ✅ ecomboss.vn · Shopee, Lazada, TikTok bán hàng · 20K · 5
+- ⏳ ecomboss.vn · Shopee, Lazada, TikTok bán hàng · 20K · 5 (24/11 chờ duyệt)
 - ⏳ 4277590642470737 · Shopee Người Bán - nghìn đơn · 284K · 67 (19/11 chờ duyệt)
 - ⛔ Foodnbeveragevietnam · Cộng đồng F&B VN · 54K · 55 (19/11 Page không có ô đăng)
 - ⛔ 189909794893850 · Kinh nghiệm vận hành quán F&B · 26K · 1 (20/11: không còn ô đăng, chỉ admin)
