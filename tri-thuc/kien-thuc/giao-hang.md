@@ -25,6 +25,8 @@ Cách gửi file, số lần chỉnh sửa miễn phí, mẫu tin nhắc thanh t
 
 - (22/11/2026 · chị dặn) Chiều 22/11/2026 chị cho trực thêm Zalo khách lạ 14:30–18:00 (chị kéo dài lúc chiều, đổi thành 10 phút/lần), chỉ riêng hôm đó (lịch một lần `zalo-check-chieu-22-11`). Khung thường vẫn 8:00–10:30; trực thêm hôm nào chị dặn riêng hôm đó.
 
+- (24/11/2026 · chị dặn) Sáng 24/11/2026 không check Zalo khách lạ (nghỉ một lần, đã thêm dòng vào lịch chính). Từ 25/11 trực 8:00–10:30 như thường.
+
 ## Bài học từ việc thật
 - (23/11/2026 · QA chuyển) Nhận ảnh báo giá đã QA đạt: chỉ soạn tin nháp (Nhap_tin `cho_duyet`) kèm ảnh để trình chị, không gửi khách; xưng hô theo tên khách, không ghi số liên hệ khách vào repo/Drive.
 - (22/11/2026 · tổng kết khách tuần) Không đếm được khách lạ cả tuần vì chỉ ghi khi cần chị. Mỗi khách lạ (kể cả khách chị/nhân viên đang nhắn trực tiếp) ghi 1 dòng Nhap_tin kèm nguồn (Page, bài nhóm, cmt dạo…) và kết quả cuối ngày; lượt trực không có khách ghi Board "0 khách lạ".
