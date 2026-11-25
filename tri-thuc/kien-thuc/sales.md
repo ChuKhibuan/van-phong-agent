@@ -20,5 +20,6 @@ Bảng giá, gói dịch vụ, cách báo giá, mẫu tin nhắn, cách nhắc k
 
 ## Bài học từ việc thật
 <!-- Vòng nâng cấp cuối ngày ghi vào đây. Mới nhất ở trên. Mỗi dòng: - (dd/mm/yyyy · nguồn) bài học -->
+- (25/11/2026 · việc lặp lại) Cmt dạo: cùng một khách hay đăng một nhu cầu (video Canva gấp) ở cả hai nhóm slide → chỉ bình luận một nơi. Bài mà chị/nhân viên đã tự bình luận thì bỏ. Link bài lấy từ dòng Tab Context vì JS trả link có chuỗi truy vấn bị chặn. Chi tiết `cong-thuc/cmt-dao.md`.
 - (24/11/2026 · việc lặp lại) Cmt dạo: nhiều bài ẩn danh đăng cùng một phút dễ là bài mồi, ưu tiên bài lẻ; mở thẳng `/permalink/<id>` thì ô nhập hiện sẵn "dưới tên Vít media". Hai nhóm slide dư bài khách trong 2 giờ, đủ trần 5 bài mà không cần mở nhóm khác. Chi tiết `cong-thuc/cmt-dao.md`.
 - (22/11/2026 · tổng kết khách tuần) Tuần 16–22/11: 2 khách lạ nhắn Zalo, 0 chốt (0%), cả 2 kẹt chờ nội bộ (mẫu, báo giá); 47 bình luận dạo chưa ghi nhận khách nào. Từ tuần sau đối chiếu tên khách lạ với người đăng bài đã cmt để đo cmt dạo có ra khách không.
