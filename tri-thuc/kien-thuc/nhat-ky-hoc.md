@@ -30,3 +30,4 @@
 | 23/11/2026 | Nâng cấp hằng ngày: báo giá thêm dòng phí phát sinh, đổi điều kiện gói thì tính lại giờ/lãi; ảnh báo giá phải dựng từ commit chữ mới nhất, QA đối chiếu commit; chị duyệt ảnh nhưng gửi khách vẫn do chị | tiep-nhan, thiet-ke, qa, giao-hang, chung |
 | 24/11/2026 | Nâng cấp hằng ngày: báo giá mẫu CV Canva 3 gói (tính theo đầu việc, chị duyệt cùng buổi); dựng ảnh từ commit chữ cuối thì QA đạt ngay; nhóm FB đổi tên thì kiểm title trước khi đăng; cmt dạo tránh bài mồi ẩn danh | tiep-nhan, thiet-ke, qa, dang-bai, sales |
 | 25/11/2026 | Nâng cấp hằng ngày: chia sẻ hàng loạt xong phải kiểm hiện/chờ duyệt, Board ghi "chưa xác minh"; cmt dạo chỉ bình luận một nơi khi cùng khách đăng nhiều nhóm | dang-bai, sales |
+| 26/11/2026 | Nâng cấp hằng ngày: cmt dạo khi nhóm chính thiếu khách thì tìm "cần dựng video"; chia sẻ hàng loạt Page phải kiểm lại hôm sau | sales, dang-bai |
