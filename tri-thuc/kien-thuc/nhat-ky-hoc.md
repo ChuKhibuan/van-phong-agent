@@ -31,4 +31,4 @@
 | 24/11/2026 | Nâng cấp hằng ngày: báo giá mẫu CV Canva 3 gói (tính theo đầu việc, chị duyệt cùng buổi); dựng ảnh từ commit chữ cuối thì QA đạt ngay; nhóm FB đổi tên thì kiểm title trước khi đăng; cmt dạo tránh bài mồi ẩn danh | tiep-nhan, thiet-ke, qa, dang-bai, sales |
 | 25/11/2026 | Nâng cấp hằng ngày: chia sẻ hàng loạt xong phải kiểm hiện/chờ duyệt, Board ghi "chưa xác minh"; cmt dạo chỉ bình luận một nơi khi cùng khách đăng nhiều nhóm | dang-bai, sales |
 | 26/11/2026 | Nâng cấp hằng ngày: cmt dạo khi nhóm chính thiếu khách thì tìm "cần dựng video"; chia sẻ hàng loạt Page phải kiểm lại hôm sau | sales, dang-bai |
-| 27/11/2026 | Nâng cấp hằng ngày: video thực phẩm che thương hiệu bằng nhãn chữ, lời voice nói công dụng sức khoẻ phải báo QA/chị; lượt đăng ban đêm thì idle, bù ở 15h; 10 nhóm chia sẻ mới chưa kiểm; cmt dạo ưu tiên bài hạn gấp | dung, qa, dang-bai, sales |
+| 27/11/2026 | Nâng cấp hằng ngày: video thực phẩm có lời voice nói công dụng sức khoẻ phải báo QA/chị; lượt đăng ban đêm thì idle, bù ở 15h; 10 nhóm chia sẻ mới chưa kiểm; cmt dạo ưu tiên bài hạn gấp | dung, qa, dang-bai, sales |
