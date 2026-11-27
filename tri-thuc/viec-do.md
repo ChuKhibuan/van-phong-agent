@@ -7,6 +7,7 @@ Bộ não đọc file này khi chủ hỏi "còn việc gì dở", "hôm qua là
 - (từ 20/11) **Khách Trúc Lam** · Giao hàng: xin xem video mẫu đã dựng, chờ chị chọn link mẫu (Board `waiting`).
 - (từ 20/11) **Khách Trang Lê** · Giao hàng → Báo giá: video BĐS chạy FB ads, thiếu thời lượng, số video, hạn, ngân sách; có người bên mình đang nhắn trực tiếp, agent không nhắn chồng (Inbox 07:56, 08:11).
 - (từ 21/11) **Zalo khách lạ chiều 21/11** · Giao hàng: Chrome mất kết nối lúc 18:00, chưa xem tin chưa đọc; chờ chị đăng nhập lại Claude in Chrome (Board `waiting`).
-- (từ 21/11) **Bài nhóm chờ duyệt** · Đăng bài: kiểm `my_pending_content` các nhóm đăng bù 21/11 và 24/11, cộng 20 nhóm chia sẻ Reel 25/11 và 20 nhóm chia sẻ Black Friday 26/11 (chưa kiểm hiện / chờ duyệt / bị gỡ) (sáng 24/11: ecomboss.vn, editvideobatdongsan; nhật ký `nhom-facebook.md`).
+- (từ 21/11) **Bài nhóm chờ duyệt** · Đăng bài: kiểm `my_pending_content` các nhóm đăng bù 21/11 và 24/11, cộng 20 nhóm chia sẻ Reel 25/11, 20 nhóm Black Friday 26/11 và 10 nhóm Video tổng kết 27/11 (chưa kiểm hiện / chờ duyệt / bị gỡ) (sáng 24/11: ecomboss.vn, editvideobatdongsan; nhật ký `nhom-facebook.md`).
 - (từ 21/11) **Page Black Friday 23–29/11** · Đăng bài: 7 bài đã lên lịch, kiểm bài lên đúng giờ, ghi kết quả.
 - (từ 23/11) **Báo giá Reel Instagram khách Phương Thảo** · Giao hàng: soạn tin nháp kèm ảnh, chờ chị duyệt rồi mới gửi (Board `waiting` 16:45, `tri-thuc/bao-gia-thu/2026-11-23-reel-instagram-sinh-vien-phuong-thao.md`).
+- (từ 26/11) **Video Trà thảo mộc (4 clip, Thanh Thanh)** · Dựng: file ở máy chị, chờ chị duyệt; voice có câu công dụng sức khoẻ cần xem trước khi giao.

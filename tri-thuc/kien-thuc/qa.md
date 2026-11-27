@@ -11,6 +11,7 @@ Checklist kiểm tra trước khi giao: đúng brief, chính tả phụ đề, �
 - (15/11/2026) Báo giá/bảng giá VÍT MEDIA: kiểm theo mục IX của `vit-media/dinh-gia.md` (đủ 3 gói, phép tính khớp, ghi số lần sửa, giới hạn tạo lại cảnh AI, đúng hình thức sản xuất, không hứa quá, chữ đọc được trên điện thoại).
 
 ## Bài học từ việc thật
+- (27/11/2026 · việc thật) Video có lời voice nói công dụng sức khoẻ của sản phẩm (Trà thảo mộc, Dựng ghi chú 26/11): QA soát câu khẳng định công dụng, không có căn cứ từ khách thì đề nghị bỏ hoặc nói nhẹ, rồi mới cho chờ chị duyệt.
 - (24/11/2026 · QA đạt) Báo giá CV: đối chiếu ảnh với commit chữ cuối, kiểm không có STK, 3 gói sửa 1/2/3 đúng; ghi rõ "mẫu chung, chưa có khách" và "gửi khách do chị" ở dòng chờ duyệt.
 - (23/11/2026 · QA trả lại / chủ duyệt) Soát ảnh báo giá: đối chiếu từng dòng với **commit mới nhất** của file Báo giá (mô tả, thời gian, số lần sửa, dòng phí phát sinh); lệch chữ cũ → trả Thiết kế kèm mã commit. Đạt thì ghi `waiting` chờ chị; chị duyệt thì ghi `done` + handoff Giao hàng, ghi rõ "chưa gửi khách" nếu chị chưa cho gửi.
 - (20/11/2026 · QA trả lại báo giá thử Tấm Cám) Soát báo giá có số: (1) **cách đếm cảnh/ảnh phải thống nhất giữa các gói** (cảnh chuyển động nằm trong tổng, không cộng thêm) và đơn giá ra khớp tổng; (2) **không dùng chữ "ưu đãi"** khi gói đã là giá riêng cho đối tượng (HS-SV) vì tự mâu thuẫn; (3) đổi số cảnh thì tính lại tổng giờ, giá vốn và % lãi rồi mới duyệt. Chủ chốt "chỉ làm thử, không gửi ai" → ghi Nhap_tin `thu_xong`, không để `cho_duyet`.
