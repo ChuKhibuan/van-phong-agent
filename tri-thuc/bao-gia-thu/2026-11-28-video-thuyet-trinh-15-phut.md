@@ -1,5 +1,7 @@
 # Báo giá · Video thuyết trình ~15 phút · Chương 6 "Nghĩa tường minh và nghĩa hàm ẩn" (Nhóm 06)
 
+> **ĐÃ ĐỔI PHẠM VI (28/11):** đã có sẵn nhân vật mấp máy khớp thoại và giọng đọc. Dùng **Phần 3** ở cuối; giá và chữ ảnh ở Phần 1–2 chỉ để tham khảo.
+
 Phòng Báo giá (`tiep-nhan`) soạn 28/11/2026, Thiết kế chuyển job. **Chị xem và duyệt giá trước, chưa làm sản phẩm, chưa gửi khách.**
 Nguồn: kịch bản `D:\KB.docx` (~3.200 chữ); clip mẫu `D:\26.10.9.ppt.mp4` (3 phút 37, 1920x1080: slide nền xanh bảng, ô chữ vàng, nhân vật cô giáo hoạt hình, vài hình minh hoạ, giọng đọc, phụ đề).
 
@@ -58,3 +60,32 @@ Nguồn: kịch bản `D:\KB.docx` (~3.200 chữ); clip mẫu `D:\26.10.9.ppt.mp
 - Đã có sẵn PowerPoint và file giọng đọc: chỉ ghép video và phụ đề, giá 1.100.000đ, sửa 1 lần.
 - Số lần sửa áp dụng cho chữ, nhịp dựng, nhạc, phụ đề; đổi kịch bản, làm lại giọng đọc hoặc hình đã duyệt tính riêng.
 - Nếu phát sinh chỉnh sửa thêm chi tiết AI hoặc chi tiết ngoài sẽ tính thêm phí sau.
+
+## Phần 3 · Phạm vi mới (28/11, theo chị qua Thiết kế): đã có sẵn nhân vật mấp máy + giọng đọc
+
+Bên em làm: khoảng 40 slide nền theo phong cách mẫu, ghép clip nhân vật lên slide, phụ đề, xuất MP4 1080p.
+
+| Giờ | Basic | Standard | Premium |
+|---|---|---|---|
+| Đọc kịch bản, chia cảnh | 1 | 1,5 | 2 |
+| Khoảng 40 slide | 10 | 14 | 18 |
+| Hình minh hoạ (0 / 8 / 18 cảnh) | 0 | 3 | 8 |
+| Ghép và canh nhân vật theo slide | 3 | 3,5 | 5 |
+| Phụ đề, soát chữ | 2,5 | 2,5 | 2,5 |
+| Chuyển động, nhạc, xuất file | 1 | 3 | 5 |
+| Kiểm tra, công sửa | 1,5 | 2,5 | 3,5 |
+| **Tổng** | **19** | **30** | **44** |
+| Công cụ AI (giả định) | 0 | 150.000 | 300.000 |
+| Vận hành/dự phòng | 15% | 15% | 20% |
+| Chi phí | 1.529.500 | 2.587.500 | 4.056.000 |
+| **Giá đề xuất** | **2.100.000đ** | **3.500.000đ** | **5.500.000đ** |
+| Lãi thực | 27,2% | 26,1% | 26,3% |
+
+Nếu PowerPoint cũng đã làm sẵn (chỉ ghép nhân vật, giọng, phụ đề): giữ **1.100.000đ**, sửa 1 lần.
+
+Chữ cho ảnh (thay Phần 2, các phần còn lại giữ):
+- Mô tả: Video thuyết trình khoảng 15 phút: slide theo phong cách mẫu, ghép nhân vật dẫn chuyện và giọng đọc bạn cung cấp
+- Basic: Khoảng 40 slide theo phong cách mẫu · Ghép nhân vật và giọng đọc có sẵn · Phụ đề · Xuất MP4 Full HD · sửa 1 lần
+- Standard (GÓI ĐỀ XUẤT): Khoảng 40 slide, ý xuất hiện theo lời đọc · Khoảng 8 cảnh minh hoạ · Ghép nhân vật, phụ đề, nhạc nền · Xuất MP4 Full HD · sửa 2 lần
+- Premium: Khoảng 40 slide thiết kế riêng, chuyển động chi tiết · Khoảng 18 cảnh minh hoạ · Ghép nhân vật, phụ đề, nhạc nền, hiệu ứng âm thanh · Xuất MP4 Full HD · sửa 3 lần
+- Lưu ý: khách cung cấp clip nhân vật khớp lời và file giọng đọc; chưa gồm làm lại nhân vật hoặc giọng. Đã có PowerPoint hoàn chỉnh: 1.100.000đ, sửa 1 lần. Phát sinh chỉnh sửa thêm tính phí sau.
