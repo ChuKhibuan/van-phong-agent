@@ -11,3 +11,4 @@ Bộ não đọc file này khi chủ hỏi "còn việc gì dở", "hôm qua là
 - (từ 21/11) **Page Black Friday 23–29/11** · Đăng bài: 7 bài đã lên lịch, kiểm bài lên đúng giờ, ghi kết quả.
 - (từ 23/11) **Báo giá Reel Instagram khách Phương Thảo** · Giao hàng: soạn tin nháp kèm ảnh, chờ chị duyệt rồi mới gửi (Board `waiting` 16:45, `tri-thuc/bao-gia-thu/2026-11-23-reel-instagram-sinh-vien-phuong-thao.md`).
 - (từ 26/11) **Video Trà thảo mộc (4 clip, Thanh Thanh)** · Dựng: chờ chị duyệt; voice có câu công dụng sức khoẻ cần QA xem trước khi giao.
+- (từ 28/11) **Báo giá video thuyết trình 15 phút Nhóm 06** · Báo giá: chờ chị duyệt bản phạm vi mới (Phần 3, `tri-thuc/bao-gia-thu/2026-11-28-video-thuyet-trinh-15-phut.md`); chưa dựng ảnh, chưa gửi khách.

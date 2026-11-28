@@ -32,3 +32,4 @@
 | 25/11/2026 | Nâng cấp hằng ngày: chia sẻ hàng loạt xong phải kiểm hiện/chờ duyệt, Board ghi "chưa xác minh"; cmt dạo chỉ bình luận một nơi khi cùng khách đăng nhiều nhóm | dang-bai, sales |
 | 26/11/2026 | Nâng cấp hằng ngày: cmt dạo khi nhóm chính thiếu khách thì tìm "cần dựng video"; chia sẻ hàng loạt Page phải kiểm lại hôm sau | sales, dang-bai |
 | 27/11/2026 | Nâng cấp hằng ngày: video thực phẩm có lời voice nói công dụng sức khoẻ phải báo QA/chị; lượt đăng ban đêm thì idle, bù ở 15h; 10 nhóm chia sẻ mới chưa kiểm; cmt dạo ưu tiên bài hạn gấp | dung, qa, dang-bai, sales |
+| 28/11/2026 | Nâng cấp hằng ngày: báo giá đổi phạm vi trong ngày thì thêm phần mới + banner đầu file, Board ghi rõ thay dòng cũ; ảnh dựng từ phần mới nhất | tiep-nhan, thiet-ke |

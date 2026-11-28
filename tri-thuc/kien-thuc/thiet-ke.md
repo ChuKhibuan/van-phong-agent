@@ -23,6 +23,7 @@ Bảng màu, font, mẫu thumbnail/ảnh bìa, logo.
 - (15/11/2026 · deck VinFast HRM) Phong cách "tạp chí xanh" chủ thích: nền trắng/xanh rất nhạt #F5F8FF, mảng xanh chéo #2A4FD8 + dải mờ #A9BEFF (opacity 0.6), gạch dưới tiêu đề, nhãn chương xanh, slide kết nền xanh chữ trắng. Luôn sửa trên bản sao, giữ nguyên bản gốc.
 
 ## Nhận từ phòng khác
+- (28/11/2026 · từ tiep-nhan) Báo giá có banner `ĐÃ ĐỔI PHẠM VI` ở đầu file thì dựng ảnh từ phần mới nhất (Phần 3 với video thuyết trình Nhóm 06), không dùng chữ ở phần cũ; chờ chị duyệt giá rồi mới dựng.
 <!-- Điều phòng trước trong chuỗi đã học mà phòng này cần. Mỗi dòng: - (dd/mm/yyyy · từ <phòng>) nội dung -->
 - (15/11/2026 · chủ dặn) Kịch bản làm xong thì chuyển thẳng sang phòng này kèm phiếu bàn giao (`kho/quy-trinh.md`); chữ Kịch bản đã chốt (hook, tiêu đề, chữ trên ảnh, caption) dùng nguyên văn.
 - (18/11/2026 · bài đăng video AI) Bài đăng tĩnh làm bằng code (HTML → PNG qua Chrome headless) rẻ token, đúng logo/màu; phong cách kính trong + mảng xanh chéo + thanh liên hệ kính. Sổ tay đầy đủ: `C:\AI-Tổng\thiet-ke-bai-dang\SO-TAY-thiet-ke-bai-dang-bang-code.md`, mẫu `video-ai.html`.
